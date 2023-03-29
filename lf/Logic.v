@@ -1983,8 +1983,58 @@ Definition de_morgan_not_and_not := forall P Q:Prop,
 Definition implies_to_or := forall P Q:Prop,
   (P -> Q) -> (~P \/ Q).
 
-(* FILL IN HERE
+Theorem peirce__double_negation_elimination :
+  peirce -> double_negation_elimination.
+Proof.
+  unfold peirce, double_negation_elimination.
+  intros PE P.
+  unfold not. intros PFF.
+  apply PE with (Q:=False).
+  intros PF. exfalso. apply PFF. apply PF.
+Qed.
 
-    [] *)
+Theorem double_negation_elimination__de_morgan_not_and_not :
+  double_negation_elimination -> de_morgan_not_and_not.
+Proof.
+  unfold double_negation_elimination.
+  unfold de_morgan_not_and_not. unfold not. 
+  intros DNE P Q HPQ.
+  apply DNE. intros HPQF. apply HPQ. split.
+  - intros HP. apply HPQF. left. apply HP.
+  - intros HQ. apply HPQF. right. apply HQ.
+Qed.
+
+Theorem de_morgan_not_and_not__implies_to_or :
+  de_morgan_not_and_not -> implies_to_or.
+Proof.
+  unfold de_morgan_not_and_not. unfold implies_to_or. 
+  unfold not. 
+  intros DMNAN P Q HPQ. 
+  apply DMNAN. intros HPQF. 
+  destruct HPQF as [HPFF HQF].
+  apply HPFF. intros HP.
+  apply HQF. apply HPQ. apply HP.
+Qed.
+
+Theorem implies_to_or__excluded_middle :
+  implies_to_or -> excluded_middle.
+Proof.
+  unfold implies_to_or. unfold excluded_middle. unfold not.
+  intros ITO P.
+  apply or_commut.
+  apply ITO with (Q:=P). 
+  intros HP. apply HP.
+Qed.
+
+Theorem excluded_middle__peirce :
+  excluded_middle -> peirce.
+Proof.
+  unfold excluded_middle. unfold peirce. unfold not.
+  intros EM P Q HPQ.
+  destruct (EM P) as [HP | HNP].
+  - apply HP.
+  - apply HPQ. intros HP. exfalso. apply HNP. apply HP.
+Qed. 
+
 
 (* 2022-08-08 17:13 *)
