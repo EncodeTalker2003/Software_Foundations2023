@@ -14,6 +14,8 @@ From LF Require Export ProofObjects.
 
 (** Here is the induction principle for natural numbers: *)
 
+Print nat_ind.
+ 
 Check nat_ind :
   forall P : nat -> Prop,
     P 0 ->
@@ -71,7 +73,10 @@ Proof.
 Theorem plus_one_r' : forall n:nat,
   n + 1 = S n.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  apply nat_ind.
+  - reflexivity.
+  - intros n H. simpl. rewrite -> H. reflexivity.
+Qed.
 (** [] *)
 
 (** Coq generates induction principles for every datatype
@@ -98,6 +103,8 @@ Proof.
     some more examples. First, an example where the constructors take
     no arguments: *)
 
+
+
 Inductive time : Type :=
   | day
   | night.
@@ -118,7 +125,12 @@ Inductive rgb : Type :=
   | red
   | green
   | blue.
-Check rgb_ind.
+Check rgb_ind:
+  forall P: rgb -> Prop,
+	P red ->
+	P green ->
+	P blue ->
+	forall t: rgb, P t. 
 (** [] *)
 
 (** Here's another example, this time with one of the constructors
@@ -134,6 +146,12 @@ Check natlist_ind :
     (forall (n : nat) (l : natlist),
         P l -> P (ncons n l)) ->
     forall l : natlist, P l.
+
+(** **** Exercise: 1 star, standard, optional (natlist1)
+
+	Write out the induction principle that Coq will generate for the
+	following datatype.  Write down your answer on paper or type it
+	into a comment, and then compare it with what Coq prints. *)
 
 (** In general, the automatically generated induction principle for
     inductive type [t] is formed as follows:
@@ -165,10 +183,9 @@ Inductive natlist' : Type :=
     than the earlier case for [ncons]: *)
 
 Check natlist'_ind :
-  forall P : natlist' -> Prop,
-    P nnil' ->
-    (forall l : natlist', P l -> forall n : nat, P (nsnoc l n)) ->
-    forall n : natlist', P n.
+	forall P : natlist' -> Prop, P nnil' ->
+	(forall l : natlist', P l -> forall n : nat, P (nsnoc l n)) ->
+forall n : natlist', P n.
 
 (** **** Exercise: 2 stars, standard (booltree_ind)
 
@@ -189,14 +206,14 @@ Inductive booltree : Type :=
 
 Definition booltree_property_type : Type := booltree -> Prop.
 
-Definition base_case (P : booltree_property_type) : Prop
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Definition base_case (P : booltree_property_type) : Prop :=
+  P bt_empty.
 
-Definition leaf_case (P : booltree_property_type) : Prop
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Definition leaf_case (P : booltree_property_type) : Prop :=
+  forall (b: bool), P (bt_leaf b).
 
-Definition branch_case (P : booltree_property_type) : Prop
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Definition branch_case (P : booltree_property_type) : Prop :=
+  forall (b: bool) (t1: booltree), P t1 -> forall (t2: booltree), P t2 -> P (bt_branch b t1 t2).
 
 Definition booltree_ind_type :=
   forall (P : booltree_property_type),
@@ -212,7 +229,7 @@ Definition booltree_ind_type :=
     same type as what you just defined. *)
 
 Theorem booltree_ind_type_correct : booltree_ind_type.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. exact booltree_ind. Qed.
 
 (** [] *)
 
@@ -229,7 +246,8 @@ Proof. (* FILL IN HERE *) Admitted.
     principle Coq generates is that given above: *)
 
 Inductive Toy : Type :=
-  (* FILL IN HERE *)
+  | con1 (b: bool)
+  | con2 (n: nat) (t: Toy)
 .
 
 (** Show that your definition is correct by proving the following theorem.
@@ -243,7 +261,7 @@ Theorem Toy_correct : exists f g,
     (forall b : bool, P (f b)) ->
     (forall (n : nat) (t : Toy), P t -> P (g n t)) ->
     forall t : Toy, P t.
-Proof. (* FILL IN HERE *) Admitted.
+Proof. exists con1. exists con2. exact Toy_ind. Qed.
 
 (** [] *)
 
@@ -287,7 +305,12 @@ Proof. (* FILL IN HERE *) Admitted.
 Inductive tree (X:Type) : Type :=
   | leaf (x : X)
   | node (t1 t2 : tree X).
-Check tree_ind.
+
+Check tree_ind:
+  forall (X: Type) (P: tree X -> Prop),
+    (forall x: X, P (leaf X x)) ->
+	(forall t1: tree X, P t1 -> forall (t2: tree X), P t2 -> P (node X t1 t2)) -> 
+	forall t: tree X, P t.
 (** [] *)
 
 (** **** Exercise: 1 star, standard, optional (mytype)
@@ -305,6 +328,19 @@ Check tree_ind.
 *) 
 (** [] *)
 
+Inductive mytype (X:Type) : Type :=
+  | constr1 (x: X)
+  | constr2 (n: nat)
+  | constr3 (m: mytype X) (n: nat).
+
+Check mytype_ind :
+forall (X : Type) (P : mytype X -> Prop),
+	(forall x : X, P (constr1 X x)) ->
+	(forall n : nat, P (constr2 X n)) ->
+	(forall m : mytype X, P m ->
+	   forall n : nat, P (constr3 X m n)) ->
+	forall m : mytype X, P m.
+
 (** **** Exercise: 1 star, standard, optional (foo)
 
     Find an inductive definition that gives rise to the
@@ -320,6 +356,11 @@ Check tree_ind.
 *) 
 (** [] *)
 
+Inductive foo (X Y: Type) : Type :=
+  | bar (x: X)
+  | baz (y: Y)
+  | quux (f1: nat -> foo X Y).
+
 (** **** Exercise: 1 star, standard, optional (foo')
 
     Consider the following inductive definition: *)
@@ -327,6 +368,10 @@ Check tree_ind.
 Inductive foo' (X:Type) : Type :=
   | C1 (l : list X) (f : foo' X)
   | C2.
+
+Check foo'_ind:
+  forall (X: Type) (P: foo' X -> Prop),
+    (forall (l:list X) (f: foo' X), P f -> P (C1 X l f)) -> P (C2 X) -> forall f: foo' X, P f.
 
 (** What induction principle will Coq generate for [foo']?  (Fill
    in the blanks, then check your answer with Coq.)
@@ -941,14 +986,23 @@ Proof.
     use. There are many possible answers. Recall that you can use
     [match] as part of the definition. *)
 
-Definition better_t_tree_ind_type : Prop
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Definition better_t_tree_ind_type : Prop :=
+  forall (X : Type) (P : t_tree X -> Prop),
+  (P t_leaf) -> 
+  (forall (tl: t_tree X) (v : X) (tr : t_tree X), P tl -> P tr -> P (t_branch (tl, v, tr))) ->
+  forall t : t_tree X, P t.
 
 (** Second, define the induction principle by giving a term of that
     type. Use the examples about [nat], above, as models. *)
 
-Definition better_t_tree_ind : better_t_tree_ind_type
-  (* REPLACE THIS LINE WITH ":= _your_definition_ ." *). Admitted.
+Definition better_t_tree_ind : better_t_tree_ind_type :=
+  fun X p H1 H2 => 
+    fix f (t: t_tree X) :=
+	  match t with 
+	  | t_leaf => H1
+	  | t_branch (tl, v, tr) => H2 tl v tr (f tl) (f tr)
+	  end.
+
 
 (** Finally, prove the theorem. If [induction...using] gives you an
     error about "Cannot recognize an induction scheme", don't worry
@@ -959,8 +1013,12 @@ Definition better_t_tree_ind : better_t_tree_ind_type
 
 Theorem reflect_involution : forall (X : Type) (t : t_tree X),
     reflect (reflect t) = t.
-Proof. (* FILL IN HERE *) Admitted.
-
+Proof. 
+  intros X. apply better_t_tree_ind.
+  - unfold reflect. reflexivity.
+  - intros tl v tr Htl Htr. 
+    simpl. rewrite Htl. rewrite Htr. reflexivity.
+Qed.
 (** [] *)
 
 (* 2022-08-08 17:13 *)
