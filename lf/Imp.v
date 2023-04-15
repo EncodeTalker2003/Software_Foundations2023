@@ -2223,8 +2223,43 @@ Theorem ceval_deterministic: forall (c:com) st st1 st2 s1 s2,
      st =[ c ]=> st2 / s2 ->
      st1 = st2 /\ s1 = s2.
 Proof.
-  (* FILL IN HERE *) Admitted.
-
+  intros.
+	generalize dependent st2.
+	generalize dependent s2.
+	induction H;
+	try (intros; inversion H0; subst; split; reflexivity).
+	- intros. inversion H1; subst.
+		+ apply IHceval1 in H4. destruct H4 as [H4 _]. subst.
+			apply IHceval2 in H8. assumption.
+		+ apply IHceval1 in H7. destruct H7 as [_ H7]. discriminate. 
+	- intros. inversion H0; subst.
+	  + apply IHceval in H3. destruct H3 as [_ H3]. discriminate.
+		+	apply IHceval in H6. assumption.
+	- intros. inversion H1; subst.
+	  + apply IHceval. assumption.
+		+ rewrite H8 in H. discriminate.
+	- intros. inversion H1; subst.
+	  + rewrite H8 in H. discriminate.
+		+ apply IHceval in H9. assumption.
+	- intros. inversion H2; subst.
+	  + apply IHceval1 in H6. destruct H6 as [H6 _]. subst.
+		  apply IHceval2 in H10. destruct H10 as [H10 _].
+			split.
+			* assumption.
+			* reflexivity.
+		+ rewrite H8 in H. discriminate.
+		+ apply IHceval1 in H9. destruct H9 as [_ H9]. discriminate.
+	- intros. inversion H0; subst.
+	  + rewrite H3 in H. discriminate.
+		+ split. reflexivity. reflexivity.
+		+ rewrite H3 in H. discriminate.
+	- intros.  inversion H1; subst.
+	  + apply IHceval in H5. destruct H5 as [_ H5]. discriminate.
+		+ rewrite H7 in H. discriminate.
+		+ apply IHceval in H8. destruct H8 as [H8 _]. split.
+		  * assumption.
+			* reflexivity.
+Qed.
 (** [] *)
 End BreakImp.
 
