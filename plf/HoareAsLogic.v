@@ -239,7 +239,20 @@ Qed.
 Theorem provable_true_post : forall c P,
     derivable P c True.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  induction c; intros.
+	- eapply H_Consequence_post.
+	  + eapply H_Skip.
+		+ eauto.
+	- eapply H_Consequence_pre.
+	  + eapply H_Asgn.
+		+ eauto. 
+	- eapply H_Seq. apply IHc1. apply IHc2.
+	- eapply H_If. apply IHc1. apply IHc2.
+	- eapply H_Consequence. 
+	  + apply H_While. apply IHc.
+		+ eauto.
+		+ eauto.
+Qed.
 
 (** [] *)
 
@@ -250,8 +263,24 @@ Proof.
 
 Theorem provable_false_pre : forall c Q,
     derivable False c Q.
-Proof.
-  (* FILL IN HERE *) Admitted.
+Proof. 
+  induction c; intros.
+	- eapply H_Consequence_post. eapply H_Skip. contradiction.
+	- eapply H_Consequence_pre. eapply H_Asgn. contradiction.
+	- eapply H_Seq. apply IHc1. apply IHc2.
+	- eapply H_If. 
+	  + eapply H_Consequence_pre. 
+			* apply IHc1.
+			* intros st [H _]. contradiction.
+		+ eapply H_Consequence_pre.
+			* apply IHc2.
+			* intros st [H _]. contradiction.
+	- eapply H_Consequence_post.
+	  + apply H_While. eapply H_Consequence_pre.
+		  * apply IHc.
+			* intros st [H _]. contradiction.
+		+ intros st [H _]. contradiction.
+Qed.
 
 (** [] *)
 
@@ -289,7 +318,14 @@ Proof.
 Theorem hoare_sound : forall P c Q,
   derivable P c Q -> valid P c Q.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  intros. induction X; intros.
+	- eapply hoare_skip.
+	- eapply hoare_asgn.
+	- eapply hoare_seq. eauto. eauto.
+	- eapply hoare_if. eauto. eauto.
+	- eapply hoare_while. eauto.
+	- eapply hoare_consequence. eauto. eauto. eauto.
+Qed.
 (** [] *)
 
 (** The proof of completeness is more challenging.  To carry out the
@@ -334,7 +370,10 @@ Proof. eauto. Qed.
 Lemma wp_seq : forall P Q c1 c2,
     derivable P c1 (wp c2 Q) -> derivable (wp c2 Q) c2 Q -> derivable P <{c1; c2}> Q.
 Proof.
-  (* FILL IN HERE *) Admitted.
+  unfold wp. intros. eapply H_Seq.
+	- eapply X.
+	- eapply X0.
+Qed.
 
 (** [] *)
 
@@ -347,7 +386,8 @@ Proof.
 Lemma wp_invariant : forall b c Q,
     valid (wp <{while b do c end}> Q /\ b) c (wp <{while b do c end}> Q).
 Proof.
-  (* FILL IN HERE *) Admitted.
+  unfold valid, wp. intros. destruct H0. eauto.
+Qed.
 
 (** [] *)
 
@@ -369,7 +409,27 @@ Theorem hoare_complete: forall P c Q,
 Proof.
   unfold valid. intros P c. generalize dependent P.
   induction c; intros P Q HT.
-  (* FILL IN HERE *) Admitted.
+  - eapply H_Consequence_post. 
+	  + apply H_Skip.
+		+ intros. apply HT with st. apply E_Skip. apply H.
+	- eapply H_Consequence_pre.
+	  + apply H_Asgn.
+		+ intros. eapply HT. apply E_Asgn. reflexivity. apply H.
+	- apply H_Seq with (Q := wp c2 Q).
+	  all: eauto.
+	- apply H_If.
+	  + apply IHc1. intros. eapply HT.
+		  * apply E_IfTrue. apply H0. assumption.
+			* apply H0.
+	  + apply IHc2. intros.  eapply HT.
+		  * apply E_IfFalse. apply Bool.not_true_iff_false. apply H0. assumption.
+			* apply H0.
+	- eapply H_Consequence.
+	  + apply H_While. apply IHc. apply wp_invariant.
+		+ unfold wp. intros. apply HT with (st := st). apply H0. apply H.
+		+ simpl. intros. destruct H. apply H. apply E_WhileFalse. 
+			apply Bool.not_true_iff_false. apply H0.
+Qed.
 
 (** [] *)
 
