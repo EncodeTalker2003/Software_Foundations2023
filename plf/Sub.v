@@ -482,26 +482,38 @@ Definition manual_grade_for_subtype_order : option (nat*string) := None.
           S <: T  ->
           S->S   <:  T->T
 
+			false
+
       forall S,
            S <: A->A ->
            exists T,
               S = T->T  /\  T <: A
+
+			false
 
       forall S T1 T2,
            (S <: T1 -> T2) ->
            exists S1 S2,
               S = S1 -> S2  /\  T1 <: S1  /\  S2 <: T2 
 
+			true
+
       exists S,
            S <: S->S 
 
+			false
+
       exists S,
            S->S <: S  
+
+			true
 
       forall S T1 T2,
            S <: T1*T2 ->
            exists S1 S2,
               S = S1*S2  /\  S1 <: T1  /\  S2 <: T2  
+			
+			trues
 *)
 
 (* Do not modify the following line: *)
@@ -513,29 +525,45 @@ Definition manual_grade_for_subtype_instances_tf_2 : option (nat*string) := None
     Which of the following statements are true, and which are false?
     - There exists a type that is a supertype of every other type.
 
+		True
+
     - There exists a type that is a subtype of every other type.
+
+		False
 
     - There exists a pair type that is a supertype of every other
       pair type.
 
+		True
+
     - There exists a pair type that is a subtype of every other
       pair type.
+
+		False
 
     - There exists an arrow type that is a supertype of every other
       arrow type.
 
+		False
+
     - There exists an arrow type that is a subtype of every other
       arrow type.
+
+		False
 
     - There is an infinite descending chain of distinct types in the
       subtype relation---that is, an infinite sequence of types
       [S0], [S1], etc., such that all the [Si]'s are different and
       each [S(i+1)] is a subtype of [Si].
 
+		True
+
     - There is an infinite _ascending_ chain of distinct types in
       the subtype relation---that is, an infinite sequence of types
       [S0], [S1], etc., such that all the [Si]'s are different and
       each [S(i+1)] is a supertype of [Si].
+
+		True
 
 *)
 
@@ -609,8 +637,12 @@ Definition manual_grade_for_small_large_2 : option (nat*string) := None.
        exists S,
          empty |- (\p:(A*T). (p.snd) (p.fst)) \in S
 
+			Dosen't exist.
+
    - What is the _largest_ type [T] that makes the same
      assertion true?
+
+		 The largest type is [A->Top]
 
 *)
 
@@ -1075,7 +1107,18 @@ Proof with eauto.
   intros U V1 V2 Hs.
   remember <{V1->V2}> as V.
   generalize dependent V2. generalize dependent V1.
-  (* FILL IN HERE *) Admitted.
+	induction Hs.
+  - intros.
+		exists V1. exists V2. eauto.
+	- intros. 
+		eapply IHHs2 in HeqV. destruct HeqV as [U1 [U2 [H1 [H2 H3]]]].
+		apply IHHs1 in H1. destruct H1 as [U3 [U4 [H4 [H5 H6]]]].
+		exists U3. exists U4. eauto.
+	- intros. inversion HeqV.
+	- intros. inversion HeqV; subst.
+		exists S1. exists S2. eauto.
+Qed.
+
 (** [] *)
 
 (** There are additional _inversion lemmas_ for the other types:
@@ -1525,25 +1568,38 @@ Qed.
                     -----------------------------------    (T_Funny1)
                            Gamma |- t \in T1->T2
 
+			Neither
+
     - Suppose we add the following reduction rule:
 
                              --------------------         (ST_Funny21)
                              unit --> (\x:Top. x)
 
+			Preservation becomes false.
+			We have [empty |- unit \in Unit], but [empty |- (\x:Top. x) \in Unit] dose not hold.
+			 
     - Suppose we add the following subtyping rule:
 
                                ----------------          (S_Funny3)
                                Unit <: Top->Top
+			
+			Progress becomes false.
+			Let [s] be a term.
+			Then for [unit s], we have [empty |- (unit s)\in Top], but [unit s] can not step to any other term.
 
     - Suppose we add the following subtyping rule:
 
                                ----------------          (S_Funny4)
                                Top->Top <: Unit
 
+			Neither.
+
     - Suppose we add the following reduction rule:
 
                              ---------------------      (ST_Funny5)
                              (unit t) --> (t unit)
+			
+		  Neither. 
 
     - Suppose we add the same reduction rule _and_ a new typing rule:
 
@@ -1552,12 +1608,17 @@ Qed.
 
                            --------------------------    (T_Funny6)
                            empty |- unit \in Top->Top
+			
+			Preservation becomes false.
+			We have [empty |- unit t \in Top] and [unit t --> t unit], but [t unit] may not be well-typed.
 
     - Suppose we _change_ the arrow subtyping rule to:
 
                           S1 <: T1 S2 <: T2
                           -----------------              (S_Arrow')
                           S1->S2 <: T1->T2
+			Both.
+			For [empty |- f \in S1->S2] and [empty |- t \in T1], [f t1] may not be well-typed and may not step to any other term.
 
 *)
 

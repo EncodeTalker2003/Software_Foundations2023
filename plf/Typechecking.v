@@ -193,7 +193,7 @@ Proof with eauto.
     rename t into T'. inversion H0. subst. eauto. solve_by_invert.
   - (* app *)
     remember (type_check Gamma t1) as TO1.
-    destruct TO1 as [T1|]; try solve_by_invert;
+    destruct TO1 as [T1|]; try solve_by_invert.
     destruct T1 as [|T11 T12]; try solve_by_invert;
     remember (type_check Gamma t2) as TO2;
     destruct TO2 as [T2|]; try solve_by_invert.
@@ -340,9 +340,28 @@ Fixpoint type_check (Gamma : context) (t : tm) : option ty :=
   (* Complete the following cases. *)
   
   (* sums *)
-  (* FILL IN HERE *)
+  | <{ inl T2 t }> => 
+			T1 <- type_check Gamma t ;;
+			return <{{T1 + T2}}>
+	| <{ inr T1 t }> => 
+			T2 <- type_check Gamma t ;;
+			return <{{T1 + T2}}>
+	| <{ case t0 of | inl x1 => t1 | inr x2 => t2 }> =>
+			match type_check Gamma t0 with 
+			| Some <{{ T1 + T2 }}> =>
+				Tt1 <- type_check (x1 |-> T1 ; Gamma) t1 ;;
+				Tt2 <- type_check (x2 |-> T2 ; Gamma) t2 ;;
+				if eqb_ty Tt1 Tt2 then return Tt1 else fail
+			| _ => fail
+			end
   (* lists (the [tm_lcase] is given for free) *)
   (* FILL IN HERE *)
+	| <{ nil T }> =>
+			return <{{List T}}>
+	| <{ h :: t }> =>
+			T1 <- type_check Gamma h;;
+			T2 <- type_check Gamma t;;
+			if eqb_ty T2 <{{List T1}}> then return <{{List T1}}> else fail
   | <{ case t0 of | nil => t1 | x21 :: x22 => t2 }> =>
       T0 <- type_check Gamma t0 ;;
       match T0 with
@@ -353,14 +372,35 @@ Fixpoint type_check (Gamma : context) (t : tm) : option ty :=
       | _ => fail
       end
   (* unit *)
-  (* FILL IN HERE *)
+  | <{ unit }> =>
+			return <{{Unit}}>
   (* pairs *)
-  (* FILL IN HERE *)
+  | <{ (t1, t2) }> =>
+		T1 <- type_check Gamma t1 ;;
+		T2 <- type_check Gamma t2 ;;
+		return <{{T1 * T2}}>
+	| <{ t.fst }> =>
+		match type_check Gamma t with
+		| Some <{{T1 * T2}}> => return T1
+		| _ => fail
+		end
+	| <{ t.snd }> =>
+		match type_check Gamma t with
+		| Some <{{T1 * T2}}> => return T2
+		| _ => fail
+		end
   (* let *)
-  (* FILL IN HERE *)
+  | <{ let x = t1 in t2 }> =>
+		T1 <- type_check Gamma t1 ;;
+		T2 <- type_check (x |-> T1 ; Gamma) t2 ;;
+		return T2
   (* fix *)
-  (* FILL IN HERE *)
-  | _ => None  (* ... and delete this line when you complete the exercise. *)
+  | <{ fix t }> =>
+		match type_check Gamma t with
+		| Some <{{ T1 -> T2 }}> => 
+			if eqb_ty T1 T2 then return T1 else fail
+		| _ => fail
+		end
   end.
 (* Do not modify the following line: *)
 Definition manual_grade_for_type_check_defn : option (nat*string) := None.
@@ -426,9 +466,20 @@ Proof with eauto.
     case_equality T2 T3.
   (* Complete the following cases. *)
   (* sums *)
+	- invert_typecheck Gamma t0 T1.
+	- invert_typecheck Gamma t0 T2.
+	- fully_invert_typecheck Gamma t1 Ta T11 T12.
+		invert_typecheck (s |-> T11 ; Gamma) t2 Tt1.
+		invert_typecheck (s0 |-> T12 ; Gamma) t3 Tt2.
+		case_equality Tt1 Tt2. 
+
   (* FILL IN HERE *)
   (* lists (the [tm_lcase] is given for free) *)
   (* FILL IN HERE *)
+	- eauto.
+	- invert_typecheck Gamma t1 T1.
+		invert_typecheck Gamma t2 T2.
+		case_equality T2 <{{List T1}}>.  
   - (* tlcase *)
     rename s into x31, s0 into x32.
     fully_invert_typecheck Gamma t1 T1 T11 T12.
@@ -437,14 +488,19 @@ Proof with eauto.
     invert_typecheck Gamma'2 t3 T3.
     case_equality T2 T3.
   (* unit *)
-  (* FILL IN HERE *)
+  - eauto.
   (* pairs *)
-  (* FILL IN HERE *)
+  - invert_typecheck Gamma t1 T1.
+		invert_typecheck Gamma t2 T2.
+	- fully_invert_typecheck Gamma t T1 T11 T12.
+	- fully_invert_typecheck Gamma t T1 T11 T12.
   (* let *)
-  (* FILL IN HERE *)
+  - invert_typecheck Gamma t1 T1.
+		invert_typecheck (s |-> T1; Gamma) t2 T2. 
   (* fix *)
-  (* FILL IN HERE *)
-  (* FILL IN HERE *) Admitted.
+  - fully_invert_typecheck Gamma t T1 T11 T12.
+		case_equality T11 T12.
+Qed.
 (** [] *)
 
 (** **** Exercise: 2 stars, standard (ext_type_checking_complete) *)
@@ -464,8 +520,8 @@ Proof.
     try (rewrite (eqb_ty_refl T3));
     eauto.
     - destruct (Gamma _); [assumption| solve_by_invert].
-  (* The above proof script suffices for the reference solution. *)
-  (* FILL IN HERE *) Admitted.
+  - simpl. rewrite eqb_ty_refl. reflexivity.
+Qed.
 (** [] *)
 
 End TypecheckerExtensions.
