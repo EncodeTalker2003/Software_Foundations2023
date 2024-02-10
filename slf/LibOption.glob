@@ -1,0 +1,276 @@
+DIGEST 96fad5973bb7923157ffd95a6961a891
+FSLF.LibOption
+R403:412 SLF.LibTactics <> <> lib
+R414:423 SLF.LibReflect <> <> lib
+R957:960 Coq.Init.Datatypes <> Some constr
+R957:960 Coq.Init.Datatypes <> Some constr
+R977:980 Coq.Init.Datatypes <> None constr
+R977:980 Coq.Init.Datatypes <> None constr
+inst 1177:1188 <> Inhab_option
+binder 1199:1199 <> A:1
+R1202:1206 SLF.LibLogic <> Inhab class
+R1209:1214 Coq.Init.Datatypes <> option ind
+R1216:1216 SLF.LibOption <> A:1 var
+R1248:1259 SLF.LibLogic <> Inhab_of_val thm
+R1261:1264 Coq.Init.Datatypes <> None constr
+R1248:1259 SLF.LibLogic <> Inhab_of_val thm
+R1261:1264 Coq.Init.Datatypes <> None constr
+def 1684:1690 <> is_some
+binder 1692:1692 <> A:2
+R1697:1702 Coq.Init.Datatypes <> option ind
+R1704:1704 SLF.LibOption <> A:2 var
+binder 1695:1695 <> o:3
+R1718:1718 SLF.LibOption <> o:3 var
+R1729:1732 Coq.Init.Datatypes <> None constr
+R1737:1741 Coq.Init.Datatypes <> false constr
+R1747:1750 Coq.Init.Datatypes <> Some constr
+R1757:1760 Coq.Init.Datatypes <> true constr
+def 2072:2085 <> unsome_default
+binder 2087:2087 <> A:5
+binder 2089:2089 <> d:6
+R2094:2099 Coq.Init.Datatypes <> option ind
+R2101:2101 SLF.LibOption <> A:5 var
+binder 2092:2092 <> o:7
+R2115:2115 SLF.LibOption <> o:7 var
+R2126:2129 Coq.Init.Datatypes <> None constr
+R2134:2134 SLF.LibOption <> d:6 var
+R2140:2143 Coq.Init.Datatypes <> Some constr
+def 2459:2464 <> unsome
+R2468:2472 SLF.LibLogic <> Inhab class
+binder 2474:2474 <> A:9
+binder 2468:2474 <> H:10
+R2482:2495 SLF.LibOption <> unsome_default def
+R2498:2506 SLF.LibLogic <> arbitrary def
+R2512:2512 SLF.LibOption <> A:9 var
+def 2826:2828 <> map
+binder 2830:2830 <> A:11
+binder 2832:2832 <> B:12
+R2840:2843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2839:2839 SLF.LibOption <> A:11 var
+R2844:2844 SLF.LibOption <> B:12 var
+binder 2835:2835 <> f:13
+R2852:2857 Coq.Init.Datatypes <> option ind
+R2859:2859 SLF.LibOption <> A:11 var
+binder 2848:2848 <> o:14
+R2864:2869 Coq.Init.Datatypes <> option ind
+R2871:2871 SLF.LibOption <> B:12 var
+R2884:2884 SLF.LibOption <> o:14 var
+R2895:2898 Coq.Init.Datatypes <> None constr
+R2903:2906 Coq.Init.Datatypes <> None constr
+R2912:2915 Coq.Init.Datatypes <> Some constr
+R2922:2925 Coq.Init.Datatypes <> Some constr
+R2928:2928 SLF.LibOption <> f:13 var
+prf 2947:2961 <> map_eq_none_inv
+binder 2972:2972 <> A:16
+binder 2974:2974 <> B:17
+R2982:2983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2981:2981 SLF.LibOption <> A:16 var
+R2984:2984 SLF.LibOption <> B:17 var
+binder 2977:2977 <> f:18
+binder 2987:2987 <> o:19
+R3006:3011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2999:3001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2992:2994 SLF.LibOption <> map def
+R2998:2998 SLF.LibOption <> o:19 var
+R2996:2996 SLF.LibOption <> f:18 var
+R3002:3005 Coq.Init.Datatypes <> None constr
+R3013:3015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3012:3012 SLF.LibOption <> o:19 var
+R3016:3019 Coq.Init.Datatypes <> None constr
+prf 3088:3102 <> map_eq_some_inv
+binder 3113:3113 <> A:20
+binder 3115:3115 <> B:21
+R3123:3124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3122:3122 SLF.LibOption <> A:20 var
+R3125:3125 SLF.LibOption <> B:21 var
+binder 3118:3118 <> f:22
+binder 3128:3128 <> o:23
+binder 3130:3130 <> x:24
+R3151:3156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3142:3144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3135:3137 SLF.LibOption <> map def
+R3141:3141 SLF.LibOption <> o:23 var
+R3139:3139 SLF.LibOption <> f:22 var
+R3145:3148 Coq.Init.Datatypes <> Some constr
+R3150:3150 SLF.LibOption <> x:24 var
+R3157:3163 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3165:3166 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3164:3164 <> z:25
+R3177:3180 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3168:3170 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3167:3167 SLF.LibOption <> o:23 var
+R3171:3174 Coq.Init.Datatypes <> Some constr
+R3176:3176 SLF.LibOption <> z:25 var
+R3182:3184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3181:3181 SLF.LibOption <> x:24 var
+R3185:3185 SLF.LibOption <> f:22 var
+R3187:3187 SLF.LibOption <> z:25 var
+R3260:3274 SLF.LibOption <> map_eq_none_inv thm
+R3260:3274 SLF.LibOption <> map_eq_none_inv thm
+R3303:3317 SLF.LibOption <> map_eq_some_inv thm
+R3303:3317 SLF.LibOption <> map_eq_some_inv thm
+def 3635:3640 <> map_on
+binder 3642:3642 <> A:26
+binder 3644:3644 <> B:27
+R3651:3656 Coq.Init.Datatypes <> option ind
+R3658:3658 SLF.LibOption <> A:26 var
+binder 3647:3647 <> o:28
+R3667:3670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3666:3666 SLF.LibOption <> A:26 var
+R3671:3671 SLF.LibOption <> B:27 var
+binder 3662:3662 <> f:29
+R3676:3681 Coq.Init.Datatypes <> option ind
+R3683:3683 SLF.LibOption <> B:27 var
+R3690:3692 SLF.LibOption <> map def
+R3696:3696 SLF.LibOption <> o:28 var
+R3694:3694 SLF.LibOption <> f:29 var
+prf 3706:3723 <> map_on_eq_none_inv
+binder 3734:3734 <> A:30
+binder 3736:3736 <> B:31
+R3744:3747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3743:3743 SLF.LibOption <> A:30 var
+R3748:3748 SLF.LibOption <> B:31 var
+binder 3739:3739 <> f:32
+binder 3751:3751 <> o:33
+R3770:3775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3763:3765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3756:3758 SLF.LibOption <> map def
+R3762:3762 SLF.LibOption <> o:33 var
+R3760:3760 SLF.LibOption <> f:32 var
+R3766:3769 Coq.Init.Datatypes <> None constr
+R3777:3779 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3776:3776 SLF.LibOption <> o:33 var
+R3780:3783 Coq.Init.Datatypes <> None constr
+prf 3844:3861 <> map_on_eq_some_inv
+binder 3872:3872 <> A:34
+binder 3874:3874 <> B:35
+R3882:3885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3881:3881 SLF.LibOption <> A:34 var
+R3886:3886 SLF.LibOption <> B:35 var
+binder 3877:3877 <> f:36
+binder 3889:3889 <> o:37
+binder 3891:3891 <> x:38
+R3915:3920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3906:3908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3896:3901 SLF.LibOption <> map_on def
+R3905:3905 SLF.LibOption <> f:36 var
+R3903:3903 SLF.LibOption <> o:37 var
+R3909:3912 Coq.Init.Datatypes <> Some constr
+R3914:3914 SLF.LibOption <> x:38 var
+R3921:3927 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3929:3930 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 3928:3928 <> z:39
+R3941:3944 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3932:3934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3931:3931 SLF.LibOption <> o:37 var
+R3935:3938 Coq.Init.Datatypes <> Some constr
+R3940:3940 SLF.LibOption <> z:39 var
+R3946:3948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3945:3945 SLF.LibOption <> x:38 var
+R3949:3949 SLF.LibOption <> f:36 var
+R3951:3951 SLF.LibOption <> z:39 var
+R4024:4038 SLF.LibOption <> map_eq_none_inv thm
+R4024:4038 SLF.LibOption <> map_eq_none_inv thm
+R4067:4084 SLF.LibOption <> map_on_eq_some_inv thm
+R4067:4084 SLF.LibOption <> map_on_eq_some_inv thm
+def 4361:4365 <> apply
+binder 4367:4367 <> A:40
+binder 4369:4369 <> B:41
+R4377:4378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4376:4376 SLF.LibOption <> A:40 var
+R4379:4384 Coq.Init.Datatypes <> option ind
+R4386:4386 SLF.LibOption <> B:41 var
+binder 4372:4372 <> f:42
+R4394:4399 Coq.Init.Datatypes <> option ind
+R4401:4401 SLF.LibOption <> A:40 var
+binder 4390:4390 <> o:43
+R4406:4411 Coq.Init.Datatypes <> option ind
+R4413:4413 SLF.LibOption <> B:41 var
+R4426:4426 SLF.LibOption <> o:43 var
+R4437:4440 Coq.Init.Datatypes <> None constr
+R4445:4448 Coq.Init.Datatypes <> None constr
+R4454:4457 Coq.Init.Datatypes <> Some constr
+R4464:4464 SLF.LibOption <> f:42 var
+def 4743:4750 <> apply_on
+binder 4752:4752 <> A:45
+binder 4754:4754 <> B:46
+R4761:4766 Coq.Init.Datatypes <> option ind
+R4768:4768 SLF.LibOption <> A:45 var
+binder 4757:4757 <> o:47
+R4777:4778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4776:4776 SLF.LibOption <> A:45 var
+R4779:4784 Coq.Init.Datatypes <> option ind
+R4786:4786 SLF.LibOption <> B:46 var
+binder 4772:4772 <> f:48
+R4791:4796 Coq.Init.Datatypes <> option ind
+R4798:4798 SLF.LibOption <> B:46 var
+R4804:4808 SLF.LibOption <> apply def
+R4812:4812 SLF.LibOption <> o:47 var
+R4810:4810 SLF.LibOption <> f:48 var
+prf 4822:4841 <> apply_on_eq_none_inv
+binder 4852:4852 <> A:49
+binder 4854:4854 <> B:50
+R4862:4863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4861:4861 SLF.LibOption <> A:49 var
+R4864:4869 Coq.Init.Datatypes <> option ind
+R4871:4871 SLF.LibOption <> B:50 var
+binder 4857:4857 <> f:51
+binder 4874:4874 <> o:52
+R4898:4906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4891:4893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4879:4886 SLF.LibOption <> apply_on def
+R4890:4890 SLF.LibOption <> f:51 var
+R4888:4888 SLF.LibOption <> o:52 var
+R4894:4897 Coq.Init.Datatypes <> None constr
+R4907:4907 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4916:4923 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4958:4958 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R4909:4911 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4908:4908 SLF.LibOption <> o:52 var
+R4912:4915 Coq.Init.Datatypes <> None constr
+R4924:4930 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4932:4933 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4931:4931 <> x:53
+R4944:4947 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4935:4937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4934:4934 SLF.LibOption <> o:52 var
+R4938:4941 Coq.Init.Datatypes <> Some constr
+R4943:4943 SLF.LibOption <> x:53 var
+R4951:4953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4948:4948 SLF.LibOption <> f:51 var
+R4950:4950 SLF.LibOption <> x:53 var
+R4954:4957 Coq.Init.Datatypes <> None constr
+prf 5027:5046 <> apply_on_eq_some_inv
+binder 5057:5057 <> A:54
+binder 5059:5059 <> B:55
+R5067:5068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5066:5066 SLF.LibOption <> A:54 var
+R5069:5074 Coq.Init.Datatypes <> option ind
+R5076:5076 SLF.LibOption <> B:55 var
+binder 5062:5062 <> f:56
+binder 5079:5079 <> o:57
+binder 5081:5081 <> x:58
+R5107:5112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5098:5100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5086:5093 SLF.LibOption <> apply_on def
+R5097:5097 SLF.LibOption <> f:56 var
+R5095:5095 SLF.LibOption <> o:57 var
+R5101:5104 Coq.Init.Datatypes <> Some constr
+R5106:5106 SLF.LibOption <> x:58 var
+R5113:5119 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R5121:5122 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 5120:5120 <> z:59
+R5133:5136 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5124:5126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5123:5123 SLF.LibOption <> o:57 var
+R5127:5130 Coq.Init.Datatypes <> Some constr
+R5132:5132 SLF.LibOption <> z:59 var
+R5140:5142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5137:5137 SLF.LibOption <> f:56 var
+R5139:5139 SLF.LibOption <> z:59 var
+R5143:5146 Coq.Init.Datatypes <> Some constr
+R5148:5148 SLF.LibOption <> x:58 var
+R5221:5240 SLF.LibOption <> apply_on_eq_none_inv thm
+R5221:5240 SLF.LibOption <> apply_on_eq_none_inv thm
+R5269:5288 SLF.LibOption <> apply_on_eq_some_inv thm
+R5269:5288 SLF.LibOption <> apply_on_eq_some_inv thm

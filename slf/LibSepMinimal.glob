@@ -1,0 +1,1709 @@
+DIGEST 2af19f970f7aa277d37b736b2c1e3904
+FSLF.LibSepMinimal
+R605:613 SLF.LibString <> <> lib
+R615:621 SLF.LibCore <> <> lib
+R648:662 SLF.LibSepTLCbuffer <> <> lib
+R664:673 SLF.LibSepFmap <> <> lib
+R691:700 SLF.LibSepFmap <> <> modtype
+mod 683:686 <> Fmap
+def 794:796 <> var
+R808:813 Coq.Strings.String <> string ind
+def 828:833 <> var_eq
+R838:854 Coq.Strings.String <> string_dec def
+def 919:921 <> loc
+R933:935 Coq.Init.Datatypes <> nat ind
+ind 1101:1104 <> prim
+constr 1120:1126 <> val_ref
+constr 1139:1145 <> val_get
+constr 1158:1164 <> val_set
+constr 1177:1184 <> val_free
+constr 1197:1203 <> val_add
+constr 1216:1222 <> val_div
+constr 1235:1242 <> val_rand
+R1130:1133 SLF.LibSepMinimal <> prim:1 ind
+R1149:1152 SLF.LibSepMinimal <> prim:1 ind
+R1168:1171 SLF.LibSepMinimal <> prim:1 ind
+R1188:1191 SLF.LibSepMinimal <> prim:1 ind
+R1207:1210 SLF.LibSepMinimal <> prim:1 ind
+R1226:1229 SLF.LibSepMinimal <> prim:1 ind
+R1246:1249 SLF.LibSepMinimal <> prim:1 ind
+ind 1412:1414 <> val
+constr 1430:1437 <> val_unit
+constr 1449:1456 <> val_bool
+constr 1476:1482 <> val_int
+constr 1501:1507 <> val_loc
+constr 1526:1533 <> val_prim
+constr 1553:1559 <> val_fix
+ind 1716:1718 <> trm
+constr 1734:1740 <> trm_val
+constr 1759:1765 <> trm_var
+constr 1784:1790 <> trm_fix
+constr 1823:1829 <> trm_app
+constr 1855:1861 <> trm_let
+constr 1894:1899 <> trm_if
+R1441:1443 SLF.LibSepMinimal <> val:3 ind
+R1464:1467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1460:1463 Coq.Init.Datatypes <> bool ind
+R1468:1470 SLF.LibSepMinimal <> val:3 ind
+R1489:1492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1486:1488 SLF.LibInt <> ::Int_scope:'int' not
+R1493:1495 SLF.LibSepMinimal <> val:3 ind
+R1514:1517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1511:1513 SLF.LibSepMinimal <> loc def
+R1518:1520 SLF.LibSepMinimal <> val:3 ind
+R1541:1544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1537:1540 SLF.LibSepMinimal <> prim ind
+R1545:1547 SLF.LibSepMinimal <> val:3 ind
+R1566:1569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1563:1565 SLF.LibSepMinimal <> var def
+R1573:1576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1570:1572 SLF.LibSepMinimal <> var def
+R1580:1583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1577:1579 SLF.LibSepMinimal <> trm:4 ind
+R1584:1586 SLF.LibSepMinimal <> val:3 ind
+R1747:1750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1744:1746 SLF.LibSepMinimal <> val:3 ind
+R1751:1753 SLF.LibSepMinimal <> trm:4 ind
+R1772:1775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1769:1771 SLF.LibSepMinimal <> var def
+R1776:1778 SLF.LibSepMinimal <> trm:4 ind
+R1797:1800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1794:1796 SLF.LibSepMinimal <> var def
+R1804:1807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1801:1803 SLF.LibSepMinimal <> var def
+R1811:1814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1808:1810 SLF.LibSepMinimal <> trm:4 ind
+R1815:1817 SLF.LibSepMinimal <> trm:4 ind
+R1836:1839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1833:1835 SLF.LibSepMinimal <> trm:4 ind
+R1843:1846 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1840:1842 SLF.LibSepMinimal <> trm:4 ind
+R1847:1849 SLF.LibSepMinimal <> trm:4 ind
+R1868:1871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1865:1867 SLF.LibSepMinimal <> var def
+R1875:1878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1872:1874 SLF.LibSepMinimal <> trm:4 ind
+R1882:1885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1879:1881 SLF.LibSepMinimal <> trm:4 ind
+R1886:1888 SLF.LibSepMinimal <> trm:4 ind
+R1906:1909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1903:1905 SLF.LibSepMinimal <> trm:4 ind
+R1913:1916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1910:1912 SLF.LibSepMinimal <> trm:4 ind
+R1920:1923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1917:1919 SLF.LibSepMinimal <> trm:4 ind
+R1924:1926 SLF.LibSepMinimal <> trm:4 ind
+R2021:2052 SLF.LibSepMinimal <> val_bool constr
+R2055:2082 SLF.LibSepMinimal <> val_int constr
+R2085:2114 SLF.LibSepMinimal <> val_loc constr
+R2117:2148 SLF.LibSepMinimal <> val_prim constr
+R2151:2180 SLF.LibSepMinimal <> trm_val constr
+R2183:2212 SLF.LibSepMinimal <> trm_var constr
+R2215:2249 SLF.LibSepMinimal <> trm_app constr
+inst 2345:2353 <> Inhab_val
+R2357:2361 SLF.LibLogic <> Inhab class
+R2363:2365 SLF.LibSepMinimal <> val ind
+R2382:2393 SLF.LibLogic <> Inhab_of_val thm
+R2395:2402 SLF.LibSepMinimal <> val_unit constr
+R2382:2393 SLF.LibLogic <> Inhab_of_val thm
+R2395:2402 SLF.LibSepMinimal <> val_unit constr
+def 2657:2660 <> heap
+R2672:2675 SLF.LibSepFmap <> fmap indrec
+R2681:2683 SLF.LibSepMinimal <> val ind
+R2677:2679 SLF.LibSepMinimal <> loc def
+R2765:2767 SLF.LibSepMinimal <> var def
+R2789:2792 Coq.Init.Datatypes <> bool ind
+R2814:2816 SLF.LibSepMinimal <> loc def
+R2838:2840 SLF.LibInt <> ::Int_scope:'int' not
+R2866:2868 SLF.LibSepMinimal <> val ind
+R2890:2892 SLF.LibSepMinimal <> trm ind
+R2916:2919 SLF.LibSepMinimal <> heap def
+def 3102:3106 <> subst
+R3111:3113 SLF.LibSepMinimal <> var def
+binder 3109:3109 <> y:7
+R3119:3121 SLF.LibSepMinimal <> val ind
+binder 3117:3117 <> w:8
+R3127:3129 SLF.LibSepMinimal <> trm ind
+binder 3125:3125 <> t:9
+R3134:3136 SLF.LibSepMinimal <> trm ind
+binder 3151:3151 <> t:11
+R3156:3160 SLF.LibSepMinimal <> subst:10 def
+R3166:3166 SLF.LibSepMinimal <> t:11 var
+R3164:3164 SLF.LibSepMinimal <> w:8 var
+R3162:3162 SLF.LibSepMinimal <> y:7 var
+binder 3147:3149 <> aux:12
+binder 3185:3185 <> x:13
+binder 3187:3188 <> t1:14
+binder 3190:3191 <> t2:15
+R3199:3204 SLF.LibSepMinimal <> var_eq def
+R3208:3208 SLF.LibSepMinimal <> y:7 var
+R3206:3206 SLF.LibSepMinimal <> x:13 var
+R3223:3224 SLF.LibSepMinimal <> t2:15 var
+R3215:3216 SLF.LibSepMinimal <> t1:14 var
+binder 3177:3183 <> if_y_eq:16
+R3237:3237 SLF.LibSepMinimal <> t:9 var
+R3248:3254 SLF.LibSepMinimal <> trm_val constr
+R3261:3267 SLF.LibSepMinimal <> trm_val constr
+R3275:3281 SLF.LibSepMinimal <> trm_var constr
+R3288:3294 SLF.LibSepMinimal <> if_y_eq:16 var
+R3310:3310 SLF.LibSepMinimal <> t:9 var
+R3299:3305 SLF.LibSepMinimal <> trm_val constr
+R3307:3307 SLF.LibSepMinimal <> w:8 var
+R3316:3322 SLF.LibSepMinimal <> trm_fix constr
+R3334:3340 SLF.LibSepMinimal <> trm_fix constr
+R3347:3353 SLF.LibSepMinimal <> if_y_eq:16 var
+R3361:3367 SLF.LibSepMinimal <> if_y_eq:16 var
+R3375:3377 SLF.LibSepMinimal <> aux:12 var
+R3389:3395 SLF.LibSepMinimal <> trm_app constr
+R3406:3412 SLF.LibSepMinimal <> trm_app constr
+R3424:3426 SLF.LibSepMinimal <> aux:12 var
+R3415:3417 SLF.LibSepMinimal <> aux:12 var
+R3436:3442 SLF.LibSepMinimal <> trm_let constr
+R3455:3461 SLF.LibSepMinimal <> trm_let constr
+R3475:3481 SLF.LibSepMinimal <> if_y_eq:16 var
+R3489:3491 SLF.LibSepMinimal <> aux:12 var
+R3466:3468 SLF.LibSepMinimal <> aux:12 var
+R3502:3507 SLF.LibSepMinimal <> trm_if constr
+R3521:3526 SLF.LibSepMinimal <> trm_if constr
+R3547:3549 SLF.LibSepMinimal <> aux:12 var
+R3538:3540 SLF.LibSepMinimal <> aux:12 var
+R3529:3531 SLF.LibSepMinimal <> aux:12 var
+R3706:3707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3703:3705 SLF.LibSepMinimal <> val ind
+R3712:3713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3708:3711 SLF.LibSepMinimal <> heap def
+ind 3731:3734 <> eval
+constr 3786:3793 <> eval_val
+constr 3857:3864 <> eval_fix
+constr 3953:3964 <> eval_app_fix
+constr 4104:4111 <> eval_let
+constr 4260:4266 <> eval_if
+constr 4385:4392 <> eval_add
+constr 4502:4509 <> eval_div
+constr 4641:4649 <> eval_rand
+constr 4768:4775 <> eval_ref
+constr 4909:4916 <> eval_get
+constr 5028:5035 <> eval_set
+constr 5162:5170 <> eval_free
+R3742:3745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3738:3741 SLF.LibSepMinimal <> heap def
+R3749:3752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3746:3748 SLF.LibSepMinimal <> trm ind
+R3753:3753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3769:3773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3757:3758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3754:3756 SLF.LibSepMinimal <> val ind
+R3763:3764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3759:3762 SLF.LibSepMinimal <> heap def
+binder 3804:3804 <> s:20
+binder 3806:3806 <> v:21
+binder 3808:3808 <> Q:22
+R3822:3831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3817:3817 SLF.LibSepMinimal <> Q:22 var
+R3819:3819 SLF.LibSepMinimal <> v:21 var
+R3821:3821 SLF.LibSepMinimal <> s:20 var
+R3832:3835 SLF.LibSepMinimal <> eval:18 ind
+R3851:3851 SLF.LibSepMinimal <> Q:22 var
+R3840:3846 SLF.LibSepMinimal <> trm_val constr
+R3848:3848 SLF.LibSepMinimal <> v:21 var
+R3837:3837 SLF.LibSepMinimal <> s:20 var
+binder 3875:3875 <> s:23
+binder 3877:3877 <> f:24
+binder 3879:3879 <> x:25
+binder 3881:3882 <> t1:26
+binder 3884:3884 <> Q:27
+R3913:3922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3893:3893 SLF.LibSepMinimal <> Q:27 var
+R3896:3902 SLF.LibSepMinimal <> val_fix constr
+R3908:3909 SLF.LibSepMinimal <> t1:26 var
+R3906:3906 SLF.LibSepMinimal <> x:25 var
+R3904:3904 SLF.LibSepMinimal <> f:24 var
+R3912:3912 SLF.LibSepMinimal <> s:23 var
+R3923:3926 SLF.LibSepMinimal <> eval:18 ind
+R3947:3947 SLF.LibSepMinimal <> Q:27 var
+R3931:3937 SLF.LibSepMinimal <> trm_fix constr
+R3943:3944 SLF.LibSepMinimal <> t1:26 var
+R3941:3941 SLF.LibSepMinimal <> x:25 var
+R3939:3939 SLF.LibSepMinimal <> f:24 var
+R3928:3928 SLF.LibSepMinimal <> s:23 var
+binder 3975:3975 <> s:28
+binder 3977:3978 <> v1:29
+binder 3980:3981 <> v2:30
+binder 3983:3983 <> f:31
+binder 3985:3985 <> x:32
+binder 3987:3988 <> t1:33
+binder 3990:3990 <> Q:34
+R4018:4027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4001:4003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3999:4000 SLF.LibSepMinimal <> v1:29 var
+R4004:4010 SLF.LibSepMinimal <> val_fix constr
+R4016:4017 SLF.LibSepMinimal <> t1:33 var
+R4014:4014 SLF.LibSepMinimal <> x:32 var
+R4012:4012 SLF.LibSepMinimal <> f:31 var
+R4065:4074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4028:4031 SLF.LibSepMinimal <> eval:18 ind
+R4064:4064 SLF.LibSepMinimal <> Q:34 var
+R4036:4040 SLF.LibSepMinimal <> subst def
+R4048:4052 SLF.LibSepMinimal <> subst def
+R4059:4060 SLF.LibSepMinimal <> t1:33 var
+R4056:4057 SLF.LibSepMinimal <> v1:29 var
+R4054:4054 SLF.LibSepMinimal <> f:31 var
+R4044:4045 SLF.LibSepMinimal <> v2:30 var
+R4042:4042 SLF.LibSepMinimal <> x:32 var
+R4033:4033 SLF.LibSepMinimal <> s:28 var
+R4075:4078 SLF.LibSepMinimal <> eval:18 ind
+R4098:4098 SLF.LibSepMinimal <> Q:34 var
+R4083:4089 SLF.LibSepMinimal <> trm_app constr
+R4094:4095 SLF.LibSepMinimal <> v2:30 var
+R4091:4092 SLF.LibSepMinimal <> v1:29 var
+R4080:4080 SLF.LibSepMinimal <> s:28 var
+binder 4122:4123 <> Q1:35
+binder 4125:4125 <> s:36
+binder 4127:4127 <> x:37
+binder 4129:4130 <> t1:38
+binder 4132:4133 <> t2:39
+binder 4135:4135 <> Q:40
+R4156:4165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4144:4147 SLF.LibSepMinimal <> eval:18 ind
+R4154:4155 SLF.LibSepMinimal <> Q1:35 var
+R4151:4152 SLF.LibSepMinimal <> t1:38 var
+R4149:4149 SLF.LibSepMinimal <> s:36 var
+R4166:4166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4218:4228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4174:4175 <> v1:41
+binder 4177:4178 <> s2:42
+R4189:4192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4181:4182 SLF.LibSepMinimal <> Q1:35 var
+R4184:4185 SLF.LibSepMinimal <> v1:41 var
+R4187:4188 SLF.LibSepMinimal <> s2:42 var
+R4193:4196 SLF.LibSepMinimal <> eval:18 ind
+R4217:4217 SLF.LibSepMinimal <> Q:40 var
+R4202:4206 SLF.LibSepMinimal <> subst def
+R4213:4214 SLF.LibSepMinimal <> t2:39 var
+R4210:4211 SLF.LibSepMinimal <> v1:41 var
+R4208:4208 SLF.LibSepMinimal <> x:37 var
+R4198:4199 SLF.LibSepMinimal <> s2:42 var
+R4229:4232 SLF.LibSepMinimal <> eval:18 ind
+R4254:4254 SLF.LibSepMinimal <> Q:40 var
+R4237:4243 SLF.LibSepMinimal <> trm_let constr
+R4250:4251 SLF.LibSepMinimal <> t2:39 var
+R4247:4248 SLF.LibSepMinimal <> t1:38 var
+R4245:4245 SLF.LibSepMinimal <> x:37 var
+R4234:4234 SLF.LibSepMinimal <> s:36 var
+binder 4277:4277 <> s:43
+R4282:4285 Coq.Init.Datatypes <> bool ind
+binder 4280:4280 <> b:44
+binder 4288:4289 <> t1:45
+binder 4291:4292 <> t2:46
+binder 4294:4294 <> Q:47
+R4334:4343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4303:4306 SLF.LibSepMinimal <> eval:18 ind
+R4333:4333 SLF.LibSepMinimal <> Q:47 var
+R4314:4314 SLF.LibSepMinimal <> b:44 var
+R4329:4330 SLF.LibSepMinimal <> t2:46 var
+R4321:4322 SLF.LibSepMinimal <> t1:45 var
+R4308:4308 SLF.LibSepMinimal <> s:43 var
+R4344:4347 SLF.LibSepMinimal <> eval:18 ind
+R4379:4379 SLF.LibSepMinimal <> Q:47 var
+R4352:4357 SLF.LibSepMinimal <> trm_if constr
+R4375:4376 SLF.LibSepMinimal <> t2:46 var
+R4372:4373 SLF.LibSepMinimal <> t1:45 var
+R4360:4367 SLF.LibSepMinimal <> val_bool constr
+R4369:4369 SLF.LibSepMinimal <> b:44 var
+R4349:4349 SLF.LibSepMinimal <> s:43 var
+binder 4403:4403 <> s:48
+binder 4405:4406 <> n1:49
+binder 4408:4409 <> n2:50
+binder 4411:4411 <> Q:51
+R4443:4452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4420:4420 SLF.LibSepMinimal <> Q:51 var
+R4423:4429 SLF.LibSepMinimal <> val_int constr
+R4434:4436 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R4432:4433 SLF.LibSepMinimal <> n1:49 var
+R4437:4438 SLF.LibSepMinimal <> n2:50 var
+R4442:4442 SLF.LibSepMinimal <> s:48 var
+R4453:4456 SLF.LibSepMinimal <> eval:18 ind
+R4496:4496 SLF.LibSepMinimal <> Q:51 var
+R4461:4467 SLF.LibSepMinimal <> val_add constr
+R4470:4476 SLF.LibSepMinimal <> val_int constr
+R4478:4479 SLF.LibSepMinimal <> n1:49 var
+R4483:4489 SLF.LibSepMinimal <> val_int constr
+R4491:4492 SLF.LibSepMinimal <> n2:50 var
+R4458:4458 SLF.LibSepMinimal <> s:48 var
+binder 4520:4520 <> s:52
+binder 4522:4523 <> n1:53
+binder 4525:4526 <> n2:54
+binder 4528:4528 <> Q:55
+R4544:4553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4539:4542 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4537:4538 SLF.LibSepMinimal <> n2:54 var
+R4582:4591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4554:4554 SLF.LibSepMinimal <> Q:55 var
+R4557:4563 SLF.LibSepMinimal <> val_int constr
+R4566:4571 Coq.ZArith.BinInt Z quot def
+R4573:4574 SLF.LibSepMinimal <> n1:53 var
+R4576:4577 SLF.LibSepMinimal <> n2:54 var
+R4581:4581 SLF.LibSepMinimal <> s:52 var
+R4592:4595 SLF.LibSepMinimal <> eval:18 ind
+R4635:4635 SLF.LibSepMinimal <> Q:55 var
+R4600:4606 SLF.LibSepMinimal <> val_div constr
+R4609:4615 SLF.LibSepMinimal <> val_int constr
+R4617:4618 SLF.LibSepMinimal <> n1:53 var
+R4622:4628 SLF.LibSepMinimal <> val_int constr
+R4630:4631 SLF.LibSepMinimal <> n2:54 var
+R4597:4597 SLF.LibSepMinimal <> s:52 var
+binder 4660:4660 <> s:56
+binder 4662:4662 <> n:57
+binder 4664:4664 <> Q:58
+R4678:4687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4674:4676 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R4673:4673 SLF.LibSepMinimal <> n:57 var
+R4688:4688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4721:4731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4696:4697 <> n1:59
+R4711:4714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4701:4704 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R4707:4709 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R4705:4706 SLF.LibSepMinimal <> n1:59 var
+R4705:4706 SLF.LibSepMinimal <> n1:59 var
+R4710:4710 SLF.LibSepMinimal <> n:57 var
+R4715:4715 SLF.LibSepMinimal <> Q:58 var
+R4717:4718 SLF.LibSepMinimal <> n1:59 var
+R4720:4720 SLF.LibSepMinimal <> s:56 var
+R4732:4735 SLF.LibSepMinimal <> eval:18 ind
+R4762:4762 SLF.LibSepMinimal <> Q:58 var
+R4740:4747 SLF.LibSepMinimal <> val_rand constr
+R4750:4756 SLF.LibSepMinimal <> val_int constr
+R4758:4758 SLF.LibSepMinimal <> n:57 var
+R4737:4737 SLF.LibSepMinimal <> s:56 var
+binder 4786:4786 <> s:60
+binder 4788:4788 <> v:61
+binder 4790:4790 <> Q:62
+R4799:4799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4873:4883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 4807:4807 <> p:63
+R4826:4839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4810:4811 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4812:4821 SLF.LibSepMinimal <> indom def
+R4825:4825 SLF.LibSepMinimal <> p:63 var
+R4823:4823 SLF.LibSepMinimal <> s:60 var
+R4840:4840 SLF.LibSepMinimal <> Q:62 var
+R4843:4849 SLF.LibSepMinimal <> val_loc constr
+R4851:4851 SLF.LibSepMinimal <> p:63 var
+R4855:4865 SLF.LibSepMinimal <> update def
+R4871:4871 SLF.LibSepMinimal <> v:61 var
+R4869:4869 SLF.LibSepMinimal <> p:63 var
+R4867:4867 SLF.LibSepMinimal <> s:60 var
+R4884:4887 SLF.LibSepMinimal <> eval:18 ind
+R4903:4903 SLF.LibSepMinimal <> Q:62 var
+R4892:4898 SLF.LibSepMinimal <> val_ref constr
+R4900:4900 SLF.LibSepMinimal <> v:61 var
+R4889:4889 SLF.LibSepMinimal <> s:60 var
+binder 4927:4927 <> s:64
+binder 4929:4929 <> p:65
+binder 4931:4931 <> Q:66
+R4954:4963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4940:4949 SLF.LibSepMinimal <> indom def
+R4953:4953 SLF.LibSepMinimal <> p:65 var
+R4951:4951 SLF.LibSepMinimal <> s:64 var
+R4983:4992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4964:4964 SLF.LibSepMinimal <> Q:66 var
+R4967:4975 SLF.LibSepMinimal <> read def
+R4979:4979 SLF.LibSepMinimal <> p:65 var
+R4977:4977 SLF.LibSepMinimal <> s:64 var
+R4982:4982 SLF.LibSepMinimal <> s:64 var
+R4993:4996 SLF.LibSepMinimal <> eval:18 ind
+R5022:5022 SLF.LibSepMinimal <> Q:66 var
+R5001:5007 SLF.LibSepMinimal <> val_get constr
+R5010:5016 SLF.LibSepMinimal <> val_loc constr
+R5018:5018 SLF.LibSepMinimal <> p:65 var
+R4998:4998 SLF.LibSepMinimal <> s:64 var
+binder 5046:5046 <> s:67
+binder 5048:5048 <> p:68
+binder 5050:5050 <> v:69
+binder 5052:5052 <> Q:70
+R5075:5084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5061:5070 SLF.LibSepMinimal <> indom def
+R5074:5074 SLF.LibSepMinimal <> p:68 var
+R5072:5072 SLF.LibSepMinimal <> s:67 var
+R5115:5124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5085:5085 SLF.LibSepMinimal <> Q:70 var
+R5087:5094 SLF.LibSepMinimal <> val_unit constr
+R5097:5107 SLF.LibSepMinimal <> update def
+R5113:5113 SLF.LibSepMinimal <> v:69 var
+R5111:5111 SLF.LibSepMinimal <> p:68 var
+R5109:5109 SLF.LibSepMinimal <> s:67 var
+R5125:5128 SLF.LibSepMinimal <> eval:18 ind
+R5156:5156 SLF.LibSepMinimal <> Q:70 var
+R5133:5139 SLF.LibSepMinimal <> val_set constr
+R5142:5148 SLF.LibSepMinimal <> val_loc constr
+R5150:5150 SLF.LibSepMinimal <> p:68 var
+R5153:5153 SLF.LibSepMinimal <> v:69 var
+R5130:5130 SLF.LibSepMinimal <> s:67 var
+binder 5181:5181 <> s:71
+binder 5183:5183 <> p:72
+binder 5185:5185 <> Q:73
+R5208:5217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5194:5203 SLF.LibSepMinimal <> indom def
+R5207:5207 SLF.LibSepMinimal <> p:72 var
+R5205:5205 SLF.LibSepMinimal <> s:71 var
+R5246:5255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5218:5218 SLF.LibSepMinimal <> Q:73 var
+R5220:5227 SLF.LibSepMinimal <> val_unit constr
+R5230:5240 SLF.LibSepMinimal <> remove def
+R5244:5244 SLF.LibSepMinimal <> p:72 var
+R5242:5242 SLF.LibSepMinimal <> s:71 var
+R5256:5259 SLF.LibSepMinimal <> eval:18 ind
+R5286:5286 SLF.LibSepMinimal <> Q:73 var
+R5264:5271 SLF.LibSepMinimal <> val_free constr
+R5274:5280 SLF.LibSepMinimal <> val_loc constr
+R5282:5282 SLF.LibSepMinimal <> p:72 var
+R5261:5261 SLF.LibSepMinimal <> s:71 var
+R5676:5686 SLF.LibSepFmap <> union_assoc thm
+R5688:5700 SLF.LibSepFmap <> union_empty_l thm
+R5702:5714 SLF.LibSepFmap <> union_empty_r thm
+R5750:5752 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R5754:5757 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R5758:5761 SLF.LibSepMinimal <> heap def
+R6305:6323 SLF.LibSepFmap <> disjoint_union_eq_l thm
+R6325:6343 SLF.LibSepFmap <> disjoint_union_eq_r thm
+R6382:6394 SLF.LibSepMinimal <> disjoint def
+ax 6849:6873 <> functional_extensionality
+binder 6884:6884 <> A:74
+binder 6886:6886 <> B:75
+R6894:6895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6893:6893 SLF.LibSepMinimal <> A:74 var
+R6896:6896 SLF.LibSepMinimal <> B:75 var
+binder 6889:6889 <> f:76
+binder 6891:6891 <> g:77
+R6902:6902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6922:6928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6910:6910 <> x:78
+R6916:6918 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6913:6913 SLF.LibSepMinimal <> f:76 var
+R6915:6915 SLF.LibSepMinimal <> x:78 var
+R6919:6919 SLF.LibSepMinimal <> g:77 var
+R6921:6921 SLF.LibSepMinimal <> x:78 var
+R6930:6932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6929:6929 SLF.LibSepMinimal <> f:76 var
+R6933:6933 SLF.LibSepMinimal <> g:77 var
+ax 6943:6970 <> propositional_extensionality
+binder 6982:6982 <> P:80
+binder 6984:6984 <> Q:81
+R6995:6995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7003:7009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6997:7001 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6996:6996 SLF.LibSepMinimal <> P:80 var
+R7002:7002 SLF.LibSepMinimal <> Q:81 var
+R7011:7013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7010:7010 SLF.LibSepMinimal <> P:80 var
+R7014:7014 SLF.LibSepMinimal <> Q:81 var
+def 7187:7191 <> hprop
+R7200:7203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7196:7199 SLF.LibSepMinimal <> heap def
+R7298:7302 SLF.LibSepMinimal <> hprop def
+def 7716:7721 <> hempty
+R7725:7729 SLF.LibSepMinimal <> hprop def
+binder 7740:7740 <> h:83
+R7747:7749 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7746:7746 SLF.LibSepMinimal <> h:83 var
+R7750:7759 SLF.LibSepMinimal <> empty def
+def 7775:7781 <> hsingle
+R7786:7788 SLF.LibSepMinimal <> loc def
+binder 7784:7784 <> p:84
+R7794:7796 SLF.LibSepMinimal <> val ind
+binder 7792:7792 <> v:85
+R7801:7805 SLF.LibSepMinimal <> hprop def
+binder 7816:7816 <> h:86
+R7823:7825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7822:7822 SLF.LibSepMinimal <> h:86 var
+R7826:7836 SLF.LibSepMinimal <> single def
+R7840:7840 SLF.LibSepMinimal <> v:85 var
+R7838:7838 SLF.LibSepMinimal <> p:84 var
+def 7856:7860 <> hstar
+R7871:7875 SLF.LibSepMinimal <> hprop def
+binder 7863:7864 <> H1:87
+binder 7866:7867 <> H2:88
+R7880:7884 SLF.LibSepMinimal <> hprop def
+binder 7895:7895 <> h:89
+R7900:7906 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7912:7913 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 7907:7908 <> h1:90
+binder 7910:7911 <> h2:91
+R7919:7952 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7914:7915 SLF.LibSepMinimal <> H1:87 var
+R7917:7918 SLF.LibSepMinimal <> h1:90 var
+R7958:7991 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7953:7954 SLF.LibSepMinimal <> H2:88 var
+R7956:7957 SLF.LibSepMinimal <> h2:91 var
+R8011:8044 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7992:8004 SLF.LibSepMinimal <> disjoint def
+R8009:8010 SLF.LibSepMinimal <> h2:91 var
+R8006:8007 SLF.LibSepMinimal <> h1:90 var
+R8046:8048 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8045:8045 SLF.LibSepMinimal <> h:89 var
+R8049:8058 SLF.LibSepMinimal <> union def
+R8063:8064 SLF.LibSepMinimal <> h2:91 var
+R8060:8061 SLF.LibSepMinimal <> h1:90 var
+def 8079:8085 <> hexists
+binder 8087:8087 <> A:92
+R8093:8094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8092:8092 SLF.LibSepMinimal <> A:92 var
+R8095:8099 SLF.LibSepMinimal <> hprop def
+binder 8090:8090 <> J:93
+R8104:8108 SLF.LibSepMinimal <> hprop def
+binder 8119:8119 <> h:94
+R8124:8130 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R8132:8133 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 8131:8131 <> x:95
+R8134:8134 SLF.LibSepMinimal <> J:93 var
+R8138:8138 SLF.LibSepMinimal <> h:94 var
+R8136:8136 SLF.LibSepMinimal <> x:95 var
+def 8153:8159 <> hforall
+binder 8162:8162 <> A:96
+R8178:8181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8177:8177 SLF.LibSepMinimal <> A:96 var
+R8182:8186 SLF.LibSepMinimal <> hprop def
+binder 8173:8173 <> J:97
+R8191:8195 SLF.LibSepMinimal <> hprop def
+binder 8206:8206 <> h:98
+binder 8218:8218 <> x:99
+R8221:8221 SLF.LibSepMinimal <> J:97 var
+R8225:8225 SLF.LibSepMinimal <> h:98 var
+R8223:8223 SLF.LibSepMinimal <> x:99 var
+def 8240:8244 <> hpure
+binder 8247:8247 <> P:100
+R8257:8261 SLF.LibSepMinimal <> hprop def
+R8306:8312 SLF.LibSepMinimal <> hexists def
+R8322:8322 SLF.LibSepMinimal <> P:100 var
+binder 8320:8320 <> p:101
+R8328:8333 SLF.LibSepMinimal <> hempty def
+R8385:8390 SLF.LibSepMinimal <> hempty def
+not 8375:8375 <> ::hprop_scope:'\[]'
+R8446:8450 SLF.LibSepMinimal <> hpure def
+not 8433:8433 <> ::hprop_scope:'\['_x_']'
+R8528:8534 SLF.LibSepMinimal <> hsingle def
+not 8512:8512 <> ::hprop_scope:x_'~~>'_x
+R8597:8601 SLF.LibSepMinimal <> hstar def
+not 8580:8580 <> ::hprop_scope:x_'\*'_x
+binder 8690:8690 <> x:102
+R8695:8699 SLF.LibSepMinimal <> hstar def
+R8704:8704 SLF.LibSepMinimal <> x:102 var
+not 8672:8672 <> ::hprop_scope:x_'\*+'_x
+R8782:8788 SLF.LibSepMinimal <> hexists def
+binder 8795:8796 <> x1:103
+R8805:8811 SLF.LibSepMinimal <> hexists def
+binder 8818:8819 <> xn:104
+not 8751:8751 <> ::hprop_scope:'\exists'_x_'..'_x_','_x
+R9010:9016 SLF.LibSepMinimal <> hforall def
+binder 9023:9024 <> x1:105
+R9033:9039 SLF.LibSepMinimal <> hforall def
+binder 9046:9047 <> xn:106
+not 8979:8979 <> ::hprop_scope:'\forall'_x_'..'_x_','_x
+def 9416:9420 <> himpl
+R9429:9433 SLF.LibSepMinimal <> hprop def
+binder 9423:9424 <> H1:107
+binder 9426:9427 <> H2:108
+binder 9455:9455 <> h:109
+R9462:9465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9458:9459 SLF.LibSepMinimal <> H1:107 var
+R9461:9461 SLF.LibSepMinimal <> h:109 var
+R9466:9467 SLF.LibSepMinimal <> H2:108 var
+R9469:9469 SLF.LibSepMinimal <> h:109 var
+R9498:9502 SLF.LibSepMinimal <> himpl def
+not 9482:9482 <> ::hprop_scope:x_'==>'_x
+def 9616:9620 <> qimpl
+binder 9622:9622 <> A:110
+R9632:9633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9631:9631 SLF.LibSepMinimal <> A:110 var
+R9634:9638 SLF.LibSepMinimal <> hprop def
+binder 9625:9626 <> Q1:111
+binder 9628:9629 <> Q2:112
+R9663:9663 SLF.LibSepMinimal <> A:110 var
+binder 9661:9661 <> v:113
+R9671:9675 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R9667:9668 SLF.LibSepMinimal <> Q1:111 var
+R9670:9670 SLF.LibSepMinimal <> v:113 var
+R9676:9677 SLF.LibSepMinimal <> Q2:112 var
+R9679:9679 SLF.LibSepMinimal <> v:113 var
+R9709:9713 SLF.LibSepMinimal <> qimpl def
+not 9692:9692 <> ::hprop_scope:x_'===>'_x
+prf 9813:9822 <> himpl_refl
+binder 9833:9833 <> H:114
+R9839:9843 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R9838:9838 SLF.LibSepMinimal <> H:114 var
+R9844:9844 SLF.LibSepMinimal <> H:114 var
+prf 9882:9892 <> himpl_trans
+binder 9903:9904 <> H2:115
+binder 9906:9907 <> H1:116
+binder 9909:9910 <> H3:117
+R9915:9915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9925:9931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9918:9922 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R9916:9917 SLF.LibSepMinimal <> H1:116 var
+R9923:9924 SLF.LibSepMinimal <> H2:115 var
+R9932:9932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9942:9949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9959:9959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9935:9939 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R9933:9934 SLF.LibSepMinimal <> H2:115 var
+R9940:9941 SLF.LibSepMinimal <> H3:117 var
+R9952:9956 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R9950:9951 SLF.LibSepMinimal <> H1:116 var
+R9957:9958 SLF.LibSepMinimal <> H3:117 var
+R9992:9996 SLF.LibSepMinimal <> himpl def
+R9992:9996 SLF.LibSepMinimal <> himpl def
+prf 10011:10023 <> himpl_antisym
+binder 10034:10035 <> H1:118
+binder 10037:10038 <> H2:119
+R10043:10043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10053:10059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10046:10050 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R10044:10045 SLF.LibSepMinimal <> H1:118 var
+R10051:10052 SLF.LibSepMinimal <> H2:119 var
+R10060:10060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10070:10077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10085:10085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10063:10067 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R10061:10062 SLF.LibSepMinimal <> H2:119 var
+R10068:10069 SLF.LibSepMinimal <> H1:118 var
+R10080:10082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10078:10079 SLF.LibSepMinimal <> H1:118 var
+R10083:10084 SLF.LibSepMinimal <> H2:119 var
+R10116:10125 SLF.LibEqual <> pred_ext_1 thm
+R10116:10125 SLF.LibEqual <> pred_ext_1 thm
+prf 10156:10165 <> qimpl_refl
+binder 10176:10176 <> Q:120
+R10182:10187 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R10181:10181 SLF.LibSepMinimal <> Q:120 var
+R10188:10188 SLF.LibSepMinimal <> Q:120 var
+R10217:10226 SLF.LibSepMinimal <> himpl_refl thm
+R10217:10226 SLF.LibSepMinimal <> himpl_refl thm
+prf 10393:10403 <> hstar_intro
+binder 10414:10415 <> H1:121
+binder 10417:10418 <> H2:122
+binder 10420:10421 <> h1:123
+binder 10423:10424 <> h2:124
+R10434:10439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10429:10430 SLF.LibSepMinimal <> H1:121 var
+R10432:10433 SLF.LibSepMinimal <> h1:123 var
+R10445:10450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10440:10441 SLF.LibSepMinimal <> H2:122 var
+R10443:10444 SLF.LibSepMinimal <> h2:124 var
+R10470:10475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10451:10463 SLF.LibSepMinimal <> disjoint def
+R10468:10469 SLF.LibSepMinimal <> h2:124 var
+R10465:10466 SLF.LibSepMinimal <> h1:123 var
+R10476:10476 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10479:10482 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10485:10504 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10477:10478 SLF.LibSepMinimal <> H1:121 var
+R10483:10484 SLF.LibSepMinimal <> H2:122 var
+R10488:10497 SLF.LibSepMinimal <> union def
+R10502:10503 SLF.LibSepMinimal <> h2:124 var
+R10499:10500 SLF.LibSepMinimal <> h1:123 var
+prf 10549:10558 <> hstar_comm
+binder 10569:10570 <> H1:125
+binder 10572:10573 <> H2:126
+R10587:10589 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10581:10584 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10579:10580 SLF.LibSepMinimal <> H1:125 var
+R10585:10586 SLF.LibSepMinimal <> H2:126 var
+R10592:10595 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10590:10591 SLF.LibSepMinimal <> H2:126 var
+R10596:10597 SLF.LibSepMinimal <> H1:125 var
+R10616:10620 SLF.LibSepMinimal <> hprop def
+R10623:10627 SLF.LibSepMinimal <> hstar def
+R10651:10663 SLF.LibSepMinimal <> himpl_antisym thm
+R10651:10663 SLF.LibSepMinimal <> himpl_antisym thm
+R10711:10737 SLF.LibSepMinimal <> union_comm_of_disjoint thm
+R10711:10737 SLF.LibSepMinimal <> union_comm_of_disjoint thm
+R10807:10833 SLF.LibSepMinimal <> union_comm_of_disjoint thm
+R10807:10833 SLF.LibSepMinimal <> union_comm_of_disjoint thm
+prf 10870:10880 <> hstar_assoc
+binder 10891:10892 <> H1:127
+binder 10894:10895 <> H2:128
+binder 10897:10898 <> H3:129
+R10919:10921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10903:10903 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10912:10916 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10906:10909 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10904:10905 SLF.LibSepMinimal <> H1:127 var
+R10910:10911 SLF.LibSepMinimal <> H2:128 var
+R10917:10918 SLF.LibSepMinimal <> H3:129 var
+R10924:10928 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10937:10937 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10922:10923 SLF.LibSepMinimal <> H1:127 var
+R10931:10934 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R10929:10930 SLF.LibSepMinimal <> H2:128 var
+R10935:10936 SLF.LibSepMinimal <> H3:129 var
+R10973:10985 SLF.LibSepMinimal <> himpl_antisym thm
+R10973:10985 SLF.LibSepMinimal <> himpl_antisym thm
+R11072:11075 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R11072:11075 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R11100:11110 SLF.LibSepMinimal <> hstar_intro thm
+R11100:11110 SLF.LibSepMinimal <> hstar_intro thm
+R11188:11191 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R11188:11191 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R11219:11229 SLF.LibSepMinimal <> hstar_intro thm
+R11219:11229 SLF.LibSepMinimal <> hstar_intro thm
+prf 11248:11261 <> hstar_hempty_l
+binder 11272:11272 <> H:130
+R11285:11287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11280:11283 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11277:11279 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R11284:11284 SLF.LibSepMinimal <> H:130 var
+R11288:11288 SLF.LibSepMinimal <> H:130 var
+R11315:11327 SLF.LibSepMinimal <> himpl_antisym thm
+R11315:11327 SLF.LibSepMinimal <> himpl_antisym thm
+R11397:11414 SLF.LibSepMinimal <> union_empty_l thm
+R11397:11414 SLF.LibSepMinimal <> union_empty_l thm
+R11442:11451 SLF.LibSepMinimal <> empty def
+R11453:11455 SLF.LibSepMinimal <> loc def
+R11457:11459 SLF.LibSepMinimal <> val ind
+R11442:11451 SLF.LibSepMinimal <> empty def
+R11453:11455 SLF.LibSepMinimal <> loc def
+R11457:11459 SLF.LibSepMinimal <> val ind
+prf 11499:11511 <> hstar_hexists
+binder 11522:11522 <> A:131
+R11528:11529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11527:11527 SLF.LibSepMinimal <> A:131 var
+R11530:11534 SLF.LibSepMinimal <> hprop def
+binder 11525:11525 <> J:132
+binder 11537:11537 <> H:133
+R11558:11560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11542:11542 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11552:11556 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11543:11549 SLF.LibSepMinimal <> hexists def
+R11551:11551 SLF.LibSepMinimal <> J:132 var
+R11557:11557 SLF.LibSepMinimal <> H:133 var
+R11561:11567 SLF.LibSepMinimal <> hexists def
+binder 11574:11574 <> x:134
+R11579:11579 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11583:11587 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11580:11580 SLF.LibSepMinimal <> J:132 var
+R11582:11582 SLF.LibSepMinimal <> x:134 var
+R11588:11588 SLF.LibSepMinimal <> H:133 var
+R11616:11628 SLF.LibSepMinimal <> himpl_antisym thm
+R11616:11628 SLF.LibSepMinimal <> himpl_antisym thm
+prf 11780:11792 <> hstar_hforall
+binder 11803:11803 <> H:135
+binder 11805:11805 <> A:136
+R11811:11812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11810:11810 SLF.LibSepMinimal <> A:136 var
+R11813:11817 SLF.LibSepMinimal <> hprop def
+binder 11808:11808 <> J:137
+R11839:11843 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R11823:11823 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11833:11837 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R11824:11830 SLF.LibSepMinimal <> hforall def
+R11832:11832 SLF.LibSepMinimal <> J:137 var
+R11838:11838 SLF.LibSepMinimal <> H:135 var
+R11844:11850 SLF.LibSepMinimal <> hforall def
+R11854:11858 SLF.LibSepMinimal <> ::hprop_scope:x_'\*+'_x not
+R11853:11853 SLF.LibSepMinimal <> J:137 var
+R11859:11859 SLF.LibSepMinimal <> H:135 var
+prf 11962:11974 <> himpl_frame_l
+binder 11985:11986 <> H2:138
+binder 11988:11989 <> H1:139
+binder 11991:11993 <> H1':140
+R12008:12013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12000:12004 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R11998:11999 SLF.LibSepMinimal <> H1:139 var
+R12005:12007 SLF.LibSepMinimal <> H1':140 var
+R12014:12014 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12023:12029 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12039:12039 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12017:12020 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12015:12016 SLF.LibSepMinimal <> H1:139 var
+R12021:12022 SLF.LibSepMinimal <> H2:138 var
+R12033:12036 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12030:12032 SLF.LibSepMinimal <> H1':140 var
+R12037:12038 SLF.LibSepMinimal <> H2:138 var
+prf 12154:12167 <> hstar_hempty_r
+binder 12178:12178 <> H:141
+R12191:12193 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12184:12187 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12183:12183 SLF.LibSepMinimal <> H:141 var
+R12188:12190 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R12194:12194 SLF.LibSepMinimal <> H:141 var
+R12213:12239 SLF.LibOperation <> neutral_r_of_comm_neutral_l thm
+R12213:12239 SLF.LibOperation <> neutral_r_of_comm_neutral_l thm
+R12250:12259 SLF.LibSepMinimal <> hstar_comm thm
+R12250:12259 SLF.LibSepMinimal <> hstar_comm thm
+R12270:12283 SLF.LibSepMinimal <> hstar_hempty_l thm
+R12270:12283 SLF.LibSepMinimal <> hstar_hempty_l thm
+prf 12298:12310 <> himpl_frame_r
+binder 12321:12322 <> H1:142
+binder 12324:12325 <> H2:143
+binder 12327:12329 <> H2':144
+R12344:12349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12336:12340 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12334:12335 SLF.LibSepMinimal <> H2:143 var
+R12341:12343 SLF.LibSepMinimal <> H2':144 var
+R12350:12350 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12359:12365 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12375:12375 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12353:12356 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12351:12352 SLF.LibSepMinimal <> H1:142 var
+R12357:12358 SLF.LibSepMinimal <> H2:143 var
+R12368:12371 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12366:12367 SLF.LibSepMinimal <> H1:142 var
+R12372:12374 SLF.LibSepMinimal <> H2':144 var
+R12412:12421 SLF.LibSepMinimal <> hstar_comm thm
+R12412:12421 SLF.LibSepMinimal <> hstar_comm thm
+R12412:12421 SLF.LibSepMinimal <> hstar_comm thm
+R12412:12421 SLF.LibSepMinimal <> hstar_comm thm
+R12412:12421 SLF.LibSepMinimal <> hstar_comm thm
+R12436:12448 SLF.LibSepMinimal <> himpl_frame_l thm
+R12436:12448 SLF.LibSepMinimal <> himpl_frame_l thm
+prf 12568:12580 <> hstar_hpure_l
+binder 12591:12591 <> P:145
+binder 12593:12593 <> H:146
+binder 12595:12595 <> h:147
+R12613:12616 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12625:12625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12600:12600 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12605:12608 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12610:12612 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12601:12602 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R12604:12604 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R12603:12603 SLF.LibSepMinimal <> P:145 var
+R12609:12609 SLF.LibSepMinimal <> H:146 var
+R12612:12612 SLF.LibSepMinimal <> h:147 var
+R12618:12621 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12617:12617 SLF.LibSepMinimal <> P:145 var
+R12622:12622 SLF.LibSepMinimal <> H:146 var
+R12624:12624 SLF.LibSepMinimal <> h:147 var
+R12651:12658 SLF.LibAxioms <> prop_ext prfax
+R12651:12658 SLF.LibAxioms <> prop_ext prfax
+R12668:12672 SLF.LibSepMinimal <> hpure def
+R12685:12697 SLF.LibSepMinimal <> hstar_hexists thm
+R12685:12697 SLF.LibSepMinimal <> hstar_hexists thm
+R12685:12697 SLF.LibSepMinimal <> hstar_hexists thm
+R12709:12722 SLF.LibSepMinimal <> hstar_hempty_l thm
+R12709:12722 SLF.LibSepMinimal <> hstar_hempty_l thm
+prf 12783:12801 <> himpl_hstar_hpure_r
+binder 12812:12812 <> P:148
+binder 12814:12814 <> H:149
+binder 12816:12817 <> H':150
+R12823:12828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12822:12822 SLF.LibSepMinimal <> P:148 var
+R12829:12829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12838:12844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12831:12835 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12830:12830 SLF.LibSepMinimal <> H:149 var
+R12836:12837 SLF.LibSepMinimal <> H':150 var
+R12846:12851 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12862:12862 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12845:12845 SLF.LibSepMinimal <> H:149 var
+R12856:12859 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12852:12853 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R12855:12855 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R12854:12854 SLF.LibSepMinimal <> P:148 var
+R12860:12861 SLF.LibSepMinimal <> H':150 var
+R12906:12918 SLF.LibSepMinimal <> hstar_hpure_l thm
+R12906:12918 SLF.LibSepMinimal <> hstar_hpure_l thm
+prf 12933:12951 <> himpl_hstar_hpure_l
+binder 12962:12962 <> P:151
+binder 12964:12964 <> H:152
+binder 12966:12967 <> H':153
+R12972:12972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12986:12992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12974:12977 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12973:12973 SLF.LibSepMinimal <> P:151 var
+R12979:12983 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12978:12978 SLF.LibSepMinimal <> H:152 var
+R12984:12985 SLF.LibSepMinimal <> H':153 var
+R12993:12993 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13003:13008 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R12998:13001 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R12994:12995 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R12997:12997 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R12996:12996 SLF.LibSepMinimal <> P:151 var
+R13002:13002 SLF.LibSepMinimal <> H:152 var
+R13009:13010 SLF.LibSepMinimal <> H':153 var
+R13041:13053 SLF.LibSepMinimal <> hstar_hpure_l thm
+R13041:13053 SLF.LibSepMinimal <> hstar_hpure_l thm
+R13041:13053 SLF.LibSepMinimal <> hstar_hpure_l thm
+prf 13192:13206 <> himpl_hexists_l
+binder 13217:13217 <> A:154
+binder 13219:13219 <> H:155
+R13225:13226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13224:13224 SLF.LibSepMinimal <> A:154 var
+R13227:13231 SLF.LibSepMinimal <> hprop def
+binder 13222:13222 <> J:156
+R13237:13237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13257:13263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13245:13245 <> x:157
+R13251:13255 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13248:13248 SLF.LibSepMinimal <> J:156 var
+R13250:13250 SLF.LibSepMinimal <> x:157 var
+R13256:13256 SLF.LibSepMinimal <> H:155 var
+R13264:13264 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13274:13279 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13265:13271 SLF.LibSepMinimal <> hexists def
+R13273:13273 SLF.LibSepMinimal <> J:156 var
+R13280:13280 SLF.LibSepMinimal <> H:155 var
+prf 13340:13354 <> himpl_hexists_r
+binder 13365:13365 <> A:158
+R13370:13370 SLF.LibSepMinimal <> A:158 var
+binder 13368:13368 <> x:159
+binder 13373:13373 <> H:160
+binder 13375:13375 <> J:161
+R13380:13380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13390:13396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13382:13386 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13381:13381 SLF.LibSepMinimal <> H:160 var
+R13387:13387 SLF.LibSepMinimal <> J:161 var
+R13389:13389 SLF.LibSepMinimal <> x:159 var
+R13398:13403 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13413:13413 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13397:13397 SLF.LibSepMinimal <> H:160 var
+R13404:13410 SLF.LibSepMinimal <> hexists def
+R13412:13412 SLF.LibSepMinimal <> J:161 var
+prf 13475:13487 <> himpl_hexists
+binder 13498:13498 <> A:162
+R13508:13509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13507:13507 SLF.LibSepMinimal <> A:162 var
+R13510:13514 SLF.LibSepMinimal <> hprop def
+binder 13501:13502 <> J1:163
+binder 13504:13505 <> J2:164
+R13530:13535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13522:13527 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R13520:13521 SLF.LibSepMinimal <> J1:163 var
+R13528:13529 SLF.LibSepMinimal <> J2:164 var
+R13546:13550 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13536:13542 SLF.LibSepMinimal <> hexists def
+R13544:13545 SLF.LibSepMinimal <> J1:163 var
+R13551:13557 SLF.LibSepMinimal <> hexists def
+R13559:13560 SLF.LibSepMinimal <> J2:164 var
+R13589:13603 SLF.LibSepMinimal <> himpl_hexists_l thm
+R13589:13603 SLF.LibSepMinimal <> himpl_hexists_l thm
+R13623:13637 SLF.LibSepMinimal <> himpl_hexists_r thm
+R13623:13637 SLF.LibSepMinimal <> himpl_hexists_r thm
+prf 13761:13775 <> himpl_hforall_r
+binder 13786:13786 <> A:165
+R13792:13793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13791:13791 SLF.LibSepMinimal <> A:165 var
+R13794:13798 SLF.LibSepMinimal <> hprop def
+binder 13789:13789 <> J:166
+binder 13801:13801 <> H:167
+R13806:13806 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13826:13832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13814:13814 <> x:168
+R13818:13822 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13817:13817 SLF.LibSepMinimal <> H:167 var
+R13823:13823 SLF.LibSepMinimal <> J:166 var
+R13825:13825 SLF.LibSepMinimal <> x:168 var
+R13834:13839 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13849:13849 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13833:13833 SLF.LibSepMinimal <> H:167 var
+R13840:13846 SLF.LibSepMinimal <> hforall def
+R13848:13848 SLF.LibSepMinimal <> J:166 var
+prf 13906:13920 <> himpl_hforall_l
+binder 13931:13931 <> A:169
+binder 13933:13933 <> x:170
+R13939:13940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13938:13938 SLF.LibSepMinimal <> A:169 var
+R13941:13945 SLF.LibSepMinimal <> hprop def
+binder 13936:13936 <> J:171
+binder 13948:13948 <> H:172
+R13953:13953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13963:13969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13957:13961 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13954:13954 SLF.LibSepMinimal <> J:171 var
+R13956:13956 SLF.LibSepMinimal <> x:170 var
+R13962:13962 SLF.LibSepMinimal <> H:172 var
+R13970:13970 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13980:13985 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R13971:13977 SLF.LibSepMinimal <> hforall def
+R13979:13979 SLF.LibSepMinimal <> J:171 var
+R13986:13986 SLF.LibSepMinimal <> H:172 var
+prf 14041:14053 <> himpl_hforall
+binder 14064:14064 <> A:173
+R14074:14075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14073:14073 SLF.LibSepMinimal <> A:173 var
+R14076:14080 SLF.LibSepMinimal <> hprop def
+binder 14067:14068 <> J1:174
+binder 14070:14071 <> J2:175
+R14096:14101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14088:14093 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R14086:14087 SLF.LibSepMinimal <> J1:174 var
+R14094:14095 SLF.LibSepMinimal <> J2:175 var
+R14112:14116 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R14102:14108 SLF.LibSepMinimal <> hforall def
+R14110:14111 SLF.LibSepMinimal <> J1:174 var
+R14117:14123 SLF.LibSepMinimal <> hforall def
+R14125:14126 SLF.LibSepMinimal <> J2:175 var
+R14155:14169 SLF.LibSepMinimal <> himpl_hforall_r thm
+R14155:14169 SLF.LibSepMinimal <> himpl_hforall_r thm
+R14189:14203 SLF.LibSepMinimal <> himpl_hforall_l thm
+R14189:14203 SLF.LibSepMinimal <> himpl_hforall_l thm
+prf 14327:14348 <> hstar_hsingle_same_loc
+binder 14359:14359 <> p:176
+binder 14361:14362 <> v1:177
+binder 14364:14365 <> v2:178
+R14394:14398 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R14370:14370 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R14379:14384 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R14393:14393 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R14372:14376 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R14371:14371 SLF.LibSepMinimal <> p:176 var
+R14377:14378 SLF.LibSepMinimal <> v1:177 var
+R14386:14390 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R14385:14385 SLF.LibSepMinimal <> p:176 var
+R14391:14392 SLF.LibSepMinimal <> v2:178 var
+R14399:14400 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R14406:14406 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R14401:14405 Coq.Init.Logic <> False ind
+R14433:14439 SLF.LibSepMinimal <> hsingle def
+R14494:14529 SLF.LibSepMinimal <> disjoint_single_single_same_inv thm
+R14494:14529 SLF.LibSepMinimal <> disjoint_single_single_same_inv thm
+R14763:14773 SLF.LibSepMinimal <> hstar_assoc thm
+R14775:14788 SLF.LibSepMinimal <> hstar_hempty_l thm
+R14790:14803 SLF.LibSepMinimal <> hstar_hempty_r thm
+R14863:14872 SLF.LibSepMinimal <> qimpl_refl thm
+R14903:14908 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R14903:14908 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R14991:14995 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R14986:14989 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R14998:15001 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R14991:14995 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R14986:14989 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R14998:15001 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15041:15045 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15035:15038 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15047:15050 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15041:15045 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15035:15038 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15047:15050 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15091:15095 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15085:15088 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15098:15101 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15091:15095 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15085:15088 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15098:15101 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15161:15165 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15156:15159 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15167:15170 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15161:15165 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15156:15159 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15167:15170 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15226:15230 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15226:15230 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15263:15267 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15263:15267 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15293:15302 SLF.LibSepMinimal <> himpl_refl thm
+R15243:15252 SLF.LibSepMinimal <> himpl_refl thm
+R15185:15194 SLF.LibSepMinimal <> hstar_comm thm
+R15203:15215 SLF.LibSepMinimal <> himpl_frame_l thm
+R15115:15124 SLF.LibSepMinimal <> hstar_comm thm
+R15133:15145 SLF.LibSepMinimal <> himpl_frame_r thm
+R15063:15075 SLF.LibSepMinimal <> himpl_frame_l thm
+R15013:15025 SLF.LibSepMinimal <> himpl_frame_r thm
+prf 15418:15430 <> xchange_lemma
+binder 15441:15442 <> H1:179
+binder 15444:15446 <> H1':180
+R15461:15464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15453:15457 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15451:15452 SLF.LibSepMinimal <> H1:179 var
+R15458:15460 SLF.LibSepMinimal <> H1':180 var
+binder 15472:15472 <> H:181
+binder 15474:15475 <> H':182
+binder 15477:15478 <> H2:183
+R15497:15502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15484:15488 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15483:15483 SLF.LibSepMinimal <> H:181 var
+R15491:15494 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15489:15490 SLF.LibSepMinimal <> H1:179 var
+R15495:15496 SLF.LibSepMinimal <> H2:183 var
+R15519:15524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15512:15516 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15506:15509 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R15503:15505 SLF.LibSepMinimal <> H1':180 var
+R15510:15511 SLF.LibSepMinimal <> H2:183 var
+R15517:15518 SLF.LibSepMinimal <> H':182 var
+R15526:15530 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R15525:15525 SLF.LibSepMinimal <> H:181 var
+R15531:15532 SLF.LibSepMinimal <> H':182 var
+R15568:15578 SLF.LibSepMinimal <> himpl_trans thm
+R15568:15578 SLF.LibSepMinimal <> himpl_trans thm
+R15591:15601 SLF.LibSepMinimal <> himpl_trans thm
+R15591:15601 SLF.LibSepMinimal <> himpl_trans thm
+R15616:15628 SLF.LibSepMinimal <> himpl_frame_l thm
+R15616:15628 SLF.LibSepMinimal <> himpl_frame_l thm
+R15740:15752 SLF.LibSepMinimal <> xchange_lemma thm
+def 16014:16019 <> triple
+R16024:16026 SLF.LibSepMinimal <> trm ind
+binder 16022:16022 <> t:184
+R16032:16036 SLF.LibSepMinimal <> hprop def
+binder 16030:16030 <> H:185
+R16045:16046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16042:16044 SLF.LibSepMinimal <> val ind
+R16047:16051 SLF.LibSepMinimal <> hprop def
+binder 16040:16040 <> Q:186
+binder 16073:16073 <> s:187
+R16079:16082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16076:16076 SLF.LibSepMinimal <> H:185 var
+R16078:16078 SLF.LibSepMinimal <> s:187 var
+R16083:16086 SLF.LibSepMinimal <> eval ind
+R16092:16092 SLF.LibSepMinimal <> Q:186 var
+R16090:16090 SLF.LibSepMinimal <> t:184 var
+R16088:16088 SLF.LibSepMinimal <> s:187 var
+prf 16227:16237 <> eval_conseq
+binder 16248:16248 <> s:188
+binder 16250:16250 <> t:189
+binder 16252:16253 <> Q1:190
+binder 16255:16256 <> Q2:191
+R16272:16277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16261:16264 SLF.LibSepMinimal <> eval ind
+R16270:16271 SLF.LibSepMinimal <> Q1:190 var
+R16268:16268 SLF.LibSepMinimal <> t:189 var
+R16266:16266 SLF.LibSepMinimal <> s:188 var
+R16288:16293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16280:16285 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R16278:16279 SLF.LibSepMinimal <> Q1:190 var
+R16286:16287 SLF.LibSepMinimal <> Q2:191 var
+R16294:16297 SLF.LibSepMinimal <> eval ind
+R16303:16304 SLF.LibSepMinimal <> Q2:191 var
+R16301:16301 SLF.LibSepMinimal <> t:189 var
+R16299:16299 SLF.LibSepMinimal <> s:188 var
+binder 16356:16356 <> v:192
+binder 16358:16358 <> h:193
+R16367:16370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16364:16364 SLF.LibSepMinimal <> v:192 var
+R16366:16366 SLF.LibSepMinimal <> h:193 var
+R16374:16374 SLF.LibSepMinimal <> v:192 var
+R16376:16376 SLF.LibSepMinimal <> h:193 var
+binder 16356:16356 <> v:194
+binder 16358:16358 <> h:195
+R16367:16370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16364:16364 SLF.LibSepMinimal <> v:194 var
+R16366:16366 SLF.LibSepMinimal <> h:195 var
+R16374:16374 SLF.LibSepMinimal <> v:194 var
+R16376:16376 SLF.LibSepMinimal <> h:195 var
+prf 16455:16464 <> eval_frame
+binder 16475:16476 <> h1:196
+binder 16478:16479 <> h2:197
+binder 16481:16481 <> t:198
+binder 16483:16483 <> Q:199
+R16499:16504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16488:16491 SLF.LibSepMinimal <> eval ind
+R16498:16498 SLF.LibSepMinimal <> Q:199 var
+R16496:16496 SLF.LibSepMinimal <> t:198 var
+R16493:16494 SLF.LibSepMinimal <> h1:196 var
+R16524:16529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16505:16517 SLF.LibSepMinimal <> disjoint def
+R16522:16523 SLF.LibSepMinimal <> h2:197 var
+R16519:16520 SLF.LibSepMinimal <> h1:196 var
+R16530:16533 SLF.LibSepMinimal <> eval ind
+R16558:16563 SLF.LibSepMinimal <> ::hprop_scope:x_'\*+'_x not
+R16568:16568 SLF.LibSepMinimal <> ::hprop_scope:x_'\*+'_x not
+R16557:16557 SLF.LibSepMinimal <> Q:199 var
+R16564:16565 SLF.LibEqual <> :::'='_x not
+R16566:16567 SLF.LibSepMinimal <> h2:197 var
+R16554:16554 SLF.LibSepMinimal <> t:198 var
+R16536:16545 SLF.LibSepMinimal <> union def
+R16550:16551 SLF.LibSepMinimal <> h2:197 var
+R16547:16548 SLF.LibSepMinimal <> h1:196 var
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16650:16660 SLF.LibSepMinimal <> hstar_intro thm
+R16771:16778 SLF.LibSepMinimal <> eval_let constr
+R16771:16778 SLF.LibSepMinimal <> eval_let constr
+R16884:16891 SLF.LibSepMinimal <> eval_ref constr
+R16884:16891 SLF.LibSepMinimal <> eval_ref constr
+R16919:16937 SLF.LibSepMinimal <> indom_union_eq thm
+R16919:16937 SLF.LibSepMinimal <> indom_union_eq thm
+R16919:16937 SLF.LibSepMinimal <> indom_union_eq thm
+R17006:17028 SLF.LibSepMinimal <> update_union_not_r thm
+R17006:17028 SLF.LibSepMinimal <> update_union_not_r thm
+R17038:17048 SLF.LibSepMinimal <> hstar_intro thm
+R17038:17048 SLF.LibSepMinimal <> hstar_intro thm
+R17090:17115 SLF.LibSepMinimal <> disjoint_update_not_r thm
+R17090:17115 SLF.LibSepMinimal <> disjoint_update_not_r thm
+R17133:17140 SLF.LibSepMinimal <> eval_get constr
+R17133:17140 SLF.LibSepMinimal <> eval_get constr
+R17154:17172 SLF.LibSepMinimal <> indom_union_eq thm
+R17154:17172 SLF.LibSepMinimal <> indom_union_eq thm
+R17192:17208 SLF.LibSepMinimal <> read_union_l thm
+R17192:17208 SLF.LibSepMinimal <> read_union_l thm
+R17219:17229 SLF.LibSepMinimal <> hstar_intro thm
+R17219:17229 SLF.LibSepMinimal <> hstar_intro thm
+R17247:17254 SLF.LibSepMinimal <> eval_set constr
+R17247:17254 SLF.LibSepMinimal <> eval_set constr
+R17268:17286 SLF.LibSepMinimal <> indom_union_eq thm
+R17268:17286 SLF.LibSepMinimal <> indom_union_eq thm
+R17306:17324 SLF.LibSepMinimal <> update_union_l thm
+R17306:17324 SLF.LibSepMinimal <> update_union_l thm
+R17334:17344 SLF.LibSepMinimal <> hstar_intro thm
+R17334:17344 SLF.LibSepMinimal <> hstar_intro thm
+R17383:17404 SLF.LibSepMinimal <> disjoint_update_l thm
+R17383:17404 SLF.LibSepMinimal <> disjoint_update_l thm
+R17424:17432 SLF.LibSepMinimal <> eval_free constr
+R17424:17432 SLF.LibSepMinimal <> eval_free constr
+R17446:17464 SLF.LibSepMinimal <> indom_union_eq thm
+R17446:17464 SLF.LibSepMinimal <> indom_union_eq thm
+R17484:17511 SLF.LibSepMinimal <> remove_disjoint_union_l thm
+R17484:17511 SLF.LibSepMinimal <> remove_disjoint_union_l thm
+R17521:17531 SLF.LibSepMinimal <> hstar_intro thm
+R17521:17531 SLF.LibSepMinimal <> hstar_intro thm
+R17570:17591 SLF.LibSepMinimal <> disjoint_remove_l thm
+R17570:17591 SLF.LibSepMinimal <> disjoint_remove_l thm
+prf 17712:17724 <> triple_conseq
+binder 17735:17735 <> t:200
+binder 17737:17738 <> H':201
+binder 17740:17741 <> Q':202
+binder 17743:17743 <> H:203
+binder 17745:17745 <> Q:204
+R17764:17769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17750:17755 SLF.LibSepMinimal <> triple def
+R17762:17763 SLF.LibSepMinimal <> Q':202 var
+R17759:17760 SLF.LibSepMinimal <> H':201 var
+R17757:17757 SLF.LibSepMinimal <> t:200 var
+R17778:17783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17771:17775 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R17770:17770 SLF.LibSepMinimal <> H:203 var
+R17776:17777 SLF.LibSepMinimal <> H':201 var
+R17793:17798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17786:17791 SLF.LibSepMinimal <> ::hprop_scope:x_'===>'_x not
+R17784:17785 SLF.LibSepMinimal <> Q':202 var
+R17792:17792 SLF.LibSepMinimal <> Q:204 var
+R17799:17804 SLF.LibSepMinimal <> triple def
+R17810:17810 SLF.LibSepMinimal <> Q:204 var
+R17808:17808 SLF.LibSepMinimal <> H:203 var
+R17806:17806 SLF.LibSepMinimal <> t:200 var
+R17834:17839 SLF.LibSepMinimal <> triple def
+R17834:17839 SLF.LibSepMinimal <> triple def
+R17869:17879 SLF.LibSepMinimal <> eval_conseq thm
+R17869:17879 SLF.LibSepMinimal <> eval_conseq thm
+prf 17894:17905 <> triple_frame
+binder 17916:17916 <> t:205
+binder 17918:17918 <> H:206
+binder 17920:17920 <> Q:207
+binder 17922:17923 <> H':208
+R17940:17945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17928:17933 SLF.LibSepMinimal <> triple def
+R17939:17939 SLF.LibSepMinimal <> Q:207 var
+R17937:17937 SLF.LibSepMinimal <> H:206 var
+R17935:17935 SLF.LibSepMinimal <> t:205 var
+R17946:17951 SLF.LibSepMinimal <> triple def
+R17967:17971 SLF.LibSepMinimal <> ::hprop_scope:x_'\*+'_x not
+R17966:17966 SLF.LibSepMinimal <> Q:207 var
+R17972:17973 SLF.LibSepMinimal <> H':208 var
+R17957:17960 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R17956:17956 SLF.LibSepMinimal <> H:206 var
+R17961:17962 SLF.LibSepMinimal <> H':208 var
+R17953:17953 SLF.LibSepMinimal <> t:205 var
+R18036:18037 SLF.LibTactics <> rm def
+R18036:18037 SLF.LibTactics <> rm def
+R18078:18088 SLF.LibSepMinimal <> eval_conseq thm
+R18078:18088 SLF.LibSepMinimal <> eval_conseq thm
+R18102:18111 SLF.LibSepMinimal <> eval_frame thm
+R18102:18111 SLF.LibSepMinimal <> eval_frame thm
+prf 18170:18183 <> triple_hexists
+binder 18194:18194 <> t:209
+binder 18197:18197 <> A:210
+R18209:18210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18208:18208 SLF.LibSepMinimal <> A:210 var
+R18211:18215 SLF.LibSepMinimal <> hprop def
+binder 18206:18206 <> J:211
+binder 18218:18218 <> Q:212
+R18223:18223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18254:18260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18234:18234 SLF.LibSepMinimal <> A:210 var
+binder 18232:18232 <> x:213
+R18238:18243 SLF.LibSepMinimal <> triple def
+R18253:18253 SLF.LibSepMinimal <> Q:212 var
+R18248:18248 SLF.LibSepMinimal <> J:211 var
+R18250:18250 SLF.LibSepMinimal <> x:213 var
+R18245:18245 SLF.LibSepMinimal <> t:209 var
+R18261:18266 SLF.LibSepMinimal <> triple def
+R18282:18282 SLF.LibSepMinimal <> Q:212 var
+R18271:18277 SLF.LibSepMinimal <> hexists def
+R18279:18279 SLF.LibSepMinimal <> J:211 var
+R18268:18268 SLF.LibSepMinimal <> t:209 var
+prf 18350:18361 <> triple_hpure
+binder 18372:18372 <> t:214
+binder 18375:18375 <> P:215
+binder 18383:18383 <> H:216
+binder 18385:18385 <> Q:217
+R18390:18390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18408:18414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18392:18395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18391:18391 SLF.LibSepMinimal <> P:215 var
+R18396:18401 SLF.LibSepMinimal <> triple def
+R18407:18407 SLF.LibSepMinimal <> Q:217 var
+R18405:18405 SLF.LibSepMinimal <> H:216 var
+R18403:18403 SLF.LibSepMinimal <> t:214 var
+R18415:18420 SLF.LibSepMinimal <> triple def
+R18436:18436 SLF.LibSepMinimal <> Q:217 var
+R18429:18432 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R18425:18426 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R18428:18428 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R18427:18427 SLF.LibSepMinimal <> P:215 var
+R18433:18433 SLF.LibSepMinimal <> H:216 var
+R18422:18422 SLF.LibSepMinimal <> t:214 var
+R18545:18562 SLF.LibSepMinimal <> union_empty_l thm
+R18545:18562 SLF.LibSepMinimal <> union_empty_l thm
+R18545:18562 SLF.LibSepMinimal <> union_empty_l thm
+prf 18697:18706 <> triple_val
+binder 18717:18717 <> v:218
+binder 18719:18719 <> H:219
+binder 18721:18721 <> Q:220
+R18735:18740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18727:18731 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R18726:18726 SLF.LibSepMinimal <> H:219 var
+R18732:18732 SLF.LibSepMinimal <> Q:220 var
+R18734:18734 SLF.LibSepMinimal <> v:218 var
+R18741:18746 SLF.LibSepMinimal <> triple def
+R18762:18762 SLF.LibSepMinimal <> Q:220 var
+R18760:18760 SLF.LibSepMinimal <> H:219 var
+R18749:18755 SLF.LibSepMinimal <> trm_val constr
+R18757:18757 SLF.LibSepMinimal <> v:218 var
+R18799:18806 SLF.LibSepMinimal <> eval_val constr
+R18799:18806 SLF.LibSepMinimal <> eval_val constr
+prf 18821:18830 <> triple_fix
+binder 18841:18841 <> f:221
+binder 18843:18843 <> x:222
+binder 18845:18846 <> t1:223
+binder 18848:18848 <> H:224
+binder 18850:18850 <> Q:225
+R18879:18884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18856:18860 SLF.LibSepMinimal <> ::hprop_scope:x_'==>'_x not
+R18855:18855 SLF.LibSepMinimal <> H:224 var
+R18861:18861 SLF.LibSepMinimal <> Q:225 var
+R18864:18870 SLF.LibSepMinimal <> val_fix constr
+R18876:18877 SLF.LibSepMinimal <> t1:223 var
+R18874:18874 SLF.LibSepMinimal <> x:222 var
+R18872:18872 SLF.LibSepMinimal <> f:221 var
+R18885:18890 SLF.LibSepMinimal <> triple def
+R18911:18911 SLF.LibSepMinimal <> Q:225 var
+R18909:18909 SLF.LibSepMinimal <> H:224 var
+R18893:18899 SLF.LibSepMinimal <> trm_fix constr
+R18905:18906 SLF.LibSepMinimal <> t1:223 var
+R18903:18903 SLF.LibSepMinimal <> x:222 var
+R18901:18901 SLF.LibSepMinimal <> f:221 var
+R18948:18955 SLF.LibSepMinimal <> eval_fix constr
+R18948:18955 SLF.LibSepMinimal <> eval_fix constr
+prf 18970:18978 <> triple_if
+R18992:18995 Coq.Init.Datatypes <> bool ind
+binder 18990:18990 <> b:226
+binder 18998:18999 <> t1:227
+binder 19001:19002 <> t2:228
+binder 19004:19004 <> H:229
+binder 19006:19006 <> Q:230
+R19044:19049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19011:19016 SLF.LibSepMinimal <> triple def
+R19043:19043 SLF.LibSepMinimal <> Q:230 var
+R19041:19041 SLF.LibSepMinimal <> H:229 var
+R19022:19022 SLF.LibSepMinimal <> b:226 var
+R19037:19038 SLF.LibSepMinimal <> t2:228 var
+R19029:19030 SLF.LibSepMinimal <> t1:227 var
+R19050:19055 SLF.LibSepMinimal <> triple def
+R19076:19076 SLF.LibSepMinimal <> Q:230 var
+R19074:19074 SLF.LibSepMinimal <> H:229 var
+R19058:19063 SLF.LibSepMinimal <> trm_if constr
+R19070:19071 SLF.LibSepMinimal <> t2:228 var
+R19067:19068 SLF.LibSepMinimal <> t1:227 var
+R19065:19065 SLF.LibSepMinimal <> b:226 var
+R19113:19119 SLF.LibSepMinimal <> eval_if constr
+R19113:19119 SLF.LibSepMinimal <> eval_if constr
+prf 19134:19147 <> triple_app_fix
+binder 19158:19159 <> v1:231
+binder 19161:19162 <> v2:232
+binder 19164:19164 <> f:233
+binder 19166:19166 <> x:234
+binder 19168:19169 <> t1:235
+binder 19171:19171 <> H:236
+binder 19173:19173 <> Q:237
+R19197:19202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19180:19182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19178:19179 SLF.LibSepMinimal <> v1:231 var
+R19183:19189 SLF.LibSepMinimal <> val_fix constr
+R19195:19196 SLF.LibSepMinimal <> t1:235 var
+R19193:19193 SLF.LibSepMinimal <> x:234 var
+R19191:19191 SLF.LibSepMinimal <> f:233 var
+R19242:19247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19203:19208 SLF.LibSepMinimal <> triple def
+R19241:19241 SLF.LibSepMinimal <> Q:237 var
+R19239:19239 SLF.LibSepMinimal <> H:236 var
+R19211:19215 SLF.LibSepMinimal <> subst def
+R19223:19227 SLF.LibSepMinimal <> subst def
+R19234:19235 SLF.LibSepMinimal <> t1:235 var
+R19231:19232 SLF.LibSepMinimal <> v1:231 var
+R19229:19229 SLF.LibSepMinimal <> f:233 var
+R19219:19220 SLF.LibSepMinimal <> v2:232 var
+R19217:19217 SLF.LibSepMinimal <> x:234 var
+R19248:19253 SLF.LibSepMinimal <> triple def
+R19273:19273 SLF.LibSepMinimal <> Q:237 var
+R19271:19271 SLF.LibSepMinimal <> H:236 var
+R19256:19262 SLF.LibSepMinimal <> trm_app constr
+R19267:19268 SLF.LibSepMinimal <> v2:232 var
+R19264:19265 SLF.LibSepMinimal <> v1:231 var
+R19312:19323 SLF.LibSepMinimal <> eval_app_fix constr
+R19312:19323 SLF.LibSepMinimal <> eval_app_fix constr
+prf 19338:19347 <> triple_let
+binder 19358:19358 <> x:238
+binder 19360:19361 <> t1:239
+binder 19363:19364 <> t2:240
+binder 19366:19367 <> Q1:241
+binder 19369:19369 <> H:242
+binder 19371:19371 <> Q:243
+R19390:19395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19376:19381 SLF.LibSepMinimal <> triple def
+R19388:19389 SLF.LibSepMinimal <> Q1:241 var
+R19386:19386 SLF.LibSepMinimal <> H:242 var
+R19383:19384 SLF.LibSepMinimal <> t1:239 var
+R19396:19396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19440:19446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 19404:19405 <> v1:244
+R19408:19413 SLF.LibSepMinimal <> triple def
+R19439:19439 SLF.LibSepMinimal <> Q:243 var
+R19432:19433 SLF.LibSepMinimal <> Q1:241 var
+R19435:19436 SLF.LibSepMinimal <> v1:244 var
+R19416:19420 SLF.LibSepMinimal <> subst def
+R19427:19428 SLF.LibSepMinimal <> t2:240 var
+R19424:19425 SLF.LibSepMinimal <> v1:244 var
+R19422:19422 SLF.LibSepMinimal <> x:238 var
+R19447:19452 SLF.LibSepMinimal <> triple def
+R19474:19474 SLF.LibSepMinimal <> Q:243 var
+R19472:19472 SLF.LibSepMinimal <> H:242 var
+R19455:19461 SLF.LibSepMinimal <> trm_let constr
+R19468:19469 SLF.LibSepMinimal <> t2:240 var
+R19465:19466 SLF.LibSepMinimal <> t1:239 var
+R19463:19463 SLF.LibSepMinimal <> x:238 var
+R19515:19522 SLF.LibSepMinimal <> eval_let constr
+R19515:19522 SLF.LibSepMinimal <> eval_let constr
+prf 19658:19667 <> triple_add
+binder 19678:19679 <> n1:245
+binder 19681:19682 <> n2:246
+R19687:19692 SLF.LibSepMinimal <> triple def
+binder 19727:19727 <> r:247
+R19732:19733 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R19755:19755 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R19735:19737 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19734:19734 SLF.LibSepMinimal <> r:247 var
+R19738:19744 SLF.LibSepMinimal <> val_int constr
+R19749:19751 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19747:19748 SLF.LibSepMinimal <> n1:245 var
+R19752:19753 SLF.LibSepMinimal <> n2:246 var
+R19714:19716 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R19695:19701 SLF.LibSepMinimal <> val_add constr
+R19703:19704 SLF.LibSepMinimal <> n1:245 var
+R19706:19707 SLF.LibSepMinimal <> n2:246 var
+R19793:19800 SLF.LibSepMinimal <> eval_add constr
+R19793:19800 SLF.LibSepMinimal <> eval_add constr
+prf 19843:19852 <> triple_div
+binder 19863:19864 <> n1:248
+binder 19866:19867 <> n2:249
+R19879:19884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19874:19877 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19872:19873 SLF.LibSepMinimal <> n2:249 var
+R19885:19890 SLF.LibSepMinimal <> triple def
+binder 19925:19925 <> r:250
+R19930:19931 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R19958:19958 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R19933:19935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19932:19932 SLF.LibSepMinimal <> r:250 var
+R19936:19942 SLF.LibSepMinimal <> val_int constr
+R19945:19950 Coq.ZArith.BinInt Z quot def
+R19952:19953 SLF.LibSepMinimal <> n1:248 var
+R19955:19956 SLF.LibSepMinimal <> n2:249 var
+R19912:19914 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R19893:19899 SLF.LibSepMinimal <> val_div constr
+R19901:19902 SLF.LibSepMinimal <> n1:248 var
+R19904:19905 SLF.LibSepMinimal <> n2:249 var
+R20000:20007 SLF.LibSepMinimal <> eval_div constr
+R20000:20007 SLF.LibSepMinimal <> eval_div constr
+prf 20050:20060 <> triple_rand
+binder 20071:20071 <> n:251
+R20081:20086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20077:20079 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20076:20076 SLF.LibSepMinimal <> n:251 var
+R20087:20092 SLF.LibSepMinimal <> triple def
+binder 20124:20124 <> r:252
+R20129:20130 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R20171:20171 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R20131:20137 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20140:20141 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 20138:20139 <> n1:253
+R20156:20159 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20143:20145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20142:20142 SLF.LibSepMinimal <> r:252 var
+R20146:20152 SLF.LibSepMinimal <> val_int constr
+R20154:20155 SLF.LibSepMinimal <> n1:253 var
+R20161:20164 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R20167:20169 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R20165:20166 SLF.LibSepMinimal <> n1:253 var
+R20165:20166 SLF.LibSepMinimal <> n1:253 var
+R20170:20170 SLF.LibSepMinimal <> n:251 var
+R20111:20113 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R20095:20102 SLF.LibSepMinimal <> val_rand constr
+R20104:20104 SLF.LibSepMinimal <> n:251 var
+R20213:20221 SLF.LibSepMinimal <> eval_rand constr
+R20213:20221 SLF.LibSepMinimal <> eval_rand constr
+prf 20287:20296 <> triple_ref
+binder 20307:20307 <> v:254
+R20312:20317 SLF.LibSepMinimal <> triple def
+binder 20348:20348 <> r:255
+R20353:20360 SLF.LibSepMinimal <> ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R20362:20363 SLF.LibSepMinimal <> ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 20361:20361 <> p:256
+R20380:20383 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R20364:20365 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R20379:20379 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R20367:20369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20366:20366 SLF.LibSepMinimal <> r:255 var
+R20370:20376 SLF.LibSepMinimal <> val_loc constr
+R20378:20378 SLF.LibSepMinimal <> p:256 var
+R20385:20389 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R20384:20384 SLF.LibSepMinimal <> p:256 var
+R20390:20390 SLF.LibSepMinimal <> v:254 var
+R20335:20337 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R20320:20326 SLF.LibSepMinimal <> val_ref constr
+R20328:20328 SLF.LibSepMinimal <> v:254 var
+R20437:20444 SLF.LibSepMinimal <> eval_ref constr
+R20437:20444 SLF.LibSepMinimal <> eval_ref constr
+R20480:20496 SLF.LibSepMinimal <> update_empty thm
+R20480:20496 SLF.LibSepMinimal <> update_empty thm
+R20480:20496 SLF.LibSepMinimal <> update_empty thm
+R20519:20531 SLF.LibSepMinimal <> hstar_hpure_l thm
+R20519:20531 SLF.LibSepMinimal <> hstar_hpure_l thm
+R20519:20531 SLF.LibSepMinimal <> hstar_hpure_l thm
+prf 20561:20570 <> triple_get
+binder 20581:20581 <> v:257
+binder 20583:20583 <> p:258
+R20588:20593 SLF.LibSepMinimal <> triple def
+binder 20630:20630 <> r:259
+R20643:20647 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R20655:20655 SLF.LibSepMinimal <> ::hprop_scope:x_'\*'_x not
+R20635:20636 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R20642:20642 SLF.LibSepMinimal <> ::hprop_scope:'\['_x_']' not
+R20638:20640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20637:20637 SLF.LibSepMinimal <> r:259 var
+R20641:20641 SLF.LibSepMinimal <> v:257 var
+R20649:20653 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R20648:20648 SLF.LibSepMinimal <> p:258 var
+R20654:20654 SLF.LibSepMinimal <> v:257 var
+R20613:20617 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R20612:20612 SLF.LibSepMinimal <> p:258 var
+R20618:20618 SLF.LibSepMinimal <> v:257 var
+R20596:20602 SLF.LibSepMinimal <> val_get constr
+R20604:20604 SLF.LibSepMinimal <> p:258 var
+R20712:20719 SLF.LibSepMinimal <> eval_get constr
+R20712:20719 SLF.LibSepMinimal <> eval_get constr
+R20734:20750 SLF.LibSepMinimal <> indom_single thm
+R20734:20750 SLF.LibSepMinimal <> indom_single thm
+R20767:20779 SLF.LibSepMinimal <> hstar_hpure_l thm
+R20767:20779 SLF.LibSepMinimal <> hstar_hpure_l thm
+R20767:20779 SLF.LibSepMinimal <> hstar_hpure_l thm
+R20799:20814 SLF.LibSepMinimal <> read_single thm
+R20799:20814 SLF.LibSepMinimal <> read_single thm
+prf 20838:20847 <> triple_set
+binder 20858:20858 <> w:260
+binder 20860:20860 <> p:261
+binder 20862:20862 <> v:262
+R20867:20872 SLF.LibSepMinimal <> triple def
+binder 20921:20921 <> r:263
+R20928:20932 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R20927:20927 SLF.LibSepMinimal <> p:261 var
+R20933:20933 SLF.LibSepMinimal <> v:262 var
+R20904:20908 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R20903:20903 SLF.LibSepMinimal <> p:261 var
+R20909:20909 SLF.LibSepMinimal <> w:260 var
+R20875:20881 SLF.LibSepMinimal <> val_set constr
+R20884:20890 SLF.LibSepMinimal <> val_loc constr
+R20892:20892 SLF.LibSepMinimal <> p:261 var
+R20895:20895 SLF.LibSepMinimal <> v:262 var
+R20992:20999 SLF.LibSepMinimal <> eval_set constr
+R20992:20999 SLF.LibSepMinimal <> eval_set constr
+R21014:21030 SLF.LibSepMinimal <> indom_single thm
+R21014:21030 SLF.LibSepMinimal <> indom_single thm
+R21047:21064 SLF.LibSepMinimal <> update_single thm
+R21047:21064 SLF.LibSepMinimal <> update_single thm
+R21047:21064 SLF.LibSepMinimal <> update_single thm
+prf 21088:21098 <> triple_free
+binder 21109:21109 <> p:264
+binder 21111:21111 <> v:265
+R21116:21121 SLF.LibSepMinimal <> triple def
+binder 21169:21169 <> r:266
+R21174:21176 SLF.LibSepMinimal <> ::hprop_scope:'\[]' not
+R21152:21156 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R21151:21151 SLF.LibSepMinimal <> p:264 var
+R21157:21157 SLF.LibSepMinimal <> v:265 var
+R21124:21131 SLF.LibSepMinimal <> val_free constr
+R21134:21140 SLF.LibSepMinimal <> val_loc constr
+R21142:21142 SLF.LibSepMinimal <> p:264 var
+R21234:21242 SLF.LibSepMinimal <> eval_free constr
+R21234:21242 SLF.LibSepMinimal <> eval_free constr
+R21257:21273 SLF.LibSepMinimal <> indom_single thm
+R21257:21273 SLF.LibSepMinimal <> indom_single thm
+R21291:21308 SLF.LibSepMinimal <> remove_single thm
+R21291:21308 SLF.LibSepMinimal <> remove_single thm
+def 21668:21671 <> incr
+R21675:21677 SLF.LibSepMinimal <> val ind
+R21684:21690 SLF.LibSepMinimal <> val_fix constr
+R21706:21712 SLF.LibSepMinimal <> trm_let constr
+R21756:21762 SLF.LibSepMinimal <> trm_let constr
+R21857:21863 SLF.LibSepMinimal <> trm_app constr
+R21898:21904 SLF.LibSepMinimal <> trm_var constr
+R21866:21872 SLF.LibSepMinimal <> trm_app constr
+R21883:21889 SLF.LibSepMinimal <> trm_var constr
+R21874:21880 SLF.LibSepMinimal <> val_set constr
+R21769:21775 SLF.LibSepMinimal <> trm_app constr
+R21839:21845 SLF.LibSepMinimal <> val_int constr
+R21778:21784 SLF.LibSepMinimal <> trm_app constr
+R21824:21830 SLF.LibSepMinimal <> trm_var constr
+R21786:21792 SLF.LibSepMinimal <> val_add constr
+R21719:21725 SLF.LibSepMinimal <> trm_app constr
+R21736:21742 SLF.LibSepMinimal <> trm_var constr
+R21727:21733 SLF.LibSepMinimal <> val_get constr
+prf 21968:21978 <> triple_incr
+R21992:21994 SLF.LibSepMinimal <> loc def
+binder 21990:21990 <> p:267
+R22000:22002 SLF.LibInt <> ::Int_scope:'int' not
+binder 21998:21998 <> n:268
+R22008:22013 SLF.LibSepMinimal <> triple def
+R22061:22066 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R22070:22070 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R22060:22060 SLF.LibSepMinimal <> p:267 var
+R22068:22068 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R22067:22067 SLF.LibSepMinimal <> n:268 var
+R22038:22042 SLF.LibSepMinimal <> ::hprop_scope:x_'~~>'_x not
+R22037:22037 SLF.LibSepMinimal <> p:267 var
+R22043:22043 SLF.LibSepMinimal <> n:268 var
+R22016:22022 SLF.LibSepMinimal <> trm_app constr
+R22029:22029 SLF.LibSepMinimal <> p:267 var
+R22024:22027 SLF.LibSepMinimal <> incr def
+R22175:22188 SLF.LibSepMinimal <> triple_app_fix thm
+R22175:22188 SLF.LibSepMinimal <> triple_app_fix thm
+R22224:22233 SLF.LibSepMinimal <> triple_let thm
+R22224:22233 SLF.LibSepMinimal <> triple_let thm
+R22244:22253 SLF.LibSepMinimal <> triple_get thm
+R22244:22253 SLF.LibSepMinimal <> triple_get thm
+R22284:22295 SLF.LibSepMinimal <> triple_hpure thm
+R22284:22295 SLF.LibSepMinimal <> triple_hpure thm
+R22318:22327 SLF.LibSepMinimal <> triple_let thm
+R22318:22327 SLF.LibSepMinimal <> triple_let thm
+R22339:22351 SLF.LibSepMinimal <> triple_conseq thm
+R22339:22351 SLF.LibSepMinimal <> triple_conseq thm
+R22367:22378 SLF.LibSepMinimal <> triple_frame thm
+R22367:22378 SLF.LibSepMinimal <> triple_frame thm
+R22388:22397 SLF.LibSepMinimal <> triple_add thm
+R22388:22397 SLF.LibSepMinimal <> triple_add thm
+R22462:22473 SLF.LibSepMinimal <> triple_hpure thm
+R22462:22473 SLF.LibSepMinimal <> triple_hpure thm
+R22497:22506 SLF.LibSepMinimal <> triple_set thm
+R22497:22506 SLF.LibSepMinimal <> triple_set thm

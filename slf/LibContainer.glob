@@ -1,0 +1,2344 @@
+DIGEST 44fc0d41ca55319e58e652d42042cbde
+FSLF.LibContainer
+R455:464 SLF.LibTactics <> <> lib
+R466:473 SLF.LibLogic <> <> lib
+R475:484 SLF.LibReflect <> <> lib
+R488:498 SLF.LibRelation <> <> lib
+R500:511 SLF.LibOperation <> <> lib
+R513:518 SLF.LibInt <> <> lib
+R520:528 SLF.LibMonoid <> <> lib
+rec 912:919 <> BagEmpty
+proj 928:932 <> empty
+binder 921:921 <> T:1
+R936:936 SLF.LibContainer <> T:1 var
+rec 947:955 <> BagSingle
+proj 966:971 <> single
+binder 957:957 <> A:4
+binder 959:959 <> T:5
+R976:979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R975:975 SLF.LibContainer <> A:4 var
+R980:980 SLF.LibContainer <> T:5 var
+rec 991:1003 <> BagSingleBind
+proj 1016:1026 <> single_bind
+binder 1005:1005 <> A:8
+binder 1007:1007 <> B:9
+binder 1009:1009 <> T:10
+R1031:1034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1030:1030 SLF.LibContainer <> A:8 var
+R1036:1039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1035:1035 SLF.LibContainer <> B:9 var
+R1040:1040 SLF.LibContainer <> T:10 var
+rec 1051:1055 <> BagIn
+proj 1066:1070 <> is_in
+binder 1057:1057 <> A:13
+binder 1059:1059 <> T:14
+R1075:1078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1074:1074 SLF.LibContainer <> A:13 var
+R1080:1083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1079:1079 SLF.LibContainer <> T:14 var
+rec 1098:1105 <> BagBinds
+proj 1118:1122 <> binds
+binder 1107:1107 <> A:17
+binder 1109:1109 <> B:18
+binder 1111:1111 <> T:19
+R1127:1130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1126:1126 SLF.LibContainer <> T:19 var
+R1132:1135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1131:1131 SLF.LibContainer <> A:17 var
+R1137:1140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1136:1136 SLF.LibContainer <> B:18 var
+rec 1155:1161 <> BagRead
+proj 1174:1177 <> read
+binder 1163:1163 <> A:22
+binder 1165:1165 <> B:23
+binder 1167:1167 <> T:24
+R1182:1185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1181:1181 SLF.LibContainer <> T:24 var
+R1187:1190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1186:1186 SLF.LibContainer <> A:22 var
+R1191:1191 SLF.LibContainer <> B:23 var
+rec 1202:1210 <> BagUpdate
+proj 1223:1228 <> update
+binder 1212:1212 <> A:27
+binder 1214:1214 <> B:28
+binder 1216:1216 <> T:29
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1232:1232 SLF.LibContainer <> T:29 var
+R1238:1241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1237:1237 SLF.LibContainer <> A:27 var
+R1243:1246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1242:1242 SLF.LibContainer <> B:28 var
+R1247:1247 SLF.LibContainer <> T:29 var
+rec 1258:1265 <> BagUnion
+proj 1274:1278 <> union
+binder 1267:1267 <> T:32
+R1283:1286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1282:1282 SLF.LibContainer <> T:32 var
+R1288:1291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1287:1287 SLF.LibContainer <> T:32 var
+R1292:1292 SLF.LibContainer <> T:32 var
+rec 1303:1310 <> BagInter
+proj 1319:1323 <> inter
+binder 1312:1312 <> T:35
+R1328:1331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1327:1327 SLF.LibContainer <> T:35 var
+R1333:1336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1332:1332 SLF.LibContainer <> T:35 var
+R1337:1337 SLF.LibContainer <> T:35 var
+rec 1348:1354 <> BagIncl
+proj 1363:1366 <> incl
+binder 1356:1356 <> T:38
+R1370:1375 SLF.LibRelation <> binary def
+R1377:1377 SLF.LibContainer <> T:38 var
+rec 1388:1398 <> BagDisjoint
+proj 1407:1414 <> disjoint
+binder 1400:1400 <> T:41
+R1418:1423 SLF.LibRelation <> binary def
+R1425:1425 SLF.LibContainer <> T:41 var
+rec 1436:1446 <> BagRestrict
+proj 1457:1464 <> restrict
+binder 1448:1448 <> T:44
+binder 1450:1450 <> K:45
+R1469:1472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1468:1468 SLF.LibContainer <> T:44 var
+R1474:1477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1473:1473 SLF.LibContainer <> K:45 var
+R1478:1478 SLF.LibContainer <> T:44 var
+rec 1489:1497 <> BagRemove
+proj 1508:1513 <> remove
+binder 1499:1499 <> T:48
+binder 1501:1501 <> K:49
+R1518:1521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1517:1517 SLF.LibContainer <> T:48 var
+R1523:1526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1522:1522 SLF.LibContainer <> K:49 var
+R1527:1527 SLF.LibContainer <> T:48 var
+rec 1538:1544 <> BagFold
+proj 1557:1560 <> fold
+binder 1546:1546 <> I:52
+binder 1548:1548 <> F:53
+binder 1550:1550 <> T:54
+R1575:1578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1564:1572 SLF.LibMonoid <> monoid_op rec
+R1574:1574 SLF.LibContainer <> I:52 var
+R1580:1583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1579:1579 SLF.LibContainer <> F:53 var
+R1585:1588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1584:1584 SLF.LibContainer <> T:54 var
+R1589:1589 SLF.LibContainer <> I:52 var
+rec 1600:1606 <> BagCard
+proj 1615:1618 <> card
+binder 1608:1608 <> T:57
+R1623:1626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1622:1622 SLF.LibContainer <> T:57 var
+R1627:1629 Coq.Init.Datatypes <> nat ind
+rec 1640:1645 <> BagDom
+proj 1656:1658 <> dom
+binder 1647:1647 <> T:60
+binder 1649:1649 <> K:61
+R1663:1666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1662:1662 SLF.LibContainer <> T:60 var
+R1667:1667 SLF.LibContainer <> K:61 var
+rec 1678:1683 <> BagImg
+proj 1694:1696 <> img
+binder 1685:1685 <> T:64
+binder 1687:1687 <> K:65
+R1701:1704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1700:1700 SLF.LibContainer <> T:64 var
+R1705:1705 SLF.LibContainer <> K:65 var
+rec 1716:1723 <> BagIndex
+proj 1734:1738 <> index
+binder 1725:1725 <> A:68
+binder 1727:1727 <> T:69
+R1743:1746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1742:1742 SLF.LibContainer <> T:69 var
+R1748:1751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1747:1747 SLF.LibContainer <> A:68 var
+def 1772:1776 <> notin
+R1780:1784 SLF.LibContainer <> BagIn class
+binder 1786:1786 <> A:72
+binder 1788:1788 <> T:73
+binder 1780:1788 <> H:74
+binder 1791:1791 <> x:75
+binder 1793:1793 <> m:76
+R1800:1802 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1812:1812 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1803:1807 SLF.LibContainer <> is_in meth
+R1811:1811 SLF.LibContainer <> m:76 var
+R1809:1809 SLF.LibContainer <> x:75 var
+R2078:2082 SLF.LibContainer <> empty meth
+not 2068:2068 <> ::container_scope:'\{}'
+R2128:2133 SLF.LibContainer <> single meth
+not 2115:2115 <> ::container_scope:'\{'_x_'}'
+R2184:2188 SLF.LibContainer <> is_in meth
+not 2168:2168 <> ::container_scope:x_'\in'_x
+R2258:2262 SLF.LibContainer <> notin def
+not 2239:2239 <> ::container_scope:x_'\notin'_x
+R2327:2337 SLF.LibContainer <> single_bind meth
+not 2313:2313 <> ::container_scope:x_'\:='_x
+R2402:2405 SLF.LibContainer <> read meth
+not 2388:2388 <> :::x_'['_x_']'
+R2494:2499 SLF.LibContainer <> update meth
+not 2475:2475 <> :::x_'['_x_':='_x_']'
+R2998:3001 SLF.LibContainer <> incl meth
+not 2981:2981 <> ::container_scope:x_'\c'_x
+R3071:3075 SLF.LibContainer <> union meth
+not 3054:3054 <> ::container_scope:x_'\u'_x
+R3166:3170 SLF.LibContainer <> inter meth
+not 3149:3149 <> ::container_scope:x_'\n'_x
+R3261:3266 SLF.LibContainer <> remove meth
+not 3244:3244 <> ::container_scope:x_'\-'_x
+R3336:3343 SLF.LibContainer <> restrict meth
+not 3319:3319 <> ::container_scope:x_'\|'_x
+R3413:3420 SLF.LibContainer <> disjoint meth
+not 3396:3396 <> ::container_scope:x_'\#'_x
+R3571:3576 SLF.LibContainer <> single meth
+not 3554:3554 <> ::container_scope:'''{'_x_'}'
+R3649:3652 SLF.LibContainer <> ::container_scope:x_'\-'_x not
+R3653:3654 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R3656:3656 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+not 3634:3634 <> ::container_scope:x_'\--'_x
+binder 3934:3934 <> x:77
+R3944:3947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3938:3942 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+not 3893:3893 <> ::container_scope:'forall_'_x_'\in'_x_','_x
+binder 4047:4047 <> x:78
+binder 4049:4049 <> y:79
+R4059:4062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4053:4057 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R4070:4073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4064:4068 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+not 4004:4004 <> ::container_scope:'forall_'_x_x_'\in'_x_','_x
+binder 4183:4183 <> x:80
+binder 4185:4185 <> y:81
+binder 4187:4187 <> z:82
+R4197:4200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4191:4195 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R4208:4211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4202:4206 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R4219:4222 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4213:4217 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+not 4138:4138 <> ::container_scope:'forall_'_x_x_x_'\in'_x_','_x
+R4523:4529 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4531:4532 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4530:4530 <> x:83
+R4540:4543 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4534:4538 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+not 4489:4489 <> ::container_scope:'exists_'_x_'\in'_x_','_x
+R4636:4642 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4644:4645 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4643:4643 <> x:84
+R4653:4656 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4647:4651 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R4664:4667 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4658:4662 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+not 4600:4600 <> ::container_scope:'exists_'_x_x_'\in'_x_','_x
+R4770:4776 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4778:4779 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4777:4777 <> x:85
+R4787:4790 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4781:4785 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R4798:4801 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4792:4796 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R4809:4812 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4803:4807 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+not 4732:4732 <> ::container_scope:'exists_'_x_x_x_'\in'_x_','_x
+def 5056:5062 <> foreach
+R5066:5070 SLF.LibContainer <> BagIn class
+binder 5072:5072 <> A:86
+binder 5074:5074 <> T:87
+binder 5066:5074 <> H:88
+R5081:5082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5080:5080 SLF.LibContainer <> A:86 var
+binder 5078:5078 <> P:89
+R5092:5092 SLF.LibContainer <> T:87 var
+binder 5090:5090 <> E:90
+binder 5107:5107 <> x:91
+R5117:5120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5111:5115 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R5110:5110 SLF.LibContainer <> x:91 var
+R5116:5116 SLF.LibContainer <> E:90 var
+R5121:5121 SLF.LibContainer <> P:89 var
+R5123:5123 SLF.LibContainer <> x:91 var
+inst 5363:5371 <> int_index
+R5375:5382 SLF.LibContainer <> BagIndex class
+R5388:5390 SLF.LibInt <> ::Int_scope:'int' not
+R5384:5386 SLF.LibInt <> ::Int_scope:'int' not
+binder 5438:5438 <> n:92
+R5443:5445 SLF.LibInt <> ::Int_scope:'int' not
+binder 5441:5441 <> i:93
+R5452:5455 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R5457:5459 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R5456:5456 SLF.LibContainer <> i:93 var
+R5456:5456 SLF.LibContainer <> i:93 var
+R5460:5460 SLF.LibContainer <> n:92 var
+binder 5438:5438 <> n:94
+R5443:5445 SLF.LibInt <> ::Int_scope:'int' not
+binder 5441:5441 <> i:95
+R5452:5455 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R5457:5459 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R5456:5456 SLF.LibContainer <> i:95 var
+R5456:5456 SLF.LibContainer <> i:95 var
+R5460:5460 SLF.LibContainer <> n:94 var
+prf 5480:5491 <> int_index_eq
+R5509:5511 SLF.LibInt <> ::Int_scope:'int' not
+binder 5503:5503 <> n:96
+binder 5505:5505 <> i:97
+R5526:5529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5540:5540 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5517:5521 SLF.LibContainer <> index meth
+R5525:5525 SLF.LibContainer <> i:97 var
+R5523:5523 SLF.LibContainer <> n:96 var
+R5531:5534 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R5536:5538 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R5535:5535 SLF.LibContainer <> i:97 var
+R5535:5535 SLF.LibContainer <> i:97 var
+R5539:5539 SLF.LibContainer <> n:96 var
+R5582:5590 SLF.LibContainer <> int_index inst
+prf 5600:5611 <> int_index_le
+R5630:5632 SLF.LibInt <> ::Int_scope:'int' not
+binder 5622:5622 <> i:98
+binder 5624:5624 <> n:99
+binder 5626:5626 <> m:100
+R5646:5649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5637:5641 SLF.LibContainer <> index meth
+R5645:5645 SLF.LibContainer <> i:98 var
+R5643:5643 SLF.LibContainer <> n:99 var
+R5656:5659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5651:5654 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R5650:5650 SLF.LibContainer <> n:99 var
+R5655:5655 SLF.LibContainer <> m:100 var
+R5660:5664 SLF.LibContainer <> index meth
+R5668:5668 SLF.LibContainer <> i:98 var
+R5666:5666 SLF.LibContainer <> m:100 var
+R5706:5717 SLF.LibContainer <> int_index_eq thm
+R5706:5717 SLF.LibContainer <> int_index_eq thm
+R5706:5717 SLF.LibContainer <> int_index_eq thm
+R5706:5717 SLF.LibContainer <> int_index_eq thm
+R5706:5717 SLF.LibContainer <> int_index_eq thm
+prf 5738:5752 <> int_index_prove
+R5770:5772 SLF.LibInt <> ::Int_scope:'int' not
+binder 5764:5764 <> n:101
+binder 5766:5766 <> i:102
+R5784:5787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5779:5782 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R5783:5783 SLF.LibContainer <> i:102 var
+R5793:5796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5789:5791 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R5788:5788 SLF.LibContainer <> i:102 var
+R5792:5792 SLF.LibContainer <> n:101 var
+R5797:5801 SLF.LibContainer <> index meth
+R5805:5805 SLF.LibContainer <> i:102 var
+R5803:5803 SLF.LibContainer <> n:101 var
+R5838:5849 SLF.LibContainer <> int_index_eq thm
+R5838:5849 SLF.LibContainer <> int_index_eq thm
+prf 5864:5877 <> int_index_succ
+binder 5888:5888 <> n:103
+binder 5890:5890 <> i:104
+R5899:5904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5894:5897 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R5893:5893 SLF.LibContainer <> n:103 var
+R5920:5923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5942:5942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5905:5909 SLF.LibContainer <> index meth
+R5919:5919 SLF.LibContainer <> i:104 var
+R5913:5915 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5912:5912 SLF.LibContainer <> n:103 var
+R5933:5936 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5924:5928 SLF.LibContainer <> index meth
+R5932:5932 SLF.LibContainer <> i:104 var
+R5930:5930 SLF.LibContainer <> n:103 var
+R5938:5940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5937:5937 SLF.LibContainer <> i:104 var
+R5941:5941 SLF.LibContainer <> n:103 var
+R5983:5994 SLF.LibContainer <> int_index_eq thm
+R5983:5994 SLF.LibContainer <> int_index_eq thm
+R5983:5994 SLF.LibContainer <> int_index_eq thm
+R5983:5994 SLF.LibContainer <> int_index_eq thm
+R5983:5994 SLF.LibContainer <> int_index_eq thm
+R6020:6031 SLF.LibLogic <> or_classic_l thm
+R6020:6031 SLF.LibLogic <> or_classic_l thm
+inst 6323:6348 <> bag_update_as_union_single
+binder 6359:6359 <> A:105
+binder 6361:6361 <> B:106
+binder 6363:6363 <> T:107
+R6369:6381 SLF.LibContainer <> BagSingleBind class
+R6383:6383 SLF.LibContainer <> A:105 var
+R6385:6385 SLF.LibContainer <> B:106 var
+R6387:6387 SLF.LibContainer <> T:107 var
+binder 6369:6387 <> H:108
+R6392:6399 SLF.LibContainer <> BagUnion class
+R6401:6401 SLF.LibContainer <> T:107 var
+binder 6392:6401 <> H0:109
+R6407:6415 SLF.LibContainer <> BagUpdate class
+R6421:6421 SLF.LibContainer <> T:107 var
+R6419:6419 SLF.LibContainer <> B:106 var
+R6417:6417 SLF.LibContainer <> A:105 var
+binder 6450:6450 <> m:110
+binder 6452:6452 <> k:111
+binder 6454:6454 <> v:112
+R6460:6464 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R6472:6472 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R6459:6459 SLF.LibContainer <> m:110 var
+R6466:6470 SLF.LibContainer <> ::container_scope:x_'\:='_x not
+R6465:6465 SLF.LibContainer <> k:111 var
+R6471:6471 SLF.LibContainer <> v:112 var
+binder 6450:6450 <> m:113
+binder 6452:6452 <> k:114
+binder 6454:6454 <> v:115
+R6460:6464 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R6472:6472 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R6459:6459 SLF.LibContainer <> m:113 var
+R6466:6470 SLF.LibContainer <> ::container_scope:x_'\:='_x not
+R6465:6465 SLF.LibContainer <> k:114 var
+R6471:6471 SLF.LibContainer <> v:115 var
+R6500:6525 SLF.LibContainer <> bag_update_as_union_single inst
+sec 6709:6718 <> Properties
+binder 6731:6731 <> A:116
+binder 6733:6733 <> T:117
+R6748:6752 SLF.LibContainer <> BagIn class
+R6756:6756 SLF.LibContainer <> T:117 var
+R6754:6754 SLF.LibContainer <> A:116 var
+binder 6744:6745 <> BI:118
+R6764:6771 SLF.LibContainer <> BagEmpty class
+R6773:6773 SLF.LibContainer <> T:117 var
+binder 6760:6761 <> BE:119
+R6781:6789 SLF.LibContainer <> BagSingle class
+R6793:6793 SLF.LibContainer <> T:117 var
+R6791:6791 SLF.LibContainer <> A:116 var
+binder 6777:6778 <> BS:120
+R6803:6810 SLF.LibContainer <> BagInter class
+R6812:6812 SLF.LibContainer <> T:117 var
+binder 6799:6800 <> BN:121
+R6820:6827 SLF.LibContainer <> BagUnion class
+R6829:6829 SLF.LibContainer <> T:117 var
+binder 6816:6817 <> BU:122
+R6837:6845 SLF.LibContainer <> BagRemove class
+R6849:6849 SLF.LibContainer <> T:117 var
+R6847:6847 SLF.LibContainer <> T:117 var
+binder 6833:6834 <> BR:123
+R6857:6863 SLF.LibContainer <> BagCard class
+R6865:6865 SLF.LibContainer <> T:117 var
+binder 6853:6854 <> BC:124
+R6875:6881 SLF.LibContainer <> BagIncl class
+R6883:6883 SLF.LibContainer <> T:117 var
+binder 6871:6872 <> BL:125
+R6891:6901 SLF.LibContainer <> BagDisjoint class
+R6903:6903 SLF.LibContainer <> T:117 var
+binder 6887:6888 <> BD:126
+rec 6925:6935 <> In_empty_eq
+proj 6944:6954 <> in_empty_eq
+binder 6965:6965 <> x:128
+R6977:6979 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6969:6973 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R6968:6968 SLF.LibContainer <> x:128 var
+R6974:6976 SLF.LibContainer <> ::container_scope:'\{}' not
+R6980:6984 Coq.Init.Logic <> False ind
+rec 6995:7002 <> In_empty
+proj 7011:7018 <> in_empty
+binder 7029:7029 <> x:131
+R7041:7044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7033:7037 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7032:7032 SLF.LibContainer <> x:131 var
+R7038:7040 SLF.LibContainer <> ::container_scope:'\{}' not
+R7045:7049 Coq.Init.Logic <> False ind
+rec 7061:7068 <> Notin_eq
+proj 7077:7084 <> notin_eq
+binder 7095:7095 <> x:134
+binder 7097:7097 <> E:135
+R7100:7100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7111:7114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7102:7109 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R7101:7101 SLF.LibContainer <> x:134 var
+R7110:7110 SLF.LibContainer <> E:135 var
+R7115:7117 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7125:7125 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7119:7123 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7118:7118 SLF.LibContainer <> x:134 var
+R7124:7124 SLF.LibContainer <> E:135 var
+rec 7136:7146 <> Notin_empty
+proj 7155:7165 <> notin_empty
+binder 7176:7176 <> x:138
+R7180:7187 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R7179:7179 SLF.LibContainer <> x:138 var
+R7188:7190 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 7202:7213 <> In_single_eq
+proj 7222:7233 <> in_single_eq
+binder 7244:7244 <> x:141
+binder 7246:7246 <> y:142
+R7259:7262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7268:7268 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7250:7254 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7249:7249 SLF.LibContainer <> x:141 var
+R7255:7256 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R7258:7258 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R7257:7257 SLF.LibContainer <> y:142 var
+R7264:7266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7263:7263 SLF.LibContainer <> x:141 var
+R7267:7267 SLF.LibContainer <> y:142 var
+rec 7279:7287 <> In_single
+proj 7296:7304 <> in_single
+binder 7315:7315 <> x:145
+binder 7317:7317 <> y:146
+R7330:7333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7321:7325 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7320:7320 SLF.LibContainer <> x:145 var
+R7326:7327 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R7329:7329 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R7328:7328 SLF.LibContainer <> y:146 var
+R7335:7337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7334:7334 SLF.LibContainer <> x:145 var
+R7338:7338 SLF.LibContainer <> y:146 var
+rec 7349:7362 <> In_single_self
+proj 7371:7384 <> in_single_self
+binder 7395:7395 <> x:149
+R7399:7403 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7398:7398 SLF.LibContainer <> x:149 var
+R7404:7405 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R7407:7407 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R7406:7406 SLF.LibContainer <> x:149 var
+rec 7419:7430 <> In_extens_eq
+proj 7439:7450 <> in_extens_eq
+binder 7461:7461 <> E:152
+binder 7463:7463 <> F:153
+R7466:7466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7494:7498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7474:7474 <> x:154
+R7484:7486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7478:7482 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7477:7477 SLF.LibContainer <> x:154 var
+R7483:7483 SLF.LibContainer <> E:152 var
+R7488:7492 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7487:7487 SLF.LibContainer <> x:154 var
+R7493:7493 SLF.LibContainer <> F:153 var
+R7500:7502 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7499:7499 SLF.LibContainer <> E:152 var
+R7503:7503 SLF.LibContainer <> F:153 var
+rec 7514:7522 <> In_extens
+proj 7531:7539 <> in_extens
+binder 7550:7550 <> E:157
+binder 7552:7552 <> F:158
+R7555:7555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7585:7589 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7563:7563 <> x:159
+R7573:7577 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7567:7571 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7566:7566 SLF.LibContainer <> x:159 var
+R7572:7572 SLF.LibContainer <> E:157 var
+R7579:7583 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7578:7578 SLF.LibContainer <> x:159 var
+R7584:7584 SLF.LibContainer <> F:158 var
+R7591:7593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7590:7590 SLF.LibContainer <> E:157 var
+R7594:7594 SLF.LibContainer <> F:158 var
+rec 7606:7616 <> Is_empty_eq
+proj 7625:7635 <> is_empty_eq
+binder 7646:7646 <> E:162
+R7649:7649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7657:7661 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7688:7688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7651:7653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7650:7650 SLF.LibContainer <> E:162 var
+R7654:7656 SLF.LibContainer <> ::container_scope:'\{}' not
+binder 7669:7669 <> x:163
+R7679:7682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7673:7677 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7672:7672 SLF.LibContainer <> x:163 var
+R7678:7678 SLF.LibContainer <> E:162 var
+R7683:7687 Coq.Init.Logic <> False ind
+rec 7699:7712 <> Is_empty_prove
+proj 7721:7734 <> is_empty_prove
+binder 7745:7745 <> E:166
+R7748:7748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7775:7779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 7756:7756 <> x:167
+R7766:7769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7760:7764 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7759:7759 SLF.LibContainer <> x:167 var
+R7765:7765 SLF.LibContainer <> E:166 var
+R7770:7774 Coq.Init.Logic <> False ind
+R7781:7783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7780:7780 SLF.LibContainer <> E:166 var
+R7784:7786 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 7797:7808 <> Is_empty_inv
+proj 7817:7828 <> is_empty_inv
+binder 7839:7839 <> x:170
+binder 7841:7841 <> E:171
+R7851:7854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7845:7847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7844:7844 SLF.LibContainer <> E:171 var
+R7848:7850 SLF.LibContainer <> ::container_scope:'\{}' not
+R7862:7865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7856:7860 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7855:7855 SLF.LibContainer <> x:170 var
+R7861:7861 SLF.LibContainer <> E:171 var
+R7866:7870 Coq.Init.Logic <> False ind
+rec 7881:7897 <> Is_nonempty_prove
+proj 7906:7922 <> is_nonempty_prove
+binder 7933:7933 <> x:174
+binder 7935:7935 <> E:175
+R7945:7948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7939:7943 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R7938:7938 SLF.LibContainer <> x:174 var
+R7944:7944 SLF.LibContainer <> E:175 var
+R7950:7953 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R7949:7949 SLF.LibContainer <> E:175 var
+R7954:7956 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 7968:7979 <> Is_single_eq
+proj 7988:7999 <> is_single_eq
+binder 8010:8010 <> x:178
+binder 8012:8012 <> E:179
+R8015:8015 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8024:8028 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8068:8068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8017:8019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8016:8016 SLF.LibContainer <> E:179 var
+R8020:8021 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8023:8023 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8022:8022 SLF.LibContainer <> x:178 var
+R8036:8040 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8067:8067 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8030:8034 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8029:8029 SLF.LibContainer <> x:178 var
+R8035:8035 SLF.LibContainer <> E:179 var
+binder 8048:8048 <> y:180
+R8058:8061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8052:8056 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8051:8051 SLF.LibContainer <> y:180 var
+R8057:8057 SLF.LibContainer <> E:179 var
+R8063:8065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8062:8062 SLF.LibContainer <> y:180 var
+R8066:8066 SLF.LibContainer <> x:178 var
+rec 8079:8093 <> Is_single_prove
+proj 8102:8116 <> is_single_prove
+binder 8127:8127 <> x:183
+binder 8129:8129 <> E:184
+R8139:8142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8133:8137 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8132:8132 SLF.LibContainer <> x:183 var
+R8138:8138 SLF.LibContainer <> E:184 var
+R8143:8143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8170:8174 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8151:8151 <> y:185
+R8161:8164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8155:8159 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8154:8154 SLF.LibContainer <> y:185 var
+R8160:8160 SLF.LibContainer <> E:184 var
+R8166:8168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8165:8165 SLF.LibContainer <> y:185 var
+R8169:8169 SLF.LibContainer <> x:183 var
+R8176:8178 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8175:8175 SLF.LibContainer <> E:184 var
+R8179:8180 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8182:8182 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8181:8181 SLF.LibContainer <> x:183 var
+rec 8193:8205 <> Is_single_inv
+proj 8214:8226 <> is_single_inv
+binder 8237:8237 <> x:188
+binder 8239:8239 <> y:189
+binder 8241:8241 <> E:190
+R8252:8255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8245:8247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8244:8244 SLF.LibContainer <> E:190 var
+R8248:8249 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8251:8251 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8250:8250 SLF.LibContainer <> x:188 var
+R8263:8266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8257:8261 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8256:8256 SLF.LibContainer <> y:189 var
+R8262:8262 SLF.LibContainer <> E:190 var
+R8268:8270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8267:8267 SLF.LibContainer <> y:189 var
+R8271:8271 SLF.LibContainer <> x:188 var
+rec 8282:8296 <> Notin_single_eq
+proj 8305:8319 <> notin_single_eq
+binder 8330:8330 <> x:193
+binder 8332:8332 <> y:194
+R8348:8351 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8358:8358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8336:8343 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8335:8335 SLF.LibContainer <> x:193 var
+R8344:8345 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8347:8347 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R8346:8346 SLF.LibContainer <> y:194 var
+R8353:8356 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R8352:8352 SLF.LibContainer <> x:193 var
+R8357:8357 SLF.LibContainer <> y:194 var
+rec 8370:8380 <> In_inter_eq
+proj 8389:8399 <> in_inter_eq
+binder 8410:8410 <> x:197
+binder 8412:8412 <> E:198
+binder 8414:8414 <> F:199
+R8431:8434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8453:8453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8418:8423 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8430:8430 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8417:8417 SLF.LibContainer <> x:197 var
+R8425:8428 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R8424:8424 SLF.LibContainer <> E:198 var
+R8429:8429 SLF.LibContainer <> F:199 var
+R8442:8445 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8436:8440 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8435:8435 SLF.LibContainer <> x:197 var
+R8441:8441 SLF.LibContainer <> E:198 var
+R8447:8451 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8446:8446 SLF.LibContainer <> x:197 var
+R8452:8452 SLF.LibContainer <> F:199 var
+rec 8464:8471 <> In_inter
+proj 8480:8487 <> in_inter
+binder 8498:8498 <> x:202
+binder 8500:8500 <> E:203
+binder 8502:8502 <> F:204
+R8512:8515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8506:8510 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8505:8505 SLF.LibContainer <> x:202 var
+R8511:8511 SLF.LibContainer <> E:203 var
+R8523:8526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8517:8521 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8516:8516 SLF.LibContainer <> x:202 var
+R8522:8522 SLF.LibContainer <> F:204 var
+R8528:8533 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8540:8540 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8527:8527 SLF.LibContainer <> x:202 var
+R8535:8538 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R8534:8534 SLF.LibContainer <> E:203 var
+R8539:8539 SLF.LibContainer <> F:204 var
+rec 8551:8562 <> In_inter_inv
+proj 8571:8582 <> in_inter_inv
+binder 8593:8593 <> x:207
+binder 8595:8595 <> E:208
+binder 8597:8597 <> F:209
+R8614:8617 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8601:8606 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8613:8613 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8600:8600 SLF.LibContainer <> x:207 var
+R8608:8611 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R8607:8607 SLF.LibContainer <> E:208 var
+R8612:8612 SLF.LibContainer <> F:209 var
+R8625:8628 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8619:8623 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8618:8618 SLF.LibContainer <> x:207 var
+R8624:8624 SLF.LibContainer <> E:208 var
+R8630:8634 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R8629:8629 SLF.LibContainer <> x:207 var
+R8635:8635 SLF.LibContainer <> F:209 var
+rec 8647:8660 <> Notin_inter_eq
+proj 8669:8682 <> notin_inter_eq
+binder 8693:8693 <> x:212
+binder 8695:8695 <> E:213
+binder 8697:8697 <> F:214
+R8717:8720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8745:8745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8701:8709 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8716:8716 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8700:8700 SLF.LibContainer <> x:212 var
+R8711:8714 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R8710:8710 SLF.LibContainer <> E:213 var
+R8715:8715 SLF.LibContainer <> F:214 var
+R8731:8734 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8722:8729 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8721:8721 SLF.LibContainer <> x:212 var
+R8730:8730 SLF.LibContainer <> E:213 var
+R8736:8743 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8735:8735 SLF.LibContainer <> x:212 var
+R8744:8744 SLF.LibContainer <> F:214 var
+rec 8756:8768 <> Notin_inter_l
+proj 8777:8789 <> notin_inter_l
+binder 8800:8800 <> x:217
+binder 8802:8802 <> E:218
+binder 8804:8804 <> F:219
+R8817:8820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8808:8815 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8807:8807 SLF.LibContainer <> x:217 var
+R8816:8816 SLF.LibContainer <> E:218 var
+R8822:8830 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8837:8837 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8821:8821 SLF.LibContainer <> x:217 var
+R8832:8835 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R8831:8831 SLF.LibContainer <> E:218 var
+R8836:8836 SLF.LibContainer <> F:219 var
+rec 8848:8860 <> Notin_inter_r
+proj 8869:8881 <> notin_inter_r
+binder 8892:8892 <> x:222
+binder 8894:8894 <> E:223
+binder 8896:8896 <> F:224
+R8909:8912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8900:8907 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8899:8899 SLF.LibContainer <> x:222 var
+R8908:8908 SLF.LibContainer <> F:224 var
+R8914:8922 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8929:8929 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8913:8913 SLF.LibContainer <> x:222 var
+R8924:8927 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R8923:8923 SLF.LibContainer <> E:223 var
+R8928:8928 SLF.LibContainer <> F:224 var
+rec 8940:8954 <> Notin_inter_inv
+proj 8963:8977 <> notin_inter_inv
+binder 8988:8988 <> x:227
+binder 8990:8990 <> E:228
+binder 8992:8992 <> F:229
+R9012:9015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8996:9004 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9011:9011 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R8995:8995 SLF.LibContainer <> x:227 var
+R9006:9009 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R9005:9005 SLF.LibContainer <> E:228 var
+R9010:9010 SLF.LibContainer <> F:229 var
+R9026:9029 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9017:9024 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9016:9016 SLF.LibContainer <> x:227 var
+R9025:9025 SLF.LibContainer <> E:228 var
+R9031:9038 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9030:9030 SLF.LibContainer <> x:227 var
+R9039:9039 SLF.LibContainer <> F:229 var
+rec 9051:9061 <> In_union_eq
+proj 9070:9080 <> in_union_eq
+binder 9091:9091 <> x:232
+R9100:9100 SLF.LibContainer <> Properties.T var
+binder 9094:9094 <> E:233
+binder 9096:9096 <> F:234
+R9118:9121 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9140:9140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9105:9110 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9117:9117 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9104:9104 SLF.LibContainer <> x:232 var
+R9112:9115 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9111:9111 SLF.LibContainer <> E:233 var
+R9116:9116 SLF.LibContainer <> F:234 var
+R9129:9132 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9123:9127 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9122:9122 SLF.LibContainer <> x:232 var
+R9128:9128 SLF.LibContainer <> E:233 var
+R9134:9138 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9133:9133 SLF.LibContainer <> x:232 var
+R9139:9139 SLF.LibContainer <> F:234 var
+rec 9151:9160 <> In_union_l
+proj 9169:9178 <> in_union_l
+binder 9189:9189 <> x:237
+binder 9191:9191 <> E:238
+binder 9193:9193 <> F:239
+R9203:9206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9197:9201 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9196:9196 SLF.LibContainer <> x:237 var
+R9202:9202 SLF.LibContainer <> E:238 var
+R9208:9213 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9220:9220 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9207:9207 SLF.LibContainer <> x:237 var
+R9215:9218 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9214:9214 SLF.LibContainer <> E:238 var
+R9219:9219 SLF.LibContainer <> F:239 var
+rec 9231:9240 <> In_union_r
+proj 9249:9258 <> in_union_r
+binder 9269:9269 <> x:242
+binder 9271:9271 <> E:243
+binder 9273:9273 <> F:244
+R9283:9286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9277:9281 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9276:9276 SLF.LibContainer <> x:242 var
+R9282:9282 SLF.LibContainer <> F:244 var
+R9288:9293 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9300:9300 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9287:9287 SLF.LibContainer <> x:242 var
+R9295:9298 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9294:9294 SLF.LibContainer <> E:243 var
+R9299:9299 SLF.LibContainer <> F:244 var
+rec 9311:9322 <> In_union_inv
+proj 9331:9342 <> in_union_inv
+binder 9353:9353 <> x:247
+R9362:9362 SLF.LibContainer <> Properties.T var
+binder 9356:9356 <> E:248
+binder 9358:9358 <> F:249
+R9380:9384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9403:9403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9367:9372 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9379:9379 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9366:9366 SLF.LibContainer <> x:247 var
+R9374:9377 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9373:9373 SLF.LibContainer <> E:248 var
+R9378:9378 SLF.LibContainer <> F:249 var
+R9392:9395 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9386:9390 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9385:9385 SLF.LibContainer <> x:247 var
+R9391:9391 SLF.LibContainer <> E:248 var
+R9397:9401 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9396:9396 SLF.LibContainer <> x:247 var
+R9402:9402 SLF.LibContainer <> F:249 var
+rec 9415:9428 <> Notin_union_eq
+proj 9437:9450 <> notin_union_eq
+binder 9461:9461 <> x:252
+binder 9463:9463 <> E:253
+binder 9465:9465 <> F:254
+R9485:9488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9513:9513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9469:9477 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9484:9484 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9468:9468 SLF.LibContainer <> x:252 var
+R9479:9482 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9478:9478 SLF.LibContainer <> E:253 var
+R9483:9483 SLF.LibContainer <> F:254 var
+R9499:9502 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9490:9497 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9489:9489 SLF.LibContainer <> x:252 var
+R9498:9498 SLF.LibContainer <> E:253 var
+R9504:9511 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9503:9503 SLF.LibContainer <> x:252 var
+R9512:9512 SLF.LibContainer <> F:254 var
+rec 9524:9534 <> Notin_union
+proj 9543:9553 <> notin_union
+binder 9564:9564 <> x:257
+binder 9566:9566 <> E:258
+binder 9568:9568 <> F:259
+R9581:9584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9572:9579 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9571:9571 SLF.LibContainer <> x:257 var
+R9580:9580 SLF.LibContainer <> E:258 var
+R9595:9598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9586:9593 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9585:9585 SLF.LibContainer <> x:257 var
+R9594:9594 SLF.LibContainer <> F:259 var
+R9600:9608 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9615:9615 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9599:9599 SLF.LibContainer <> x:257 var
+R9610:9613 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9609:9609 SLF.LibContainer <> E:258 var
+R9614:9614 SLF.LibContainer <> F:259 var
+rec 9626:9640 <> Notin_union_inv
+proj 9649:9663 <> notin_union_inv
+binder 9674:9674 <> x:262
+binder 9676:9676 <> E:263
+binder 9678:9678 <> F:264
+R9698:9701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9682:9690 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9697:9697 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9681:9681 SLF.LibContainer <> x:262 var
+R9692:9695 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R9691:9691 SLF.LibContainer <> E:263 var
+R9696:9696 SLF.LibContainer <> F:264 var
+R9712:9715 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9703:9710 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9702:9702 SLF.LibContainer <> x:262 var
+R9711:9711 SLF.LibContainer <> E:263 var
+R9717:9724 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9716:9716 SLF.LibContainer <> x:262 var
+R9725:9725 SLF.LibContainer <> F:264 var
+rec 9737:9748 <> In_remove_eq
+proj 9757:9768 <> in_remove_eq
+binder 9779:9779 <> x:267
+R9788:9788 SLF.LibContainer <> Properties.T var
+binder 9782:9782 <> E:268
+binder 9784:9784 <> F:269
+R9806:9809 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9831:9831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9793:9798 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9805:9805 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9792:9792 SLF.LibContainer <> x:267 var
+R9800:9803 SLF.LibContainer <> ::container_scope:x_'\-'_x not
+R9799:9799 SLF.LibContainer <> E:268 var
+R9804:9804 SLF.LibContainer <> F:269 var
+R9817:9820 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9811:9815 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R9810:9810 SLF.LibContainer <> x:267 var
+R9816:9816 SLF.LibContainer <> E:268 var
+R9822:9829 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R9821:9821 SLF.LibContainer <> x:267 var
+R9830:9830 SLF.LibContainer <> F:269 var
+rec 9842:9852 <> Remove_incl
+proj 9861:9871 <> remove_incl
+R9889:9889 SLF.LibContainer <> Properties.T var
+binder 9883:9883 <> E:272
+binder 9885:9885 <> F:273
+R9893:9893 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R9900:9904 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R9895:9898 SLF.LibContainer <> ::container_scope:x_'\-'_x not
+R9894:9894 SLF.LibContainer <> E:272 var
+R9899:9899 SLF.LibContainer <> F:273 var
+R9905:9905 SLF.LibContainer <> E:272 var
+rec 9916:9930 <> Remove_disjoint
+proj 9939:9953 <> remove_disjoint
+R9971:9971 SLF.LibContainer <> Properties.T var
+binder 9965:9965 <> E:276
+binder 9967:9967 <> F:277
+R9976:9980 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R9987:9987 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R9975:9975 SLF.LibContainer <> F:277 var
+R9982:9985 SLF.LibContainer <> ::container_scope:x_'\-'_x not
+R9981:9981 SLF.LibContainer <> E:276 var
+R9986:9986 SLF.LibContainer <> F:277 var
+rec 10012:10021 <> Incl_in_eq
+proj 10030:10039 <> incl_in_eq
+binder 10050:10050 <> E:280
+binder 10052:10052 <> F:281
+R10055:10055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10062:10066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10095:10095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10057:10060 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10056:10056 SLF.LibContainer <> E:280 var
+R10061:10061 SLF.LibContainer <> F:281 var
+binder 10074:10074 <> x:282
+R10084:10087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10078:10082 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10077:10077 SLF.LibContainer <> x:282 var
+R10083:10083 SLF.LibContainer <> E:280 var
+R10089:10093 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10088:10088 SLF.LibContainer <> x:282 var
+R10094:10094 SLF.LibContainer <> F:281 var
+rec 10106:10115 <> Incl_prove
+proj 10124:10133 <> incl_prove
+binder 10144:10144 <> E:285
+binder 10146:10146 <> F:286
+R10149:10149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10178:10182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 10157:10157 <> x:287
+R10167:10170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10161:10165 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10160:10160 SLF.LibContainer <> x:287 var
+R10166:10166 SLF.LibContainer <> E:285 var
+R10172:10176 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10171:10171 SLF.LibContainer <> x:287 var
+R10177:10177 SLF.LibContainer <> F:286 var
+R10184:10187 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10183:10183 SLF.LibContainer <> E:285 var
+R10188:10188 SLF.LibContainer <> F:286 var
+rec 10199:10206 <> Incl_inv
+proj 10215:10222 <> incl_inv
+binder 10233:10233 <> x:290
+binder 10235:10235 <> E:291
+binder 10237:10237 <> F:292
+R10246:10249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10241:10244 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10240:10240 SLF.LibContainer <> E:291 var
+R10245:10245 SLF.LibContainer <> F:292 var
+R10257:10260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10251:10255 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10250:10250 SLF.LibContainer <> x:290 var
+R10256:10256 SLF.LibContainer <> E:291 var
+R10262:10266 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10261:10261 SLF.LibContainer <> x:290 var
+R10267:10267 SLF.LibContainer <> F:292 var
+rec 10278:10286 <> Incl_refl
+proj 10295:10303 <> incl_refl
+R10307:10310 SLF.LibRelation <> refl def
+R10312:10315 SLF.LibContainer <> incl meth
+rec 10326:10335 <> Incl_trans
+proj 10344:10353 <> incl_trans
+R10357:10361 SLF.LibRelation <> trans def
+R10363:10366 SLF.LibContainer <> incl meth
+rec 10377:10388 <> Incl_antisym
+proj 10428:10439 <> incl_antisym
+R10443:10449 SLF.LibRelation <> antisym def
+R10451:10454 SLF.LibContainer <> incl meth
+rec 10465:10474 <> Incl_order
+proj 10483:10492 <> incl_order
+R10496:10509 SLF.LibOrder <> order rec
+R10511:10514 SLF.LibContainer <> incl meth
+rec 10526:10535 <> Empty_incl
+proj 10544:10553 <> empty_incl
+binder 10564:10564 <> E:303
+R10570:10573 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10567:10569 SLF.LibContainer <> ::container_scope:'\{}' not
+R10574:10574 SLF.LibContainer <> E:303 var
+rec 10585:10594 <> Incl_empty
+proj 10603:10612 <> incl_empty
+binder 10623:10623 <> E:306
+R10626:10626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10635:10639 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10647:10647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10628:10631 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10627:10627 SLF.LibContainer <> E:306 var
+R10632:10634 SLF.LibContainer <> ::container_scope:'\{}' not
+R10641:10643 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10640:10640 SLF.LibContainer <> E:306 var
+R10644:10646 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 10658:10671 <> Incl_empty_inv
+proj 10680:10693 <> incl_empty_inv
+binder 10704:10704 <> E:309
+R10715:10718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10708:10711 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10707:10707 SLF.LibContainer <> E:309 var
+R10712:10714 SLF.LibContainer <> ::container_scope:'\{}' not
+R10720:10722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10719:10719 SLF.LibContainer <> E:309 var
+R10723:10725 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 10737:10752 <> Single_incl_r_eq
+proj 10761:10776 <> single_incl_r_eq
+binder 10787:10787 <> x:312
+binder 10789:10789 <> E:313
+R10792:10792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10802:10806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10814:10814 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10797:10800 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10793:10794 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10796:10796 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10795:10795 SLF.LibContainer <> x:312 var
+R10801:10801 SLF.LibContainer <> E:313 var
+R10808:10812 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10807:10807 SLF.LibContainer <> x:312 var
+R10813:10813 SLF.LibContainer <> E:313 var
+rec 10825:10837 <> Single_incl_r
+proj 10846:10858 <> single_incl_r
+binder 10869:10869 <> x:316
+binder 10871:10871 <> E:317
+R10881:10884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10875:10879 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R10874:10874 SLF.LibContainer <> x:316 var
+R10880:10880 SLF.LibContainer <> E:317 var
+R10889:10892 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10885:10886 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10888:10888 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10887:10887 SLF.LibContainer <> x:316 var
+R10893:10893 SLF.LibContainer <> E:317 var
+rec 10905:10920 <> Single_incl_l_eq
+proj 10929:10944 <> single_incl_l_eq
+binder 10955:10955 <> x:320
+binder 10957:10957 <> E:321
+R10960:10960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10970:10974 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10994:10994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10962:10965 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R10961:10961 SLF.LibContainer <> E:321 var
+R10966:10967 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10969:10969 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10968:10968 SLF.LibContainer <> x:320 var
+R10982:10985 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10976:10978 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10975:10975 SLF.LibContainer <> E:321 var
+R10979:10981 SLF.LibContainer <> ::container_scope:'\{}' not
+R10987:10989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10986:10986 SLF.LibContainer <> E:321 var
+R10990:10991 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10993:10993 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R10992:10992 SLF.LibContainer <> x:320 var
+rec 11006:11017 <> Incl_union_l
+proj 11026:11037 <> incl_union_l
+binder 11048:11048 <> E:324
+binder 11050:11050 <> F:325
+binder 11052:11052 <> G:326
+R11061:11064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11056:11059 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11055:11055 SLF.LibContainer <> E:324 var
+R11060:11060 SLF.LibContainer <> F:325 var
+R11066:11070 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11077:11077 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11065:11065 SLF.LibContainer <> E:324 var
+R11072:11075 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11071:11071 SLF.LibContainer <> F:325 var
+R11076:11076 SLF.LibContainer <> G:326 var
+rec 11088:11099 <> Incl_union_r
+proj 11108:11119 <> incl_union_r
+binder 11130:11130 <> E:329
+binder 11132:11132 <> F:330
+binder 11134:11134 <> G:331
+R11143:11146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11138:11141 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11137:11137 SLF.LibContainer <> E:329 var
+R11142:11142 SLF.LibContainer <> G:331 var
+R11148:11152 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11159:11159 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11147:11147 SLF.LibContainer <> E:329 var
+R11154:11157 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11153:11153 SLF.LibContainer <> F:330 var
+R11158:11158 SLF.LibContainer <> G:331 var
+rec 11171:11183 <> Union_incl_eq
+proj 11192:11204 <> union_incl_eq
+binder 11215:11215 <> E:334
+binder 11217:11217 <> F:335
+binder 11219:11219 <> G:336
+R11222:11222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11236:11240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11257:11257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11223:11223 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11230:11234 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11225:11228 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11224:11224 SLF.LibContainer <> E:334 var
+R11229:11229 SLF.LibContainer <> F:335 var
+R11235:11235 SLF.LibContainer <> G:336 var
+R11247:11250 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11242:11245 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11241:11241 SLF.LibContainer <> E:334 var
+R11246:11246 SLF.LibContainer <> G:336 var
+R11252:11255 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11251:11251 SLF.LibContainer <> F:335 var
+R11256:11256 SLF.LibContainer <> G:336 var
+rec 11268:11277 <> Union_incl
+proj 11286:11295 <> union_incl
+binder 11306:11306 <> E:339
+binder 11308:11308 <> F:340
+binder 11310:11310 <> G:341
+R11319:11322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11314:11317 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11313:11313 SLF.LibContainer <> E:339 var
+R11318:11318 SLF.LibContainer <> G:341 var
+R11329:11332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11324:11327 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11323:11323 SLF.LibContainer <> F:340 var
+R11328:11328 SLF.LibContainer <> G:341 var
+R11333:11333 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11340:11344 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11335:11338 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11334:11334 SLF.LibContainer <> E:339 var
+R11339:11339 SLF.LibContainer <> F:340 var
+R11345:11345 SLF.LibContainer <> G:341 var
+rec 11356:11369 <> Union_incl_inv
+proj 11378:11391 <> union_incl_inv
+binder 11402:11402 <> E:344
+binder 11404:11404 <> F:345
+binder 11406:11406 <> G:346
+R11422:11425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11409:11409 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11416:11420 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11411:11414 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11410:11410 SLF.LibContainer <> E:344 var
+R11415:11415 SLF.LibContainer <> F:345 var
+R11421:11421 SLF.LibContainer <> G:346 var
+R11432:11435 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11427:11430 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11426:11426 SLF.LibContainer <> E:344 var
+R11431:11431 SLF.LibContainer <> G:346 var
+R11437:11440 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11436:11436 SLF.LibContainer <> F:345 var
+R11441:11441 SLF.LibContainer <> G:346 var
+rec 11452:11467 <> Union_incl_union
+proj 11476:11491 <> union_incl_union
+binder 11502:11503 <> E1:349
+binder 11505:11506 <> F1:350
+binder 11508:11509 <> E2:351
+binder 11511:11512 <> F2:352
+R11523:11526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11517:11520 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11515:11516 SLF.LibContainer <> E1:349 var
+R11521:11522 SLF.LibContainer <> F1:350 var
+R11535:11538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11529:11532 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11527:11528 SLF.LibContainer <> E2:351 var
+R11533:11534 SLF.LibContainer <> F2:352 var
+R11539:11539 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11548:11553 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11562:11562 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11542:11545 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11540:11541 SLF.LibContainer <> E1:349 var
+R11546:11547 SLF.LibContainer <> E2:351 var
+R11556:11559 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11554:11555 SLF.LibContainer <> F1:350 var
+R11560:11561 SLF.LibContainer <> F2:352 var
+rec 11573:11595 <> Union_incl_union_same_l
+proj 11604:11626 <> union_incl_union_same_l
+binder 11637:11637 <> E:355
+binder 11639:11640 <> F1:356
+binder 11642:11643 <> F2:357
+R11654:11657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11648:11651 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11646:11647 SLF.LibContainer <> F1:356 var
+R11652:11653 SLF.LibContainer <> F2:357 var
+R11658:11658 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11666:11671 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11679:11679 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11660:11663 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11659:11659 SLF.LibContainer <> E:355 var
+R11664:11665 SLF.LibContainer <> F1:356 var
+R11673:11676 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11672:11672 SLF.LibContainer <> E:355 var
+R11677:11678 SLF.LibContainer <> F2:357 var
+rec 11690:11712 <> Union_incl_union_same_r
+proj 11721:11743 <> union_incl_union_same_r
+binder 11754:11754 <> E:360
+binder 11756:11757 <> F1:361
+binder 11759:11760 <> F2:362
+R11771:11774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11765:11768 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11763:11764 SLF.LibContainer <> F1:361 var
+R11769:11770 SLF.LibContainer <> F2:362 var
+R11775:11775 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11783:11788 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11796:11796 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11778:11781 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11776:11777 SLF.LibContainer <> F1:361 var
+R11782:11782 SLF.LibContainer <> E:360 var
+R11791:11794 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R11789:11790 SLF.LibContainer <> F2:362 var
+R11795:11795 SLF.LibContainer <> E:360 var
+rec 11808:11820 <> Incl_inter_eq
+proj 11829:11841 <> incl_inter_eq
+binder 11852:11852 <> E:365
+binder 11854:11854 <> F:366
+binder 11856:11856 <> G:367
+R11872:11875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11892:11892 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11860:11864 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11871:11871 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11859:11859 SLF.LibContainer <> E:365 var
+R11866:11869 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R11865:11865 SLF.LibContainer <> F:366 var
+R11870:11870 SLF.LibContainer <> G:367 var
+R11882:11885 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11877:11880 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11876:11876 SLF.LibContainer <> E:365 var
+R11881:11881 SLF.LibContainer <> F:366 var
+R11887:11890 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11886:11886 SLF.LibContainer <> E:365 var
+R11891:11891 SLF.LibContainer <> G:367 var
+rec 11903:11912 <> Incl_inter
+proj 11921:11930 <> incl_inter
+binder 11941:11941 <> E:370
+binder 11943:11943 <> F:371
+binder 11945:11945 <> G:372
+R11954:11957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11949:11952 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11948:11948 SLF.LibContainer <> E:370 var
+R11953:11953 SLF.LibContainer <> F:371 var
+R11964:11967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11959:11962 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11958:11958 SLF.LibContainer <> E:370 var
+R11963:11963 SLF.LibContainer <> G:372 var
+R11969:11973 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11980:11980 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R11968:11968 SLF.LibContainer <> E:370 var
+R11975:11978 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R11974:11974 SLF.LibContainer <> F:371 var
+R11979:11979 SLF.LibContainer <> G:372 var
+rec 11991:12004 <> Incl_inter_inv
+proj 12013:12026 <> incl_inter_inv
+binder 12037:12037 <> E:375
+binder 12039:12039 <> F:376
+binder 12041:12041 <> G:377
+R12057:12060 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12045:12049 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R12056:12056 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R12044:12044 SLF.LibContainer <> E:375 var
+R12051:12054 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R12050:12050 SLF.LibContainer <> F:376 var
+R12055:12055 SLF.LibContainer <> G:377 var
+R12067:12070 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12062:12065 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R12061:12061 SLF.LibContainer <> E:375 var
+R12066:12066 SLF.LibContainer <> F:376 var
+R12072:12075 SLF.LibContainer <> ::container_scope:x_'\c'_x not
+R12071:12071 SLF.LibContainer <> E:375 var
+R12076:12076 SLF.LibContainer <> G:377 var
+rec 12102:12112 <> Union_assoc
+proj 12121:12131 <> union_assoc
+R12135:12139 SLF.LibOperation <> assoc def
+R12141:12145 SLF.LibContainer <> union meth
+rec 12156:12165 <> Union_comm
+proj 12174:12183 <> union_comm
+R12187:12190 SLF.LibOperation <> comm def
+R12192:12196 SLF.LibContainer <> union meth
+rec 12207:12222 <> Union_comm_assoc
+proj 12231:12246 <> union_comm_assoc
+R12250:12259 SLF.LibOperation <> comm_assoc def
+R12261:12265 SLF.LibContainer <> union meth
+rec 12276:12288 <> Union_empty_l
+proj 12297:12309 <> union_empty_l
+R12313:12321 SLF.LibOperation <> neutral_l def
+R12329:12333 SLF.LibContainer <> empty meth
+R12323:12327 SLF.LibContainer <> union meth
+rec 12344:12356 <> Union_empty_r
+proj 12365:12377 <> union_empty_r
+R12381:12389 SLF.LibOperation <> neutral_r def
+R12397:12401 SLF.LibContainer <> empty meth
+R12391:12395 SLF.LibContainer <> union meth
+rec 12412:12426 <> Union_empty_inv
+proj 12435:12449 <> union_empty_inv
+binder 12460:12460 <> E:390
+binder 12462:12462 <> F:391
+R12477:12480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12471:12473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12466:12469 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R12465:12465 SLF.LibContainer <> E:390 var
+R12470:12470 SLF.LibContainer <> F:391 var
+R12474:12476 SLF.LibContainer <> ::container_scope:'\{}' not
+R12488:12491 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12482:12484 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12481:12481 SLF.LibContainer <> E:390 var
+R12485:12487 SLF.LibContainer <> ::container_scope:'\{}' not
+R12493:12495 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12492:12492 SLF.LibContainer <> F:391 var
+R12496:12498 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 12509:12518 <> Union_self
+proj 12527:12536 <> union_self
+R12540:12550 SLF.LibOperation <> idempotent2 def
+R12552:12556 SLF.LibContainer <> union meth
+rec 12589:12599 <> Inter_assoc
+proj 12608:12618 <> inter_assoc
+R12622:12626 SLF.LibOperation <> assoc def
+R12628:12632 SLF.LibContainer <> inter meth
+rec 12643:12652 <> Inter_comm
+proj 12661:12670 <> inter_comm
+R12674:12677 SLF.LibOperation <> comm def
+R12679:12683 SLF.LibContainer <> inter meth
+rec 12694:12709 <> Inter_comm_assoc
+proj 12718:12733 <> inter_comm_assoc
+R12737:12746 SLF.LibOperation <> comm_assoc def
+R12748:12752 SLF.LibContainer <> inter meth
+rec 12763:12775 <> Inter_empty_l
+proj 12784:12796 <> inter_empty_l
+R12800:12807 SLF.LibOperation <> absorb_l def
+R12815:12819 SLF.LibContainer <> empty meth
+R12809:12813 SLF.LibContainer <> inter meth
+rec 12830:12842 <> Inter_empty_r
+proj 12851:12863 <> inter_empty_r
+R12867:12874 SLF.LibOperation <> absorb_r def
+R12882:12886 SLF.LibContainer <> empty meth
+R12876:12880 SLF.LibContainer <> inter meth
+rec 12897:12906 <> Inter_self
+proj 12915:12924 <> inter_self
+R12928:12938 SLF.LibOperation <> idempotent2 def
+R12940:12944 SLF.LibContainer <> inter meth
+rec 13015:13024 <> Card_empty
+proj 13033:13042 <> card_empty
+R13054:13056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13046:13049 SLF.LibContainer <> card meth
+R13051:13053 SLF.LibContainer <> ::container_scope:'\{}' not
+rec 13072:13082 <> Card_single
+proj 13091:13101 <> card_single
+binder 13112:13112 <> X:410
+R13124:13126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13115:13118 SLF.LibContainer <> card meth
+R13120:13121 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R13123:13123 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R13122:13122 SLF.LibContainer <> X:410 var
+rec 13142:13151 <> Card_union
+proj 13160:13169 <> card_union
+binder 13180:13180 <> E:413
+binder 13182:13182 <> F:414
+R13198:13200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13185:13188 SLF.LibContainer <> card meth
+R13192:13195 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R13191:13191 SLF.LibContainer <> E:413 var
+R13196:13196 SLF.LibContainer <> F:414 var
+R13208:13210 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R13202:13205 SLF.LibContainer <> card meth
+R13207:13207 SLF.LibContainer <> E:413 var
+R13211:13214 SLF.LibContainer <> card meth
+R13216:13216 SLF.LibContainer <> F:414 var
+rec 13232:13249 <> Card_disjoin_union
+proj 13258:13275 <> card_disjoin_union
+binder 13286:13286 <> E:417
+binder 13288:13288 <> F:418
+R13297:13300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13292:13295 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R13291:13291 SLF.LibContainer <> E:417 var
+R13296:13296 SLF.LibContainer <> F:418 var
+R13314:13316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13301:13304 SLF.LibContainer <> card meth
+R13308:13311 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R13307:13307 SLF.LibContainer <> E:417 var
+R13312:13312 SLF.LibContainer <> F:418 var
+R13324:13326 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R13318:13321 SLF.LibContainer <> card meth
+R13323:13323 SLF.LibContainer <> E:417 var
+R13327:13330 SLF.LibContainer <> card meth
+R13332:13332 SLF.LibContainer <> F:418 var
+rec 13348:13360 <> Card_union_le
+proj 13369:13381 <> card_union_le
+binder 13392:13392 <> E:421
+binder 13394:13394 <> F:422
+R13410:13413 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R13397:13400 SLF.LibContainer <> card meth
+R13404:13407 SLF.LibContainer <> ::container_scope:x_'\u'_x not
+R13403:13403 SLF.LibContainer <> E:421 var
+R13408:13408 SLF.LibContainer <> F:422 var
+R13421:13423 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R13415:13418 SLF.LibContainer <> card meth
+R13420:13420 SLF.LibContainer <> E:421 var
+R13424:13427 SLF.LibContainer <> card meth
+R13429:13429 SLF.LibContainer <> F:422 var
+rec 13467:13478 <> Disjoint_sym
+proj 13487:13498 <> disjoint_sym
+R13502:13504 SLF.LibRelation <> sym def
+R13506:13513 SLF.LibContainer <> disjoint meth
+rec 13524:13534 <> Disjoint_eq
+proj 13543:13553 <> disjoint_eq
+binder 13564:13564 <> E:427
+binder 13566:13566 <> F:428
+R13569:13569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13576:13580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13618:13618 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13571:13574 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R13570:13570 SLF.LibContainer <> E:427 var
+R13575:13575 SLF.LibContainer <> F:428 var
+binder 13588:13588 <> x:429
+R13598:13601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13592:13596 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13591:13591 SLF.LibContainer <> x:429 var
+R13597:13597 SLF.LibContainer <> E:427 var
+R13609:13612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13603:13607 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13602:13602 SLF.LibContainer <> x:429 var
+R13608:13608 SLF.LibContainer <> F:428 var
+R13613:13617 Coq.Init.Logic <> False ind
+rec 13629:13643 <> Disjoint_not_eq
+proj 13652:13666 <> disjoint_not_eq
+binder 13677:13677 <> E:432
+binder 13679:13679 <> F:433
+R13682:13682 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13693:13697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13726:13726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13683:13685 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13692:13692 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13687:13690 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R13686:13686 SLF.LibContainer <> E:432 var
+R13691:13691 SLF.LibContainer <> F:433 var
+R13698:13704 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13706:13707 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13705:13705 <> x:434
+R13715:13718 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13709:13713 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13708:13708 SLF.LibContainer <> x:434 var
+R13714:13714 SLF.LibContainer <> E:432 var
+R13720:13724 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13719:13719 SLF.LibContainer <> x:434 var
+R13725:13725 SLF.LibContainer <> F:433 var
+rec 13737:13750 <> Disjoint_prove
+proj 13759:13772 <> disjoint_prove
+binder 13783:13783 <> E:437
+binder 13785:13785 <> F:438
+R13788:13788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13826:13830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 13796:13796 <> x:439
+R13806:13809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13800:13804 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13799:13799 SLF.LibContainer <> x:439 var
+R13805:13805 SLF.LibContainer <> E:437 var
+R13817:13820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13811:13815 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13810:13810 SLF.LibContainer <> x:439 var
+R13816:13816 SLF.LibContainer <> F:438 var
+R13821:13825 Coq.Init.Logic <> False ind
+R13832:13835 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R13831:13831 SLF.LibContainer <> E:437 var
+R13836:13836 SLF.LibContainer <> F:438 var
+rec 13847:13858 <> Disjoint_inv
+proj 13867:13878 <> disjoint_inv
+binder 13889:13889 <> x:442
+binder 13891:13891 <> E:443
+binder 13893:13893 <> F:444
+R13896:13896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13903:13907 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13898:13901 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R13897:13897 SLF.LibContainer <> E:443 var
+R13902:13902 SLF.LibContainer <> F:444 var
+R13915:13918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13909:13913 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13908:13908 SLF.LibContainer <> x:442 var
+R13914:13914 SLF.LibContainer <> E:443 var
+R13926:13929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13920:13924 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R13919:13919 SLF.LibContainer <> x:442 var
+R13925:13925 SLF.LibContainer <> F:444 var
+R13930:13934 Coq.Init.Logic <> False ind
+rec 13945:13964 <> Disjoint_single_l_eq
+proj 13973:13992 <> disjoint_single_l_eq
+binder 14003:14003 <> x:447
+binder 14005:14005 <> E:448
+R14008:14008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14018:14021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14013:14016 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R14009:14010 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R14012:14012 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R14011:14011 SLF.LibContainer <> x:447 var
+R14017:14017 SLF.LibContainer <> E:448 var
+R14023:14030 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R14022:14022 SLF.LibContainer <> x:447 var
+R14031:14031 SLF.LibContainer <> E:448 var
+rec 14042:14061 <> Disjoint_single_r_eq
+proj 14070:14089 <> disjoint_single_r_eq
+binder 14100:14100 <> x:451
+binder 14102:14102 <> E:452
+R14105:14105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14115:14118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14107:14110 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R14106:14106 SLF.LibContainer <> E:452 var
+R14111:14112 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R14114:14114 SLF.LibContainer <> ::container_scope:'\{'_x_'}' not
+R14113:14113 SLF.LibContainer <> x:451 var
+R14120:14127 SLF.LibContainer <> ::container_scope:x_'\notin'_x not
+R14119:14119 SLF.LibContainer <> x:451 var
+R14128:14128 SLF.LibContainer <> E:452 var
+rec 14140:14153 <> Inter_disjoint
+proj 14162:14175 <> inter_disjoint
+binder 14186:14186 <> E:455
+binder 14188:14188 <> F:456
+R14197:14200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14192:14195 SLF.LibContainer <> ::container_scope:x_'\#'_x not
+R14191:14191 SLF.LibContainer <> E:455 var
+R14196:14196 SLF.LibContainer <> F:456 var
+R14207:14209 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14202:14205 SLF.LibContainer <> ::container_scope:x_'\n'_x not
+R14201:14201 SLF.LibContainer <> E:455 var
+R14206:14206 SLF.LibContainer <> F:456 var
+R14210:14212 SLF.LibContainer <> ::container_scope:'\{}' not
+R14248:14257 SLF.LibContainer Properties <> sec
+R14362:14373 SLF.LibContainer <> is_empty_inv meth
+R14362:14373 SLF.LibContainer <> is_empty_inv meth
+R14427:14443 SLF.LibContainer <> is_nonempty_prove meth
+R14427:14443 SLF.LibContainer <> is_nonempty_prove meth
+R14503:14511 SLF.LibContainer <> in_single meth
+R14503:14511 SLF.LibContainer <> in_single meth
+R14558:14570 SLF.LibContainer <> is_single_inv meth
+R14558:14570 SLF.LibContainer <> is_single_inv meth
+R14628:14635 SLF.LibContainer <> in_inter meth
+R14628:14635 SLF.LibContainer <> in_inter meth
+R14689:14700 SLF.LibContainer <> in_inter_inv meth
+R14689:14700 SLF.LibContainer <> in_inter_inv meth
+R14759:14771 SLF.LibContainer <> notin_inter_l meth
+R14759:14771 SLF.LibContainer <> notin_inter_l meth
+R14830:14842 SLF.LibContainer <> notin_inter_r meth
+R14830:14842 SLF.LibContainer <> notin_inter_r meth
+R14901:14915 SLF.LibContainer <> notin_inter_inv meth
+R14901:14915 SLF.LibContainer <> notin_inter_inv meth
+R14977:14986 SLF.LibContainer <> in_union_l meth
+R14977:14986 SLF.LibContainer <> in_union_l meth
+R15042:15051 SLF.LibContainer <> in_union_r meth
+R15042:15051 SLF.LibContainer <> in_union_r meth
+R15107:15118 SLF.LibContainer <> in_union_inv meth
+R15107:15118 SLF.LibContainer <> in_union_inv meth
+R15177:15187 SLF.LibContainer <> notin_union meth
+R15177:15187 SLF.LibContainer <> notin_union meth
+R15244:15258 SLF.LibContainer <> notin_union_inv meth
+R15244:15258 SLF.LibContainer <> notin_union_inv meth
+R15320:15329 SLF.LibContainer <> incl_prove meth
+R15320:15329 SLF.LibContainer <> incl_prove meth
+R15381:15388 SLF.LibContainer <> incl_inv meth
+R15381:15388 SLF.LibContainer <> incl_inv meth
+R15442:15451 SLF.LibContainer <> incl_trans meth
+R15442:15451 SLF.LibContainer <> incl_trans meth
+R15496:15509 SLF.LibContainer <> incl_empty_inv meth
+R15496:15509 SLF.LibContainer <> incl_empty_inv meth
+R15558:15569 SLF.LibContainer <> incl_union_l meth
+R15558:15569 SLF.LibContainer <> incl_union_l meth
+R15623:15634 SLF.LibContainer <> incl_union_r meth
+R15623:15634 SLF.LibContainer <> incl_union_r meth
+R15688:15697 SLF.LibContainer <> incl_inter meth
+R15688:15697 SLF.LibContainer <> incl_inter meth
+R15749:15762 SLF.LibContainer <> incl_inter_inv meth
+R15749:15762 SLF.LibContainer <> incl_inter_inv meth
+R15819:15834 SLF.LibContainer <> union_incl_union meth
+R15819:15834 SLF.LibContainer <> union_incl_union meth
+R15900:15922 SLF.LibContainer <> union_incl_union_same_l meth
+R15900:15922 SLF.LibContainer <> union_incl_union_same_l meth
+R15989:16011 SLF.LibContainer <> union_incl_union_same_r meth
+R15989:16011 SLF.LibContainer <> union_incl_union_same_r meth
+R16079:16093 SLF.LibContainer <> union_empty_inv meth
+R16079:16093 SLF.LibContainer <> union_empty_inv meth
+R16147:16158 SLF.LibContainer <> disjoint_sym meth
+R16147:16158 SLF.LibContainer <> disjoint_sym meth
+R16195:16208 SLF.LibContainer <> disjoint_prove meth
+R16195:16208 SLF.LibContainer <> disjoint_prove meth
+R16264:16275 SLF.LibContainer <> disjoint_inv meth
+R16264:16275 SLF.LibContainer <> disjoint_inv meth
+R16333:16352 SLF.LibContainer <> disjoint_single_l_eq meth
+R16333:16352 SLF.LibContainer <> disjoint_single_l_eq meth
+R16411:16430 SLF.LibContainer <> disjoint_single_r_eq meth
+R16411:16430 SLF.LibContainer <> disjoint_single_r_eq meth
+sec 16667:16683 <> DerivedProperties
+binder 16696:16696 <> A:458
+binder 16698:16698 <> T:459
+R16713:16717 SLF.LibContainer <> BagIn class
+R16721:16721 SLF.LibContainer <> T:459 var
+R16719:16719 SLF.LibContainer <> A:458 var
+binder 16709:16710 <> BI:460
+R16729:16736 SLF.LibContainer <> BagEmpty class
+R16738:16738 SLF.LibContainer <> T:459 var
+binder 16725:16726 <> BE:461
+R16746:16754 SLF.LibContainer <> BagSingle class
+R16758:16758 SLF.LibContainer <> T:459 var
+R16756:16756 SLF.LibContainer <> A:458 var
+binder 16742:16743 <> BS:462
+R16768:16775 SLF.LibContainer <> BagInter class
+R16777:16777 SLF.LibContainer <> T:459 var
+binder 16764:16765 <> BN:463
+R16785:16792 SLF.LibContainer <> BagUnion class
+R16794:16794 SLF.LibContainer <> T:459 var
+binder 16781:16782 <> BU:464
+R16802:16810 SLF.LibContainer <> BagRemove class
+R16814:16814 SLF.LibContainer <> T:459 var
+R16812:16812 SLF.LibContainer <> T:459 var
+binder 16798:16799 <> BR:465
+R16822:16828 SLF.LibContainer <> BagCard class
+R16830:16830 SLF.LibContainer <> T:459 var
+binder 16818:16819 <> BC:466
+R16840:16846 SLF.LibContainer <> BagIncl class
+R16848:16848 SLF.LibContainer <> T:459 var
+binder 16836:16837 <> BL:467
+R16856:16866 SLF.LibContainer <> BagDisjoint class
+R16868:16868 SLF.LibContainer <> T:459 var
+binder 16852:16853 <> BD:468
+inst 16900:16922 <> in_empty_of_in_empty_eq
+R16939:16944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16928:16938 SLF.LibContainer <> In_empty_eq class
+R16945:16952 SLF.LibContainer <> In_empty class
+R17000:17010 SLF.LibContainer <> in_empty_eq meth
+R17000:17010 SLF.LibContainer <> in_empty_eq meth
+inst 17040:17058 <> notin_eq_of_nothing
+R17064:17071 SLF.LibContainer <> Notin_eq class
+R17115:17119 SLF.LibContainer <> notin def
+inst 17150:17175 <> notin_empty_of_in_empty_eq
+R17192:17197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17181:17191 SLF.LibContainer <> In_empty_eq class
+R17198:17208 SLF.LibContainer <> Notin_empty class
+R17256:17266 SLF.LibContainer <> in_empty_eq meth
+R17256:17266 SLF.LibContainer <> in_empty_eq meth
+inst 17296:17320 <> in_single_of_in_single_eq
+R17338:17343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17326:17337 SLF.LibContainer <> In_single_eq class
+R17344:17352 SLF.LibContainer <> In_single class
+R17400:17411 SLF.LibContainer <> in_single_eq meth
+R17400:17411 SLF.LibContainer <> in_single_eq meth
+inst 17441:17470 <> in_single_self_of_in_single_eq
+R17488:17493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17476:17487 SLF.LibContainer <> In_single_eq class
+R17494:17507 SLF.LibContainer <> In_single_self class
+R17553:17564 SLF.LibContainer <> in_single_eq meth
+R17553:17564 SLF.LibContainer <> in_single_eq meth
+inst 17589:17613 <> in_extens_eq_of_in_extens
+R17628:17633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17619:17627 SLF.LibContainer <> In_extens class
+R17634:17645 SLF.LibContainer <> In_extens_eq class
+R17690:17698 SLF.LibContainer <> in_extens meth
+R17690:17698 SLF.LibContainer <> in_extens meth
+inst 17743:17768 <> is_empty_eq_of_in_empty_eq
+R17783:17788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17774:17782 SLF.LibContainer <> In_extens class
+R17800:17805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17789:17799 SLF.LibContainer <> In_empty_eq class
+R17806:17816 SLF.LibContainer <> Is_empty_eq class
+R17900:17910 SLF.LibContainer <> in_empty_eq meth
+R17900:17910 SLF.LibContainer <> in_empty_eq meth
+R17928:17936 SLF.LibContainer <> in_extens meth
+R17928:17936 SLF.LibContainer <> in_extens meth
+R17965:17975 SLF.LibContainer <> in_empty_eq meth
+R17965:17975 SLF.LibContainer <> in_empty_eq meth
+inst 18005:18033 <> is_empty_prove_of_is_empty_eq
+R18050:18055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18039:18049 SLF.LibContainer <> Is_empty_eq class
+R18056:18069 SLF.LibContainer <> Is_empty_prove class
+R18117:18127 SLF.LibContainer <> is_empty_eq meth
+R18117:18127 SLF.LibContainer <> is_empty_eq meth
+inst 18152:18178 <> is_empty_inv_of_is_empty_eq
+R18195:18200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18184:18194 SLF.LibContainer <> Is_empty_eq class
+R18201:18212 SLF.LibContainer <> Is_empty_inv class
+R18264:18274 SLF.LibContainer <> is_empty_eq meth
+R18264:18274 SLF.LibContainer <> is_empty_eq meth
+inst 18305:18336 <> is_nonempty_prove_of_is_empty_eq
+R18353:18358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18342:18352 SLF.LibContainer <> Is_empty_eq class
+R18359:18375 SLF.LibContainer <> Is_nonempty_prove class
+R18426:18436 SLF.LibContainer <> is_empty_eq meth
+R18426:18436 SLF.LibContainer <> is_empty_eq meth
+R18426:18436 SLF.LibContainer <> is_empty_eq meth
+inst 18474:18501 <> is_single_eq_of_in_single_eq
+R18516:18521 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18507:18515 SLF.LibContainer <> In_extens class
+R18534:18539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18522:18533 SLF.LibContainer <> In_single_eq class
+R18540:18551 SLF.LibContainer <> Is_single_eq class
+R18640:18651 SLF.LibContainer <> in_single_eq meth
+R18640:18651 SLF.LibContainer <> in_single_eq meth
+R18673:18684 SLF.LibContainer <> in_single_eq meth
+R18673:18684 SLF.LibContainer <> in_single_eq meth
+R18702:18710 SLF.LibContainer <> in_extens meth
+R18702:18710 SLF.LibContainer <> in_extens meth
+R18753:18764 SLF.LibContainer <> in_single_eq meth
+R18753:18764 SLF.LibContainer <> in_single_eq meth
+R18782:18793 SLF.LibContainer <> in_single_eq meth
+R18782:18793 SLF.LibContainer <> in_single_eq meth
+inst 18831:18861 <> is_single_prove_of_is_single_eq
+R18879:18884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18867:18878 SLF.LibContainer <> Is_single_eq class
+R18885:18899 SLF.LibContainer <> Is_single_prove class
+R18947:18958 SLF.LibContainer <> is_single_eq meth
+R18947:18958 SLF.LibContainer <> is_single_eq meth
+inst 18983:19011 <> is_single_inv_of_is_single_eq
+R19029:19034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19017:19028 SLF.LibContainer <> Is_single_eq class
+R19035:19047 SLF.LibContainer <> Is_single_inv class
+R19099:19110 SLF.LibContainer <> is_single_eq meth
+R19099:19110 SLF.LibContainer <> is_single_eq meth
+inst 19141:19171 <> notin_single_eq_of_in_single_eq
+R19189:19194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19177:19188 SLF.LibContainer <> In_single_eq class
+R19195:19209 SLF.LibContainer <> Notin_single_eq class
+R19253:19257 SLF.LibContainer <> notin def
+R19268:19279 SLF.LibContainer <> in_single_eq meth
+R19268:19279 SLF.LibContainer <> in_single_eq meth
+R19268:19279 SLF.LibContainer <> in_single_eq meth
+inst 19311:19333 <> in_inter_of_in_inter_eq
+R19350:19355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19339:19349 SLF.LibContainer <> In_inter_eq class
+R19356:19363 SLF.LibContainer <> In_inter class
+R19415:19425 SLF.LibContainer <> in_inter_eq meth
+R19415:19425 SLF.LibContainer <> in_inter_eq meth
+inst 19450:19476 <> in_inter_inv_of_in_inter_eq
+R19493:19498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19482:19492 SLF.LibContainer <> In_inter_eq class
+R19499:19510 SLF.LibContainer <> In_inter_inv class
+R19561:19571 SLF.LibContainer <> in_inter_eq meth
+R19561:19571 SLF.LibContainer <> in_inter_eq meth
+inst 19596:19626 <> notin_inter_l_of_notin_inter_eq
+R19646:19651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19632:19645 SLF.LibContainer <> Notin_inter_eq class
+R19652:19664 SLF.LibContainer <> Notin_inter_l class
+R19712:19725 SLF.LibContainer <> notin_inter_eq meth
+R19712:19725 SLF.LibContainer <> notin_inter_eq meth
+inst 19750:19780 <> notin_inter_r_of_notin_inter_eq
+R19800:19805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19786:19799 SLF.LibContainer <> Notin_inter_eq class
+R19806:19818 SLF.LibContainer <> Notin_inter_r class
+R19866:19879 SLF.LibContainer <> notin_inter_eq meth
+R19866:19879 SLF.LibContainer <> notin_inter_eq meth
+inst 19904:19936 <> notin_inter_inv_of_notin_inter_eq
+R19956:19961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19942:19955 SLF.LibContainer <> Notin_inter_eq class
+R19962:19976 SLF.LibContainer <> Notin_inter_inv class
+R20024:20037 SLF.LibContainer <> notin_inter_eq meth
+R20024:20037 SLF.LibContainer <> notin_inter_eq meth
+inst 20067:20091 <> in_union_l_of_in_union_eq
+R20108:20113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20097:20107 SLF.LibContainer <> In_union_eq class
+R20114:20123 SLF.LibContainer <> In_union_l class
+R20171:20181 SLF.LibContainer <> in_union_eq meth
+R20171:20181 SLF.LibContainer <> in_union_eq meth
+inst 20206:20230 <> in_union_r_of_in_union_eq
+R20247:20252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20236:20246 SLF.LibContainer <> In_union_eq class
+R20253:20262 SLF.LibContainer <> In_union_r class
+R20310:20320 SLF.LibContainer <> in_union_eq meth
+R20310:20320 SLF.LibContainer <> in_union_eq meth
+inst 20345:20371 <> in_union_inv_of_in_union_eq
+R20388:20393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20377:20387 SLF.LibContainer <> In_union_eq class
+R20394:20405 SLF.LibContainer <> In_union_inv class
+R20454:20464 SLF.LibContainer <> in_union_eq meth
+R20454:20464 SLF.LibContainer <> in_union_eq meth
+inst 20494:20522 <> notin_union_of_notin_union_eq
+R20542:20547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20528:20541 SLF.LibContainer <> Notin_union_eq class
+R20548:20558 SLF.LibContainer <> Notin_union class
+R20610:20623 SLF.LibContainer <> notin_union_eq meth
+R20610:20623 SLF.LibContainer <> notin_union_eq meth
+inst 20648:20680 <> notin_union_inv_of_notin_union_eq
+R20700:20705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20686:20699 SLF.LibContainer <> Notin_union_eq class
+R20706:20720 SLF.LibContainer <> Notin_union_inv class
+R20768:20781 SLF.LibContainer <> notin_union_eq meth
+R20768:20781 SLF.LibContainer <> notin_union_eq meth
+inst 20862:20880 <> incl_prove_of_in_eq
+R20896:20901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20886:20895 SLF.LibContainer <> Incl_in_eq class
+R20902:20911 SLF.LibContainer <> Incl_prove class
+R20959:20968 SLF.LibContainer <> incl_in_eq meth
+R20959:20968 SLF.LibContainer <> incl_in_eq meth
+inst 20993:21009 <> incl_inv_of_in_eq
+R21025:21030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21015:21024 SLF.LibContainer <> Incl_in_eq class
+R21031:21038 SLF.LibContainer <> Incl_inv class
+R21090:21099 SLF.LibContainer <> incl_in_eq meth
+R21090:21099 SLF.LibContainer <> incl_in_eq meth
+inst 21130:21153 <> incl_order_of_incl_in_eq
+R21168:21173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21159:21167 SLF.LibContainer <> In_extens class
+R21184:21189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21174:21183 SLF.LibContainer <> Incl_in_eq class
+R21190:21199 SLF.LibContainer <> Incl_order class
+R21264:21273 SLF.LibContainer <> incl_in_eq meth
+R21264:21273 SLF.LibContainer <> incl_in_eq meth
+R21306:21315 SLF.LibContainer <> incl_in_eq meth
+R21306:21315 SLF.LibContainer <> incl_in_eq meth
+R21306:21315 SLF.LibContainer <> incl_in_eq meth
+R21326:21335 SLF.LibContainer <> incl_in_eq meth
+R21326:21335 SLF.LibContainer <> incl_in_eq meth
+R21326:21335 SLF.LibContainer <> incl_in_eq meth
+R21383:21392 SLF.LibContainer <> incl_in_eq meth
+R21383:21392 SLF.LibContainer <> incl_in_eq meth
+R21383:21392 SLF.LibContainer <> incl_in_eq meth
+R21411:21419 SLF.LibContainer <> in_extens meth
+R21411:21419 SLF.LibContainer <> in_extens meth
+inst 21444:21466 <> incl_refl_of_incl_order
+R21482:21487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21472:21481 SLF.LibContainer <> Incl_order class
+R21488:21496 SLF.LibContainer <> Incl_refl class
+R21531:21540 SLF.LibOrder <> order_refl proj
+R21531:21540 SLF.LibOrder <> order_refl proj
+R21549:21558 SLF.LibContainer <> incl_order meth
+R21549:21558 SLF.LibContainer <> incl_order meth
+inst 21583:21606 <> incl_trans_of_incl_order
+R21622:21627 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21612:21621 SLF.LibContainer <> Incl_order class
+R21628:21637 SLF.LibContainer <> Incl_trans class
+R21672:21682 SLF.LibOrder <> order_trans proj
+R21672:21682 SLF.LibOrder <> order_trans proj
+R21691:21700 SLF.LibContainer <> incl_order meth
+R21691:21700 SLF.LibContainer <> incl_order meth
+inst 21725:21750 <> incl_antisym_of_incl_order
+R21766:21771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21756:21765 SLF.LibContainer <> Incl_order class
+R21772:21783 SLF.LibContainer <> Incl_antisym class
+R21818:21830 SLF.LibOrder <> order_antisym proj
+R21818:21830 SLF.LibOrder <> order_antisym proj
+R21839:21848 SLF.LibContainer <> incl_order meth
+R21839:21848 SLF.LibContainer <> incl_order meth
+inst 21873:21916 <> empty_incl_inv_of_incl_in_eq_and_in_empty_eq
+R21932:21937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21922:21931 SLF.LibContainer <> Incl_in_eq class
+R21949:21954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21938:21948 SLF.LibContainer <> In_empty_eq class
+R21955:21964 SLF.LibContainer <> Empty_incl class
+R22011:22020 SLF.LibContainer <> incl_in_eq meth
+R22011:22020 SLF.LibContainer <> incl_in_eq meth
+R22011:22020 SLF.LibContainer <> incl_in_eq meth
+R22043:22053 SLF.LibContainer <> in_empty_eq meth
+R22043:22053 SLF.LibContainer <> in_empty_eq meth
+R22043:22053 SLF.LibContainer <> in_empty_eq meth
+inst 22090:22129 <> incl_empty_of_in_empty_eq_and_incl_in_eq
+R22144:22149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22135:22143 SLF.LibContainer <> In_extens class
+R22161:22166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22150:22160 SLF.LibContainer <> In_empty_eq class
+R22177:22182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22167:22176 SLF.LibContainer <> Incl_in_eq class
+R22183:22192 SLF.LibContainer <> Incl_empty class
+R22247:22256 SLF.LibContainer <> incl_in_eq meth
+R22247:22256 SLF.LibContainer <> incl_in_eq meth
+R22247:22256 SLF.LibContainer <> incl_in_eq meth
+R22276:22284 SLF.LibContainer <> in_extens meth
+R22276:22284 SLF.LibContainer <> in_extens meth
+R22313:22323 SLF.LibContainer <> in_empty_eq meth
+R22313:22323 SLF.LibContainer <> in_empty_eq meth
+R22313:22323 SLF.LibContainer <> in_empty_eq meth
+R22367:22377 SLF.LibContainer <> in_empty_eq meth
+R22367:22377 SLF.LibContainer <> in_empty_eq meth
+R22367:22377 SLF.LibContainer <> in_empty_eq meth
+inst 22414:22441 <> incl_empty_inv_of_incl_empty
+R22457:22462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22447:22456 SLF.LibContainer <> Incl_empty class
+R22463:22476 SLF.LibContainer <> Incl_empty_inv class
+R22524:22533 SLF.LibContainer <> incl_empty meth
+R22524:22533 SLF.LibContainer <> incl_empty meth
+inst 22563:22613 <> single_incl_r_eq_of_in_single_eq_and_and_incl_in_eq
+R22628:22633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22619:22627 SLF.LibContainer <> In_extens class
+R22646:22651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22634:22645 SLF.LibContainer <> In_single_eq class
+R22662:22667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22652:22661 SLF.LibContainer <> Incl_in_eq class
+R22668:22683 SLF.LibContainer <> Single_incl_r_eq class
+R22738:22747 SLF.LibContainer <> incl_in_eq meth
+R22738:22747 SLF.LibContainer <> incl_in_eq meth
+R22738:22747 SLF.LibContainer <> incl_in_eq meth
+R22781:22792 SLF.LibContainer <> in_single_eq meth
+R22781:22792 SLF.LibContainer <> in_single_eq meth
+R22817:22828 SLF.LibContainer <> in_single_eq meth
+R22817:22828 SLF.LibContainer <> in_single_eq meth
+R22817:22828 SLF.LibContainer <> in_single_eq meth
+inst 22866:22898 <> single_incl_r_of_single_incl_r_eq
+R22919:22924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22903:22918 SLF.LibContainer <> Single_incl_r_eq class
+R22925:22937 SLF.LibContainer <> Single_incl_r class
+R22984:22999 SLF.LibContainer <> single_incl_r_eq meth
+R22984:22999 SLF.LibContainer <> single_incl_r_eq meth
+R22984:22999 SLF.LibContainer <> single_incl_r_eq meth
+inst 23036:23102 <> single_incl_l_eq_of_in_empty_eq_and_in_single_eq_and_and_incl_in_eq
+R23117:23122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23108:23116 SLF.LibContainer <> In_extens class
+R23134:23139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23123:23133 SLF.LibContainer <> In_empty_eq class
+R23152:23157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23140:23151 SLF.LibContainer <> In_single_eq class
+R23168:23173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23158:23167 SLF.LibContainer <> Incl_in_eq class
+R23174:23189 SLF.LibContainer <> Single_incl_l_eq class
+R23244:23253 SLF.LibContainer <> incl_in_eq meth
+R23244:23253 SLF.LibContainer <> incl_in_eq meth
+R23244:23253 SLF.LibContainer <> incl_in_eq meth
+R23276:23280 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R23276:23280 SLF.LibContainer <> ::container_scope:x_'\in'_x not
+R23305:23319 SLF.LibContainer <> is_single_prove meth
+R23305:23319 SLF.LibContainer <> is_single_prove meth
+R23367:23378 SLF.LibContainer <> in_single_eq meth
+R23367:23378 SLF.LibContainer <> in_single_eq meth
+R23404:23412 SLF.LibContainer <> in_extens meth
+R23404:23412 SLF.LibContainer <> in_extens meth
+R23458:23469 SLF.LibContainer <> in_single_eq meth
+R23458:23469 SLF.LibContainer <> in_single_eq meth
+R23508:23518 SLF.LibContainer <> in_empty_eq meth
+R23508:23518 SLF.LibContainer <> in_empty_eq meth
+R23508:23518 SLF.LibContainer <> in_empty_eq meth
+R23555:23566 SLF.LibContainer <> in_single_eq meth
+R23555:23566 SLF.LibContainer <> in_single_eq meth
+R23555:23566 SLF.LibContainer <> in_single_eq meth
+R23602:23612 SLF.LibContainer <> in_empty_eq meth
+R23602:23612 SLF.LibContainer <> in_empty_eq meth
+R23602:23612 SLF.LibContainer <> in_empty_eq meth
+R23648:23659 SLF.LibContainer <> in_single_eq meth
+R23648:23659 SLF.LibContainer <> in_single_eq meth
+R23648:23659 SLF.LibContainer <> in_single_eq meth
+inst 23695:23741 <> union_incl_eq_of_in_union_eq_and_and_incl_in_eq
+R23756:23761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23747:23755 SLF.LibContainer <> In_extens class
+R23773:23778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23762:23772 SLF.LibContainer <> In_union_eq class
+R23789:23794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23779:23788 SLF.LibContainer <> Incl_in_eq class
+R23795:23807 SLF.LibContainer <> Union_incl_eq class
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23869:23878 SLF.LibContainer <> incl_in_eq meth
+R23945:23955 SLF.LibContainer <> in_union_eq meth
+R23945:23955 SLF.LibContainer <> in_union_eq meth
+R24012:24022 SLF.LibContainer <> in_union_eq meth
+R24012:24022 SLF.LibContainer <> in_union_eq meth
+R24091:24101 SLF.LibContainer <> in_union_eq meth
+R24091:24101 SLF.LibContainer <> in_union_eq meth
+inst 24131:24194 <> union_incl_union_of_union_incl_and_incl_union_l_and_incl_union_r
+R24210:24215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24200:24209 SLF.LibContainer <> Union_incl class
+R24228:24233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24216:24227 SLF.LibContainer <> Incl_union_l class
+R24246:24251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24234:24245 SLF.LibContainer <> Incl_union_r class
+R24252:24267 SLF.LibContainer <> Union_incl_union class
+R24312:24321 SLF.LibContainer <> union_incl meth
+R24312:24321 SLF.LibContainer <> union_incl meth
+R24336:24347 SLF.LibContainer <> incl_union_l meth
+R24336:24347 SLF.LibContainer <> incl_union_l meth
+R24362:24373 SLF.LibContainer <> incl_union_r meth
+R24362:24373 SLF.LibContainer <> incl_union_r meth
+inst 24400:24456 <> union_incl_union_same_l_of_union_incl_union_and_incl_refl
+R24478:24483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24462:24477 SLF.LibContainer <> Union_incl_union class
+R24493:24498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24484:24492 SLF.LibContainer <> Incl_refl class
+R24499:24521 SLF.LibContainer <> Union_incl_union_same_l class
+R24566:24581 SLF.LibContainer <> union_incl_union meth
+R24566:24581 SLF.LibContainer <> union_incl_union meth
+R24596:24604 SLF.LibContainer <> incl_refl meth
+R24596:24604 SLF.LibContainer <> incl_refl meth
+inst 24641:24705 <> union_incl_union_same_r_of_union_incl_union_same_l_and_union_comm
+R24734:24739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24711:24733 SLF.LibContainer <> Union_incl_union_same_l class
+R24750:24755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24740:24749 SLF.LibContainer <> Union_comm class
+R24756:24778 SLF.LibContainer <> Union_incl_union_same_r class
+R24826:24835 SLF.LibContainer <> union_comm meth
+R24826:24835 SLF.LibContainer <> union_comm meth
+R24826:24835 SLF.LibContainer <> union_comm meth
+R24851:24860 SLF.LibContainer <> union_comm meth
+R24851:24860 SLF.LibContainer <> union_comm meth
+R24851:24860 SLF.LibContainer <> union_comm meth
+R24875:24897 SLF.LibContainer <> union_incl_union_same_l meth
+R24875:24897 SLF.LibContainer <> union_incl_union_same_l meth
+inst 24928:24969 <> incl_union_l_of_incl_in_eq_and_in_union_eq
+R24985:24990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24975:24984 SLF.LibContainer <> Incl_in_eq class
+R25002:25007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24991:25001 SLF.LibContainer <> In_union_eq class
+R25008:25019 SLF.LibContainer <> Incl_union_l class
+R25068:25077 SLF.LibContainer <> incl_in_eq meth
+R25068:25077 SLF.LibContainer <> incl_in_eq meth
+R25068:25077 SLF.LibContainer <> incl_in_eq meth
+R25088:25097 SLF.LibContainer <> incl_in_eq meth
+R25088:25097 SLF.LibContainer <> incl_in_eq meth
+R25088:25097 SLF.LibContainer <> incl_in_eq meth
+R25170:25180 SLF.LibContainer <> in_union_eq meth
+R25170:25180 SLF.LibContainer <> in_union_eq meth
+inst 25205:25232 <> incl_union_r_of_incl_union_l
+R25250:25255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25238:25249 SLF.LibContainer <> Incl_union_l class
+R25266:25271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25256:25265 SLF.LibContainer <> Union_comm class
+R25272:25283 SLF.LibContainer <> Incl_union_r class
+R25330:25339 SLF.LibContainer <> union_comm meth
+R25330:25339 SLF.LibContainer <> union_comm meth
+R25330:25339 SLF.LibContainer <> union_comm meth
+R25350:25361 SLF.LibContainer <> incl_union_l meth
+R25350:25361 SLF.LibContainer <> incl_union_l meth
+inst 25386:25412 <> union_incl_of_union_incl_eq
+R25431:25436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25418:25430 SLF.LibContainer <> Union_incl_eq class
+R25437:25449 SLF.LibContainer <> Union_incl_eq class
+R25499:25511 SLF.LibContainer <> union_incl_eq meth
+R25499:25511 SLF.LibContainer <> union_incl_eq meth
+inst 25536:25566 <> union_incl_inv_of_union_incl_eq
+R25585:25590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25572:25584 SLF.LibContainer <> Union_incl_eq class
+R25591:25604 SLF.LibContainer <> Union_incl_inv class
+R25651:25663 SLF.LibContainer <> union_incl_eq meth
+R25651:25663 SLF.LibContainer <> union_incl_eq meth
+R25651:25663 SLF.LibContainer <> union_incl_eq meth
+inst 25706:25752 <> incl_inter_eq_of_in_inter_eq_and_and_incl_in_eq
+R25767:25772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25758:25766 SLF.LibContainer <> In_extens class
+R25784:25789 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25773:25783 SLF.LibContainer <> In_inter_eq class
+R25800:25805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25790:25799 SLF.LibContainer <> Incl_in_eq class
+R25806:25818 SLF.LibContainer <> Incl_inter_eq class
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25880:25889 SLF.LibContainer <> incl_in_eq meth
+R25956:25966 SLF.LibContainer <> in_inter_eq meth
+R25956:25966 SLF.LibContainer <> in_inter_eq meth
+R26023:26033 SLF.LibContainer <> in_inter_eq meth
+R26023:26033 SLF.LibContainer <> in_inter_eq meth
+R26102:26112 SLF.LibContainer <> in_inter_eq meth
+R26102:26112 SLF.LibContainer <> in_inter_eq meth
+inst 26137:26163 <> incl_inter_of_incl_inter_eq
+R26182:26187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26169:26181 SLF.LibContainer <> Incl_inter_eq class
+R26188:26197 SLF.LibContainer <> Incl_inter class
+R26243:26255 SLF.LibContainer <> incl_inter_eq meth
+R26243:26255 SLF.LibContainer <> incl_inter_eq meth
+inst 26280:26310 <> incl_inter_inv_of_incl_inter_eq
+R26329:26334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26316:26328 SLF.LibContainer <> Incl_inter_eq class
+R26335:26348 SLF.LibContainer <> Incl_inter_inv class
+R26396:26408 SLF.LibContainer <> incl_inter_eq meth
+R26396:26408 SLF.LibContainer <> incl_inter_eq meth
+R26499:26509 SLF.LibContainer <> in_union_eq meth
+R26512:26522 SLF.LibContainer <> in_inter_eq meth
+R26527:26537 SLF.LibContainer <> in_empty_eq meth
+R26540:26551 SLF.LibContainer <> in_single_eq meth
+R26616:26624 SLF.LibContainer <> in_extens meth
+inst 26751:26777 <> union_comm_form_in_union_eq
+R26792:26797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26783:26791 SLF.LibContainer <> In_extens class
+R26809:26814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26798:26808 SLF.LibContainer <> In_union_eq class
+R26815:26824 SLF.LibContainer <> Union_comm class
+inst 26897:26924 <> union_assoc_form_in_union_eq
+R26939:26944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26930:26938 SLF.LibContainer <> In_extens class
+R26956:26961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26945:26955 SLF.LibContainer <> In_union_eq class
+R26962:26972 SLF.LibContainer <> Union_assoc class
+inst 27045:27090 <> union_comm_assoc_of_union_comm_and_union_assoc
+R27106:27111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27096:27105 SLF.LibContainer <> Union_comm class
+R27123:27128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27112:27122 SLF.LibContainer <> Union_assoc class
+R27129:27144 SLF.LibContainer <> Union_comm_assoc class
+R27200:27210 SLF.LibContainer <> union_assoc meth
+R27200:27210 SLF.LibContainer <> union_assoc meth
+R27200:27210 SLF.LibContainer <> union_assoc meth
+R27200:27210 SLF.LibContainer <> union_assoc meth
+R27200:27210 SLF.LibContainer <> union_assoc meth
+R27224:27233 SLF.LibContainer <> union_comm meth
+R27224:27233 SLF.LibContainer <> union_comm meth
+R27224:27233 SLF.LibContainer <> union_comm meth
+inst 27269:27312 <> union_empty_l_of_in_union_eq_and_in_empty_eq
+R27327:27332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27318:27326 SLF.LibContainer <> In_extens class
+R27344:27349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27333:27343 SLF.LibContainer <> In_union_eq class
+R27361:27366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27350:27360 SLF.LibContainer <> In_empty_eq class
+R27367:27379 SLF.LibContainer <> Union_empty_l class
+inst 27452:27481 <> union_empty_r_of_union_empty_l
+R27500:27503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27487:27499 SLF.LibContainer <> Union_empty_l class
+R27514:27517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27504:27513 SLF.LibContainer <> Union_comm class
+R27518:27530 SLF.LibContainer <> Union_empty_r class
+R27579:27588 SLF.LibContainer <> union_comm meth
+R27579:27588 SLF.LibContainer <> union_comm meth
+R27579:27588 SLF.LibContainer <> union_comm meth
+R27597:27609 SLF.LibContainer <> union_empty_l meth
+R27597:27609 SLF.LibContainer <> union_empty_l meth
+inst 27634:27663 <> union_empty_inv_of_in_union_eq
+R27678:27683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27669:27677 SLF.LibContainer <> In_extens class
+R27695:27700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27684:27694 SLF.LibContainer <> In_empty_eq class
+R27712:27717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27701:27711 SLF.LibContainer <> In_union_eq class
+R27718:27732 SLF.LibContainer <> Union_empty_inv class
+R27790:27798 SLF.LibContainer <> in_extens meth
+R27790:27798 SLF.LibContainer <> in_extens meth
+R27831:27841 SLF.LibContainer <> in_union_eq meth
+R27831:27841 SLF.LibContainer <> in_union_eq meth
+R27853:27863 SLF.LibContainer <> in_empty_eq meth
+R27853:27863 SLF.LibContainer <> in_empty_eq meth
+R27881:27889 SLF.LibContainer <> in_extens meth
+R27881:27889 SLF.LibContainer <> in_extens meth
+R27922:27932 SLF.LibContainer <> in_union_eq meth
+R27922:27932 SLF.LibContainer <> in_union_eq meth
+R27944:27954 SLF.LibContainer <> in_empty_eq meth
+R27944:27954 SLF.LibContainer <> in_empty_eq meth
+inst 27984:28008 <> union_self_of_in_union_eq
+R28023:28028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28014:28022 SLF.LibContainer <> In_extens class
+R28040:28045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28029:28039 SLF.LibContainer <> In_union_eq class
+R28046:28055 SLF.LibContainer <> Union_self class
+inst 28128:28156 <> notin_union_eq_of_in_union_eq
+R28173:28178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28162:28172 SLF.LibContainer <> In_union_eq class
+R28179:28192 SLF.LibContainer <> Notin_union_eq class
+R28236:28240 SLF.LibContainer <> notin def
+R28252:28262 SLF.LibContainer <> in_union_eq meth
+R28252:28262 SLF.LibContainer <> in_union_eq meth
+R28252:28262 SLF.LibContainer <> in_union_eq meth
+R28252:28262 SLF.LibContainer <> in_union_eq meth
+inst 28317:28343 <> inter_comm_form_in_inter_eq
+R28358:28363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28349:28357 SLF.LibContainer <> In_extens class
+R28375:28380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28364:28374 SLF.LibContainer <> In_inter_eq class
+R28381:28390 SLF.LibContainer <> Inter_comm class
+inst 28463:28490 <> inter_assoc_form_in_inter_eq
+R28505:28510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28496:28504 SLF.LibContainer <> In_extens class
+R28522:28527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28511:28521 SLF.LibContainer <> In_inter_eq class
+R28528:28538 SLF.LibContainer <> Inter_assoc class
+inst 28611:28656 <> inter_comm_assoc_of_inter_comm_and_inter_assoc
+R28672:28677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28662:28671 SLF.LibContainer <> Inter_comm class
+R28689:28694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28678:28688 SLF.LibContainer <> Inter_assoc class
+R28695:28710 SLF.LibContainer <> Inter_comm_assoc class
+R28766:28776 SLF.LibContainer <> inter_assoc meth
+R28766:28776 SLF.LibContainer <> inter_assoc meth
+R28766:28776 SLF.LibContainer <> inter_assoc meth
+R28766:28776 SLF.LibContainer <> inter_assoc meth
+R28766:28776 SLF.LibContainer <> inter_assoc meth
+R28790:28799 SLF.LibContainer <> inter_comm meth
+R28790:28799 SLF.LibContainer <> inter_comm meth
+R28790:28799 SLF.LibContainer <> inter_comm meth
+inst 28835:28878 <> inter_empty_l_of_in_inter_eq_and_in_empty_eq
+R28893:28898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28884:28892 SLF.LibContainer <> In_extens class
+R28910:28915 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28899:28909 SLF.LibContainer <> In_inter_eq class
+R28927:28932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28916:28926 SLF.LibContainer <> In_empty_eq class
+R28933:28945 SLF.LibContainer <> Inter_empty_l class
+inst 29018:29047 <> inter_empty_r_of_inter_empty_l
+R29066:29071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29053:29065 SLF.LibContainer <> Inter_empty_l class
+R29082:29087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29072:29081 SLF.LibContainer <> Inter_comm class
+R29088:29100 SLF.LibContainer <> Inter_empty_r class
+R29149:29158 SLF.LibContainer <> inter_comm meth
+R29149:29158 SLF.LibContainer <> inter_comm meth
+R29149:29158 SLF.LibContainer <> inter_comm meth
+R29167:29179 SLF.LibContainer <> inter_empty_l meth
+R29167:29179 SLF.LibContainer <> inter_empty_l meth
+inst 29204:29228 <> inter_self_of_in_inter_eq
+R29243:29248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29234:29242 SLF.LibContainer <> In_extens class
+R29260:29265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29249:29259 SLF.LibContainer <> In_inter_eq class
+R29266:29275 SLF.LibContainer <> Inter_self class
+inst 29363:29404 <> remove_incl_of_in_remove_eq_and_incl_in_eq
+R29422:29427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29410:29421 SLF.LibContainer <> In_remove_eq class
+R29438:29443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29428:29437 SLF.LibContainer <> Incl_in_eq class
+R29444:29454 SLF.LibContainer <> Remove_incl class
+R29501:29510 SLF.LibContainer <> incl_in_eq meth
+R29501:29510 SLF.LibContainer <> incl_in_eq meth
+R29501:29510 SLF.LibContainer <> incl_in_eq meth
+R29532:29543 SLF.LibContainer <> in_remove_eq meth
+R29532:29543 SLF.LibContainer <> in_remove_eq meth
+inst 29573:29619 <> remove_disjoint_of_in_remove_eq_and_disjoint_eq
+R29637:29642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29625:29636 SLF.LibContainer <> In_remove_eq class
+R29654:29659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29643:29653 SLF.LibContainer <> Disjoint_eq class
+R29660:29674 SLF.LibContainer <> Remove_disjoint class
+R29721:29731 SLF.LibContainer <> disjoint_eq meth
+R29721:29731 SLF.LibContainer <> disjoint_eq meth
+R29721:29731 SLF.LibContainer <> disjoint_eq meth
+R29757:29768 SLF.LibContainer <> in_remove_eq meth
+R29757:29768 SLF.LibContainer <> in_remove_eq meth
+inst 29815:29844 <> disjoint_not_eq_of_disjoint_eq
+R29861:29866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29850:29860 SLF.LibContainer <> Disjoint_eq class
+R29867:29881 SLF.LibContainer <> Disjoint_not_eq class
+R29928:29938 SLF.LibContainer <> disjoint_eq meth
+R29928:29938 SLF.LibContainer <> disjoint_eq meth
+R29928:29938 SLF.LibContainer <> disjoint_eq meth
+inst 30155:30183 <> disjoint_prove_of_disjoint_eq
+R30200:30205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30189:30199 SLF.LibContainer <> Disjoint_eq class
+R30206:30219 SLF.LibContainer <> Disjoint_prove class
+R30265:30275 SLF.LibContainer <> disjoint_eq meth
+R30265:30275 SLF.LibContainer <> disjoint_eq meth
+inst 30300:30326 <> disjoint_inv_of_disjoint_eq
+R30343:30348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30332:30342 SLF.LibContainer <> Disjoint_eq class
+R30349:30360 SLF.LibContainer <> Disjoint_inv class
+R30414:30424 SLF.LibContainer <> disjoint_eq meth
+R30414:30424 SLF.LibContainer <> disjoint_eq meth
+inst 30454:30505 <> disjoint_single_l_eq_of_disjoint_eq_and_in_single_eq
+R30522:30527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30511:30521 SLF.LibContainer <> Disjoint_eq class
+R30540:30545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30528:30539 SLF.LibContainer <> In_single_eq class
+R30546:30565 SLF.LibContainer <> Disjoint_single_l_eq class
+R30612:30622 SLF.LibContainer <> disjoint_eq meth
+R30612:30622 SLF.LibContainer <> disjoint_eq meth
+R30612:30622 SLF.LibContainer <> disjoint_eq meth
+R30632:30636 SLF.LibContainer <> notin def
+R30694:30705 SLF.LibContainer <> in_single_eq meth
+R30694:30705 SLF.LibContainer <> in_single_eq meth
+R30741:30752 SLF.LibContainer <> in_single_eq meth
+R30741:30752 SLF.LibContainer <> in_single_eq meth
+R30741:30752 SLF.LibContainer <> in_single_eq meth
+inst 30797:30823 <> disjoint_sym_of_disjoint_eq
+R30840:30845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30829:30839 SLF.LibContainer <> Disjoint_eq class
+R30846:30857 SLF.LibContainer <> Disjoint_sym class
+R30912:30922 SLF.LibContainer <> disjoint_eq meth
+R30912:30922 SLF.LibContainer <> disjoint_eq meth
+R30912:30922 SLF.LibContainer <> disjoint_eq meth
+inst 30947:30987 <> disjoint_single_r_eq_of_disjoint_single_l
+R31013:31018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30993:31012 SLF.LibContainer <> Disjoint_single_l_eq class
+R31031:31036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31019:31030 SLF.LibContainer <> Disjoint_sym class
+R31037:31056 SLF.LibContainer <> Disjoint_single_r_eq class
+R31111:31113 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R31124:31124 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R31114:31123 SLF.LibRelation <> sym_inv_eq thm
+R31125:31136 SLF.LibContainer <> disjoint_sym meth
+R31111:31113 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R31124:31124 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R31114:31123 SLF.LibRelation <> sym_inv_eq thm
+R31125:31136 SLF.LibContainer <> disjoint_sym meth
+R31146:31165 SLF.LibContainer <> disjoint_single_l_eq meth
+R31146:31165 SLF.LibContainer <> disjoint_single_l_eq meth
+inst 31190:31234 <> inter_disjoint_of_disjoint_eq_and_in_inter_eq
+R31249:31254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31240:31248 SLF.LibContainer <> In_extens class
+R31266:31271 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31255:31265 SLF.LibContainer <> In_empty_eq class
+R31283:31288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31272:31282 SLF.LibContainer <> Disjoint_eq class
+R31300:31305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31289:31299 SLF.LibContainer <> In_inter_eq class
+R31306:31319 SLF.LibContainer <> Inter_disjoint class
+R31366:31374 SLF.LibContainer <> in_extens meth
+R31366:31374 SLF.LibContainer <> in_extens meth
+R31385:31395 SLF.LibContainer <> disjoint_eq meth
+R31385:31395 SLF.LibContainer <> disjoint_eq meth
+R31385:31395 SLF.LibContainer <> disjoint_eq meth
+R31422:31432 SLF.LibContainer <> in_inter_eq meth
+R31422:31432 SLF.LibContainer <> in_inter_eq meth
+R31422:31432 SLF.LibContainer <> in_inter_eq meth
+R31460:31470 SLF.LibContainer <> in_empty_eq meth
+R31460:31470 SLF.LibContainer <> in_empty_eq meth
+R31460:31470 SLF.LibContainer <> in_empty_eq meth
+R31495:31511 SLF.LibContainer DerivedProperties <> sec

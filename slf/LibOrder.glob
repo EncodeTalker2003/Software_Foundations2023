@@ -1,0 +1,2178 @@
+DIGEST fbebd11b70ea0376cbc339399ea18816
+FSLF.LibOrder
+R455:464 SLF.LibTactics <> <> lib
+R466:473 SLF.LibLogic <> <> lib
+R475:484 SLF.LibReflect <> <> lib
+R486:497 SLF.LibOperation <> <> lib
+R499:509 SLF.LibRelation <> <> lib
+rec 733:740 <> preorder
+proj 772:784 <> preorder_refl
+proj 799:812 <> preorder_trans
+binder 742:742 <> A:1
+R747:752 SLF.LibRelation <> binary def
+R754:754 SLF.LibOrder <> A:1 var
+binder 745:745 <> R:2
+R788:791 SLF.LibRelation <> refl def
+R793:793 SLF.LibOrder <> R:2 var
+R816:820 SLF.LibRelation <> trans def
+R822:822 SLF.LibOrder <> R:2 var
+R838:851 SLF.LibOrder <> preorder_trans proj
+R838:851 SLF.LibOrder <> preorder_trans proj
+prf 907:922 <> preorder_inverse
+binder 933:933 <> A:6
+R938:943 SLF.LibRelation <> binary def
+R945:945 SLF.LibOrder <> A:6 var
+binder 936:936 <> R:7
+R961:966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R951:958 SLF.LibOrder <> preorder rec
+R960:960 SLF.LibOrder <> R:7 var
+R967:974 SLF.LibOrder <> preorder rec
+R977:983 SLF.LibRelation <> inverse def
+R985:985 SLF.LibOrder <> R:7 var
+R1007:1019 SLF.LibRelation <> trans_inverse thm
+R1007:1019 SLF.LibRelation <> trans_inverse thm
+prf 1064:1080 <> preorder_rclosure
+binder 1091:1091 <> A:8
+R1096:1101 SLF.LibRelation <> binary def
+R1103:1103 SLF.LibOrder <> A:8 var
+binder 1094:1094 <> R:9
+R1119:1124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1109:1116 SLF.LibOrder <> preorder rec
+R1118:1118 SLF.LibOrder <> R:9 var
+R1125:1132 SLF.LibOrder <> preorder rec
+R1135:1142 SLF.LibRelation <> rclosure ind
+R1144:1144 SLF.LibOrder <> R:9 var
+R1166:1178 SLF.LibRelation <> refl_rclosure thm
+R1181:1194 SLF.LibRelation <> trans_rclosure thm
+R1166:1178 SLF.LibRelation <> refl_rclosure thm
+R1181:1194 SLF.LibRelation <> trans_rclosure thm
+rec 1460:1473 <> total_preorder
+proj 1505:1524 <> total_preorder_trans
+proj 1540:1559 <> total_preorder_total
+binder 1475:1475 <> A:10
+R1480:1485 SLF.LibRelation <> binary def
+R1487:1487 SLF.LibOrder <> A:10 var
+binder 1478:1478 <> R:11
+R1528:1532 SLF.LibRelation <> trans def
+R1534:1534 SLF.LibOrder <> R:11 var
+R1563:1567 SLF.LibRelation <> total def
+R1569:1569 SLF.LibOrder <> R:11 var
+R1585:1604 SLF.LibOrder <> total_preorder_trans proj
+R1585:1604 SLF.LibOrder <> total_preorder_trans proj
+prf 1665:1683 <> total_preorder_refl
+binder 1694:1694 <> A:15
+R1700:1705 SLF.LibRelation <> binary def
+R1707:1707 SLF.LibOrder <> A:15 var
+binder 1697:1698 <> le:16
+R1730:1735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1713:1726 SLF.LibOrder <> total_preorder rec
+R1728:1729 SLF.LibOrder <> le:16 var
+R1736:1739 SLF.LibRelation <> refl def
+R1741:1742 SLF.LibOrder <> le:16 var
+def 1864:1889 <> total_preorder_to_preorder
+binder 1891:1891 <> A:17
+R1896:1901 SLF.LibRelation <> binary def
+R1903:1903 SLF.LibOrder <> A:17 var
+binder 1894:1894 <> R:18
+R1911:1924 SLF.LibOrder <> total_preorder rec
+R1926:1926 SLF.LibOrder <> R:18 var
+binder 1909:1909 <> O:19
+R1931:1938 SLF.LibOrder <> preorder rec
+R1940:1940 SLF.LibOrder <> R:18 var
+prf 2073:2094 <> total_preorder_inverse
+binder 2105:2105 <> A:20
+R2110:2115 SLF.LibRelation <> binary def
+R2117:2117 SLF.LibOrder <> A:20 var
+binder 2108:2108 <> R:21
+R2139:2144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2123:2136 SLF.LibOrder <> total_preorder rec
+R2138:2138 SLF.LibOrder <> R:21 var
+R2145:2158 SLF.LibOrder <> total_preorder rec
+R2161:2167 SLF.LibRelation <> inverse def
+R2169:2169 SLF.LibOrder <> R:21 var
+R2191:2203 SLF.LibRelation <> trans_inverse thm
+R2206:2218 SLF.LibRelation <> total_inverse thm
+R2191:2203 SLF.LibRelation <> trans_inverse thm
+R2206:2218 SLF.LibRelation <> total_inverse thm
+prf 2263:2285 <> total_preorder_rclosure
+binder 2296:2296 <> A:22
+R2301:2306 SLF.LibRelation <> binary def
+R2308:2308 SLF.LibOrder <> A:22 var
+binder 2299:2299 <> R:23
+R2330:2335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2314:2327 SLF.LibOrder <> total_preorder rec
+R2329:2329 SLF.LibOrder <> R:23 var
+R2336:2349 SLF.LibOrder <> total_preorder rec
+R2352:2359 SLF.LibRelation <> rclosure ind
+R2361:2361 SLF.LibOrder <> R:23 var
+R2383:2396 SLF.LibRelation <> trans_rclosure thm
+R2399:2412 SLF.LibRelation <> total_rclosure thm
+R2383:2396 SLF.LibRelation <> trans_rclosure thm
+R2399:2412 SLF.LibRelation <> total_rclosure thm
+prf 2476:2489 <> inverse_of_not
+binder 2500:2500 <> A:24
+R2505:2510 SLF.LibRelation <> binary def
+R2512:2512 SLF.LibOrder <> A:24 var
+binder 2503:2503 <> R:25
+binder 2515:2515 <> x:26
+binder 2517:2517 <> y:27
+R2529:2534 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2522:2526 SLF.LibRelation <> total def
+R2528:2528 SLF.LibOrder <> R:25 var
+R2542:2547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2535:2536 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2537:2537 SLF.LibOrder <> R:25 var
+R2539:2539 SLF.LibOrder <> x:26 var
+R2541:2541 SLF.LibOrder <> y:27 var
+R2548:2554 SLF.LibRelation <> inverse def
+R2560:2560 SLF.LibOrder <> y:27 var
+R2558:2558 SLF.LibOrder <> x:26 var
+R2556:2556 SLF.LibOrder <> R:25 var
+prf 2631:2651 <> inverse_strict_of_not
+binder 2662:2662 <> A:28
+R2667:2672 SLF.LibRelation <> binary def
+R2674:2674 SLF.LibOrder <> A:28 var
+binder 2665:2665 <> R:29
+binder 2677:2677 <> x:30
+binder 2679:2679 <> y:31
+R2691:2696 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2684:2688 SLF.LibRelation <> total def
+R2690:2690 SLF.LibOrder <> R:29 var
+R2704:2709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2697:2698 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2699:2699 SLF.LibOrder <> R:29 var
+R2701:2701 SLF.LibOrder <> x:30 var
+R2703:2703 SLF.LibOrder <> y:31 var
+R2710:2716 SLF.LibRelation <> inverse def
+R2731:2731 SLF.LibOrder <> y:31 var
+R2729:2729 SLF.LibOrder <> x:30 var
+R2719:2724 SLF.LibRelation <> strict def
+R2726:2726 SLF.LibOrder <> R:29 var
+rec 3017:3021 <> order
+proj 3053:3062 <> order_refl
+proj 3077:3087 <> order_trans
+proj 3103:3115 <> order_antisym
+binder 3023:3023 <> A:32
+R3028:3033 SLF.LibRelation <> binary def
+R3035:3035 SLF.LibOrder <> A:32 var
+binder 3026:3026 <> R:33
+R3066:3069 SLF.LibRelation <> refl def
+R3071:3071 SLF.LibOrder <> R:33 var
+R3091:3095 SLF.LibRelation <> trans def
+R3097:3097 SLF.LibOrder <> R:33 var
+R3119:3125 SLF.LibRelation <> antisym def
+R3127:3127 SLF.LibOrder <> R:33 var
+R3143:3153 SLF.LibOrder <> order_trans proj
+R3143:3153 SLF.LibOrder <> order_trans proj
+R3188:3200 SLF.LibOrder <> order_antisym proj
+R3188:3200 SLF.LibOrder <> order_antisym proj
+def 3264:3280 <> order_to_preorder
+binder 3282:3282 <> A:38
+R3287:3292 SLF.LibRelation <> binary def
+R3294:3294 SLF.LibOrder <> A:38 var
+binder 3285:3285 <> R:39
+R3302:3306 SLF.LibOrder <> order rec
+R3308:3308 SLF.LibOrder <> R:39 var
+binder 3300:3300 <> O:40
+R3313:3320 SLF.LibOrder <> preorder rec
+R3322:3322 SLF.LibOrder <> R:39 var
+prf 3445:3457 <> order_inverse
+binder 3468:3468 <> A:41
+R3473:3478 SLF.LibRelation <> binary def
+R3480:3480 SLF.LibOrder <> A:41 var
+binder 3471:3471 <> R:42
+R3493:3498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3486:3490 SLF.LibOrder <> order rec
+R3492:3492 SLF.LibOrder <> R:42 var
+R3499:3503 SLF.LibOrder <> order rec
+R3506:3512 SLF.LibRelation <> inverse def
+R3514:3514 SLF.LibOrder <> R:42 var
+R3538:3550 SLF.LibRelation <> trans_inverse thm
+R3553:3567 SLF.LibRelation <> antisym_inverse thm
+R3538:3550 SLF.LibRelation <> trans_inverse thm
+R3553:3567 SLF.LibRelation <> antisym_inverse thm
+prf 3617:3630 <> order_rclosure
+binder 3641:3641 <> A:43
+R3646:3651 SLF.LibRelation <> binary def
+R3653:3653 SLF.LibOrder <> A:43 var
+binder 3644:3644 <> R:44
+R3666:3671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3659:3663 SLF.LibOrder <> order rec
+R3665:3665 SLF.LibOrder <> R:44 var
+R3672:3676 SLF.LibOrder <> order rec
+R3679:3686 SLF.LibRelation <> rclosure ind
+R3688:3688 SLF.LibOrder <> R:44 var
+R3712:3724 SLF.LibRelation <> refl_rclosure thm
+R3727:3740 SLF.LibRelation <> trans_rclosure thm
+R3743:3758 SLF.LibRelation <> antisym_rclosure thm
+R3712:3724 SLF.LibRelation <> refl_rclosure thm
+R3727:3740 SLF.LibRelation <> trans_rclosure thm
+R3743:3758 SLF.LibRelation <> antisym_rclosure thm
+rec 4068:4076 <> order_wrt
+proj 4128:4141 <> order_wrt_refl
+proj 4156:4170 <> order_wrt_trans
+proj 4186:4202 <> order_wrt_antisym
+binder 4079:4079 <> A:45
+R4090:4095 SLF.LibRelation <> binary def
+R4097:4097 SLF.LibOrder <> A:45 var
+binder 4088:4088 <> E:46
+R4103:4108 SLF.LibRelation <> binary def
+R4110:4110 SLF.LibOrder <> A:45 var
+binder 4101:4101 <> R:47
+R4145:4148 SLF.LibRelation <> refl def
+R4150:4150 SLF.LibOrder <> R:47 var
+R4174:4178 SLF.LibRelation <> trans def
+R4180:4180 SLF.LibOrder <> R:47 var
+R4206:4216 SLF.LibRelation <> antisym_wrt def
+R4220:4220 SLF.LibOrder <> R:47 var
+R4218:4218 SLF.LibOrder <> E:46 var
+R4236:4250 SLF.LibOrder <> order_wrt_trans proj
+R4236:4250 SLF.LibOrder <> order_wrt_trans proj
+R4289:4305 SLF.LibOrder <> order_wrt_antisym proj
+R4289:4305 SLF.LibOrder <> order_wrt_antisym proj
+def 4373:4393 <> order_wrt_to_preorder
+binder 4395:4395 <> A:52
+R4400:4405 SLF.LibRelation <> binary def
+R4407:4407 SLF.LibOrder <> A:52 var
+binder 4398:4398 <> E:53
+R4413:4418 SLF.LibRelation <> binary def
+R4420:4420 SLF.LibOrder <> A:52 var
+binder 4411:4411 <> R:54
+R4428:4436 SLF.LibOrder <> order_wrt rec
+R4440:4440 SLF.LibOrder <> R:54 var
+R4438:4438 SLF.LibOrder <> E:53 var
+binder 4426:4426 <> O:55
+R4445:4452 SLF.LibOrder <> preorder rec
+R4454:4454 SLF.LibOrder <> R:54 var
+prf 4581:4597 <> order_wrt_inverse
+binder 4608:4608 <> A:56
+R4613:4618 SLF.LibRelation <> binary def
+R4620:4620 SLF.LibOrder <> A:56 var
+binder 4611:4611 <> E:57
+R4626:4631 SLF.LibRelation <> binary def
+R4633:4633 SLF.LibOrder <> A:56 var
+binder 4624:4624 <> R:58
+R4652:4657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4639:4647 SLF.LibOrder <> order_wrt rec
+R4651:4651 SLF.LibOrder <> R:58 var
+R4649:4649 SLF.LibOrder <> E:57 var
+R4658:4666 SLF.LibOrder <> order_wrt rec
+R4671:4677 SLF.LibRelation <> inverse def
+R4679:4679 SLF.LibOrder <> R:58 var
+R4668:4668 SLF.LibOrder <> E:57 var
+R4703:4715 SLF.LibRelation <> trans_inverse thm
+R4718:4736 SLF.LibRelation <> antisym_wrt_inverse thm
+R4703:4715 SLF.LibRelation <> trans_inverse thm
+R4718:4736 SLF.LibRelation <> antisym_wrt_inverse thm
+prf 4786:4803 <> order_wrt_rclosure
+binder 4814:4814 <> A:59
+R4819:4824 SLF.LibRelation <> binary def
+R4826:4826 SLF.LibOrder <> A:59 var
+binder 4817:4817 <> E:60
+R4832:4837 SLF.LibRelation <> binary def
+R4839:4839 SLF.LibOrder <> A:59 var
+binder 4830:4830 <> R:61
+R4858:4863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4845:4853 SLF.LibOrder <> order_wrt rec
+R4857:4857 SLF.LibOrder <> R:61 var
+R4855:4855 SLF.LibOrder <> E:60 var
+R4864:4872 SLF.LibOrder <> order_wrt rec
+R4888:4895 SLF.LibRelation <> rclosure ind
+R4897:4897 SLF.LibOrder <> R:61 var
+R4875:4882 SLF.LibRelation <> rclosure ind
+R4884:4884 SLF.LibOrder <> E:60 var
+R4921:4933 SLF.LibRelation <> refl_rclosure thm
+R4936:4949 SLF.LibRelation <> trans_rclosure thm
+R4952:4971 SLF.LibRelation <> antisym_wrt_rclosure thm
+R4921:4933 SLF.LibRelation <> refl_rclosure thm
+R4936:4949 SLF.LibRelation <> trans_rclosure thm
+R4952:4971 SLF.LibRelation <> antisym_wrt_rclosure thm
+rec 5230:5240 <> total_order
+proj 5272:5288 <> total_order_order
+proj 5304:5320 <> total_order_total
+binder 5242:5242 <> A:62
+R5247:5252 SLF.LibRelation <> binary def
+R5254:5254 SLF.LibOrder <> A:62 var
+binder 5245:5245 <> R:63
+R5292:5296 SLF.LibOrder <> order rec
+R5298:5298 SLF.LibOrder <> R:63 var
+R5324:5328 SLF.LibRelation <> total def
+R5330:5330 SLF.LibOrder <> R:63 var
+def 5367:5382 <> total_order_refl
+R5387:5396 SLF.LibOrder <> order_refl proj
+def 5410:5426 <> total_order_trans
+R5431:5441 SLF.LibOrder <> order_trans proj
+def 5455:5473 <> total_order_antisym
+R5478:5490 SLF.LibOrder <> order_antisym proj
+R5504:5520 SLF.LibOrder <> total_order_trans def
+R5504:5520 SLF.LibOrder <> total_order_trans def
+R5555:5573 SLF.LibOrder <> total_order_antisym def
+R5555:5573 SLF.LibOrder <> total_order_antisym def
+prf 5624:5640 <> total_order_intro
+binder 5651:5651 <> A:67
+R5656:5661 SLF.LibRelation <> binary def
+R5663:5663 SLF.LibOrder <> A:67 var
+binder 5654:5654 <> R:68
+R5677:5683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5670:5674 SLF.LibRelation <> trans def
+R5676:5676 SLF.LibOrder <> R:68 var
+R5693:5699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5684:5690 SLF.LibRelation <> antisym def
+R5692:5692 SLF.LibOrder <> R:68 var
+R5707:5713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5700:5704 SLF.LibRelation <> total def
+R5706:5706 SLF.LibOrder <> R:68 var
+R5714:5724 SLF.LibOrder <> total_order rec
+R5726:5726 SLF.LibOrder <> R:68 var
+def 5870:5898 <> total_order_to_total_preorder
+binder 5900:5900 <> A:69
+R5905:5910 SLF.LibRelation <> binary def
+R5912:5912 SLF.LibOrder <> A:69 var
+binder 5903:5903 <> R:70
+R5920:5930 SLF.LibOrder <> total_order rec
+R5932:5932 SLF.LibOrder <> R:70 var
+binder 5918:5918 <> O:71
+R5937:5950 SLF.LibOrder <> total_preorder rec
+R5952:5952 SLF.LibOrder <> R:70 var
+R6004:6014 SLF.LibOrder <> order_trans proj
+R6004:6014 SLF.LibOrder <> order_trans proj
+def 6034:6053 <> total_order_to_order
+R6058:6074 SLF.LibOrder <> total_order_order proj
+prf 6184:6202 <> total_order_inverse
+binder 6213:6213 <> A:72
+R6218:6223 SLF.LibRelation <> binary def
+R6225:6225 SLF.LibOrder <> A:72 var
+binder 6216:6216 <> R:73
+R6244:6249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6231:6241 SLF.LibOrder <> total_order rec
+R6243:6243 SLF.LibOrder <> R:73 var
+R6250:6260 SLF.LibOrder <> total_order rec
+R6263:6269 SLF.LibRelation <> inverse def
+R6271:6271 SLF.LibOrder <> R:73 var
+R6295:6307 SLF.LibRelation <> total_inverse thm
+R6310:6322 SLF.LibOrder <> order_inverse thm
+R6295:6307 SLF.LibRelation <> total_inverse thm
+R6310:6322 SLF.LibOrder <> order_inverse thm
+prf 6369:6388 <> total_order_rclosure
+binder 6399:6399 <> A:74
+R6404:6409 SLF.LibRelation <> binary def
+R6411:6411 SLF.LibOrder <> A:74 var
+binder 6402:6402 <> R:75
+R6430:6435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6417:6427 SLF.LibOrder <> total_order rec
+R6429:6429 SLF.LibOrder <> R:75 var
+R6436:6446 SLF.LibOrder <> total_order rec
+R6449:6456 SLF.LibRelation <> rclosure ind
+R6458:6458 SLF.LibOrder <> R:75 var
+R6482:6495 SLF.LibRelation <> total_rclosure thm
+R6498:6511 SLF.LibOrder <> order_rclosure thm
+R6482:6495 SLF.LibRelation <> total_rclosure thm
+R6498:6511 SLF.LibOrder <> order_rclosure thm
+sec 6579:6592 <> TotalOrderProp
+var 6606:6606 TotalOrderProp A
+var 6615:6615 TotalOrderProp R
+R6619:6624 SLF.LibRelation <> binary def
+R6626:6626 SLF.LibOrder <> A:76 var
+R6812:6812 SLF.LibOrder <> TotalOrderProp.R var
+not 6801:6801 TotalOrderProp :::'le'
+R6836:6842 SLF.LibRelation <> inverse def
+R6844:6844 SLF.LibOrder <> TotalOrderProp.R var
+not 6825:6825 TotalOrderProp :::'ge'
+R6868:6873 SLF.LibRelation <> strict def
+R6875:6875 SLF.LibOrder <> TotalOrderProp.R var
+not 6857:6857 TotalOrderProp :::'lt'
+R6899:6905 SLF.LibRelation <> inverse def
+R6907:6908 SLF.LibOrder TotalOrderProp :::'lt' not
+not 6888:6888 TotalOrderProp :::'gt'
+R6960:6974 SLF.LibRelation <> rclosure_eq_fun thm
+R6994:7007 SLF.LibRelation <> inverse_eq_fun thm
+R7027:7039 SLF.LibRelation <> strict_eq_fun thm
+prf 7049:7077 <> total_order_le_is_rclosure_lt
+R7092:7102 SLF.LibOrder <> total_order rec
+R7104:7104 SLF.LibOrder <> TotalOrderProp.R var
+binder 7089:7090 <> To:78
+R7112:7114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7110:7111 SLF.LibOrder TotalOrderProp :::'le' not
+R7115:7122 SLF.LibRelation <> rclosure ind
+R7124:7125 SLF.LibOrder TotalOrderProp :::'lt' not
+R7201:7203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7201:7203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+prf 7268:7294 <> total_order_lt_is_strict_le
+R7309:7319 SLF.LibOrder <> total_order rec
+R7321:7321 SLF.LibOrder <> TotalOrderProp.R var
+binder 7306:7307 <> To:79
+R7329:7331 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7327:7328 SLF.LibOrder TotalOrderProp :::'lt' not
+R7332:7337 SLF.LibRelation <> strict def
+R7339:7340 SLF.LibOrder TotalOrderProp :::'le' not
+prf 7376:7404 <> total_order_ge_is_rclosure_gt
+R7419:7429 SLF.LibOrder <> total_order rec
+R7431:7431 SLF.LibOrder <> TotalOrderProp.R var
+binder 7416:7417 <> To:80
+R7439:7441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7437:7438 SLF.LibOrder TotalOrderProp :::'ge' not
+R7442:7449 SLF.LibRelation <> rclosure ind
+R7451:7452 SLF.LibOrder TotalOrderProp :::'gt' not
+R7528:7530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7528:7530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+prf 7595:7621 <> total_order_gt_is_strict_ge
+R7636:7646 SLF.LibOrder <> total_order rec
+R7648:7648 SLF.LibOrder <> TotalOrderProp.R var
+binder 7633:7634 <> To:81
+R7656:7658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7654:7655 SLF.LibOrder TotalOrderProp :::'gt' not
+R7659:7664 SLF.LibRelation <> strict def
+R7666:7667 SLF.LibOrder TotalOrderProp :::'ge' not
+R7743:7745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7743:7745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+prf 7806:7831 <> total_order_lt_or_eq_or_gt
+R7846:7856 SLF.LibOrder <> total_order rec
+R7858:7858 SLF.LibOrder <> TotalOrderProp.R var
+binder 7843:7844 <> To:82
+binder 7861:7861 <> x:83
+binder 7863:7863 <> y:84
+R7874:7877 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7868:7873 SLF.LibOrder TotalOrderProp :::'lt' not
+R7873:7873 SLF.LibOrder <> y:84 var
+R7871:7871 SLF.LibOrder <> x:83 var
+R7883:7886 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7879:7881 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7878:7878 SLF.LibOrder <> x:83 var
+R7882:7882 SLF.LibOrder <> y:84 var
+R7887:7892 SLF.LibOrder TotalOrderProp :::'gt' not
+R7892:7892 SLF.LibOrder <> y:84 var
+R7890:7890 SLF.LibOrder <> x:83 var
+R7960:7962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7960:7962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7996:8012 SLF.LibOrder <> total_order_total proj
+R7996:8012 SLF.LibOrder <> total_order_total proj
+prf 8066:8085 <> total_order_lt_or_ge
+R8100:8110 SLF.LibOrder <> total_order rec
+R8112:8112 SLF.LibOrder <> TotalOrderProp.R var
+binder 8097:8098 <> To:85
+binder 8115:8115 <> x:86
+binder 8117:8117 <> y:87
+R8128:8131 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8122:8127 SLF.LibOrder TotalOrderProp :::'lt' not
+R8127:8127 SLF.LibOrder <> y:87 var
+R8125:8125 SLF.LibOrder <> x:86 var
+R8132:8137 SLF.LibOrder TotalOrderProp :::'ge' not
+R8137:8137 SLF.LibOrder <> y:87 var
+R8135:8135 SLF.LibOrder <> x:86 var
+R8173:8198 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R8173:8198 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R8247:8262 SLF.LibOrder <> total_order_refl def
+R8247:8262 SLF.LibOrder <> total_order_refl def
+R8284:8312 SLF.LibOrder <> total_order_ge_is_rclosure_gt thm
+R8284:8312 SLF.LibOrder <> total_order_ge_is_rclosure_gt thm
+prf 8360:8379 <> total_order_le_or_gt
+R8394:8404 SLF.LibOrder <> total_order rec
+R8406:8406 SLF.LibOrder <> TotalOrderProp.R var
+binder 8391:8392 <> To:88
+binder 8409:8409 <> x:89
+binder 8411:8411 <> y:90
+R8422:8425 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8416:8421 SLF.LibOrder TotalOrderProp :::'le' not
+R8421:8421 SLF.LibOrder <> y:90 var
+R8419:8419 SLF.LibOrder <> x:89 var
+R8426:8431 SLF.LibOrder TotalOrderProp :::'gt' not
+R8431:8431 SLF.LibOrder <> y:90 var
+R8429:8429 SLF.LibOrder <> x:89 var
+R8468:8493 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R8468:8493 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R8522:8550 SLF.LibOrder <> total_order_le_is_rclosure_lt thm
+R8522:8550 SLF.LibOrder <> total_order_le_is_rclosure_lt thm
+R8606:8621 SLF.LibOrder <> total_order_refl def
+R8606:8621 SLF.LibOrder <> total_order_refl def
+R8634:8647 SLF.LibOrder TotalOrderProp <> sec
+rec 8848:8859 <> strict_order
+proj 8891:8909 <> strict_order_irrefl
+proj 8926:8942 <> strict_order_asym
+proj 8957:8974 <> strict_order_trans
+binder 8861:8861 <> A:91
+R8866:8871 SLF.LibRelation <> binary def
+R8873:8873 SLF.LibOrder <> A:91 var
+binder 8864:8864 <> R:92
+R8913:8918 SLF.LibRelation <> irrefl def
+R8920:8920 SLF.LibOrder <> R:92 var
+R8946:8949 SLF.LibRelation <> asym def
+R8951:8951 SLF.LibOrder <> R:92 var
+R8978:8982 SLF.LibRelation <> trans def
+R8984:8984 SLF.LibOrder <> R:92 var
+R9000:9017 SLF.LibOrder <> strict_order_trans proj
+R9000:9017 SLF.LibOrder <> strict_order_trans proj
+prf 9073:9092 <> strict_order_inverse
+binder 9103:9103 <> A:97
+R9108:9113 SLF.LibRelation <> binary def
+R9115:9115 SLF.LibOrder <> A:97 var
+binder 9106:9106 <> R:98
+R9135:9140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9121:9132 SLF.LibOrder <> strict_order rec
+R9134:9134 SLF.LibOrder <> R:98 var
+R9141:9152 SLF.LibOrder <> strict_order rec
+R9155:9161 SLF.LibRelation <> inverse def
+R9163:9163 SLF.LibOrder <> R:98 var
+R9187:9201 SLF.LibRelation <> antisym_inverse thm
+R9204:9216 SLF.LibRelation <> trans_inverse thm
+R9219:9230 SLF.LibRelation <> asym_inverse thm
+R9187:9201 SLF.LibRelation <> antisym_inverse thm
+R9204:9216 SLF.LibRelation <> trans_inverse thm
+R9219:9230 SLF.LibRelation <> asym_inverse thm
+prf 9280:9298 <> strict_order_strict
+binder 9309:9309 <> A:99
+R9314:9319 SLF.LibRelation <> binary def
+R9321:9321 SLF.LibOrder <> A:99 var
+binder 9312:9312 <> R:100
+R9334:9339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9327:9331 SLF.LibOrder <> order rec
+R9333:9333 SLF.LibOrder <> R:100 var
+R9340:9351 SLF.LibOrder <> strict_order rec
+R9354:9359 SLF.LibRelation <> strict def
+R9361:9361 SLF.LibOrder <> R:100 var
+R9406:9411 SLF.LibRelation <> strict def
+R9472:9482 SLF.LibRelation <> antisym_inv thm
+R9472:9482 SLF.LibRelation <> antisym_inv thm
+R9535:9545 SLF.LibRelation <> antisym_inv thm
+R9535:9545 SLF.LibRelation <> antisym_inv thm
+prf 9564:9593 <> order_rclosure_of_strict_order
+binder 9604:9604 <> A:101
+R9609:9614 SLF.LibRelation <> binary def
+R9616:9616 SLF.LibOrder <> A:101 var
+binder 9607:9607 <> R:102
+R9636:9641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9622:9633 SLF.LibOrder <> strict_order rec
+R9635:9635 SLF.LibOrder <> R:102 var
+R9642:9646 SLF.LibOrder <> order rec
+R9649:9656 SLF.LibRelation <> rclosure ind
+R9658:9658 SLF.LibOrder <> R:102 var
+R9704:9718 SLF.LibRelation <> rclosure_eq_fun thm
+R9704:9718 SLF.LibRelation <> rclosure_eq_fun thm
+R9704:9718 SLF.LibRelation <> rclosure_eq_fun thm
+R9812:9820 SLF.LibRelation <> trans_inv thm
+R9812:9820 SLF.LibRelation <> trans_inv thm
+rec 10097:10114 <> strict_total_order
+proj 10146:10169 <> strict_total_order_trans
+proj 10185:10215 <> strict_total_order_trichotomous
+binder 10116:10116 <> A:103
+R10121:10126 SLF.LibRelation <> binary def
+R10128:10128 SLF.LibOrder <> A:103 var
+binder 10119:10119 <> R:104
+R10173:10177 SLF.LibRelation <> trans def
+R10179:10179 SLF.LibOrder <> R:104 var
+R10219:10230 SLF.LibRelation <> trichotomous def
+R10232:10232 SLF.LibOrder <> R:104 var
+R10248:10271 SLF.LibOrder <> strict_total_order_trans proj
+R10248:10271 SLF.LibOrder <> strict_total_order_trans proj
+prf 10347:10371 <> strict_total_order_irrefl
+binder 10382:10382 <> A:108
+R10387:10392 SLF.LibRelation <> binary def
+R10394:10394 SLF.LibOrder <> A:108 var
+binder 10385:10385 <> R:109
+R10420:10425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10400:10417 SLF.LibOrder <> strict_total_order rec
+R10419:10419 SLF.LibOrder <> R:109 var
+R10426:10431 SLF.LibRelation <> irrefl def
+R10433:10433 SLF.LibOrder <> R:109 var
+prf 10515:10537 <> strict_total_order_asym
+binder 10548:10548 <> A:110
+R10553:10558 SLF.LibRelation <> binary def
+R10560:10560 SLF.LibOrder <> A:110 var
+binder 10551:10551 <> R:111
+R10586:10591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10566:10583 SLF.LibOrder <> strict_total_order rec
+R10585:10585 SLF.LibOrder <> R:111 var
+R10592:10595 SLF.LibRelation <> asym def
+R10597:10597 SLF.LibOrder <> R:111 var
+def 10684:10717 <> strict_total_order_to_strict_order
+binder 10719:10719 <> A:112
+R10724:10729 SLF.LibRelation <> binary def
+R10731:10731 SLF.LibOrder <> A:112 var
+binder 10722:10722 <> R:113
+R10739:10756 SLF.LibOrder <> strict_total_order rec
+R10758:10758 SLF.LibOrder <> R:113 var
+binder 10737:10737 <> O:114
+R10763:10774 SLF.LibOrder <> strict_order rec
+R10776:10776 SLF.LibOrder <> R:113 var
+R10831:10855 SLF.LibOrder <> strict_total_order_irrefl thm
+R10857:10879 SLF.LibOrder <> strict_total_order_asym thm
+R10831:10855 SLF.LibOrder <> strict_total_order_irrefl thm
+R10831:10855 SLF.LibOrder <> strict_total_order_irrefl thm
+R10831:10855 SLF.LibOrder <> strict_total_order_irrefl thm
+R10857:10879 SLF.LibOrder <> strict_total_order_asym thm
+R10857:10879 SLF.LibOrder <> strict_total_order_asym thm
+R10857:10879 SLF.LibOrder <> strict_total_order_asym thm
+prf 10977:11002 <> strict_total_order_inverse
+binder 11013:11013 <> A:115
+R11018:11023 SLF.LibRelation <> binary def
+R11025:11025 SLF.LibOrder <> A:115 var
+binder 11016:11016 <> R:116
+R11051:11056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11031:11048 SLF.LibOrder <> strict_total_order rec
+R11050:11050 SLF.LibOrder <> R:116 var
+R11057:11074 SLF.LibOrder <> strict_total_order rec
+R11077:11083 SLF.LibRelation <> inverse def
+R11085:11085 SLF.LibOrder <> R:116 var
+R11140:11152 SLF.LibRelation <> trans_inverse thm
+R11140:11152 SLF.LibRelation <> trans_inverse thm
+R11164:11183 SLF.LibRelation <> trichotomous_inverse thm
+R11164:11183 SLF.LibRelation <> trichotomous_inverse thm
+prf 11222:11254 <> strict_total_order_of_total_order
+binder 11265:11265 <> A:117
+R11270:11275 SLF.LibRelation <> binary def
+R11277:11277 SLF.LibOrder <> A:117 var
+binder 11268:11268 <> R:118
+R11296:11301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11283:11293 SLF.LibOrder <> total_order rec
+R11295:11295 SLF.LibOrder <> R:118 var
+R11302:11319 SLF.LibOrder <> strict_total_order rec
+R11322:11327 SLF.LibRelation <> strict def
+R11329:11329 SLF.LibOrder <> R:118 var
+R11394:11405 SLF.LibRelation <> trans_strict thm
+R11394:11405 SLF.LibRelation <> trans_strict thm
+R11431:11433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11431:11433 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11455:11467 SLF.LibRelation <> trichotomy_eq constr
+R11455:11467 SLF.LibRelation <> trichotomy_eq constr
+R11479:11484 SLF.LibRelation <> strict def
+R11479:11484 SLF.LibRelation <> strict def
+R11498:11503 SLF.LibRelation <> strict def
+R11538:11552 SLF.LibRelation <> trichotomy_left constr
+R11538:11552 SLF.LibRelation <> trichotomy_left constr
+R11568:11583 SLF.LibRelation <> trichotomy_right constr
+R11568:11583 SLF.LibRelation <> trichotomy_right constr
+rec 12011:12012 <> Le
+proj 12030:12031 <> le
+binder 12015:12015 <> A:119
+R12035:12040 SLF.LibRelation <> binary def
+R12042:12042 SLF.LibOrder <> A:119 var
+rec 12053:12054 <> Ge
+proj 12072:12073 <> ge
+binder 12057:12057 <> A:122
+R12077:12082 SLF.LibRelation <> binary def
+R12084:12084 SLF.LibOrder <> A:122 var
+rec 12095:12096 <> Lt
+proj 12114:12115 <> lt
+binder 12099:12099 <> A:125
+R12119:12124 SLF.LibRelation <> binary def
+R12126:12126 SLF.LibOrder <> A:125 var
+rec 12137:12138 <> Gt
+proj 12156:12157 <> gt
+binder 12141:12141 <> A:128
+R12161:12166 SLF.LibRelation <> binary def
+R12168:12168 SLF.LibOrder <> A:128 var
+R12188:12189 SLF.LibOrder <> le meth
+R12191:12192 SLF.LibOrder <> lt meth
+R12194:12195 SLF.LibOrder <> ge meth
+R12197:12198 SLF.LibOrder <> gt meth
+rec 12227:12237 <> Le_preorder
+proj 12261:12271 <> le_preorder
+R12241:12242 SLF.LibOrder <> Le class
+binder 12244:12244 <> A:131
+binder 12241:12244 <> H:132
+R12275:12282 SLF.LibOrder <> preorder rec
+R12284:12285 SLF.LibOrder <> le meth
+rec 12297:12313 <> Le_total_preorder
+proj 12337:12353 <> le_total_preorder
+R12317:12318 SLF.LibOrder <> Le class
+binder 12320:12320 <> A:135
+binder 12317:12320 <> H:136
+R12357:12370 SLF.LibOrder <> total_preorder rec
+R12372:12373 SLF.LibOrder <> le meth
+rec 12385:12392 <> Le_order
+proj 12416:12423 <> le_order
+R12396:12397 SLF.LibOrder <> Le class
+binder 12399:12399 <> A:139
+binder 12396:12399 <> H:140
+R12427:12431 SLF.LibOrder <> order rec
+R12433:12434 SLF.LibOrder <> le meth
+rec 12446:12459 <> Le_total_order
+proj 12483:12496 <> le_total_order
+R12463:12464 SLF.LibOrder <> Le class
+binder 12466:12466 <> A:143
+binder 12463:12466 <> H:144
+R12500:12510 SLF.LibOrder <> total_order rec
+R12512:12513 SLF.LibOrder <> le meth
+rec 12525:12539 <> Lt_strict_order
+proj 12563:12577 <> lt_strict_order
+R12543:12544 SLF.LibOrder <> Lt class
+binder 12546:12546 <> A:147
+binder 12543:12546 <> H:148
+R12581:12592 SLF.LibOrder <> strict_order rec
+R12594:12595 SLF.LibOrder <> lt meth
+rec 12607:12627 <> Lt_strict_total_order
+proj 12651:12671 <> lt_strict_total_order
+R12631:12632 SLF.LibOrder <> Lt class
+binder 12634:12634 <> A:151
+binder 12631:12634 <> H:152
+R12675:12692 SLF.LibOrder <> strict_total_order rec
+R12694:12695 SLF.LibOrder <> lt meth
+R12767:12768 SLF.LibOrder <> le meth
+not 12754:12754 <> ::comp_scope:x_'<='_x
+R12845:12846 SLF.LibOrder <> ge meth
+not 12832:12832 <> ::comp_scope:x_'>='_x
+R12922:12923 SLF.LibOrder <> lt meth
+not 12910:12910 <> ::comp_scope:x_'<'_x
+R12999:13000 SLF.LibOrder <> gt meth
+not 12987:12987 <> ::comp_scope:x_'>'_x
+R13113:13116 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13108:13111 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R13118:13121 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+not 13089:13089 <> ::comp_scope:x_'<='_x_'<='_x
+R13204:13207 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13199:13202 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R13209:13211 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+not 13181:13181 <> ::comp_scope:x_'<='_x_'<'_x
+R13293:13296 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13289:13291 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R13298:13301 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+not 13271:13271 <> ::comp_scope:x_'<'_x_'<='_x
+R13382:13385 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13378:13380 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R13387:13389 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+not 13361:13361 <> ::comp_scope:x_'<'_x_'<'_x
+inst 13676:13683 <> ge_of_le
+R13696:13697 SLF.LibOrder <> Le class
+binder 13699:13699 <> A:155
+binder 13696:13699 <> H:156
+R13703:13704 SLF.LibOrder <> Ge class
+R13706:13706 SLF.LibOrder <> A:155 var
+R13731:13737 SLF.LibRelation <> inverse def
+R13739:13740 SLF.LibOrder <> le meth
+R13731:13737 SLF.LibRelation <> inverse def
+R13739:13740 SLF.LibOrder <> le meth
+inst 13772:13779 <> lt_of_le
+R13792:13793 SLF.LibOrder <> Le class
+binder 13795:13795 <> A:157
+binder 13792:13795 <> H:158
+R13799:13800 SLF.LibOrder <> Lt class
+R13802:13802 SLF.LibOrder <> A:157 var
+R13827:13832 SLF.LibRelation <> strict def
+R13834:13835 SLF.LibOrder <> le meth
+R13827:13832 SLF.LibRelation <> strict def
+R13834:13835 SLF.LibOrder <> le meth
+inst 13867:13874 <> gt_of_le
+R13887:13888 SLF.LibOrder <> Le class
+binder 13890:13890 <> A:159
+binder 13887:13890 <> H:160
+R13894:13895 SLF.LibOrder <> Gt class
+R13897:13897 SLF.LibOrder <> A:159 var
+R13922:13928 SLF.LibRelation <> inverse def
+R13930:13931 SLF.LibOrder <> lt meth
+R13922:13928 SLF.LibRelation <> inverse def
+R13930:13931 SLF.LibOrder <> lt meth
+prf 13951:13966 <> ge_is_inverse_le
+R13979:13980 SLF.LibOrder <> Le class
+binder 13982:13982 <> A:161
+binder 13979:13982 <> H:162
+R13988:13990 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13986:13987 SLF.LibOrder <> ge meth
+R13991:13997 SLF.LibRelation <> inverse def
+R13999:14000 SLF.LibOrder <> le meth
+prf 14037:14051 <> lt_is_strict_le
+R14064:14065 SLF.LibOrder <> Le class
+binder 14067:14067 <> A:163
+binder 14064:14067 <> H:164
+R14073:14075 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14071:14072 SLF.LibOrder <> lt meth
+R14076:14081 SLF.LibRelation <> strict def
+R14083:14084 SLF.LibOrder <> le meth
+prf 14121:14136 <> gt_is_inverse_lt
+R14149:14150 SLF.LibOrder <> Le class
+binder 14152:14152 <> A:165
+binder 14149:14152 <> H:166
+R14158:14160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14156:14157 SLF.LibOrder <> gt meth
+R14161:14167 SLF.LibRelation <> inverse def
+R14169:14170 SLF.LibOrder <> lt meth
+prf 14207:14229 <> gt_is_inverse_strict_le
+R14242:14243 SLF.LibOrder <> Le class
+binder 14245:14245 <> A:167
+binder 14242:14245 <> H:168
+R14251:14253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14249:14250 SLF.LibOrder <> gt meth
+R14254:14260 SLF.LibRelation <> inverse def
+R14263:14268 SLF.LibRelation <> strict def
+R14270:14271 SLF.LibOrder <> le meth
+R14312:14327 SLF.LibOrder <> gt_is_inverse_lt thm
+R14312:14327 SLF.LibOrder <> gt_is_inverse_lt thm
+R14312:14327 SLF.LibOrder <> gt_is_inverse_lt thm
+R14339:14353 SLF.LibOrder <> lt_is_strict_le thm
+R14339:14353 SLF.LibOrder <> lt_is_strict_le thm
+R14376:14383 SLF.LibOrder <> ge_of_le inst
+R14385:14392 SLF.LibOrder <> lt_of_le inst
+R14394:14401 SLF.LibOrder <> gt_of_le inst
+R14462:14484 SLF.LibOrder <> gt_is_inverse_strict_le thm
+R14487:14502 SLF.LibOrder <> ge_is_inverse_le thm
+R14505:14519 SLF.LibOrder <> lt_is_strict_le thm
+R14626:14641 SLF.LibOrder <> ge_is_inverse_le thm
+R14644:14659 SLF.LibOrder <> gt_is_inverse_lt thm
+prf 14757:14779 <> gt_is_strict_inverse_le
+R14792:14793 SLF.LibOrder <> Le class
+binder 14795:14795 <> A:169
+binder 14792:14795 <> H:170
+R14803:14805 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14801:14802 SLF.LibOrder <> gt meth
+R14806:14811 SLF.LibRelation <> strict def
+R14814:14820 SLF.LibRelation <> inverse def
+R14822:14823 SLF.LibOrder <> le meth
+R14865:14878 SLF.LibRelation <> inverse_strict thm
+R14865:14878 SLF.LibRelation <> inverse_strict thm
+prf 14893:14909 <> le_is_rclosure_lt
+R14922:14923 SLF.LibOrder <> Le class
+binder 14925:14925 <> A:171
+binder 14922:14925 <> H:172
+R14938:14943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14931:14934 SLF.LibRelation <> refl def
+R14936:14937 SLF.LibOrder <> le meth
+R14946:14948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14944:14945 SLF.LibOrder <> le meth
+R14949:14956 SLF.LibRelation <> rclosure ind
+R14958:14959 SLF.LibOrder <> lt meth
+R15003:15017 SLF.LibRelation <> rclosure_strict thm
+R15003:15017 SLF.LibRelation <> rclosure_strict thm
+prf 15032:15047 <> le_is_inverse_ge
+R15060:15061 SLF.LibOrder <> Le class
+binder 15063:15063 <> A:173
+binder 15060:15063 <> H:174
+R15071:15073 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15069:15070 SLF.LibOrder <> le meth
+R15074:15080 SLF.LibRelation <> inverse def
+R15082:15083 SLF.LibOrder <> ge meth
+R15127:15141 SLF.LibRelation <> inverse_inverse thm
+R15127:15141 SLF.LibRelation <> inverse_inverse thm
+prf 15156:15171 <> lt_is_inverse_gt
+R15184:15185 SLF.LibOrder <> Le class
+binder 15187:15187 <> A:175
+binder 15184:15187 <> H:176
+R15195:15197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15193:15194 SLF.LibOrder <> lt meth
+R15198:15204 SLF.LibRelation <> inverse def
+R15206:15207 SLF.LibOrder <> gt meth
+R15251:15265 SLF.LibRelation <> inverse_inverse thm
+R15251:15265 SLF.LibRelation <> inverse_inverse thm
+prf 15280:15294 <> gt_is_strict_ge
+R15307:15308 SLF.LibOrder <> Le class
+binder 15310:15310 <> A:177
+binder 15307:15310 <> H:178
+R15318:15320 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15316:15317 SLF.LibOrder <> gt meth
+R15321:15326 SLF.LibRelation <> strict def
+R15328:15329 SLF.LibOrder <> ge meth
+R15370:15383 SLF.LibRelation <> inverse_strict thm
+R15370:15383 SLF.LibRelation <> inverse_strict thm
+prf 15398:15414 <> ge_is_rclosure_gt
+R15427:15428 SLF.LibOrder <> Le class
+binder 15430:15430 <> A:179
+binder 15427:15430 <> H:180
+R15443:15448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15436:15439 SLF.LibRelation <> refl def
+R15441:15442 SLF.LibOrder <> le meth
+R15451:15453 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15449:15450 SLF.LibOrder <> ge meth
+R15454:15461 SLF.LibRelation <> rclosure ind
+R15463:15464 SLF.LibOrder <> gt meth
+R15496:15510 SLF.LibOrder <> gt_is_strict_ge thm
+R15496:15510 SLF.LibOrder <> gt_is_strict_ge thm
+R15496:15510 SLF.LibOrder <> gt_is_strict_ge thm
+R15522:15536 SLF.LibRelation <> rclosure_strict thm
+R15522:15536 SLF.LibRelation <> rclosure_strict thm
+rec 15954:15964 <> Ge_preorder
+proj 15988:15998 <> ge_preorder
+R15968:15969 SLF.LibOrder <> Le class
+binder 15971:15971 <> A:181
+binder 15968:15971 <> H:182
+R16002:16009 SLF.LibOrder <> preorder rec
+R16011:16012 SLF.LibOrder <> ge meth
+rec 16023:16039 <> Ge_total_preorder
+proj 16063:16079 <> ge_total_preorder
+R16043:16044 SLF.LibOrder <> Le class
+binder 16046:16046 <> A:185
+binder 16043:16046 <> H:186
+R16083:16096 SLF.LibOrder <> total_preorder rec
+R16098:16099 SLF.LibOrder <> ge meth
+rec 16110:16117 <> Ge_order
+proj 16141:16148 <> ge_order
+R16121:16122 SLF.LibOrder <> Le class
+binder 16124:16124 <> A:189
+binder 16121:16124 <> H:190
+R16152:16156 SLF.LibOrder <> order rec
+R16158:16159 SLF.LibOrder <> ge meth
+rec 16170:16183 <> Ge_total_order
+proj 16207:16220 <> ge_total_order
+R16187:16188 SLF.LibOrder <> Le class
+binder 16190:16190 <> A:193
+binder 16187:16190 <> H:194
+R16224:16234 SLF.LibOrder <> total_order rec
+R16236:16237 SLF.LibOrder <> le meth
+rec 16248:16262 <> Gt_strict_order
+proj 16286:16300 <> gt_strict_order
+R16266:16267 SLF.LibOrder <> Le class
+binder 16269:16269 <> A:197
+binder 16266:16269 <> H:198
+R16304:16315 SLF.LibOrder <> strict_order rec
+R16317:16318 SLF.LibOrder <> gt meth
+rec 16329:16349 <> Gt_strict_total_order
+proj 16373:16393 <> gt_strict_total_order
+R16353:16354 SLF.LibOrder <> Le class
+binder 16356:16356 <> A:201
+binder 16353:16356 <> H:202
+R16397:16414 SLF.LibOrder <> strict_total_order rec
+R16416:16417 SLF.LibOrder <> gt meth
+rec 16454:16460 <> Le_refl
+proj 16477:16483 <> le_refl
+R16464:16465 SLF.LibOrder <> Le class
+binder 16467:16467 <> A:205
+binder 16464:16467 <> H:206
+R16487:16490 SLF.LibRelation <> refl def
+R16492:16493 SLF.LibOrder <> le meth
+rec 16504:16511 <> Le_trans
+proj 16528:16535 <> le_trans
+R16515:16516 SLF.LibOrder <> Le class
+binder 16518:16518 <> A:209
+binder 16515:16518 <> H:210
+R16539:16543 SLF.LibRelation <> trans def
+R16545:16546 SLF.LibOrder <> le meth
+rec 16557:16566 <> Le_antisym
+proj 16583:16592 <> le_antisym
+R16570:16571 SLF.LibOrder <> Le class
+binder 16573:16573 <> A:213
+binder 16570:16573 <> H:214
+R16596:16602 SLF.LibRelation <> antisym def
+R16604:16605 SLF.LibOrder <> le meth
+rec 16616:16623 <> Le_total
+proj 16640:16647 <> le_total
+R16627:16628 SLF.LibOrder <> Le class
+binder 16630:16630 <> A:217
+binder 16627:16630 <> H:218
+R16651:16655 SLF.LibRelation <> total def
+R16657:16658 SLF.LibOrder <> le meth
+rec 16695:16701 <> Ge_refl
+proj 16718:16724 <> ge_refl
+R16705:16706 SLF.LibOrder <> Ge class
+binder 16708:16708 <> A:221
+binder 16705:16708 <> H:222
+R16728:16731 SLF.LibRelation <> refl def
+R16733:16734 SLF.LibOrder <> ge meth
+rec 16745:16752 <> Ge_trans
+proj 16769:16776 <> ge_trans
+R16756:16757 SLF.LibOrder <> Ge class
+binder 16759:16759 <> A:225
+binder 16756:16759 <> H:226
+R16780:16784 SLF.LibRelation <> trans def
+R16786:16787 SLF.LibOrder <> ge meth
+rec 16798:16807 <> Ge_antisym
+proj 16824:16833 <> ge_antisym
+R16811:16812 SLF.LibOrder <> Ge class
+binder 16814:16814 <> A:229
+binder 16811:16814 <> H:230
+R16837:16843 SLF.LibRelation <> antisym def
+R16845:16846 SLF.LibOrder <> ge meth
+rec 16857:16864 <> Ge_total
+proj 16881:16888 <> ge_total
+R16868:16869 SLF.LibOrder <> Ge class
+binder 16871:16871 <> A:233
+binder 16868:16871 <> H:234
+R16892:16896 SLF.LibRelation <> total def
+R16898:16899 SLF.LibOrder <> ge meth
+rec 16936:16944 <> Lt_irrefl
+proj 16961:16969 <> lt_irrefl
+R16948:16949 SLF.LibOrder <> Lt class
+binder 16951:16951 <> A:237
+binder 16948:16951 <> H:238
+R16973:16978 SLF.LibRelation <> irrefl def
+R16980:16981 SLF.LibOrder <> lt meth
+rec 16992:16999 <> Lt_trans
+proj 17016:17023 <> lt_trans
+R17003:17004 SLF.LibOrder <> Lt class
+binder 17006:17006 <> A:241
+binder 17003:17006 <> H:242
+R17027:17031 SLF.LibRelation <> trans def
+R17033:17034 SLF.LibOrder <> lt meth
+rec 17071:17079 <> Gt_irrefl
+proj 17096:17104 <> gt_irrefl
+R17083:17084 SLF.LibOrder <> Gt class
+binder 17086:17086 <> A:245
+binder 17083:17086 <> H:246
+R17108:17113 SLF.LibRelation <> irrefl def
+R17115:17116 SLF.LibOrder <> gt meth
+rec 17127:17134 <> Gt_trans
+proj 17151:17158 <> gt_trans
+R17138:17139 SLF.LibOrder <> Gt class
+binder 17141:17141 <> A:249
+binder 17138:17141 <> H:250
+R17162:17166 SLF.LibRelation <> trans def
+R17168:17169 SLF.LibOrder <> gt meth
+rec 17216:17226 <> Lt_le_trans
+proj 17243:17253 <> lt_le_trans
+R17230:17231 SLF.LibOrder <> Le class
+binder 17233:17233 <> A:253
+binder 17230:17233 <> H:254
+binder 17264:17264 <> y:256
+binder 17266:17266 <> x:257
+binder 17268:17268 <> z:258
+R17276:17279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17272:17274 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R17271:17271 SLF.LibOrder <> x:257 var
+R17275:17275 SLF.LibOrder <> y:256 var
+R17286:17289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17281:17284 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R17280:17280 SLF.LibOrder <> y:256 var
+R17285:17285 SLF.LibOrder <> z:258 var
+R17291:17293 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R17290:17290 SLF.LibOrder <> x:257 var
+R17294:17294 SLF.LibOrder <> z:258 var
+rec 17305:17315 <> Le_lt_trans
+proj 17332:17342 <> le_lt_trans
+R17319:17320 SLF.LibOrder <> Le class
+binder 17322:17322 <> A:260
+binder 17319:17322 <> H:261
+binder 17353:17353 <> y:263
+binder 17355:17355 <> x:264
+binder 17357:17357 <> z:265
+R17366:17369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17361:17364 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R17360:17360 SLF.LibOrder <> x:264 var
+R17365:17365 SLF.LibOrder <> y:263 var
+R17375:17378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17371:17373 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R17370:17370 SLF.LibOrder <> y:263 var
+R17374:17374 SLF.LibOrder <> z:265 var
+R17380:17382 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R17379:17379 SLF.LibOrder <> x:264 var
+R17383:17383 SLF.LibOrder <> z:265 var
+rec 17394:17404 <> Gt_ge_trans
+proj 17421:17431 <> gt_ge_trans
+R17408:17409 SLF.LibOrder <> Le class
+binder 17411:17411 <> A:267
+binder 17408:17411 <> H:268
+binder 17442:17442 <> y:270
+binder 17444:17444 <> x:271
+binder 17446:17446 <> z:272
+R17454:17457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17450:17452 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17449:17449 SLF.LibOrder <> x:271 var
+R17453:17453 SLF.LibOrder <> y:270 var
+R17464:17467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17459:17462 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R17458:17458 SLF.LibOrder <> y:270 var
+R17463:17463 SLF.LibOrder <> z:272 var
+R17469:17471 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17468:17468 SLF.LibOrder <> x:271 var
+R17472:17472 SLF.LibOrder <> z:272 var
+rec 17483:17493 <> Ge_gt_trans
+proj 17510:17520 <> ge_gt_trans
+R17497:17498 SLF.LibOrder <> Le class
+binder 17500:17500 <> A:274
+binder 17497:17500 <> H:275
+binder 17531:17531 <> y:277
+binder 17533:17533 <> x:278
+binder 17535:17535 <> z:279
+R17544:17547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17539:17542 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R17538:17538 SLF.LibOrder <> x:278 var
+R17543:17543 SLF.LibOrder <> y:277 var
+R17553:17556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17549:17551 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17548:17548 SLF.LibOrder <> y:277 var
+R17552:17552 SLF.LibOrder <> z:279 var
+R17558:17560 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17557:17557 SLF.LibOrder <> x:278 var
+R17561:17561 SLF.LibOrder <> z:279 var
+R17577:17585 SLF.LibOrder <> lt_irrefl meth
+R17577:17585 SLF.LibOrder <> lt_irrefl meth
+R17618:17625 SLF.LibOrder <> le_trans meth
+R17618:17625 SLF.LibOrder <> le_trans meth
+R17667:17674 SLF.LibOrder <> ge_trans meth
+R17667:17674 SLF.LibOrder <> ge_trans meth
+R17716:17723 SLF.LibOrder <> lt_trans meth
+R17716:17723 SLF.LibOrder <> lt_trans meth
+R17765:17772 SLF.LibOrder <> gt_trans meth
+R17765:17772 SLF.LibOrder <> gt_trans meth
+rec 17848:17856 <> Ge_as_sle
+proj 17880:17888 <> ge_as_sle
+R17860:17861 SLF.LibOrder <> Le class
+binder 17863:17863 <> A:281
+binder 17860:17863 <> H:282
+R17905:17905 SLF.LibOrder <> A:281 var
+binder 17899:17899 <> x:284
+binder 17901:17901 <> y:285
+R17908:17908 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17915:17919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17926:17926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17910:17913 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R17909:17909 SLF.LibOrder <> x:284 var
+R17914:17914 SLF.LibOrder <> y:285 var
+R17921:17924 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R17920:17920 SLF.LibOrder <> y:285 var
+R17925:17925 SLF.LibOrder <> x:284 var
+rec 17938:17946 <> Gt_as_slt
+proj 17970:17978 <> gt_as_slt
+R17950:17951 SLF.LibOrder <> Le class
+binder 17953:17953 <> A:287
+binder 17950:17953 <> H:288
+R17995:17995 SLF.LibOrder <> A:287 var
+binder 17989:17989 <> x:290
+binder 17991:17991 <> y:291
+R17998:17998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18004:18008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18014:18014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18000:18002 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17999:17999 SLF.LibOrder <> x:290 var
+R18003:18003 SLF.LibOrder <> y:291 var
+R18010:18012 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18009:18009 SLF.LibOrder <> y:291 var
+R18013:18013 SLF.LibOrder <> x:290 var
+rec 18026:18035 <> Ngt_as_sle
+proj 18059:18068 <> ngt_as_sle
+R18039:18040 SLF.LibOrder <> Le class
+binder 18042:18042 <> A:293
+binder 18039:18042 <> H:294
+R18085:18085 SLF.LibOrder <> A:293 var
+binder 18079:18079 <> x:296
+binder 18081:18081 <> y:297
+R18088:18088 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18096:18100 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18107:18107 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18089:18090 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18092:18094 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18091:18091 SLF.LibOrder <> x:296 var
+R18095:18095 SLF.LibOrder <> y:297 var
+R18102:18105 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18101:18101 SLF.LibOrder <> y:297 var
+R18106:18106 SLF.LibOrder <> x:296 var
+rec 18119:18127 <> Nlt_as_ge
+proj 18151:18159 <> nlt_as_ge
+R18131:18132 SLF.LibOrder <> Le class
+binder 18134:18134 <> A:299
+binder 18131:18134 <> H:300
+R18176:18176 SLF.LibOrder <> A:299 var
+binder 18170:18170 <> x:302
+binder 18172:18172 <> y:303
+R18179:18179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18187:18191 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18198:18198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18180:18181 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18183:18185 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18182:18182 SLF.LibOrder <> x:302 var
+R18186:18186 SLF.LibOrder <> y:303 var
+R18193:18196 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R18192:18192 SLF.LibOrder <> x:302 var
+R18197:18197 SLF.LibOrder <> y:303 var
+rec 18210:18218 <> Ngt_as_le
+proj 18242:18250 <> ngt_as_le
+R18222:18223 SLF.LibOrder <> Le class
+binder 18225:18225 <> A:305
+binder 18222:18225 <> H:306
+R18267:18267 SLF.LibOrder <> A:305 var
+binder 18261:18261 <> x:308
+binder 18263:18263 <> y:309
+R18270:18270 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18278:18282 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18289:18289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18271:18272 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18274:18276 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R18273:18273 SLF.LibOrder <> x:308 var
+R18277:18277 SLF.LibOrder <> y:309 var
+R18284:18287 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18283:18283 SLF.LibOrder <> x:308 var
+R18288:18288 SLF.LibOrder <> y:309 var
+rec 18301:18309 <> Nle_as_gt
+proj 18333:18341 <> nle_as_gt
+R18313:18314 SLF.LibOrder <> Le class
+binder 18316:18316 <> A:311
+binder 18313:18316 <> H:312
+R18358:18358 SLF.LibOrder <> A:311 var
+binder 18352:18352 <> x:314
+binder 18354:18354 <> y:315
+R18361:18361 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18370:18374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18380:18380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18362:18363 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18365:18368 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18364:18364 SLF.LibOrder <> x:314 var
+R18369:18369 SLF.LibOrder <> y:315 var
+R18376:18378 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R18375:18375 SLF.LibOrder <> x:314 var
+R18379:18379 SLF.LibOrder <> y:315 var
+rec 18392:18400 <> Nge_as_lt
+proj 18424:18432 <> nge_as_lt
+R18404:18405 SLF.LibOrder <> Le class
+binder 18407:18407 <> A:317
+binder 18404:18407 <> H:318
+R18449:18449 SLF.LibOrder <> A:317 var
+binder 18443:18443 <> x:320
+binder 18445:18445 <> y:321
+R18452:18452 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18461:18465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18471:18471 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18453:18454 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18456:18459 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R18455:18455 SLF.LibOrder <> x:320 var
+R18460:18460 SLF.LibOrder <> y:321 var
+R18467:18469 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18466:18466 SLF.LibOrder <> x:320 var
+R18470:18470 SLF.LibOrder <> y:321 var
+rec 18519:18526 <> Lt_to_le
+proj 18550:18557 <> lt_to_le
+R18530:18531 SLF.LibOrder <> Le class
+binder 18533:18533 <> A:323
+binder 18530:18533 <> H:324
+R18574:18574 SLF.LibOrder <> A:323 var
+binder 18568:18568 <> x:326
+binder 18570:18570 <> y:327
+R18577:18577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18583:18588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18595:18595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18579:18581 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18578:18578 SLF.LibOrder <> x:326 var
+R18582:18582 SLF.LibOrder <> y:327 var
+R18590:18593 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18589:18589 SLF.LibOrder <> x:326 var
+R18594:18594 SLF.LibOrder <> y:327 var
+rec 18607:18614 <> Gt_to_ge
+proj 18638:18645 <> gt_to_ge
+R18618:18619 SLF.LibOrder <> Le class
+binder 18621:18621 <> A:329
+binder 18618:18621 <> H:330
+R18662:18662 SLF.LibOrder <> A:329 var
+binder 18656:18656 <> x:332
+binder 18658:18658 <> y:333
+R18665:18665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18671:18676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18683:18683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18667:18669 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R18666:18666 SLF.LibOrder <> x:332 var
+R18670:18670 SLF.LibOrder <> y:333 var
+R18678:18681 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R18677:18677 SLF.LibOrder <> x:332 var
+R18682:18682 SLF.LibOrder <> y:333 var
+rec 18695:18704 <> Nle_to_sle
+proj 18728:18737 <> nle_to_sle
+R18708:18709 SLF.LibOrder <> Le class
+binder 18711:18711 <> A:335
+binder 18708:18711 <> H:336
+R18754:18754 SLF.LibOrder <> A:335 var
+binder 18748:18748 <> x:338
+binder 18750:18750 <> y:339
+R18757:18757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18766:18771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18778:18778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18758:18759 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18761:18764 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18760:18760 SLF.LibOrder <> x:338 var
+R18765:18765 SLF.LibOrder <> y:339 var
+R18773:18776 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18772:18772 SLF.LibOrder <> y:339 var
+R18777:18777 SLF.LibOrder <> x:338 var
+rec 18790:18799 <> Nle_to_slt
+proj 18823:18832 <> nle_to_slt
+R18803:18804 SLF.LibOrder <> Le class
+binder 18806:18806 <> A:341
+binder 18803:18806 <> H:342
+R18849:18849 SLF.LibOrder <> A:341 var
+binder 18843:18843 <> x:344
+binder 18845:18845 <> y:345
+R18852:18852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18861:18866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18872:18872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18853:18854 Coq.Init.Logic <> ::type_scope:'~'_x not
+R18856:18859 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R18855:18855 SLF.LibOrder <> x:344 var
+R18860:18860 SLF.LibOrder <> y:345 var
+R18868:18870 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18867:18867 SLF.LibOrder <> y:345 var
+R18871:18871 SLF.LibOrder <> x:344 var
+rec 18906:18918 <> Case_eq_lt_gt
+proj 18942:18954 <> case_eq_lt_gt
+R18922:18923 SLF.LibOrder <> Le class
+binder 18925:18925 <> A:347
+binder 18922:18925 <> H:348
+R18971:18971 SLF.LibOrder <> A:347 var
+binder 18965:18965 <> x:350
+binder 18967:18967 <> y:351
+R18979:18982 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18975:18977 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18974:18974 SLF.LibOrder <> x:350 var
+R18978:18978 SLF.LibOrder <> y:351 var
+R18988:18991 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R18984:18986 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R18983:18983 SLF.LibOrder <> x:350 var
+R18987:18987 SLF.LibOrder <> y:351 var
+R18993:18995 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R18992:18992 SLF.LibOrder <> x:350 var
+R18996:18996 SLF.LibOrder <> y:351 var
+rec 19008:19021 <> Case_eq_lt_slt
+proj 19045:19058 <> case_eq_lt_slt
+R19025:19026 SLF.LibOrder <> Le class
+binder 19028:19028 <> A:353
+binder 19025:19028 <> H:354
+R19075:19075 SLF.LibOrder <> A:353 var
+binder 19069:19069 <> x:356
+binder 19071:19071 <> y:357
+R19083:19086 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19079:19081 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19078:19078 SLF.LibOrder <> x:356 var
+R19082:19082 SLF.LibOrder <> y:357 var
+R19092:19095 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19088:19090 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19087:19087 SLF.LibOrder <> x:356 var
+R19091:19091 SLF.LibOrder <> y:357 var
+R19097:19099 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19096:19096 SLF.LibOrder <> y:357 var
+R19100:19100 SLF.LibOrder <> x:356 var
+rec 19112:19121 <> Case_le_gt
+proj 19145:19154 <> case_le_gt
+R19125:19126 SLF.LibOrder <> Le class
+binder 19128:19128 <> A:359
+binder 19125:19128 <> H:360
+R19171:19171 SLF.LibOrder <> A:359 var
+binder 19165:19165 <> x:362
+binder 19167:19167 <> y:363
+R19180:19183 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19175:19178 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19174:19174 SLF.LibOrder <> x:362 var
+R19179:19179 SLF.LibOrder <> y:363 var
+R19185:19187 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R19184:19184 SLF.LibOrder <> x:362 var
+R19188:19188 SLF.LibOrder <> y:363 var
+rec 19200:19210 <> Case_le_slt
+proj 19234:19244 <> case_le_slt
+R19214:19215 SLF.LibOrder <> Le class
+binder 19217:19217 <> A:365
+binder 19214:19217 <> H:366
+R19261:19261 SLF.LibOrder <> A:365 var
+binder 19255:19255 <> x:368
+binder 19257:19257 <> y:369
+R19270:19273 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19265:19268 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19264:19264 SLF.LibOrder <> x:368 var
+R19269:19269 SLF.LibOrder <> y:369 var
+R19275:19277 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19274:19274 SLF.LibOrder <> y:369 var
+R19278:19278 SLF.LibOrder <> x:368 var
+rec 19290:19299 <> Case_lt_ge
+proj 19323:19332 <> case_lt_ge
+R19303:19304 SLF.LibOrder <> Le class
+binder 19306:19306 <> A:371
+binder 19303:19306 <> H:372
+R19349:19349 SLF.LibOrder <> A:371 var
+binder 19343:19343 <> x:374
+binder 19345:19345 <> y:375
+R19357:19360 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19353:19355 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19352:19352 SLF.LibOrder <> x:374 var
+R19356:19356 SLF.LibOrder <> y:375 var
+R19362:19365 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R19361:19361 SLF.LibOrder <> x:374 var
+R19366:19366 SLF.LibOrder <> y:375 var
+rec 19378:19388 <> Case_lt_sle
+proj 19412:19422 <> case_lt_sle
+R19392:19393 SLF.LibOrder <> Le class
+binder 19395:19395 <> A:377
+binder 19392:19395 <> H:378
+R19439:19439 SLF.LibOrder <> A:377 var
+binder 19433:19433 <> x:380
+binder 19435:19435 <> y:381
+R19447:19450 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19443:19445 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19442:19442 SLF.LibOrder <> x:380 var
+R19446:19446 SLF.LibOrder <> y:381 var
+R19452:19455 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19451:19451 SLF.LibOrder <> y:381 var
+R19456:19456 SLF.LibOrder <> x:380 var
+rec 19511:19524 <> Neq_case_lt_gt
+proj 19548:19561 <> neq_case_lt_gt
+R19528:19529 SLF.LibOrder <> Le class
+binder 19531:19531 <> A:383
+binder 19528:19531 <> H:384
+R19578:19578 SLF.LibOrder <> A:383 var
+binder 19572:19572 <> x:386
+binder 19574:19574 <> y:387
+R19587:19590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19582:19585 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19581:19581 SLF.LibOrder <> x:386 var
+R19586:19586 SLF.LibOrder <> y:387 var
+R19596:19599 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19592:19594 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19591:19591 SLF.LibOrder <> x:386 var
+R19595:19595 SLF.LibOrder <> y:387 var
+R19601:19603 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R19600:19600 SLF.LibOrder <> x:386 var
+R19604:19604 SLF.LibOrder <> y:387 var
+rec 19616:19630 <> Neq_case_lt_slt
+proj 19654:19668 <> neq_case_lt_slt
+R19634:19635 SLF.LibOrder <> Le class
+binder 19637:19637 <> A:389
+binder 19634:19637 <> H:390
+R19685:19685 SLF.LibOrder <> A:389 var
+binder 19679:19679 <> x:392
+binder 19681:19681 <> y:393
+R19694:19697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19689:19692 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19688:19688 SLF.LibOrder <> x:392 var
+R19693:19693 SLF.LibOrder <> y:393 var
+R19703:19706 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19699:19701 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19698:19698 SLF.LibOrder <> x:392 var
+R19702:19702 SLF.LibOrder <> y:393 var
+R19708:19710 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19707:19707 SLF.LibOrder <> y:393 var
+R19711:19711 SLF.LibOrder <> x:392 var
+rec 19723:19735 <> Le_case_eq_lt
+proj 19759:19771 <> le_case_eq_lt
+R19739:19740 SLF.LibOrder <> Le class
+binder 19742:19742 <> A:395
+binder 19739:19742 <> H:396
+R19788:19788 SLF.LibOrder <> A:395 var
+binder 19782:19782 <> x:398
+binder 19784:19784 <> y:399
+R19797:19800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19792:19795 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19791:19791 SLF.LibOrder <> x:398 var
+R19796:19796 SLF.LibOrder <> y:399 var
+R19806:19809 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19802:19804 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19801:19801 SLF.LibOrder <> x:398 var
+R19805:19805 SLF.LibOrder <> y:399 var
+R19811:19813 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19810:19810 SLF.LibOrder <> x:398 var
+R19814:19814 SLF.LibOrder <> y:399 var
+rec 19826:19838 <> Ge_case_eq_gt
+proj 19862:19874 <> ge_case_eq_gt
+R19842:19843 SLF.LibOrder <> Le class
+binder 19845:19845 <> A:401
+binder 19842:19845 <> H:402
+R19891:19891 SLF.LibOrder <> A:401 var
+binder 19885:19885 <> x:404
+binder 19887:19887 <> y:405
+R19900:19903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19895:19898 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R19894:19894 SLF.LibOrder <> x:404 var
+R19899:19899 SLF.LibOrder <> y:405 var
+R19909:19912 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19905:19907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19904:19904 SLF.LibOrder <> x:404 var
+R19908:19908 SLF.LibOrder <> y:405 var
+R19914:19916 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R19913:19913 SLF.LibOrder <> x:404 var
+R19917:19917 SLF.LibOrder <> y:405 var
+rec 19973:19984 <> Le_neq_to_lt
+proj 20008:20019 <> le_neq_to_lt
+R19988:19989 SLF.LibOrder <> Le class
+binder 19991:19991 <> A:407
+binder 19988:19991 <> H:408
+R20036:20036 SLF.LibOrder <> A:407 var
+binder 20030:20030 <> x:410
+binder 20032:20032 <> y:411
+R20045:20048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20040:20043 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R20039:20039 SLF.LibOrder <> x:410 var
+R20044:20044 SLF.LibOrder <> y:411 var
+R20055:20058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20050:20053 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20049:20049 SLF.LibOrder <> x:410 var
+R20054:20054 SLF.LibOrder <> y:411 var
+R20060:20062 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R20059:20059 SLF.LibOrder <> x:410 var
+R20063:20063 SLF.LibOrder <> y:411 var
+rec 20075:20086 <> Ge_neq_to_gt
+proj 20110:20121 <> ge_neq_to_gt
+R20090:20091 SLF.LibOrder <> Le class
+binder 20093:20093 <> A:413
+binder 20090:20093 <> H:414
+R20138:20138 SLF.LibOrder <> A:413 var
+binder 20132:20132 <> x:416
+binder 20134:20134 <> y:417
+R20147:20150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20142:20145 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20141:20141 SLF.LibOrder <> x:416 var
+R20146:20146 SLF.LibOrder <> y:417 var
+R20157:20160 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20152:20155 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20151:20151 SLF.LibOrder <> x:416 var
+R20156:20156 SLF.LibOrder <> y:417 var
+R20162:20164 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20161:20161 SLF.LibOrder <> x:416 var
+R20165:20165 SLF.LibOrder <> y:417 var
+rec 20177:20190 <> Nlt_nslt_to_eq
+proj 20214:20227 <> nlt_nslt_to_eq
+R20194:20195 SLF.LibOrder <> Le class
+binder 20197:20197 <> A:419
+binder 20194:20197 <> H:420
+R20244:20244 SLF.LibOrder <> A:419 var
+binder 20238:20238 <> x:422
+binder 20240:20240 <> y:423
+R20257:20260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20247:20249 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20256:20256 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20250:20251 SLF.LibOrder <> lt meth
+R20255:20255 SLF.LibOrder <> y:423 var
+R20253:20253 SLF.LibOrder <> x:422 var
+R20271:20274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20261:20263 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20270:20270 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20264:20265 SLF.LibOrder <> lt meth
+R20269:20269 SLF.LibOrder <> x:422 var
+R20267:20267 SLF.LibOrder <> y:423 var
+R20276:20278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20275:20275 SLF.LibOrder <> x:422 var
+R20279:20279 SLF.LibOrder <> y:423 var
+rec 20332:20342 <> Lt_ge_false
+proj 20366:20376 <> lt_ge_false
+R20346:20347 SLF.LibOrder <> Le class
+binder 20349:20349 <> A:425
+binder 20346:20349 <> H:426
+R20393:20393 SLF.LibOrder <> A:425 var
+binder 20387:20387 <> x:428
+binder 20389:20389 <> y:429
+R20401:20404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20397:20399 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R20396:20396 SLF.LibOrder <> x:428 var
+R20400:20400 SLF.LibOrder <> y:429 var
+R20411:20414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20406:20409 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20405:20405 SLF.LibOrder <> x:428 var
+R20410:20410 SLF.LibOrder <> y:429 var
+R20415:20419 Coq.Init.Logic <> False ind
+rec 20431:20441 <> Lt_gt_false
+proj 20465:20475 <> lt_gt_false
+R20445:20446 SLF.LibOrder <> Le class
+binder 20448:20448 <> A:431
+binder 20445:20448 <> H:432
+R20492:20492 SLF.LibOrder <> A:431 var
+binder 20486:20486 <> x:434
+binder 20488:20488 <> y:435
+R20500:20503 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20496:20498 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R20495:20495 SLF.LibOrder <> x:434 var
+R20499:20499 SLF.LibOrder <> y:435 var
+R20509:20512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20505:20507 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20504:20504 SLF.LibOrder <> x:434 var
+R20508:20508 SLF.LibOrder <> y:435 var
+R20513:20517 Coq.Init.Logic <> False ind
+rec 20529:20540 <> Lt_slt_false
+proj 20564:20575 <> lt_slt_false
+R20544:20545 SLF.LibOrder <> Le class
+binder 20547:20547 <> A:437
+binder 20544:20547 <> H:438
+R20592:20592 SLF.LibOrder <> A:437 var
+binder 20586:20586 <> x:440
+binder 20588:20588 <> y:441
+R20600:20603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20596:20598 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R20595:20595 SLF.LibOrder <> x:440 var
+R20599:20599 SLF.LibOrder <> y:441 var
+R20609:20612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20605:20607 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R20604:20604 SLF.LibOrder <> y:441 var
+R20608:20608 SLF.LibOrder <> x:440 var
+R20613:20617 Coq.Init.Logic <> False ind
+sec 20825:20833 <> Instances
+R20846:20847 SLF.LibOrder <> Le class
+binder 20849:20849 <> A:443
+binder 20846:20849 <> H:444
+inst 20938:20960 <> Le_preorder_of_Le_order
+R20974:20979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20966:20973 SLF.LibOrder <> Le_order class
+R20980:20990 SLF.LibOrder <> Le_preorder class
+R21034:21050 SLF.LibOrder <> order_to_preorder coe
+R21034:21050 SLF.LibOrder <> order_to_preorder coe
+inst 21075:21109 <> Le_total_preorder_of_Le_total_order
+R21129:21134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21115:21128 SLF.LibOrder <> Le_total_order class
+R21135:21151 SLF.LibOrder <> Le_total_preorder class
+R21195:21223 SLF.LibOrder <> total_order_to_total_preorder coe
+R21195:21223 SLF.LibOrder <> total_order_to_total_preorder coe
+inst 21248:21276 <> Le_preorder_of_Total_preorder
+R21299:21304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21282:21298 SLF.LibOrder <> Le_total_preorder class
+R21305:21315 SLF.LibOrder <> Le_preorder class
+R21359:21384 SLF.LibOrder <> total_preorder_to_preorder coe
+R21359:21384 SLF.LibOrder <> total_preorder_to_preorder coe
+inst 21409:21434 <> Le_order_of_Le_total_order
+R21454:21459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21440:21453 SLF.LibOrder <> Le_total_order class
+R21460:21467 SLF.LibOrder <> Le_order class
+R21511:21530 SLF.LibOrder <> total_order_to_order def
+R21511:21530 SLF.LibOrder <> total_order_to_order def
+inst 21555:21594 <> lt_strict_order_of_lt_strict_total_order
+R21621:21626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21600:21620 SLF.LibOrder <> Lt_strict_total_order class
+R21627:21641 SLF.LibOrder <> Lt_strict_order class
+R21685:21718 SLF.LibOrder <> strict_total_order_to_strict_order coe
+R21685:21718 SLF.LibOrder <> strict_total_order_to_strict_order coe
+inst 21743:21769 <> Lt_strict_order_of_Le_order
+R21783:21788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21775:21782 SLF.LibOrder <> Le_order class
+R21789:21803 SLF.LibOrder <> Lt_strict_order class
+R21858:21876 SLF.LibOrder <> strict_order_strict thm
+R21858:21876 SLF.LibOrder <> strict_order_strict thm
+inst 21901:21939 <> Lt_strict_total_order_of_Le_total_order
+R21959:21964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21945:21958 SLF.LibOrder <> Le_total_order class
+R21965:21985 SLF.LibOrder <> Lt_strict_total_order class
+R22040:22072 SLF.LibOrder <> strict_total_order_of_total_order thm
+R22040:22072 SLF.LibOrder <> strict_total_order_of_total_order thm
+inst 22126:22148 <> Ge_preorder_of_Le_order
+R22162:22167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22154:22161 SLF.LibOrder <> Le_order class
+R22168:22178 SLF.LibOrder <> Ge_preorder class
+R22224:22239 SLF.LibOrder <> preorder_inverse thm
+R22224:22239 SLF.LibOrder <> preorder_inverse thm
+R22248:22258 SLF.LibOrder <> le_preorder meth
+R22248:22258 SLF.LibOrder <> le_preorder meth
+inst 22283:22317 <> Ge_total_preorder_of_Le_total_order
+R22337:22342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22323:22336 SLF.LibOrder <> Le_total_order class
+R22343:22359 SLF.LibOrder <> Ge_total_preorder class
+R22405:22426 SLF.LibOrder <> total_preorder_inverse thm
+R22405:22426 SLF.LibOrder <> total_preorder_inverse thm
+R22435:22451 SLF.LibOrder <> le_total_preorder meth
+R22435:22451 SLF.LibOrder <> le_total_preorder meth
+inst 22476:22504 <> Ge_preorder_of_Total_preorder
+R22527:22532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22510:22526 SLF.LibOrder <> Le_total_preorder class
+R22533:22543 SLF.LibOrder <> Ge_preorder class
+R22589:22604 SLF.LibOrder <> preorder_inverse thm
+R22589:22604 SLF.LibOrder <> preorder_inverse thm
+R22613:22623 SLF.LibOrder <> le_preorder meth
+R22613:22623 SLF.LibOrder <> le_preorder meth
+inst 22648:22673 <> Ge_order_of_Le_total_order
+R22693:22698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22679:22692 SLF.LibOrder <> Le_total_order class
+R22699:22706 SLF.LibOrder <> Ge_order class
+R22752:22764 SLF.LibOrder <> order_inverse thm
+R22752:22764 SLF.LibOrder <> order_inverse thm
+R22773:22780 SLF.LibOrder <> le_order meth
+R22773:22780 SLF.LibOrder <> le_order meth
+inst 22805:22844 <> Gt_strict_order_of_lt_strict_total_order
+R22871:22876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22850:22870 SLF.LibOrder <> Lt_strict_total_order class
+R22877:22891 SLF.LibOrder <> Gt_strict_order class
+R22928:22943 SLF.LibOrder <> gt_is_inverse_lt thm
+R22928:22943 SLF.LibOrder <> gt_is_inverse_lt thm
+R22928:22943 SLF.LibOrder <> gt_is_inverse_lt thm
+R22952:22971 SLF.LibOrder <> strict_order_inverse thm
+R22952:22971 SLF.LibOrder <> strict_order_inverse thm
+R22980:22994 SLF.LibOrder <> lt_strict_order meth
+R22980:22994 SLF.LibOrder <> lt_strict_order meth
+inst 23019:23045 <> Gt_strict_order_of_Le_order
+R23059:23064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23051:23058 SLF.LibOrder <> Le_order class
+R23065:23079 SLF.LibOrder <> Gt_strict_order class
+R23116:23131 SLF.LibOrder <> gt_is_inverse_lt thm
+R23116:23131 SLF.LibOrder <> gt_is_inverse_lt thm
+R23116:23131 SLF.LibOrder <> gt_is_inverse_lt thm
+R23140:23159 SLF.LibOrder <> strict_order_inverse thm
+R23140:23159 SLF.LibOrder <> strict_order_inverse thm
+R23168:23182 SLF.LibOrder <> lt_strict_order meth
+R23168:23182 SLF.LibOrder <> lt_strict_order meth
+inst 23207:23245 <> Gt_strict_total_order_of_Le_total_order
+R23265:23270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23251:23264 SLF.LibOrder <> Le_total_order class
+R23271:23291 SLF.LibOrder <> Gt_strict_total_order class
+R23328:23343 SLF.LibOrder <> gt_is_inverse_lt thm
+R23328:23343 SLF.LibOrder <> gt_is_inverse_lt thm
+R23328:23343 SLF.LibOrder <> gt_is_inverse_lt thm
+R23352:23377 SLF.LibOrder <> strict_total_order_inverse thm
+R23352:23377 SLF.LibOrder <> strict_total_order_inverse thm
+R23386:23406 SLF.LibOrder <> lt_strict_total_order meth
+R23386:23406 SLF.LibOrder <> lt_strict_total_order meth
+inst 23456:23477 <> Le_refl_of_Le_preorder
+R23494:23499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23483:23493 SLF.LibOrder <> Le_preorder class
+R23500:23506 SLF.LibOrder <> Le_refl class
+inst 23576:23598 <> Le_trans_of_Le_preorder
+R23615:23620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23604:23614 SLF.LibOrder <> Le_preorder class
+R23621:23628 SLF.LibOrder <> Le_trans class
+inst 23698:23719 <> Le_antisym_of_Le_order
+R23733:23738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23725:23732 SLF.LibOrder <> Le_order class
+R23739:23748 SLF.LibOrder <> Le_antisym class
+R23792:23804 SLF.LibOrder <> order_antisym proj
+R23792:23804 SLF.LibOrder <> order_antisym proj
+inst 23829:23854 <> Le_total_of_Le_total_order
+R23874:23879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23860:23873 SLF.LibOrder <> Le_total_order class
+R23880:23887 SLF.LibOrder <> Le_total class
+R23931:23947 SLF.LibOrder <> total_order_total proj
+R23931:23947 SLF.LibOrder <> total_order_total proj
+inst 23997:24018 <> Ge_refl_of_Le_preorder
+R24035:24040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24024:24034 SLF.LibOrder <> Le_preorder class
+R24041:24047 SLF.LibOrder <> Ge_refl class
+R24093:24104 SLF.LibRelation <> refl_inverse thm
+R24093:24104 SLF.LibRelation <> refl_inverse thm
+R24113:24119 SLF.LibOrder <> le_refl meth
+R24113:24119 SLF.LibOrder <> le_refl meth
+inst 24144:24166 <> Ge_trans_of_Le_preorder
+R24183:24188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24172:24182 SLF.LibOrder <> Le_preorder class
+R24189:24196 SLF.LibOrder <> Ge_trans class
+R24242:24254 SLF.LibRelation <> trans_inverse thm
+R24242:24254 SLF.LibRelation <> trans_inverse thm
+R24263:24270 SLF.LibOrder <> le_trans meth
+R24263:24270 SLF.LibOrder <> le_trans meth
+inst 24295:24316 <> Ge_antisym_of_Le_order
+R24330:24335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24322:24329 SLF.LibOrder <> Le_order class
+R24336:24345 SLF.LibOrder <> Ge_antisym class
+R24391:24405 SLF.LibRelation <> antisym_inverse thm
+R24391:24405 SLF.LibRelation <> antisym_inverse thm
+R24414:24423 SLF.LibOrder <> le_antisym meth
+R24414:24423 SLF.LibOrder <> le_antisym meth
+inst 24448:24473 <> Ge_total_of_Le_total_order
+R24493:24498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24479:24492 SLF.LibOrder <> Le_total_order class
+R24499:24506 SLF.LibOrder <> Ge_total class
+R24552:24564 SLF.LibRelation <> total_inverse thm
+R24552:24564 SLF.LibRelation <> total_inverse thm
+R24573:24580 SLF.LibOrder <> le_total meth
+R24573:24580 SLF.LibOrder <> le_total meth
+inst 24630:24650 <> Lt_irrefl_of_Le_order
+R24664:24669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24656:24663 SLF.LibOrder <> Le_order class
+R24670:24678 SLF.LibOrder <> Lt_irrefl class
+R24713:24731 SLF.LibOrder <> strict_order_irrefl proj
+R24713:24731 SLF.LibOrder <> strict_order_irrefl proj
+R24740:24754 SLF.LibOrder <> lt_strict_order meth
+R24740:24754 SLF.LibOrder <> lt_strict_order meth
+inst 24779:24798 <> Lt_trans_of_Le_order
+R24812:24817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24804:24811 SLF.LibOrder <> Le_order class
+R24818:24825 SLF.LibOrder <> Lt_trans class
+R24860:24877 SLF.LibOrder <> strict_order_trans proj
+R24860:24877 SLF.LibOrder <> strict_order_trans proj
+R24886:24900 SLF.LibOrder <> lt_strict_order meth
+R24886:24900 SLF.LibOrder <> lt_strict_order meth
+inst 24950:24970 <> Gt_irrefl_of_Le_order
+R24984:24989 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24976:24983 SLF.LibOrder <> Le_order class
+R24990:24998 SLF.LibOrder <> Gt_irrefl class
+R25033:25051 SLF.LibOrder <> strict_order_irrefl proj
+R25033:25051 SLF.LibOrder <> strict_order_irrefl proj
+R25060:25074 SLF.LibOrder <> gt_strict_order meth
+R25060:25074 SLF.LibOrder <> gt_strict_order meth
+inst 25099:25118 <> Gt_trans_of_Le_order
+R25132:25137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25124:25131 SLF.LibOrder <> Le_order class
+R25138:25145 SLF.LibOrder <> Gt_trans class
+R25180:25197 SLF.LibOrder <> strict_order_trans proj
+R25180:25197 SLF.LibOrder <> strict_order_trans proj
+R25206:25220 SLF.LibOrder <> gt_strict_order meth
+R25206:25220 SLF.LibOrder <> gt_strict_order meth
+inst 25280:25302 <> Lt_le_trans_of_Le_order
+R25316:25321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25308:25315 SLF.LibOrder <> Le_order class
+R25322:25332 SLF.LibOrder <> Lt_le_trans class
+R25424:25431 SLF.LibOrder <> le_trans meth
+R25424:25431 SLF.LibOrder <> le_trans meth
+R25463:25472 SLF.LibOrder <> le_antisym meth
+R25463:25472 SLF.LibOrder <> le_antisym meth
+inst 25497:25519 <> Le_lt_trans_of_Le_order
+R25533:25538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25525:25532 SLF.LibOrder <> Le_order class
+R25539:25549 SLF.LibOrder <> Le_lt_trans class
+R25641:25648 SLF.LibOrder <> le_trans meth
+R25641:25648 SLF.LibOrder <> le_trans meth
+R25680:25689 SLF.LibOrder <> le_antisym meth
+R25680:25689 SLF.LibOrder <> le_antisym meth
+inst 25714:25736 <> gt_ge_trans_of_Le_order
+R25750:25755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25742:25749 SLF.LibOrder <> Le_order class
+R25756:25766 SLF.LibOrder <> Gt_ge_trans class
+R25840:25850 SLF.LibOrder <> le_lt_trans meth
+R25840:25850 SLF.LibOrder <> le_lt_trans meth
+inst 25875:25897 <> ge_gt_trans_of_Le_order
+R25911:25916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25903:25910 SLF.LibOrder <> Le_order class
+R25917:25927 SLF.LibOrder <> Ge_gt_trans class
+R26001:26011 SLF.LibOrder <> lt_le_trans meth
+R26001:26011 SLF.LibOrder <> lt_le_trans meth
+inst 26072:26083 <> Ge_as_sle_of
+R26089:26097 SLF.LibOrder <> Ge_as_sle class
+inst 26173:26184 <> Gt_as_slt_of
+R26190:26198 SLF.LibOrder <> Gt_as_slt class
+inst 26274:26301 <> Ngt_as_sle_of_Le_total_order
+R26321:26326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26307:26320 SLF.LibOrder <> Le_total_order class
+R26327:26336 SLF.LibOrder <> Ngt_as_sle class
+R26393:26398 SLF.LibRelation <> strict def
+R26449:26469 SLF.LibOrder <> inverse_strict_of_not thm
+R26475:26476 SLF.LibOrder <> le meth
+R26449:26469 SLF.LibOrder <> inverse_strict_of_not thm
+R26475:26476 SLF.LibOrder <> le meth
+R26500:26507 SLF.LibOrder <> le_total meth
+R26500:26507 SLF.LibOrder <> le_total meth
+R26517:26521 Coq.Init.Logic <> proj1 thm
+R26517:26521 Coq.Init.Logic <> proj1 thm
+R26544:26550 SLF.LibOrder <> le_refl meth
+R26544:26550 SLF.LibOrder <> le_refl meth
+R26561:26572 SLF.LibLogic <> or_classic_l thm
+R26561:26572 SLF.LibLogic <> or_classic_l thm
+R26603:26612 SLF.LibOrder <> le_antisym meth
+R26603:26612 SLF.LibOrder <> le_antisym meth
+inst 26637:26663 <> Nlt_as_ge_of_Le_total_order
+R26683:26688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26669:26682 SLF.LibOrder <> Le_total_order class
+R26689:26697 SLF.LibOrder <> Nlt_as_ge class
+R26755:26761 SLF.LibRelation <> inverse def
+R26770:26779 SLF.LibOrder <> ngt_as_sle meth
+R26770:26779 SLF.LibOrder <> ngt_as_sle meth
+inst 26804:26830 <> Ngt_as_le_of_Le_total_order
+R26850:26855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26836:26849 SLF.LibOrder <> Le_total_order class
+R26856:26864 SLF.LibOrder <> Ngt_as_le class
+R26922:26928 SLF.LibRelation <> inverse def
+R26937:26946 SLF.LibOrder <> ngt_as_sle meth
+R26937:26946 SLF.LibOrder <> ngt_as_sle meth
+inst 26971:26997 <> Nle_as_gt_of_Le_total_order
+R27017:27022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27003:27016 SLF.LibOrder <> Le_total_order class
+R27023:27031 SLF.LibOrder <> Nle_as_gt class
+R27091:27097 SLF.LibRelation <> inverse def
+R27113:27122 SLF.LibOrder <> ngt_as_sle meth
+R27113:27122 SLF.LibOrder <> ngt_as_sle meth
+R27113:27122 SLF.LibOrder <> ngt_as_sle meth
+R27134:27143 SLF.LibLogic <> not_not_eq thm
+R27134:27143 SLF.LibLogic <> not_not_eq thm
+inst 27168:27194 <> Nge_as_lt_of_Le_total_order
+R27214:27219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27200:27213 SLF.LibOrder <> Le_total_order class
+R27220:27228 SLF.LibOrder <> Nge_as_lt class
+R27288:27294 SLF.LibRelation <> inverse def
+R27307:27315 SLF.LibOrder <> nle_as_gt meth
+R27307:27315 SLF.LibOrder <> nle_as_gt meth
+R27307:27315 SLF.LibOrder <> nle_as_gt meth
+R27327:27342 SLF.LibOrder <> gt_is_inverse_lt thm
+R27327:27342 SLF.LibOrder <> gt_is_inverse_lt thm
+inst 27403:27413 <> Lt_to_le_of
+R27419:27426 SLF.LibOrder <> Lt_to_le class
+R27483:27488 SLF.LibRelation <> strict def
+R27483:27488 SLF.LibRelation <> strict def
+inst 27513:27523 <> Gt_to_ge_of
+R27529:27536 SLF.LibOrder <> Gt_to_ge class
+R27593:27599 SLF.LibRelation <> inverse def
+R27602:27607 SLF.LibRelation <> strict def
+R27593:27599 SLF.LibRelation <> inverse def
+R27602:27607 SLF.LibRelation <> strict def
+inst 27632:27659 <> Nle_to_sle_of_Le_total_order
+R27679:27684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27665:27678 SLF.LibOrder <> Le_total_order class
+R27685:27694 SLF.LibOrder <> Nle_to_sle class
+R27743:27751 SLF.LibOrder <> nle_as_gt meth
+R27743:27751 SLF.LibOrder <> nle_as_gt meth
+R27743:27751 SLF.LibOrder <> nle_as_gt meth
+R27781:27787 SLF.LibRelation <> inverse def
+R27790:27795 SLF.LibRelation <> strict def
+R27781:27787 SLF.LibRelation <> inverse def
+R27790:27795 SLF.LibRelation <> strict def
+inst 27820:27847 <> Nle_to_slt_of_Le_total_order
+R27867:27872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27853:27866 SLF.LibOrder <> Le_total_order class
+R27873:27882 SLF.LibOrder <> Nle_to_slt class
+R27931:27939 SLF.LibOrder <> nle_as_gt meth
+R27931:27939 SLF.LibOrder <> nle_as_gt meth
+R27931:27939 SLF.LibOrder <> nle_as_gt meth
+R27969:27975 SLF.LibRelation <> inverse def
+R27978:27983 SLF.LibRelation <> strict def
+R27969:27975 SLF.LibRelation <> inverse def
+R27978:27983 SLF.LibRelation <> strict def
+inst 28050:28080 <> Case_eq_lt_gt_of_Le_total_order
+R28100:28105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28086:28099 SLF.LibOrder <> Le_total_order class
+R28106:28118 SLF.LibOrder <> Case_eq_lt_gt class
+R28198:28223 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R28225:28238 SLF.LibOrder <> le_total_order meth
+R28198:28223 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R28225:28238 SLF.LibOrder <> le_total_order meth
+R28293:28308 SLF.LibOrder <> total_order_refl def
+R28258:28274 SLF.LibOrder <> le_is_rclosure_lt thm
+R28258:28274 SLF.LibOrder <> le_is_rclosure_lt thm
+R28293:28308 SLF.LibOrder <> total_order_refl def
+R28258:28274 SLF.LibOrder <> le_is_rclosure_lt thm
+R28384:28399 SLF.LibOrder <> total_order_refl def
+R28349:28365 SLF.LibOrder <> le_is_rclosure_lt thm
+R28349:28365 SLF.LibOrder <> le_is_rclosure_lt thm
+R28384:28399 SLF.LibOrder <> total_order_refl def
+R28349:28365 SLF.LibOrder <> le_is_rclosure_lt thm
+inst 28438:28469 <> Case_eq_lt_slt_of_Le_total_order
+R28489:28494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28475:28488 SLF.LibOrder <> Le_total_order class
+R28495:28508 SLF.LibOrder <> Case_eq_lt_slt class
+R28555:28556 SLF.LibOrder <> lt meth
+R28555:28556 SLF.LibOrder <> lt meth
+R28572:28587 SLF.LibOrder <> lt_is_inverse_gt thm
+R28572:28587 SLF.LibOrder <> lt_is_inverse_gt thm
+R28572:28587 SLF.LibOrder <> lt_is_inverse_gt thm
+R28598:28610 SLF.LibOrder <> case_eq_lt_gt meth
+R28598:28610 SLF.LibOrder <> case_eq_lt_gt meth
+inst 28635:28662 <> Case_le_gt_of_Le_total_order
+R28682:28687 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28668:28681 SLF.LibOrder <> Le_total_order class
+R28688:28697 SLF.LibOrder <> Case_le_gt class
+R28775:28790 SLF.LibOrder <> total_order_refl def
+R28746:28762 SLF.LibOrder <> le_is_rclosure_lt thm
+R28746:28762 SLF.LibOrder <> le_is_rclosure_lt thm
+R28775:28790 SLF.LibOrder <> total_order_refl def
+R28746:28762 SLF.LibOrder <> le_is_rclosure_lt thm
+R28801:28811 SLF.LibRelation <> rclosure_eq thm
+R28801:28811 SLF.LibRelation <> rclosure_eq thm
+R28801:28811 SLF.LibRelation <> rclosure_eq thm
+R28826:28851 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R28853:28866 SLF.LibOrder <> le_total_order meth
+R28826:28851 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R28853:28866 SLF.LibOrder <> le_total_order meth
+inst 28903:28933 <> Case_eq_lt_ge_of_Le_total_order
+R28953:28958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28939:28952 SLF.LibOrder <> Le_total_order class
+R28959:28968 SLF.LibOrder <> Case_lt_ge class
+R29046:29061 SLF.LibOrder <> total_order_refl def
+R29017:29033 SLF.LibOrder <> ge_is_rclosure_gt thm
+R29017:29033 SLF.LibOrder <> ge_is_rclosure_gt thm
+R29046:29061 SLF.LibOrder <> total_order_refl def
+R29017:29033 SLF.LibOrder <> ge_is_rclosure_gt thm
+R29072:29082 SLF.LibRelation <> rclosure_eq thm
+R29072:29082 SLF.LibRelation <> rclosure_eq thm
+R29072:29082 SLF.LibRelation <> rclosure_eq thm
+R29097:29122 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R29124:29137 SLF.LibOrder <> le_total_order meth
+R29097:29122 SLF.LibOrder <> total_order_lt_or_eq_or_gt thm
+R29124:29137 SLF.LibOrder <> le_total_order meth
+inst 29174:29202 <> Case_le_slt_of_Le_total_order
+R29222:29227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29208:29221 SLF.LibOrder <> Le_total_order class
+R29228:29238 SLF.LibOrder <> Case_le_slt class
+R29283:29298 SLF.LibOrder <> lt_is_inverse_gt thm
+R29283:29298 SLF.LibOrder <> lt_is_inverse_gt thm
+R29283:29298 SLF.LibOrder <> lt_is_inverse_gt thm
+R29307:29316 SLF.LibOrder <> case_le_gt meth
+R29307:29316 SLF.LibOrder <> case_le_gt meth
+inst 29341:29372 <> Case_eq_lt_sle_of_Le_total_order
+R29392:29397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29378:29391 SLF.LibOrder <> Le_total_order class
+R29398:29408 SLF.LibOrder <> Case_lt_sle class
+R29453:29468 SLF.LibOrder <> le_is_inverse_ge thm
+R29453:29468 SLF.LibOrder <> le_is_inverse_ge thm
+R29453:29468 SLF.LibOrder <> le_is_inverse_ge thm
+R29477:29486 SLF.LibOrder <> case_lt_ge meth
+R29477:29486 SLF.LibOrder <> case_lt_ge meth
+inst 29554:29585 <> Neq_case_lt_gt_of_Le_total_order
+R29605:29610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29591:29604 SLF.LibOrder <> Le_total_order class
+R29611:29624 SLF.LibOrder <> Neq_case_lt_gt class
+R29672:29684 SLF.LibOrder <> case_eq_lt_gt meth
+R29672:29684 SLF.LibOrder <> case_eq_lt_gt meth
+inst 29714:29746 <> Neq_case_lt_slt_of_Le_total_order
+R29766:29771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29752:29765 SLF.LibOrder <> Le_total_order class
+R29772:29786 SLF.LibOrder <> Neq_case_lt_slt class
+R29834:29846 SLF.LibOrder <> case_eq_lt_gt meth
+R29834:29846 SLF.LibOrder <> case_eq_lt_gt meth
+inst 29876:29906 <> Le_case_eq_lt_of_Le_total_order
+R29926:29931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29912:29925 SLF.LibOrder <> Le_total_order class
+R29932:29944 SLF.LibOrder <> Le_case_eq_lt class
+R29999:30004 SLF.LibRelation <> strict def
+R30017:30019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30017:30019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+inst 30046:30076 <> Ge_case_eq_gt_of_Le_total_order
+R30096:30101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30082:30095 SLF.LibOrder <> Le_total_order class
+R30102:30114 SLF.LibOrder <> Ge_case_eq_gt class
+R30169:30175 SLF.LibRelation <> inverse def
+R30178:30183 SLF.LibRelation <> strict def
+R30196:30198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30196:30198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+inst 30269:30298 <> Le_neq_to_lt_of_Le_total_order
+R30318:30323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30304:30317 SLF.LibOrder <> Le_total_order class
+R30324:30335 SLF.LibOrder <> Le_neq_to_lt class
+inst 30412:30441 <> Ge_neq_to_gt_of_Le_total_order
+R30461:30466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30447:30460 SLF.LibOrder <> Le_total_order class
+R30467:30478 SLF.LibOrder <> Ge_neq_to_gt class
+inst 30555:30586 <> Nlt_nslt_to_eq_of_Le_total_order
+R30606:30611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30592:30605 SLF.LibOrder <> Le_total_order class
+R30612:30625 SLF.LibOrder <> Nlt_nslt_to_eq class
+R30673:30685 SLF.LibOrder <> case_eq_lt_gt meth
+R30673:30685 SLF.LibOrder <> case_eq_lt_gt meth
+inst 30756:30784 <> Lt_ge_false_of_Le_total_order
+R30804:30809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30790:30803 SLF.LibOrder <> Le_total_order class
+R30810:30820 SLF.LibOrder <> Lt_ge_false class
+R30875:30883 SLF.LibOrder <> nlt_as_ge meth
+R30875:30883 SLF.LibOrder <> nlt_as_ge meth
+inst 30914:30942 <> Lt_gt_false_of_Le_total_order
+R30962:30967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30948:30961 SLF.LibOrder <> Le_total_order class
+R30968:30978 SLF.LibOrder <> Lt_gt_false class
+R31035:31043 SLF.LibOrder <> nle_as_gt meth
+R31035:31043 SLF.LibOrder <> nle_as_gt meth
+R31071:31078 SLF.LibOrder <> lt_to_le meth
+R31071:31078 SLF.LibOrder <> lt_to_le meth
+inst 31103:31132 <> Lt_slt_false_of_Le_total_order
+R31152:31157 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31138:31151 SLF.LibOrder <> Le_total_order class
+R31158:31169 SLF.LibOrder <> Lt_slt_false class
+R31225:31233 SLF.LibOrder <> gt_as_slt meth
+R31225:31233 SLF.LibOrder <> gt_as_slt meth
+R31225:31233 SLF.LibOrder <> gt_as_slt meth
+R31251:31261 SLF.LibOrder <> lt_gt_false meth
+R31251:31261 SLF.LibOrder <> lt_gt_false meth
+R31274:31282 SLF.LibOrder Instances <> sec
+mod 31527:31543 <> BooleanComparison
+R31746:31751 SLF.LibReflect <> isTrue def
+R31755:31756 SLF.LibOrder <> le meth
+not 31730:31730 BooleanComparison ::comp_scope_reflect:x_'''<='_x
+R31849:31854 SLF.LibReflect <> isTrue def
+R31858:31859 SLF.LibOrder <> ge meth
+not 31833:31833 BooleanComparison ::comp_scope_reflect:x_'''>='_x
+R31951:31956 SLF.LibReflect <> isTrue def
+R31960:31961 SLF.LibOrder <> lt meth
+not 31936:31936 BooleanComparison ::comp_scope_reflect:x_'''<'_x
+R32053:32058 SLF.LibReflect <> isTrue def
+R32062:32063 SLF.LibOrder <> gt meth
+not 32038:32038 BooleanComparison ::comp_scope_reflect:x_'''>'_x
+R32136:32152 SLF.LibOrder BooleanComparison <> mod
+prf 32358:32371 <> order_rel_incl
+binder 32382:32382 <> A:445
+binder 32384:32384 <> B:446
+R32389:32393 SLF.LibOrder <> order rec
+R32397:32404 SLF.LibRelation <> rel_incl def
+R32406:32406 SLF.LibOrder <> A:445 var
+R32408:32408 SLF.LibOrder <> B:446 var
+R32432:32444 SLF.LibRelation <> refl_rel_incl thm
+R32447:32462 SLF.LibRelation <> antisym_rel_incl thm
+R32465:32478 SLF.LibRelation <> trans_rel_incl thm
+R32432:32444 SLF.LibRelation <> refl_rel_incl thm
+R32447:32462 SLF.LibRelation <> antisym_rel_incl thm
+R32465:32478 SLF.LibRelation <> trans_rel_incl thm
+prf 32510:32524 <> order_pred_incl
+binder 32535:32535 <> A:447
+binder 32537:32537 <> B:448
+R32542:32546 SLF.LibOrder <> order rec
+R32550:32557 SLF.LibRelation <> rel_incl def
+R32559:32559 SLF.LibOrder <> A:447 var
+R32561:32561 SLF.LibOrder <> B:448 var
+R32585:32597 SLF.LibRelation <> refl_rel_incl thm
+R32600:32615 SLF.LibRelation <> antisym_rel_incl thm
+R32618:32631 SLF.LibRelation <> trans_rel_incl thm
+R32585:32597 SLF.LibRelation <> refl_rel_incl thm
+R32600:32615 SLF.LibRelation <> antisym_rel_incl thm
+R32618:32631 SLF.LibRelation <> trans_rel_incl thm
+def 32838:32840 <> min
+R32844:32845 SLF.LibOrder <> Le class
+binder 32847:32847 <> A:449
+binder 32844:32847 <> H:450
+R32855:32855 SLF.LibOrder <> A:449 var
+binder 32851:32851 <> n:451
+binder 32853:32853 <> m:452
+R32860:32860 SLF.LibOrder <> A:449 var
+R32867:32869 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R32876:32881 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R32883:32888 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R32889:32889 SLF.LibOrder <> m:452 var
+R32882:32882 SLF.LibOrder <> n:451 var
+R32871:32874 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R32870:32870 SLF.LibOrder <> n:451 var
+R32875:32875 SLF.LibOrder <> m:452 var
+prf 32899:32903 <> min_l
+R32916:32917 SLF.LibOrder <> Le class
+binder 32919:32919 <> A:453
+binder 32916:32919 <> H:454
+R32927:32927 SLF.LibOrder <> A:453 var
+binder 32923:32923 <> n:455
+binder 32925:32925 <> m:456
+R32943:32948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32933:32939 SLF.LibRelation <> antisym def
+R32941:32942 SLF.LibOrder <> le meth
+R32955:32960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32950:32953 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R32949:32949 SLF.LibOrder <> n:455 var
+R32954:32954 SLF.LibOrder <> m:456 var
+R32968:32970 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32961:32963 SLF.LibOrder <> min def
+R32967:32967 SLF.LibOrder <> m:456 var
+R32965:32965 SLF.LibOrder <> n:455 var
+R32971:32971 SLF.LibOrder <> n:455 var
+R33006:33008 SLF.LibOrder <> min def
+prf 33033:33037 <> min_r
+R33050:33051 SLF.LibOrder <> Le class
+binder 33053:33053 <> A:457
+binder 33050:33053 <> H:458
+R33061:33061 SLF.LibOrder <> A:457 var
+binder 33057:33057 <> n:459
+binder 33059:33059 <> m:460
+R33077:33082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33067:33073 SLF.LibRelation <> antisym def
+R33075:33076 SLF.LibOrder <> le meth
+R33089:33094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33084:33087 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R33083:33083 SLF.LibOrder <> m:460 var
+R33088:33088 SLF.LibOrder <> n:459 var
+R33102:33104 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33095:33097 SLF.LibOrder <> min def
+R33101:33101 SLF.LibOrder <> m:460 var
+R33099:33099 SLF.LibOrder <> n:459 var
+R33105:33105 SLF.LibOrder <> m:460 var
+R33140:33142 SLF.LibOrder <> min def
+def 33172:33174 <> max
+R33178:33179 SLF.LibOrder <> Le class
+binder 33181:33181 <> A:461
+binder 33178:33181 <> H:462
+R33189:33189 SLF.LibOrder <> A:461 var
+binder 33185:33185 <> n:463
+binder 33187:33187 <> m:464
+R33194:33194 SLF.LibOrder <> A:461 var
+R33201:33203 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R33210:33215 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R33217:33222 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R33223:33223 SLF.LibOrder <> n:463 var
+R33216:33216 SLF.LibOrder <> m:464 var
+R33205:33208 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R33204:33204 SLF.LibOrder <> n:463 var
+R33209:33209 SLF.LibOrder <> m:464 var
+prf 33233:33237 <> max_l
+R33250:33251 SLF.LibOrder <> Le class
+binder 33253:33253 <> A:465
+binder 33250:33253 <> H:466
+R33261:33261 SLF.LibOrder <> A:465 var
+binder 33257:33257 <> n:467
+binder 33259:33259 <> m:468
+R33277:33282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33267:33273 SLF.LibRelation <> antisym def
+R33275:33276 SLF.LibOrder <> le meth
+R33289:33294 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33284:33287 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R33283:33283 SLF.LibOrder <> n:467 var
+R33288:33288 SLF.LibOrder <> m:468 var
+R33302:33304 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33295:33297 SLF.LibOrder <> max def
+R33301:33301 SLF.LibOrder <> m:468 var
+R33299:33299 SLF.LibOrder <> n:467 var
+R33305:33305 SLF.LibOrder <> n:467 var
+R33340:33342 SLF.LibOrder <> max def
+prf 33367:33371 <> max_r
+R33384:33385 SLF.LibOrder <> Le class
+binder 33387:33387 <> A:469
+binder 33384:33387 <> H:470
+R33395:33395 SLF.LibOrder <> A:469 var
+binder 33391:33391 <> n:471
+binder 33393:33393 <> m:472
+R33411:33416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33401:33407 SLF.LibRelation <> antisym def
+R33409:33410 SLF.LibOrder <> le meth
+R33423:33428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33418:33421 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R33417:33417 SLF.LibOrder <> n:471 var
+R33422:33422 SLF.LibOrder <> m:472 var
+R33436:33438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33429:33431 SLF.LibOrder <> max def
+R33435:33435 SLF.LibOrder <> m:472 var
+R33433:33433 SLF.LibOrder <> n:471 var
+R33439:33439 SLF.LibOrder <> m:472 var
+R33474:33476 SLF.LibOrder <> max def

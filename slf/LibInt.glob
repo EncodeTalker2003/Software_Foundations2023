@@ -1,0 +1,1273 @@
+DIGEST 1603103981ceb07d8ef9f1a15e30a78c
+FSLF.LibInt
+R446:462 Coq.ZArith.ZArith <> <> lib
+R489:498 SLF.LibTactics <> <> lib
+R500:507 SLF.LibLogic <> <> lib
+R509:518 SLF.LibReflect <> <> lib
+R520:530 SLF.LibRelation <> <> lib
+R540:562 SLF.LibTactics LibTacticsCompatibility <> mod
+R589:594 SLF.LibNat <> <> lib
+R1162:1162 Coq.Numbers.BinNums <> Z ind
+not 1151:1151 <> ::Int_scope:'int'
+inst 1433:1441 <> Inhab_int
+R1445:1449 SLF.LibLogic <> Inhab class
+R1451:1453 SLF.LibInt <> ::Int_scope:'int' not
+R1484:1495 SLF.LibLogic <> Inhab_of_val thm
+R1484:1495 SLF.LibLogic <> Inhab_of_val thm
+def 2012:2019 <> nat_to_Z
+R2024:2031 Coq.ZArith.BinInt <> Z_of_nat abbrev
+prf 2041:2060 <> nat_to_Z_eq_Z_of_nat
+R2072:2074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2064:2071 SLF.LibInt <> nat_to_Z def
+R2075:2082 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R2131:2138 SLF.LibInt <> nat_to_Z def
+R2142:2170 SLF.LibInt <> nat_to_Z def
+inst 2676:2686 <> le_int_inst
+R2690:2691 SLF.LibOrder <> Le class
+R2693:2695 SLF.LibInt <> ::Int_scope:'int' not
+R2700:2707 SLF.LibOrder <> Build_Le constr
+R2709:2712 Coq.ZArith.BinInt Z le def
+def 3086:3100 <> ltac_int_to_nat
+R3105:3105 Coq.Numbers.BinNums <> Z ind
+binder 3103:3103 <> x:1
+R3110:3112 Coq.Init.Datatypes <> nat ind
+R3125:3125 SLF.LibInt <> x:1 var
+R3136:3137 Coq.Numbers.BinNums <> Z0 constr
+R3152:3155 Coq.Numbers.BinNums <> Zpos constr
+R3162:3169 Coq.PArith.BinPos <> nat_of_P abbrev
+R3177:3180 Coq.Numbers.BinNums <> Zneg constr
+R3253:3255 Coq.Init.Datatypes <> nat ind
+R3253:3255 Coq.Init.Datatypes <> nat ind
+R3275:3277 SLF.LibInt <> ::Int_scope:'int' not
+R3275:3277 SLF.LibInt <> ::Int_scope:'int' not
+R3345:3345 Coq.Numbers.BinNums <> Z ind
+R3345:3345 Coq.Numbers.BinNums <> Z ind
+R3368:3382 SLF.LibInt <> ltac_int_to_nat def
+R3300:3314 SLF.LibInt <> ltac_int_to_nat def
+prf 3912:3920 <> le_zarith
+R3926:3928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3924:3925 SLF.LibOrder <> le meth
+R3929:3932 Coq.ZArith.BinInt Z le def
+R3977:3987 SLF.LibInt <> le_int_inst inst
+prf 3997:4005 <> lt_zarith
+R4011:4013 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4009:4010 SLF.LibOrder <> lt meth
+R4014:4017 Coq.ZArith.BinInt Z lt def
+R4062:4070 SLF.LibInt <> le_zarith thm
+R4062:4070 SLF.LibInt <> le_zarith thm
+R4062:4070 SLF.LibInt <> le_zarith thm
+R4082:4087 SLF.LibRelation <> strict def
+prf 4115:4123 <> ge_zarith
+R4129:4131 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4127:4128 SLF.LibOrder <> ge meth
+R4132:4135 Coq.ZArith.BinInt Z ge def
+R4180:4188 SLF.LibInt <> le_zarith thm
+R4180:4188 SLF.LibInt <> le_zarith thm
+R4180:4188 SLF.LibInt <> le_zarith thm
+R4200:4206 SLF.LibRelation <> inverse def
+prf 4234:4242 <> gt_zarith
+R4248:4250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4246:4247 SLF.LibOrder <> gt meth
+R4251:4254 Coq.ZArith.BinInt Z gt def
+R4299:4307 SLF.LibInt <> le_zarith thm
+R4299:4307 SLF.LibInt <> le_zarith thm
+R4299:4307 SLF.LibInt <> le_zarith thm
+R4319:4324 SLF.LibRelation <> strict def
+R4327:4333 SLF.LibRelation <> inverse def
+R4378:4386 SLF.LibInt <> le_zarith thm
+R4388:4396 SLF.LibInt <> lt_zarith thm
+R4398:4406 SLF.LibInt <> ge_zarith thm
+R4408:4416 SLF.LibInt <> gt_zarith thm
+R4822:4826 Coq.Init.Datatypes <> false constr
+R4972:4974 Coq.Init.Datatypes <> nat ind
+R4972:4974 Coq.Init.Datatypes <> nat ind
+R4997:4999 SLF.LibInt <> ::Int_scope:'int' not
+R4997:4999 SLF.LibInt <> ::Int_scope:'int' not
+R5012:5015 Coq.Init.Datatypes <> true constr
+R4987:4990 Coq.Init.Datatypes <> true constr
+R5195:5197 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R5199:5202 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R5195:5197 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R5199:5202 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R5230:5233 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R5235:5238 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R5230:5233 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R5235:5238 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R5265:5266 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5265:5266 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5293:5296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5297:5301 Coq.Init.Logic <> False ind
+R5293:5296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5297:5301 Coq.Init.Logic <> False ind
+R5323:5324 SLF.LibOrder <> le meth
+R5323:5324 SLF.LibOrder <> le meth
+R5359:5360 SLF.LibOrder <> ge meth
+R5359:5360 SLF.LibOrder <> ge meth
+R5395:5396 SLF.LibOrder <> lt meth
+R5395:5396 SLF.LibOrder <> lt meth
+R5431:5432 SLF.LibOrder <> gt meth
+R5431:5432 SLF.LibOrder <> gt meth
+R5468:5471 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5468:5471 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R5500:5503 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5500:5503 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R5532:5534 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5532:5534 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R5563:5565 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R5563:5565 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R5594:5597 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5594:5597 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R5628:5631 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R5628:5631 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R5662:5664 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5662:5664 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5695:5697 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R5695:5697 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R5739:5743 Coq.Init.Datatypes <> false constr
+R5716:5719 Coq.Init.Datatypes <> true constr
+R5683:5686 Coq.Init.Datatypes <> true constr
+R5650:5653 Coq.Init.Datatypes <> true constr
+R5616:5619 Coq.Init.Datatypes <> true constr
+R5582:5585 Coq.Init.Datatypes <> true constr
+R5551:5554 Coq.Init.Datatypes <> true constr
+R5520:5523 Coq.Init.Datatypes <> true constr
+R5488:5491 Coq.Init.Datatypes <> true constr
+R5961:5964 Coq.Init.Datatypes <> true constr
+R5961:5964 Coq.Init.Datatypes <> true constr
+R5981:5985 Coq.Init.Datatypes <> false constr
+R5981:5985 Coq.Init.Datatypes <> false constr
+prf 6156:6173 <> istrue_isTrue_forw
+binder 6185:6185 <> P:3
+R6213:6218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6196:6201 SLF.LibReflect <> istrue coe
+R6204:6209 SLF.LibReflect <> isTrue def
+R6211:6211 SLF.LibInt <> P:3 var
+R6219:6219 SLF.LibInt <> P:3 var
+R6326:6331 SLF.LibReflect <> istrue coe
+R6334:6339 SLF.LibReflect <> isTrue def
+R6326:6331 SLF.LibReflect <> istrue coe
+R6334:6339 SLF.LibReflect <> isTrue def
+R6414:6417 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6414:6417 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6450:6453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6454:6458 Coq.Init.Logic <> False ind
+R6450:6453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6454:6458 Coq.Init.Logic <> False ind
+R6624:6627 Coq.Init.Datatypes <> true constr
+R6624:6627 Coq.Init.Datatypes <> true constr
+R6684:6688 Coq.Init.Datatypes <> false constr
+R6684:6688 Coq.Init.Datatypes <> false constr
+R6500:6503 Coq.Init.Datatypes <> true constr
+R6500:6503 Coq.Init.Datatypes <> true constr
+R6550:6554 Coq.Init.Datatypes <> false constr
+R6550:6554 Coq.Init.Datatypes <> false constr
+R6517:6520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6521:6525 Coq.Init.Logic <> False ind
+R6517:6520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6521:6525 Coq.Init.Logic <> False ind
+R6534:6535 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6365:6382 SLF.LibInt <> istrue_isTrue_forw thm
+prf 7155:7164 <> Z_of_nat_O
+R7180:7182 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7170:7177 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R7179:7179 Coq.Init.Datatypes <> O constr
+prf 7224:7233 <> Z_of_nat_S
+binder 7244:7244 <> n:4
+R7263:7265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7249:7256 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R7259:7259 Coq.Init.Datatypes <> S constr
+R7261:7261 SLF.LibInt <> n:4 var
+R7266:7271 Coq.ZArith.BinInt Z succ def
+R7274:7281 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R7283:7283 SLF.LibInt <> n:4 var
+R7320:7337 Coq.ZArith.Znat <> Zpos_P_of_succ_nat thm
+R7320:7337 Coq.ZArith.Znat <> Zpos_P_of_succ_nat thm
+prf 7352:7365 <> Z_of_nat_plus1
+binder 7376:7376 <> n:5
+R7397:7399 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7381:7388 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R7392:7394 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7395:7395 SLF.LibInt <> n:5 var
+R7400:7405 Coq.ZArith.BinInt Z succ def
+R7408:7415 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R7417:7417 SLF.LibInt <> n:5 var
+R7453:7462 SLF.LibInt <> Z_of_nat_S thm
+R7453:7462 SLF.LibInt <> Z_of_nat_S thm
+R7453:7462 SLF.LibInt <> Z_of_nat_S thm
+R7638:7657 SLF.LibInt <> nat_to_Z_eq_Z_of_nat thm
+R7659:7668 SLF.LibInt <> Z_of_nat_O thm
+R7670:7679 SLF.LibInt <> Z_of_nat_S thm
+R7681:7694 SLF.LibInt <> Z_of_nat_plus1 thm
+R8221:8224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8221:8224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8244:8248 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8244:8248 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8295:8298 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8295:8298 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8318:8320 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8322:8325 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8318:8320 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8322:8325 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R8340:8347 SLF.LibAxioms <> prop_ext prfax
+R10766:10769 Coq.Init.Datatypes <> true constr
+R10766:10769 Coq.Init.Datatypes <> true constr
+prf 11311:11324 <> mult_2_eq_plus
+binder 11335:11335 <> x:6
+R11343:11345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11339:11341 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R11342:11342 SLF.LibInt <> x:6 var
+R11347:11349 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R11346:11346 SLF.LibInt <> x:6 var
+R11350:11350 SLF.LibInt <> x:6 var
+prf 11392:11405 <> mult_3_eq_plus
+binder 11416:11416 <> x:7
+R11424:11426 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11420:11422 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R11423:11423 SLF.LibInt <> x:7 var
+R11432:11434 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R11428:11430 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R11427:11427 SLF.LibInt <> x:7 var
+R11431:11431 SLF.LibInt <> x:7 var
+R11435:11435 SLF.LibInt <> x:7 var
+R11786:11788 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11790:11793 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11794:11796 Coq.Init.Datatypes <> nat ind
+R11847:11849 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11851:11854 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11855:11857 SLF.LibInt <> ::Int_scope:'int' not
+R11908:11911 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R11913:11916 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R11917:11919 Coq.Init.Datatypes <> nat ind
+R11970:11973 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R11975:11978 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R11979:11981 SLF.LibInt <> ::Int_scope:'int' not
+R12031:12036 SLF.LibReflect <> istrue coe
+R12039:12044 SLF.LibReflect <> isTrue def
+R12048:12050 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R12052:12055 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R12056:12058 Coq.Init.Datatypes <> nat ind
+R12110:12115 SLF.LibReflect <> istrue coe
+R12118:12123 SLF.LibReflect <> isTrue def
+R12127:12129 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R12131:12134 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R12135:12137 SLF.LibInt <> ::Int_scope:'int' not
+R12189:12194 SLF.LibReflect <> istrue coe
+R12197:12202 SLF.LibReflect <> isTrue def
+R12206:12209 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R12211:12214 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R12215:12217 Coq.Init.Datatypes <> nat ind
+R12269:12274 SLF.LibReflect <> istrue coe
+R12277:12282 SLF.LibReflect <> isTrue def
+R12286:12289 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R12291:12294 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R12295:12297 SLF.LibInt <> ::Int_scope:'int' not
+R12351:12354 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12412:12415 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R12473:12475 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R12533:12535 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R12593:12596 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R12652:12655 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R12711:12713 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R12769:12771 Coq.ZArith.BinInt <> ::Z_scope:x_'>'_x not
+R12826:12827 SLF.LibOrder <> le meth
+R12829:12831 Coq.Init.Datatypes <> nat ind
+R12888:12889 SLF.LibOrder <> lt meth
+R12891:12893 Coq.Init.Datatypes <> nat ind
+R12950:12951 SLF.LibOrder <> ge meth
+R12953:12955 Coq.Init.Datatypes <> nat ind
+R13012:13013 SLF.LibOrder <> gt meth
+R13015:13017 Coq.Init.Datatypes <> nat ind
+R13074:13075 SLF.LibOrder <> le meth
+R13077:13079 SLF.LibInt <> ::Int_scope:'int' not
+R13136:13137 SLF.LibOrder <> lt meth
+R13139:13141 SLF.LibInt <> ::Int_scope:'int' not
+R13198:13199 SLF.LibOrder <> ge meth
+R13201:13203 SLF.LibInt <> ::Int_scope:'int' not
+R13260:13261 SLF.LibOrder <> gt meth
+R13263:13265 SLF.LibInt <> ::Int_scope:'int' not
+R13321:13322 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13324:13325 SLF.LibOrder <> le meth
+R13327:13329 SLF.LibInt <> ::Int_scope:'int' not
+R13348:13350 Coq.Init.Logic <> not def
+R13397:13398 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13400:13401 SLF.LibOrder <> lt meth
+R13403:13405 SLF.LibInt <> ::Int_scope:'int' not
+R13424:13426 Coq.Init.Logic <> not def
+R13473:13474 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13476:13477 SLF.LibOrder <> ge meth
+R13479:13481 SLF.LibInt <> ::Int_scope:'int' not
+R13500:13502 Coq.Init.Logic <> not def
+R13549:13550 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13552:13553 SLF.LibOrder <> gt meth
+R13555:13557 SLF.LibInt <> ::Int_scope:'int' not
+R13576:13578 Coq.Init.Logic <> not def
+R13625:13626 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13628:13629 Coq.Init.Logic <> eq ind
+R13631:13633 SLF.LibInt <> ::Int_scope:'int' not
+R13650:13652 Coq.Init.Logic <> not def
+R13712:13715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13700:13701 SLF.LibOrder <> le meth
+R13703:13705 SLF.LibInt <> ::Int_scope:'int' not
+R13716:13720 Coq.Init.Logic <> False ind
+R13783:13786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13771:13772 SLF.LibOrder <> lt meth
+R13774:13776 SLF.LibInt <> ::Int_scope:'int' not
+R13787:13791 Coq.Init.Logic <> False ind
+R13854:13857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13842:13843 SLF.LibOrder <> ge meth
+R13845:13847 SLF.LibInt <> ::Int_scope:'int' not
+R13858:13862 Coq.Init.Logic <> False ind
+R13925:13928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13913:13914 SLF.LibOrder <> gt meth
+R13916:13918 SLF.LibInt <> ::Int_scope:'int' not
+R13929:13933 Coq.Init.Logic <> False ind
+R13994:13997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13984:13985 Coq.Init.Logic <> eq ind
+R13987:13989 SLF.LibInt <> ::Int_scope:'int' not
+R13998:14002 Coq.Init.Logic <> False ind
+R14052:14053 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14055:14056 SLF.LibOrder <> le meth
+R14058:14060 Coq.Init.Datatypes <> nat ind
+R14079:14081 Coq.Init.Logic <> not def
+R14128:14129 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14131:14132 SLF.LibOrder <> lt meth
+R14134:14136 Coq.Init.Datatypes <> nat ind
+R14155:14157 Coq.Init.Logic <> not def
+R14204:14205 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14207:14208 SLF.LibOrder <> ge meth
+R14210:14212 Coq.Init.Datatypes <> nat ind
+R14231:14233 Coq.Init.Logic <> not def
+R14280:14281 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14283:14284 SLF.LibOrder <> gt meth
+R14286:14288 Coq.Init.Datatypes <> nat ind
+R14307:14309 Coq.Init.Logic <> not def
+R14356:14357 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14359:14360 Coq.Init.Logic <> eq ind
+R14362:14364 Coq.Init.Datatypes <> nat ind
+R14381:14383 Coq.Init.Logic <> not def
+R14443:14446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14431:14432 SLF.LibOrder <> le meth
+R14434:14436 Coq.Init.Datatypes <> nat ind
+R14447:14451 Coq.Init.Logic <> False ind
+R14514:14517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14502:14503 SLF.LibOrder <> lt meth
+R14505:14507 Coq.Init.Datatypes <> nat ind
+R14518:14522 Coq.Init.Logic <> False ind
+R14585:14588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14573:14574 SLF.LibOrder <> ge meth
+R14576:14578 Coq.Init.Datatypes <> nat ind
+R14589:14593 Coq.Init.Logic <> False ind
+R14656:14659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14644:14645 SLF.LibOrder <> gt meth
+R14647:14649 Coq.Init.Datatypes <> nat ind
+R14660:14664 Coq.Init.Logic <> False ind
+R14725:14728 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14715:14716 Coq.Init.Logic <> eq ind
+R14718:14720 Coq.Init.Datatypes <> nat ind
+R14729:14733 Coq.Init.Logic <> False ind
+prf 16347:16357 <> plus_zero_r
+binder 16368:16368 <> n:8
+R16378:16380 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16374:16376 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16373:16373 SLF.LibInt <> n:8 var
+R16381:16381 SLF.LibInt <> n:8 var
+prf 16415:16425 <> plus_zero_l
+binder 16436:16436 <> n:9
+R16446:16448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16442:16444 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R16445:16445 SLF.LibInt <> n:9 var
+R16449:16449 SLF.LibInt <> n:9 var
+prf 16483:16494 <> minus_zero_r
+binder 16505:16505 <> n:10
+R16515:16517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16511:16513 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16510:16510 SLF.LibInt <> n:10 var
+R16518:16518 SLF.LibInt <> n:10 var
+prf 16552:16563 <> minus_zero_l
+binder 16574:16574 <> n:11
+R16584:16587 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16590:16590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16580:16582 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16583:16583 SLF.LibInt <> n:11 var
+R16588:16588 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R16589:16589 SLF.LibInt <> n:11 var
+prf 16624:16634 <> mult_zero_l
+binder 16645:16645 <> n:12
+R16655:16657 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16651:16653 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16654:16654 SLF.LibInt <> n:12 var
+prf 16692:16702 <> mult_zero_r
+binder 16713:16713 <> n:13
+R16723:16725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16719:16721 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16718:16718 SLF.LibInt <> n:13 var
+prf 16760:16769 <> mult_one_l
+binder 16780:16780 <> n:14
+R16790:16792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16786:16788 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16789:16789 SLF.LibInt <> n:14 var
+R16793:16793 SLF.LibInt <> n:14 var
+prf 16827:16836 <> mult_one_r
+binder 16847:16847 <> n:15
+R16857:16859 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16853:16855 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R16852:16852 SLF.LibInt <> n:15 var
+R16860:16860 SLF.LibInt <> n:15 var
+prf 16894:16903 <> minus_self
+binder 16914:16914 <> n:16
+R16924:16926 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16920:16922 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R16919:16919 SLF.LibInt <> n:16 var
+R16923:16923 SLF.LibInt <> n:16 var
+prf 16961:16980 <> one_plus_minus_one_r
+binder 16991:16991 <> n:17
+R17007:17009 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16997:17000 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17006:17006 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17002:17004 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17001:17001 SLF.LibInt <> n:17 var
+R17010:17010 SLF.LibInt <> n:17 var
+prf 17044:17063 <> plus_one_minus_one_l
+binder 17074:17074 <> n:18
+R17090:17092 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17079:17079 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17085:17088 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17081:17083 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17080:17080 SLF.LibInt <> n:18 var
+R17093:17093 SLF.LibInt <> n:18 var
+prf 17127:17146 <> one_plus_minus_one_l
+binder 17157:17157 <> n:19
+R17173:17175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17162:17162 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17168:17171 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17164:17166 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R17167:17167 SLF.LibInt <> n:19 var
+R17176:17176 SLF.LibInt <> n:19 var
+R17500:17510 SLF.LibInt <> plus_zero_r thm
+R17512:17522 SLF.LibInt <> plus_zero_l thm
+R17524:17535 SLF.LibInt <> minus_zero_r thm
+R17537:17548 SLF.LibInt <> minus_zero_l thm
+R17552:17562 SLF.LibInt <> mult_zero_l thm
+R17564:17574 SLF.LibInt <> mult_zero_r thm
+R17576:17585 SLF.LibInt <> mult_one_l thm
+R17587:17596 SLF.LibInt <> mult_one_r thm
+R17600:17609 SLF.LibInt <> minus_self thm
+R17611:17630 SLF.LibInt <> one_plus_minus_one_r thm
+R17632:17651 SLF.LibInt <> plus_one_minus_one_l thm
+R17655:17674 SLF.LibInt <> one_plus_minus_one_l thm
+prf 18910:18925 <> eq_nat_of_eq_int
+R18941:18943 Coq.Init.Datatypes <> nat ind
+binder 18937:18937 <> n:20
+binder 18939:18939 <> m:21
+R18966:18971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18949:18949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18955:18959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18965:18965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18952:18954 SLF.LibInt <> ::Int_scope:'int' not
+R18950:18950 SLF.LibInt <> n:20 var
+R18962:18964 SLF.LibInt <> ::Int_scope:'int' not
+R18960:18960 SLF.LibInt <> m:21 var
+R18973:18975 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18977:18980 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18981:18983 Coq.Init.Datatypes <> nat ind
+R18972:18972 SLF.LibInt <> n:20 var
+R18976:18976 SLF.LibInt <> m:21 var
+prf 19017:19034 <> neq_nat_of_neq_int
+R19050:19052 Coq.Init.Datatypes <> nat ind
+binder 19046:19046 <> n:22
+binder 19048:19048 <> m:23
+R19076:19081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19058:19058 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19064:19069 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19075:19075 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19061:19063 SLF.LibInt <> ::Int_scope:'int' not
+R19059:19059 SLF.LibInt <> n:22 var
+R19072:19074 SLF.LibInt <> ::Int_scope:'int' not
+R19070:19070 SLF.LibInt <> m:23 var
+R19084:19087 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19083:19083 SLF.LibInt <> n:22 var
+R19088:19088 SLF.LibInt <> m:23 var
+prf 19127:19142 <> eq_int_of_eq_nat
+R19158:19160 Coq.Init.Datatypes <> nat ind
+binder 19154:19154 <> n:24
+binder 19156:19156 <> m:25
+R19178:19183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19167:19169 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R19171:19174 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R19175:19177 Coq.Init.Datatypes <> nat ind
+R19166:19166 SLF.LibInt <> n:24 var
+R19170:19170 SLF.LibInt <> m:25 var
+R19184:19184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19190:19194 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19200:19200 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19187:19189 SLF.LibInt <> ::Int_scope:'int' not
+R19185:19185 SLF.LibInt <> n:24 var
+R19197:19199 SLF.LibInt <> ::Int_scope:'int' not
+R19195:19195 SLF.LibInt <> m:25 var
+prf 19234:19251 <> neq_int_of_neq_nat
+R19267:19269 Coq.Init.Datatypes <> nat ind
+binder 19263:19263 <> n:26
+binder 19265:19265 <> m:27
+R19287:19292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19277:19280 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19276:19276 SLF.LibInt <> n:26 var
+R19281:19281 SLF.LibInt <> m:27 var
+R19293:19293 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19299:19304 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19310:19310 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R19296:19298 SLF.LibInt <> ::Int_scope:'int' not
+R19294:19294 SLF.LibInt <> n:26 var
+R19307:19309 SLF.LibInt <> ::Int_scope:'int' not
+R19305:19305 SLF.LibInt <> m:27 var
+prf 19548:19563 <> le_nat_of_le_int
+R19579:19581 Coq.Init.Datatypes <> nat ind
+binder 19575:19575 <> n:28
+binder 19577:19577 <> m:29
+R19605:19611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19618:19618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19587:19587 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19593:19598 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19604:19604 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19590:19592 SLF.LibInt <> ::Int_scope:'int' not
+R19588:19588 SLF.LibInt <> n:28 var
+R19601:19603 SLF.LibInt <> ::Int_scope:'int' not
+R19599:19599 SLF.LibInt <> m:29 var
+R19613:19616 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19612:19612 SLF.LibInt <> n:28 var
+R19617:19617 SLF.LibInt <> m:29 var
+prf 19652:19667 <> le_int_of_le_nat
+R19683:19685 Coq.Init.Datatypes <> nat ind
+binder 19679:19679 <> n:30
+binder 19681:19681 <> m:31
+R19691:19691 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19698:19704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19693:19696 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19692:19692 SLF.LibInt <> n:30 var
+R19697:19697 SLF.LibInt <> m:31 var
+R19705:19705 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19711:19716 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19722:19722 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R19708:19710 SLF.LibInt <> ::Int_scope:'int' not
+R19706:19706 SLF.LibInt <> n:30 var
+R19719:19721 SLF.LibInt <> ::Int_scope:'int' not
+R19717:19717 SLF.LibInt <> m:31 var
+prf 19756:19771 <> lt_nat_of_lt_int
+R19787:19789 Coq.Init.Datatypes <> nat ind
+binder 19783:19783 <> n:32
+binder 19785:19785 <> m:33
+R19812:19818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19824:19824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19795:19795 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19801:19805 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19811:19811 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19798:19800 SLF.LibInt <> ::Int_scope:'int' not
+R19796:19796 SLF.LibInt <> n:32 var
+R19808:19810 SLF.LibInt <> ::Int_scope:'int' not
+R19806:19806 SLF.LibInt <> m:33 var
+R19820:19822 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19819:19819 SLF.LibInt <> n:32 var
+R19823:19823 SLF.LibInt <> m:33 var
+prf 19858:19873 <> lt_int_of_lt_nat
+R19889:19891 Coq.Init.Datatypes <> nat ind
+binder 19885:19885 <> n:34
+binder 19887:19887 <> m:35
+R19897:19897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19903:19909 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19899:19901 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19898:19898 SLF.LibInt <> n:34 var
+R19902:19902 SLF.LibInt <> m:35 var
+R19910:19910 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19916:19920 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19926:19926 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R19913:19915 SLF.LibInt <> ::Int_scope:'int' not
+R19911:19911 SLF.LibInt <> n:34 var
+R19923:19925 SLF.LibInt <> ::Int_scope:'int' not
+R19921:19921 SLF.LibInt <> m:35 var
+prf 19960:19975 <> ge_nat_of_ge_int
+R19991:19993 Coq.Init.Datatypes <> nat ind
+binder 19987:19987 <> n:36
+binder 19989:19989 <> m:37
+R20017:20023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20030:20030 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19999:19999 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20005:20010 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20016:20016 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20002:20004 SLF.LibInt <> ::Int_scope:'int' not
+R20000:20000 SLF.LibInt <> n:36 var
+R20013:20015 SLF.LibInt <> ::Int_scope:'int' not
+R20011:20011 SLF.LibInt <> m:37 var
+R20025:20028 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20024:20024 SLF.LibInt <> n:36 var
+R20029:20029 SLF.LibInt <> m:37 var
+prf 20064:20079 <> ge_int_of_ge_nat
+R20095:20097 Coq.Init.Datatypes <> nat ind
+binder 20091:20091 <> n:38
+binder 20093:20093 <> m:39
+R20103:20103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20110:20116 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20105:20108 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20104:20104 SLF.LibInt <> n:38 var
+R20109:20109 SLF.LibInt <> m:39 var
+R20117:20117 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20123:20128 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20134:20134 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R20120:20122 SLF.LibInt <> ::Int_scope:'int' not
+R20118:20118 SLF.LibInt <> n:38 var
+R20131:20133 SLF.LibInt <> ::Int_scope:'int' not
+R20129:20129 SLF.LibInt <> m:39 var
+prf 20168:20183 <> gt_nat_of_gt_int
+R20199:20201 Coq.Init.Datatypes <> nat ind
+binder 20195:20195 <> n:40
+binder 20197:20197 <> m:41
+R20224:20230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20236:20236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20207:20207 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20213:20217 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20223:20223 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20210:20212 SLF.LibInt <> ::Int_scope:'int' not
+R20208:20208 SLF.LibInt <> n:40 var
+R20220:20222 SLF.LibInt <> ::Int_scope:'int' not
+R20218:20218 SLF.LibInt <> m:41 var
+R20232:20234 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20231:20231 SLF.LibInt <> n:40 var
+R20235:20235 SLF.LibInt <> m:41 var
+prf 20270:20285 <> gt_int_of_gt_nat
+R20301:20303 Coq.Init.Datatypes <> nat ind
+binder 20297:20297 <> n:42
+binder 20299:20299 <> m:43
+R20309:20309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20315:20321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20311:20313 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20310:20310 SLF.LibInt <> n:42 var
+R20314:20314 SLF.LibInt <> m:43 var
+R20322:20322 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20328:20332 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20338:20338 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20325:20327 SLF.LibInt <> ::Int_scope:'int' not
+R20323:20323 SLF.LibInt <> n:42 var
+R20335:20337 SLF.LibInt <> ::Int_scope:'int' not
+R20333:20333 SLF.LibInt <> m:43 var
+prf 20574:20593 <> plus_nat_eq_plus_int
+R20609:20611 Coq.Init.Datatypes <> nat ind
+binder 20605:20605 <> n:44
+binder 20607:20607 <> m:45
+R20626:20628 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20646:20649 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20650:20652 SLF.LibInt <> ::Int_scope:'int' not
+R20619:20619 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20618:20618 SLF.LibInt <> n:44 var
+R20620:20620 SLF.LibInt <> m:45 var
+R20629:20629 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20635:20639 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20645:20645 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R20632:20634 SLF.LibInt <> ::Int_scope:'int' not
+R20630:20630 SLF.LibInt <> n:44 var
+R20642:20644 SLF.LibInt <> ::Int_scope:'int' not
+R20640:20640 SLF.LibInt <> m:45 var
+R20682:20689 SLF.LibInt <> nat_to_Z def
+R20709:20716 SLF.LibInt <> nat_to_Z def
+R20726:20738 Coq.ZArith.Znat Nat2Z inj_add thm
+R20726:20738 Coq.ZArith.Znat Nat2Z inj_add thm
+R20682:20689 SLF.LibInt <> nat_to_Z def
+prf 20753:20774 <> minus_nat_eq_minus_int
+R20790:20792 Coq.Init.Datatypes <> nat ind
+binder 20786:20786 <> n:46
+binder 20788:20788 <> m:47
+R20810:20815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20800:20803 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R20799:20799 SLF.LibInt <> n:46 var
+R20804:20804 SLF.LibInt <> m:47 var
+R20825:20827 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20845:20848 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R20849:20851 SLF.LibInt <> ::Int_scope:'int' not
+R20818:20818 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R20817:20817 SLF.LibInt <> n:46 var
+R20819:20819 SLF.LibInt <> m:47 var
+R20828:20828 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20834:20838 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20844:20844 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R20831:20833 SLF.LibInt <> ::Int_scope:'int' not
+R20829:20829 SLF.LibInt <> n:46 var
+R20841:20843 SLF.LibInt <> ::Int_scope:'int' not
+R20839:20839 SLF.LibInt <> m:47 var
+R20881:20888 SLF.LibInt <> nat_to_Z def
+R20908:20915 SLF.LibInt <> nat_to_Z def
+R20925:20937 Coq.ZArith.Znat Nat2Z inj_sub thm
+R20925:20937 Coq.ZArith.Znat Nat2Z inj_sub thm
+R20881:20888 SLF.LibInt <> nat_to_Z def
+R21211:21230 SLF.LibInt <> plus_nat_eq_plus_int thm
+prf 21437:21450 <> antisym_le_int
+R21456:21462 SLF.LibRelation <> antisym def
+R21465:21466 SLF.LibOrder <> le meth
+R21472:21474 SLF.LibInt <> ::Int_scope:'int' not
+R21729:21737 Coq.ZArith.BinInt Z abs_nat def
+not 21718:21718 <> :::'abs'
+R21771:21775 Coq.ZArith.BinInt Z abs def
+R21809:21817 Coq.ZArith.BinInt Z abs_nat def
+prf 21841:21847 <> abs_nat
+R21861:21863 Coq.Init.Datatypes <> nat ind
+binder 21859:21859 <> n:48
+R21874:21876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21869:21873 SLF.LibInt <> :::'abs' not
+R21873:21873 SLF.LibInt <> n:48 var
+R21877:21877 SLF.LibInt <> n:48 var
+R21899:21915 Coq.ZArith.Zabs <> Zabs_nat_Z_of_nat abbrev
+R21899:21915 Coq.ZArith.Zabs <> Zabs_nat_Z_of_nat abbrev
+prf 21930:21939 <> abs_nonneg
+R21953:21955 SLF.LibInt <> ::Int_scope:'int' not
+binder 21951:21951 <> x:49
+R21967:21972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21962:21965 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R21961:21961 SLF.LibInt <> x:49 var
+R21978:21980 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21982:21985 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R21986:21988 SLF.LibInt <> ::Int_scope:'int' not
+R21973:21977 SLF.LibInt <> :::'abs' not
+R21977:21977 SLF.LibInt <> x:49 var
+R21981:21981 SLF.LibInt <> x:49 var
+R22022:22033 Coq.ZArith.Zabs <> inj_Zabs_nat abbrev
+R22022:22033 Coq.ZArith.Zabs <> inj_Zabs_nat abbrev
+R22022:22033 Coq.ZArith.Zabs <> inj_Zabs_nat abbrev
+R22046:22053 Coq.ZArith.BinInt Z abs_eq thm
+R22046:22053 Coq.ZArith.BinInt Z abs_eq thm
+R22046:22053 Coq.ZArith.BinInt Z abs_eq thm
+R22046:22053 Coq.ZArith.BinInt Z abs_eq thm
+prf 22080:22092 <> abs_eq_nat_eq
+R22106:22108 SLF.LibInt <> ::Int_scope:'int' not
+binder 22104:22104 <> x:50
+R22114:22116 Coq.Init.Datatypes <> nat ind
+binder 22112:22112 <> y:51
+R22128:22133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22123:22126 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R22122:22122 SLF.LibInt <> x:50 var
+R22134:22134 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22151:22155 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22177:22177 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22140:22142 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R22144:22147 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R22148:22150 Coq.Init.Datatypes <> nat ind
+R22135:22139 SLF.LibInt <> :::'abs' not
+R22139:22139 SLF.LibInt <> x:50 var
+R22143:22143 SLF.LibInt <> y:51 var
+R22157:22159 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R22170:22173 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R22174:22176 SLF.LibInt <> ::Int_scope:'int' not
+R22156:22156 SLF.LibInt <> x:50 var
+R22160:22167 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R22169:22169 SLF.LibInt <> y:51 var
+R22239:22253 Coq.ZArith.Znat Zabs2Nat id_abs thm
+R22256:22263 Coq.ZArith.BinInt Z abs_eq thm
+R22239:22253 Coq.ZArith.Znat Zabs2Nat id_abs thm
+R22239:22253 Coq.ZArith.Znat Zabs2Nat id_abs thm
+R22256:22263 Coq.ZArith.BinInt Z abs_eq thm
+R22256:22263 Coq.ZArith.BinInt Z abs_eq thm
+R22256:22263 Coq.ZArith.BinInt Z abs_eq thm
+R22294:22304 Coq.ZArith.Znat Zabs2Nat id thm
+R22294:22304 Coq.ZArith.Znat Zabs2Nat id thm
+prf 22321:22330 <> lt_abs_abs
+R22348:22350 SLF.LibInt <> ::Int_scope:'int' not
+binder 22342:22342 <> n:52
+binder 22344:22344 <> m:53
+R22356:22356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22363:22369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22358:22361 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R22362:22362 SLF.LibInt <> n:52 var
+R22370:22370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22376:22383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22397:22397 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22372:22374 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R22371:22371 SLF.LibInt <> n:52 var
+R22375:22375 SLF.LibInt <> m:53 var
+R22389:22391 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R22384:22388 SLF.LibInt <> :::'abs' not
+R22388:22388 SLF.LibInt <> n:52 var
+R22392:22396 SLF.LibInt <> :::'abs' not
+R22396:22396 SLF.LibInt <> m:53 var
+R22448:22458 Coq.ZArith.Zabs <> Zabs_nat_lt thm
+R22448:22458 Coq.ZArith.Zabs <> Zabs_nat_lt thm
+prf 22479:22488 <> abs_to_int
+R22504:22506 SLF.LibInt <> ::Int_scope:'int' not
+binder 22500:22500 <> n:54
+R22518:22523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22513:22516 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R22517:22517 SLF.LibInt <> n:54 var
+R22540:22542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22524:22531 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R22534:22538 SLF.LibInt <> :::'abs' not
+R22538:22538 SLF.LibInt <> n:54 var
+R22543:22543 SLF.LibInt <> n:54 var
+R22576:22585 SLF.LibInt <> abs_nonneg thm
+R22576:22585 SLF.LibInt <> abs_nonneg thm
+prf 22600:22612 <> abs_le_nat_le
+R22626:22628 SLF.LibInt <> ::Int_scope:'int' not
+binder 22624:22624 <> x:55
+R22634:22636 Coq.Init.Datatypes <> nat ind
+binder 22632:22632 <> y:56
+R22642:22642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22649:22655 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22644:22647 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R22648:22648 SLF.LibInt <> x:55 var
+R22656:22656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22667:22670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22662:22665 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R22657:22661 SLF.LibInt <> :::'abs' not
+R22661:22661 SLF.LibInt <> x:55 var
+R22666:22666 SLF.LibInt <> y:56 var
+R22673:22676 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R22672:22672 SLF.LibInt <> x:55 var
+R22677:22677 SLF.LibInt <> y:56 var
+R22732:22734 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22745:22745 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22735:22744 SLF.LibInt <> abs_to_int thm
+R22732:22734 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22745:22745 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22735:22744 SLF.LibInt <> abs_to_int thm
+R22775:22777 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22788:22788 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22778:22787 SLF.LibInt <> abs_to_int thm
+R22775:22777 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22788:22788 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22778:22787 SLF.LibInt <> abs_to_int thm
+prf 22818:22830 <> abs_ge_nat_ge
+R22844:22846 SLF.LibInt <> ::Int_scope:'int' not
+binder 22842:22842 <> x:57
+R22852:22854 Coq.Init.Datatypes <> nat ind
+binder 22850:22850 <> y:58
+R22860:22860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22867:22873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22862:22865 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R22866:22866 SLF.LibInt <> x:57 var
+R22874:22874 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22885:22888 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22880:22883 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R22875:22879 SLF.LibInt <> :::'abs' not
+R22879:22879 SLF.LibInt <> x:57 var
+R22884:22884 SLF.LibInt <> y:58 var
+R22891:22894 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R22890:22890 SLF.LibInt <> x:57 var
+R22895:22895 SLF.LibInt <> y:58 var
+R22951:22953 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22964:22964 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22954:22963 SLF.LibInt <> abs_to_int thm
+R22951:22953 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22964:22964 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22954:22963 SLF.LibInt <> abs_to_int thm
+R22994:22996 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R23007:23007 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22997:23006 SLF.LibInt <> abs_to_int thm
+R22994:22996 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R23007:23007 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R22997:23006 SLF.LibInt <> abs_to_int thm
+prf 23285:23289 <> abs_0
+R23298:23300 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23306:23309 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23310:23312 Coq.Init.Datatypes <> nat ind
+R23293:23297 SLF.LibInt <> :::'abs' not
+prf 23353:23357 <> abs_1
+R23366:23368 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23374:23377 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23378:23380 Coq.Init.Datatypes <> nat ind
+R23361:23365 SLF.LibInt <> :::'abs' not
+prf 23421:23428 <> abs_plus
+R23444:23446 SLF.LibInt <> ::Int_scope:'int' not
+binder 23440:23440 <> x:59
+binder 23442:23442 <> y:60
+R23452:23452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23459:23465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23454:23457 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R23453:23453 SLF.LibInt <> x:59 var
+R23466:23466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23473:23479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23468:23471 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R23467:23467 SLF.LibInt <> y:60 var
+R23491:23493 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23513:23516 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23517:23519 Coq.Init.Datatypes <> nat ind
+R23480:23490 SLF.LibInt <> :::'abs' not
+R23486:23488 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23485:23485 SLF.LibInt <> x:59 var
+R23489:23489 SLF.LibInt <> y:60 var
+R23500:23502 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R23495:23499 SLF.LibInt <> :::'abs' not
+R23499:23499 SLF.LibInt <> x:59 var
+R23503:23507 SLF.LibInt <> :::'abs' not
+R23507:23507 SLF.LibInt <> y:60 var
+R23550:23565 Coq.ZArith.Znat Zabs2Nat inj_add thm
+R23550:23565 Coq.ZArith.Znat Zabs2Nat inj_add thm
+prf 23586:23594 <> abs_minus
+R23610:23612 SLF.LibInt <> ::Int_scope:'int' not
+binder 23606:23606 <> x:61
+binder 23608:23608 <> y:62
+R23618:23618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23625:23631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23620:23623 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R23619:23619 SLF.LibInt <> x:61 var
+R23624:23624 SLF.LibInt <> y:62 var
+R23632:23632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23639:23645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23634:23637 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R23633:23633 SLF.LibInt <> y:62 var
+R23657:23659 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23679:23682 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R23683:23685 Coq.Init.Datatypes <> nat ind
+R23646:23656 SLF.LibInt <> :::'abs' not
+R23652:23654 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R23651:23651 SLF.LibInt <> x:61 var
+R23655:23655 SLF.LibInt <> y:62 var
+R23666:23668 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R23661:23665 SLF.LibInt <> :::'abs' not
+R23665:23665 SLF.LibInt <> x:61 var
+R23669:23673 SLF.LibInt <> :::'abs' not
+R23673:23673 SLF.LibInt <> y:62 var
+R23716:23731 Coq.ZArith.Znat Zabs2Nat inj_sub thm
+R23716:23731 Coq.ZArith.Znat Zabs2Nat inj_sub thm
+prf 23752:23770 <> abs_nat_plus_nonneg
+R23784:23786 Coq.Init.Datatypes <> nat ind
+binder 23782:23782 <> n:63
+R23792:23794 SLF.LibInt <> ::Int_scope:'int' not
+binder 23790:23790 <> x:64
+R23806:23810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23801:23804 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R23800:23800 SLF.LibInt <> x:64 var
+R23824:23826 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23811:23823 SLF.LibInt <> :::'abs' not
+R23817:23819 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R23816:23816 SLF.LibInt <> n:63 var
+R23820:23820 SLF.LibInt <> x:64 var
+R23829:23831 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R23828:23828 SLF.LibInt <> n:63 var
+R23832:23836 SLF.LibInt <> :::'abs' not
+R23836:23836 SLF.LibInt <> x:64 var
+R23876:23891 SLF.LibInt <> eq_nat_of_eq_int thm
+R23876:23891 SLF.LibInt <> eq_nat_of_eq_int thm
+R23904:23923 SLF.LibInt <> plus_nat_eq_plus_int thm
+R23904:23923 SLF.LibInt <> plus_nat_eq_plus_int thm
+R23904:23923 SLF.LibInt <> plus_nat_eq_plus_int thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+R23942:23951 SLF.LibInt <> abs_nonneg thm
+prf 23982:23997 <> abs_gt_minus_nat
+R24011:24013 Coq.Init.Datatypes <> nat ind
+binder 24009:24009 <> n:65
+R24019:24021 SLF.LibInt <> ::Int_scope:'int' not
+binder 24017:24017 <> x:66
+R24037:24041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24029:24032 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R24028:24028 SLF.LibInt <> x:66 var
+R24033:24033 SLF.LibInt <> n:65 var
+R24055:24057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24042:24054 SLF.LibInt <> :::'abs' not
+R24048:24050 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R24047:24047 SLF.LibInt <> x:66 var
+R24051:24051 SLF.LibInt <> n:65 var
+R24064:24066 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R24059:24063 SLF.LibInt <> :::'abs' not
+R24063:24063 SLF.LibInt <> x:66 var
+R24067:24067 SLF.LibInt <> n:65 var
+R24107:24122 SLF.LibInt <> eq_nat_of_eq_int thm
+R24107:24122 SLF.LibInt <> eq_nat_of_eq_int thm
+R24135:24156 SLF.LibInt <> minus_nat_eq_minus_int thm
+R24135:24156 SLF.LibInt <> minus_nat_eq_minus_int thm
+R24135:24156 SLF.LibInt <> minus_nat_eq_minus_int thm
+R24135:24156 SLF.LibInt <> minus_nat_eq_minus_int thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24175:24184 SLF.LibInt <> abs_nonneg thm
+R24212:24227 SLF.LibInt <> ge_nat_of_ge_int thm
+R24212:24227 SLF.LibInt <> ge_nat_of_ge_int thm
+R24238:24247 SLF.LibInt <> abs_nonneg thm
+R24238:24247 SLF.LibInt <> abs_nonneg thm
+R24238:24247 SLF.LibInt <> abs_nonneg thm
+R24238:24247 SLF.LibInt <> abs_nonneg thm
+prf 24268:24291 <> succ_abs_eq_abs_one_plus
+R24305:24307 SLF.LibInt <> ::Int_scope:'int' not
+binder 24303:24303 <> x:67
+R24319:24324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24314:24317 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R24313:24313 SLF.LibInt <> x:67 var
+R24334:24336 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R24348:24351 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R24352:24354 Coq.Init.Datatypes <> nat ind
+R24325:24325 Coq.Init.Datatypes <> S constr
+R24328:24332 SLF.LibInt <> :::'abs' not
+R24332:24332 SLF.LibInt <> x:67 var
+R24337:24347 SLF.LibInt <> :::'abs' not
+R24343:24345 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R24346:24346 SLF.LibInt <> x:67 var
+R24402:24418 SLF.LibNat <> measure_induction thm
+R24422:24424 SLF.LibInt <> :::'abs' not
+R24402:24418 SLF.LibNat <> measure_induction thm
+R24422:24424 SLF.LibInt <> :::'abs' not
+R24467:24480 Coq.ZArith.Zabs <> Zabs_nat_Zsucc abbrev
+R24467:24480 Coq.ZArith.Zabs <> Zabs_nat_Zsucc abbrev
+R24467:24480 Coq.ZArith.Zabs <> Zabs_nat_Zsucc abbrev
+R24467:24480 Coq.ZArith.Zabs <> Zabs_nat_Zsucc abbrev
+prf 24516:24540 <> abs_eq_succ_abs_minus_one
+R24554:24556 SLF.LibInt <> ::Int_scope:'int' not
+binder 24552:24552 <> x:68
+R24567:24572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24563:24565 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R24562:24562 SLF.LibInt <> x:68 var
+R24578:24580 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R24596:24599 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R24600:24602 Coq.Init.Datatypes <> nat ind
+R24573:24577 SLF.LibInt <> :::'abs' not
+R24577:24577 SLF.LibInt <> x:68 var
+R24581:24581 Coq.Init.Datatypes <> S constr
+R24584:24594 SLF.LibInt <> :::'abs' not
+R24590:24592 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R24589:24589 SLF.LibInt <> x:68 var
+R24634:24649 SLF.LibInt <> eq_nat_of_eq_int thm
+R24634:24649 SLF.LibInt <> eq_nat_of_eq_int thm
+R24662:24671 SLF.LibInt <> abs_nonneg thm
+R24662:24671 SLF.LibInt <> abs_nonneg thm
+R24662:24671 SLF.LibInt <> abs_nonneg thm
+R24662:24671 SLF.LibInt <> abs_nonneg thm
+R24928:24934 SLF.LibInt <> abs_nat thm
+R24936:24940 SLF.LibInt <> abs_0 thm
+R24942:24946 SLF.LibInt <> abs_1 thm
+R24948:24955 SLF.LibInt <> abs_plus thm
+R24957:24966 SLF.LibInt <> abs_nonneg thm
+R25394:25401 Coq.ZArith.BinInt Z to_nat def
+not 25380:25380 <> :::'to_nat'
+prf 25424:25433 <> to_nat_nat
+R25447:25449 Coq.Init.Datatypes <> nat ind
+binder 25445:25445 <> n:69
+R25463:25465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25455:25462 SLF.LibInt <> :::'to_nat' not
+R25462:25462 SLF.LibInt <> n:69 var
+R25466:25466 SLF.LibInt <> n:69 var
+R25488:25495 Coq.ZArith.Znat Nat2Z id thm
+R25488:25495 Coq.ZArith.Znat Nat2Z id thm
+prf 25510:25522 <> to_nat_nonneg
+R25536:25538 SLF.LibInt <> ::Int_scope:'int' not
+binder 25534:25534 <> x:70
+R25550:25555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25545:25548 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R25544:25544 SLF.LibInt <> x:70 var
+R25564:25566 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R25568:25571 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R25572:25574 SLF.LibInt <> ::Int_scope:'int' not
+R25556:25563 SLF.LibInt <> :::'to_nat' not
+R25563:25563 SLF.LibInt <> x:70 var
+R25567:25567 SLF.LibInt <> x:70 var
+R25605:25612 Coq.ZArith.Znat Z2Nat id thm
+R25605:25612 Coq.ZArith.Znat Z2Nat id thm
+prf 25627:25636 <> to_nat_neg
+R25650:25652 SLF.LibInt <> ::Int_scope:'int' not
+binder 25648:25648 <> x:71
+R25664:25669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25659:25662 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R25658:25658 SLF.LibInt <> x:71 var
+R25678:25680 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25670:25677 SLF.LibInt <> :::'to_nat' not
+R25677:25677 SLF.LibInt <> x:71 var
+R25745:25747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25738:25742 Coq.ZArith.BinInt Z pos abbrev
+R25745:25747 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25738:25742 Coq.ZArith.BinInt Z pos abbrev
+R25770:25778 Coq.ZArith.Zorder <> Zle_0_pos thm
+R25770:25778 Coq.ZArith.Zorder <> Zle_0_pos thm
+prf 25818:25833 <> to_nat_eq_nat_eq
+R25847:25849 SLF.LibInt <> ::Int_scope:'int' not
+binder 25845:25845 <> x:72
+R25855:25857 Coq.Init.Datatypes <> nat ind
+binder 25853:25853 <> y:73
+R25869:25874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25864:25867 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R25863:25863 SLF.LibInt <> x:72 var
+R25875:25875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25895:25899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25921:25921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25884:25886 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R25888:25891 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R25892:25894 Coq.Init.Datatypes <> nat ind
+R25876:25883 SLF.LibInt <> :::'to_nat' not
+R25883:25883 SLF.LibInt <> x:72 var
+R25887:25887 SLF.LibInt <> y:73 var
+R25901:25903 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R25914:25917 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R25918:25920 SLF.LibInt <> ::Int_scope:'int' not
+R25900:25900 SLF.LibInt <> x:72 var
+R25904:25911 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R25913:25913 SLF.LibInt <> y:73 var
+R25984:25991 Coq.ZArith.Znat Z2Nat id thm
+R25984:25991 Coq.ZArith.Znat Z2Nat id thm
+R26016:26023 Coq.ZArith.Znat Nat2Z id thm
+R26016:26023 Coq.ZArith.Znat Nat2Z id thm
+prf 26040:26055 <> lt_to_nat_to_nat
+R26073:26075 SLF.LibInt <> ::Int_scope:'int' not
+binder 26067:26067 <> n:74
+binder 26069:26069 <> m:75
+R26081:26081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26088:26094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26083:26086 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R26087:26087 SLF.LibInt <> n:74 var
+R26095:26095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26101:26108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26128:26128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26097:26099 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R26096:26096 SLF.LibInt <> n:74 var
+R26100:26100 SLF.LibInt <> m:75 var
+R26117:26119 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R26109:26116 SLF.LibInt <> :::'to_nat' not
+R26116:26116 SLF.LibInt <> n:74 var
+R26120:26127 SLF.LibInt <> :::'to_nat' not
+R26127:26127 SLF.LibInt <> m:75 var
+R26186:26208 Coq.ZArith.Znat Zabs2Nat abs_nat_nonneg thm
+R26186:26208 Coq.ZArith.Znat Zabs2Nat abs_nat_nonneg thm
+R26186:26208 Coq.ZArith.Znat Zabs2Nat abs_nat_nonneg thm
+R26186:26208 Coq.ZArith.Znat Zabs2Nat abs_nat_nonneg thm
+R26186:26208 Coq.ZArith.Znat Zabs2Nat abs_nat_nonneg thm
+R26228:26238 Coq.ZArith.Zabs <> Zabs_nat_lt thm
+R26228:26238 Coq.ZArith.Zabs <> Zabs_nat_lt thm
+prf 26259:26271 <> to_nat_to_int
+R26287:26289 SLF.LibInt <> ::Int_scope:'int' not
+binder 26283:26283 <> n:76
+R26301:26306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26296:26299 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R26300:26300 SLF.LibInt <> n:76 var
+R26326:26328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26307:26314 Coq.ZArith.BinInt <> Z_of_nat abbrev
+R26317:26324 SLF.LibInt <> :::'to_nat' not
+R26324:26324 SLF.LibInt <> n:76 var
+R26329:26329 SLF.LibInt <> n:76 var
+R26362:26374 SLF.LibInt <> to_nat_nonneg thm
+R26362:26374 SLF.LibInt <> to_nat_nonneg thm
+prf 26389:26404 <> to_nat_le_nat_le
+R26418:26420 SLF.LibInt <> ::Int_scope:'int' not
+binder 26416:26416 <> x:77
+R26426:26428 Coq.Init.Datatypes <> nat ind
+binder 26424:26424 <> y:78
+R26434:26434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26441:26447 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26436:26439 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R26440:26440 SLF.LibInt <> x:77 var
+R26448:26448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26462:26465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26457:26460 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R26449:26456 SLF.LibInt <> :::'to_nat' not
+R26456:26456 SLF.LibInt <> x:77 var
+R26461:26461 SLF.LibInt <> y:78 var
+R26468:26471 Coq.ZArith.BinInt <> ::Z_scope:x_'<='_x not
+R26467:26467 SLF.LibInt <> x:77 var
+R26472:26472 SLF.LibInt <> y:78 var
+R26527:26529 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26543:26543 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26530:26542 SLF.LibInt <> to_nat_to_int thm
+R26527:26529 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26543:26543 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26530:26542 SLF.LibInt <> to_nat_to_int thm
+R26573:26575 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26589:26589 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26576:26588 SLF.LibInt <> to_nat_to_int thm
+R26573:26575 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26589:26589 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26576:26588 SLF.LibInt <> to_nat_to_int thm
+prf 26619:26634 <> to_nat_ge_nat_ge
+R26648:26650 SLF.LibInt <> ::Int_scope:'int' not
+binder 26646:26646 <> x:79
+R26656:26658 Coq.Init.Datatypes <> nat ind
+binder 26654:26654 <> y:80
+R26664:26664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26671:26677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26666:26669 SLF.LibOrder <> ::comp_scope:x_'<='_x not
+R26670:26670 SLF.LibInt <> x:79 var
+R26678:26678 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26692:26695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26687:26690 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R26679:26686 SLF.LibInt <> :::'to_nat' not
+R26686:26686 SLF.LibInt <> x:79 var
+R26691:26691 SLF.LibInt <> y:80 var
+R26698:26701 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R26697:26697 SLF.LibInt <> x:79 var
+R26702:26702 SLF.LibInt <> y:80 var
+R26758:26760 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26774:26774 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26761:26773 SLF.LibInt <> to_nat_to_int thm
+R26758:26760 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26774:26774 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26761:26773 SLF.LibInt <> to_nat_to_int thm
+R26804:26806 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26820:26820 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26807:26819 SLF.LibInt <> to_nat_to_int thm
+R26804:26806 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26820:26820 SLF.LibTactics <> ::ltac_scope:'>>'_x_x not
+R26807:26819 SLF.LibInt <> to_nat_to_int thm
+prf 27057:27064 <> to_nat_0
+R27076:27078 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27084:27087 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27088:27090 Coq.Init.Datatypes <> nat ind
+R27068:27075 SLF.LibInt <> :::'to_nat' not
+prf 27131:27138 <> to_nat_1
+R27150:27152 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27158:27161 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27162:27164 Coq.Init.Datatypes <> nat ind
+R27142:27149 SLF.LibInt <> :::'to_nat' not
+prf 27205:27215 <> to_nat_plus
+R27231:27233 SLF.LibInt <> ::Int_scope:'int' not
+binder 27227:27227 <> x:81
+binder 27229:27229 <> y:82
+R27239:27239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27246:27252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27241:27244 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R27240:27240 SLF.LibInt <> x:81 var
+R27253:27253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27260:27266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27255:27258 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R27254:27254 SLF.LibInt <> y:82 var
+R27281:27283 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27309:27312 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27313:27315 Coq.Init.Datatypes <> nat ind
+R27267:27280 SLF.LibInt <> :::'to_nat' not
+R27276:27278 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R27275:27275 SLF.LibInt <> x:81 var
+R27279:27279 SLF.LibInt <> y:82 var
+R27293:27295 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27285:27292 SLF.LibInt <> :::'to_nat' not
+R27292:27292 SLF.LibInt <> x:81 var
+R27296:27303 SLF.LibInt <> :::'to_nat' not
+R27303:27303 SLF.LibInt <> y:82 var
+R27346:27358 Coq.ZArith.Znat Z2Nat inj_add thm
+R27346:27358 Coq.ZArith.Znat Z2Nat inj_add thm
+prf 27373:27384 <> to_nat_minus
+R27400:27402 SLF.LibInt <> ::Int_scope:'int' not
+binder 27396:27396 <> x:83
+binder 27398:27398 <> y:84
+R27408:27408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27415:27421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27410:27413 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R27409:27409 SLF.LibInt <> x:83 var
+R27414:27414 SLF.LibInt <> y:84 var
+R27422:27422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27429:27435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27424:27427 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R27423:27423 SLF.LibInt <> y:84 var
+R27450:27452 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27478:27481 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27482:27484 Coq.Init.Datatypes <> nat ind
+R27436:27449 SLF.LibInt <> :::'to_nat' not
+R27445:27447 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R27444:27444 SLF.LibInt <> x:83 var
+R27448:27448 SLF.LibInt <> y:84 var
+R27462:27464 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R27454:27461 SLF.LibInt <> :::'to_nat' not
+R27461:27461 SLF.LibInt <> x:83 var
+R27465:27472 SLF.LibInt <> :::'to_nat' not
+R27472:27472 SLF.LibInt <> y:84 var
+R27515:27527 Coq.ZArith.Znat Z2Nat inj_sub thm
+R27515:27527 Coq.ZArith.Znat Z2Nat inj_sub thm
+R27780:27789 SLF.LibInt <> to_nat_nat thm
+R27791:27798 SLF.LibInt <> to_nat_0 thm
+R27800:27807 SLF.LibInt <> to_nat_1 thm
+R27809:27819 SLF.LibInt <> to_nat_plus thm
+R27821:27832 SLF.LibInt <> to_nat_minus thm
+R27839:27851 SLF.LibInt <> to_nat_nonneg thm

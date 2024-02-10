@@ -1,0 +1,992 @@
+DIGEST e2abf3fa66914153c086f252ea791799
+FSLF.WPsound
+R115:119 SLF.WPsem <> <> lib
+R121:125 SLF.WPgen <> <> lib
+R135:142 SLF.WPgen WPgenRec <> mod
+R165:167 SLF.LibSepVar <> var def
+R189:192 Coq.Init.Datatypes <> bool ind
+R214:216 SLF.LibSepReference <> val ind
+R238:241 SLF.LibSepReference <> heap def
+R288:292 SLF.LibSepReference SepSimplArgs hprop def
+R317:318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R314:316 SLF.LibSepReference <> val ind
+R319:323 SLF.LibSepReference SepSimplArgs hprop def
+def 1313:1325 <> formula_sound
+R1330:1332 SLF.LibSepReference <> trm ind
+binder 1328:1328 <> t:1
+R1338:1344 SLF.WPgen <> formula def
+binder 1336:1336 <> F:2
+binder 1366:1366 <> Q:3
+R1372:1376 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R1369:1369 SLF.WPsound <> F:2 var
+R1371:1371 SLF.WPsound <> Q:3 var
+R1377:1378 SLF.WPsem <> wp def
+R1382:1382 SLF.WPsound <> Q:3 var
+R1380:1380 SLF.WPsound <> t:1 var
+prf 1700:1707 <> wp_sound
+binder 1718:1718 <> t:4
+R1723:1735 SLF.WPsound <> formula_sound def
+R1740:1741 SLF.WPsem <> wp def
+R1743:1743 SLF.WPsound <> t:4 var
+R1737:1737 SLF.WPsound <> t:4 var
+R1785:1794 SLF.LibSepReference SepSimplArgs himpl_refl thm
+R1785:1794 SLF.LibSepReference SepSimplArgs himpl_refl thm
+ax 2284:2300 <> wpgen_sound_seq_1
+binder 2311:2311 <> E:5
+binder 2313:2314 <> t1:6
+binder 2316:2317 <> t2:7
+R2322:2334 SLF.WPsound <> formula_sound def
+R2380:2384 SLF.WPgen WPgenRec wpgen def
+R2389:2395 SLF.LibSepReference <> trm_seq constr
+R2400:2401 SLF.WPsound <> t2:7 var
+R2397:2398 SLF.WPsound <> t1:6 var
+R2386:2386 SLF.WPsound <> E:5 var
+R2337:2342 SLF.WPgen <> isubst def
+R2347:2353 SLF.LibSepReference <> trm_seq constr
+R2358:2359 SLF.WPsound <> t2:7 var
+R2355:2356 SLF.WPsound <> t1:6 var
+R2344:2344 SLF.WPsound <> E:5 var
+ax 2814:2830 <> wpgen_sound_seq_2
+binder 2841:2841 <> E:9
+binder 2843:2844 <> t1:10
+binder 2846:2847 <> t2:11
+R2852:2864 SLF.WPsound <> formula_sound def
+R2921:2929 SLF.WPgen <> wpgen_seq def
+R2945:2949 SLF.WPgen WPgenRec wpgen def
+R2953:2954 SLF.WPsound <> t2:11 var
+R2951:2951 SLF.WPsound <> E:9 var
+R2932:2936 SLF.WPgen WPgenRec wpgen def
+R2940:2941 SLF.WPsound <> t1:10 var
+R2938:2938 SLF.WPsound <> E:9 var
+R2867:2873 SLF.LibSepReference <> trm_seq constr
+R2890:2895 SLF.WPgen <> isubst def
+R2899:2900 SLF.WPsound <> t2:11 var
+R2897:2897 SLF.WPsound <> E:9 var
+R2876:2881 SLF.WPgen <> isubst def
+R2885:2886 SLF.WPsound <> t1:10 var
+R2883:2883 SLF.WPsound <> E:9 var
+ax 3220:3236 <> wpgen_sound_seq_3
+binder 3247:3247 <> E:13
+binder 3249:3250 <> t1:14
+binder 3252:3253 <> t2:15
+R3298:3303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3258:3270 SLF.WPsound <> formula_sound def
+R3287:3291 SLF.WPgen WPgenRec wpgen def
+R3295:3296 SLF.WPsound <> t1:14 var
+R3293:3293 SLF.WPsound <> E:13 var
+R3273:3278 SLF.WPgen <> isubst def
+R3282:3283 SLF.WPsound <> t1:14 var
+R3280:3280 SLF.WPsound <> E:13 var
+R3344:3349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3304:3316 SLF.WPsound <> formula_sound def
+R3333:3337 SLF.WPgen WPgenRec wpgen def
+R3341:3342 SLF.WPsound <> t2:15 var
+R3339:3339 SLF.WPsound <> E:13 var
+R3319:3324 SLF.WPgen <> isubst def
+R3328:3329 SLF.WPsound <> t2:15 var
+R3326:3326 SLF.WPsound <> E:13 var
+R3350:3362 SLF.WPsound <> formula_sound def
+R3419:3427 SLF.WPgen <> wpgen_seq def
+R3443:3447 SLF.WPgen WPgenRec wpgen def
+R3451:3452 SLF.WPsound <> t2:15 var
+R3449:3449 SLF.WPsound <> E:13 var
+R3430:3434 SLF.WPgen WPgenRec wpgen def
+R3438:3439 SLF.WPsound <> t1:14 var
+R3436:3436 SLF.WPsound <> E:13 var
+R3365:3371 SLF.LibSepReference <> trm_seq constr
+R3388:3393 SLF.WPgen <> isubst def
+R3397:3398 SLF.WPsound <> t2:15 var
+R3395:3395 SLF.WPsound <> E:13 var
+R3374:3379 SLF.WPgen <> isubst def
+R3383:3384 SLF.WPsound <> t1:14 var
+R3381:3381 SLF.WPsound <> E:13 var
+prf 3659:3673 <> wpgen_seq_sound
+binder 3684:3686 <> t1':17
+binder 3688:3690 <> t2':18
+binder 3692:3693 <> F1:19
+binder 3695:3696 <> F2:20
+R3721:3726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3701:3713 SLF.WPsound <> formula_sound def
+R3719:3720 SLF.WPsound <> F1:19 var
+R3715:3717 SLF.WPsound <> t1':17 var
+R3747:3752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3727:3739 SLF.WPsound <> formula_sound def
+R3745:3746 SLF.WPsound <> F2:20 var
+R3741:3743 SLF.WPsound <> t2':18 var
+R3753:3765 SLF.WPsound <> formula_sound def
+R3786:3794 SLF.WPgen <> wpgen_seq def
+R3799:3800 SLF.WPsound <> F2:20 var
+R3796:3797 SLF.WPsound <> F1:19 var
+R3768:3774 SLF.LibSepReference <> trm_seq constr
+R3780:3782 SLF.WPsound <> t2':18 var
+R3776:3778 SLF.WPsound <> t1':17 var
+R4004:4016 SLF.WPsound <> formula_sound def
+R4004:4016 SLF.WPsound <> formula_sound def
+R4154:4162 SLF.WPgen <> wpgen_seq def
+R4154:4162 SLF.WPgen <> wpgen_seq def
+R4212:4222 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R4212:4222 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R4353:4358 SLF.WPgen <> wp_seq defax
+R4353:4358 SLF.WPgen <> wp_seq defax
+R4427:4437 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R4427:4437 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R4472:4480 SLF.WPsem <> wp_conseq thm
+R4472:4480 SLF.WPsem <> wp_conseq thm
+prf 4884:4898 <> wpgen_val_sound
+binder 4909:4909 <> v:21
+R4914:4926 SLF.WPsound <> formula_sound def
+R4941:4949 SLF.WPgen <> wpgen_val def
+R4951:4951 SLF.WPsound <> v:21 var
+R4929:4935 SLF.LibSepReference <> trm_val constr
+R4937:4937 SLF.WPsound <> v:21 var
+R4994:5002 SLF.WPgen <> wpgen_val def
+R4994:5002 SLF.WPgen <> wpgen_val def
+R5012:5017 SLF.WPgen <> wp_val defax
+R5012:5017 SLF.WPgen <> wp_val defax
+prf 5032:5046 <> wpgen_let_sound
+binder 5057:5058 <> F1:22
+binder 5060:5063 <> F2of:23
+binder 5065:5065 <> x:24
+binder 5067:5068 <> t1:25
+binder 5070:5071 <> t2:26
+R5095:5100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5076:5088 SLF.WPsound <> formula_sound def
+R5093:5094 SLF.WPsound <> F1:22 var
+R5090:5091 SLF.WPsound <> t1:25 var
+R5101:5101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5149:5155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 5109:5109 <> v:27
+R5112:5124 SLF.WPsound <> formula_sound def
+R5142:5145 SLF.WPsound <> F2of:23 var
+R5147:5147 SLF.WPsound <> v:27 var
+R5127:5131 SLF.LibSepReference <> subst def
+R5137:5138 SLF.WPsound <> t2:26 var
+R5135:5135 SLF.WPsound <> v:27 var
+R5133:5133 SLF.WPsound <> x:24 var
+R5156:5168 SLF.WPsound <> formula_sound def
+R5189:5197 SLF.WPgen <> wpgen_let def
+R5202:5205 SLF.WPsound <> F2of:23 var
+R5199:5200 SLF.WPsound <> F1:22 var
+R5171:5177 SLF.LibSepReference <> trm_let constr
+R5184:5185 SLF.WPsound <> t2:26 var
+R5181:5182 SLF.WPsound <> t1:25 var
+R5179:5179 SLF.WPsound <> x:24 var
+R5256:5264 SLF.WPgen <> wpgen_let def
+R5256:5264 SLF.WPgen <> wpgen_let def
+R5274:5284 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R5286:5291 SLF.WPgen <> wp_let defax
+R5274:5284 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R5286:5291 SLF.WPgen <> wp_let defax
+R5303:5313 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R5303:5313 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R5326:5334 SLF.WPsem <> wp_conseq thm
+R5326:5334 SLF.WPsem <> wp_conseq thm
+prf 5370:5383 <> wpgen_if_sound
+binder 5394:5395 <> F1:28
+binder 5397:5398 <> F2:29
+binder 5400:5401 <> t0:30
+binder 5403:5404 <> t1:31
+binder 5406:5407 <> t2:32
+R5431:5436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5412:5424 SLF.WPsound <> formula_sound def
+R5429:5430 SLF.WPsound <> F1:28 var
+R5426:5427 SLF.WPsound <> t1:31 var
+R5456:5461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5437:5449 SLF.WPsound <> formula_sound def
+R5454:5455 SLF.WPsound <> F2:29 var
+R5451:5452 SLF.WPsound <> t2:32 var
+R5462:5474 SLF.WPsound <> formula_sound def
+R5495:5502 SLF.WPgen <> wpgen_if def
+R5510:5511 SLF.WPsound <> F2:29 var
+R5507:5508 SLF.WPsound <> F1:28 var
+R5504:5505 SLF.WPsound <> t0:30 var
+R5477:5482 SLF.LibSepReference <> trm_if constr
+R5490:5491 SLF.WPsound <> t2:32 var
+R5487:5488 SLF.WPsound <> t1:31 var
+R5484:5485 SLF.WPsound <> t0:30 var
+R5561:5568 SLF.WPgen <> wpgen_if def
+R5600:5610 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R5612:5616 SLF.WPgen <> wp_if defax
+R5600:5610 SLF.LibSepReference SepSimplArgs himpl_trans thm
+R5612:5616 SLF.WPgen <> wp_if defax
+prf 5670:5684 <> wpgen_app_sound
+binder 5695:5695 <> t:33
+R5700:5712 SLF.WPsound <> formula_sound def
+R5717:5725 SLF.WPgen <> wpgen_app def
+R5727:5727 SLF.WPsound <> t:33 var
+R5714:5714 SLF.WPsound <> t:33 var
+R5765:5773 SLF.WPgen <> wpgen_app def
+R5803:5810 SLF.WPsem <> wp_equiv thm
+R5803:5810 SLF.WPsem <> wp_equiv thm
+R5803:5810 SLF.WPsem <> wp_equiv thm
+prf 5834:5849 <> wpgen_fail_sound
+binder 5860:5860 <> t:34
+R5865:5877 SLF.WPsound <> formula_sound def
+R5881:5890 SLF.WPgen <> wpgen_fail def
+R5879:5879 SLF.WPsound <> t:34 var
+R5931:5940 SLF.WPgen <> wpgen_fail def
+prf 5962:5976 <> wpgen_fun_sound
+binder 5987:5987 <> x:35
+binder 5989:5990 <> t1:36
+binder 5992:5994 <> Fof:37
+R5999:5999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6049:6055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6007:6008 <> vx:38
+R6011:6023 SLF.WPsound <> formula_sound def
+R6042:6044 SLF.WPsound <> Fof:37 var
+R6046:6047 SLF.WPsound <> vx:38 var
+R6026:6030 SLF.LibSepReference <> subst def
+R6037:6038 SLF.WPsound <> t1:36 var
+R6034:6035 SLF.WPsound <> vx:38 var
+R6032:6032 SLF.WPsound <> x:35 var
+R6056:6068 SLF.WPsound <> formula_sound def
+R6086:6094 SLF.WPgen WPgenRec wpgen_fun def
+R6096:6098 SLF.WPsound <> Fof:37 var
+R6071:6077 SLF.LibSepReference <> trm_fun constr
+R6081:6082 SLF.WPsound <> t1:36 var
+R6079:6079 SLF.WPsound <> x:35 var
+R6145:6153 SLF.WPgen WPgenRec wpgen_fun def
+R6145:6153 SLF.WPgen WPgenRec wpgen_fun def
+R6163:6177 SLF.LibSepReference SepSimplArgs himpl_hforall_l thm
+R6180:6186 SLF.LibSepReference <> val_fun constr
+R6163:6177 SLF.LibSepReference SepSimplArgs himpl_hforall_l thm
+R6180:6186 SLF.LibSepReference <> val_fun constr
+R6205:6217 SLF.LibSepReference SepSimplArgs hwand_hpure_l thm
+R6205:6217 SLF.LibSepReference SepSimplArgs hwand_hpure_l thm
+R6239:6251 SLF.LibSepReference SepSimplArgs himpl_trans_r thm
+R6239:6251 SLF.LibSepReference SepSimplArgs himpl_trans_r thm
+R6264:6273 SLF.WPsem <> wp_app_fun thm
+R6264:6273 SLF.WPsem <> wp_app_fun thm
+R6306:6311 SLF.WPgen <> wp_fun defax
+R6306:6311 SLF.WPgen <> wp_fun defax
+prf 6328:6342 <> wpgen_fix_sound
+binder 6353:6353 <> f:39
+binder 6355:6355 <> x:40
+binder 6357:6358 <> t1:41
+binder 6360:6362 <> Fof:42
+R6367:6367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6436:6442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 6375:6376 <> vf:43
+binder 6378:6379 <> vx:44
+R6382:6394 SLF.WPsound <> formula_sound def
+R6426:6428 SLF.WPsound <> Fof:42 var
+R6430:6431 SLF.WPsound <> vf:43 var
+R6433:6434 SLF.WPsound <> vx:44 var
+R6397:6401 SLF.LibSepReference <> subst def
+R6409:6413 SLF.LibSepReference <> subst def
+R6420:6421 SLF.WPsound <> t1:41 var
+R6417:6418 SLF.WPsound <> vf:43 var
+R6415:6415 SLF.WPsound <> f:39 var
+R6405:6406 SLF.WPsound <> vx:44 var
+R6403:6403 SLF.WPsound <> x:40 var
+R6443:6455 SLF.WPsound <> formula_sound def
+R6475:6483 SLF.WPgen WPgenRec wpgen_fix def
+R6485:6487 SLF.WPsound <> Fof:42 var
+R6458:6464 SLF.LibSepReference <> trm_fix constr
+R6470:6471 SLF.WPsound <> t1:41 var
+R6468:6468 SLF.WPsound <> x:40 var
+R6466:6466 SLF.WPsound <> f:39 var
+R6534:6542 SLF.WPgen WPgenRec wpgen_fix def
+R6534:6542 SLF.WPgen WPgenRec wpgen_fix def
+R6554:6568 SLF.LibSepReference SepSimplArgs himpl_hforall_l thm
+R6571:6577 SLF.LibSepReference <> val_fix constr
+R6554:6568 SLF.LibSepReference SepSimplArgs himpl_hforall_l thm
+R6571:6577 SLF.LibSepReference <> val_fix constr
+R6596:6608 SLF.LibSepReference SepSimplArgs hwand_hpure_l thm
+R6596:6608 SLF.LibSepReference SepSimplArgs hwand_hpure_l thm
+R6630:6642 SLF.LibSepReference SepSimplArgs himpl_trans_r thm
+R6630:6642 SLF.LibSepReference SepSimplArgs himpl_trans_r thm
+R6655:6664 SLF.WPsem <> wp_app_fix thm
+R6655:6664 SLF.WPsem <> wp_app_fix thm
+R6697:6702 SLF.WPsem <> wp_fix thm
+R6697:6702 SLF.WPsem <> wp_fix thm
+prf 6857:6875 <> wpgen_fun_val_sound
+binder 6886:6886 <> x:45
+binder 6888:6888 <> t:46
+R6893:6905 SLF.WPsound <> formula_sound def
+R6922:6930 SLF.WPgen <> wpgen_val def
+R6933:6939 SLF.LibSepReference <> val_fun constr
+R6943:6943 SLF.WPsound <> t:46 var
+R6941:6941 SLF.WPsound <> x:45 var
+R6908:6914 SLF.LibSepReference <> trm_fun constr
+R6918:6918 SLF.WPsound <> t:46 var
+R6916:6916 SLF.WPsound <> x:45 var
+R6987:6995 SLF.WPgen <> wpgen_val def
+R6987:6995 SLF.WPgen <> wpgen_val def
+R7005:7010 SLF.WPgen <> wp_fun defax
+R7005:7010 SLF.WPgen <> wp_fun defax
+prf 7025:7043 <> wpgen_fix_val_sound
+binder 7054:7054 <> f:47
+binder 7056:7056 <> x:48
+binder 7058:7058 <> t:49
+R7063:7075 SLF.WPsound <> formula_sound def
+R7094:7102 SLF.WPgen <> wpgen_val def
+R7105:7111 SLF.LibSepReference <> val_fix constr
+R7117:7117 SLF.WPsound <> t:49 var
+R7115:7115 SLF.WPsound <> x:48 var
+R7113:7113 SLF.WPsound <> f:47 var
+R7078:7084 SLF.LibSepReference <> trm_fix constr
+R7090:7090 SLF.WPsound <> t:49 var
+R7088:7088 SLF.WPsound <> x:48 var
+R7086:7086 SLF.WPsound <> f:47 var
+R7161:7169 SLF.WPgen <> wpgen_val def
+R7161:7169 SLF.WPgen <> wpgen_val def
+R7179:7184 SLF.WPsem <> wp_fix thm
+R7179:7184 SLF.WPsem <> wp_fix thm
+prf 8194:8204 <> mkstruct_wp
+binder 8215:8215 <> t:50
+R8235:8238 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8243:8243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8220:8227 SLF.WPgen <> mkstruct def
+R8230:8231 SLF.WPsem <> wp def
+R8233:8233 SLF.WPsound <> t:50 var
+R8239:8240 SLF.WPsem <> wp def
+R8242:8242 SLF.WPsound <> t:50 var
+R8276:8284 SLF.LibEqual <> fun_ext_1 thm
+R8276:8284 SLF.LibEqual <> fun_ext_1 thm
+R8304:8316 SLF.LibSepReference SepSimplArgs himpl_antisym thm
+R8304:8316 SLF.LibSepReference SepSimplArgs himpl_antisym thm
+R8330:8337 SLF.WPgen <> mkstruct def
+R8369:8383 SLF.WPsem <> wp_conseq_frame prfax
+R8369:8383 SLF.WPsem <> wp_conseq_frame prfax
+R8409:8422 SLF.WPgen <> mkstruct_erase thm
+R8409:8422 SLF.WPgen <> mkstruct_erase thm
+prf 8510:8523 <> mkstruct_sound
+binder 8534:8534 <> t:51
+binder 8536:8536 <> F:52
+R8558:8563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8541:8553 SLF.WPsound <> formula_sound def
+R8557:8557 SLF.WPsound <> F:52 var
+R8555:8555 SLF.WPsound <> t:51 var
+R8564:8576 SLF.WPsound <> formula_sound def
+R8581:8588 SLF.WPgen <> mkstruct def
+R8590:8590 SLF.WPsound <> F:52 var
+R8578:8578 SLF.WPsound <> t:51 var
+R8627:8639 SLF.WPsound <> formula_sound def
+R8627:8639 SLF.WPsound <> formula_sound def
+R8665:8675 SLF.WPsound <> mkstruct_wp thm
+R8665:8675 SLF.WPsound <> mkstruct_wp thm
+R8665:8675 SLF.WPsound <> mkstruct_wp thm
+R8685:8701 SLF.WPgen <> mkstruct_monotone thm
+R8685:8701 SLF.WPgen <> mkstruct_monotone thm
+prf 8872:8886 <> mkstruct_sound'
+binder 8897:8897 <> t:53
+binder 8899:8899 <> F:54
+R8921:8926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8904:8916 SLF.WPsound <> formula_sound def
+R8920:8920 SLF.WPsound <> F:54 var
+R8918:8918 SLF.WPsound <> t:53 var
+R8927:8939 SLF.WPsound <> formula_sound def
+R8944:8951 SLF.WPgen <> mkstruct def
+R8953:8953 SLF.WPsound <> F:54 var
+R8941:8941 SLF.WPsound <> t:53 var
+R8990:9002 SLF.WPsound <> formula_sound def
+R8990:9002 SLF.WPsound <> formula_sound def
+R9108:9115 SLF.WPgen <> mkstruct def
+R9108:9115 SLF.WPgen <> mkstruct def
+R9349:9359 SLF.WPsem <> wp_ramified thm
+R9349:9359 SLF.WPsem <> wp_ramified thm
+prf 10295:10313 <> mkstruct_idempotent
+binder 10324:10324 <> F:55
+R10350:10352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10329:10336 SLF.WPgen <> mkstruct def
+R10339:10346 SLF.WPgen <> mkstruct def
+R10348:10348 SLF.WPsound <> F:55 var
+R10353:10360 SLF.WPgen <> mkstruct def
+R10362:10362 SLF.WPsound <> F:55 var
+R10394:10402 SLF.LibEqual <> fun_ext_1 thm
+R10394:10402 SLF.LibEqual <> fun_ext_1 thm
+R10422:10434 SLF.LibSepReference SepSimplArgs himpl_antisym thm
+R10422:10434 SLF.LibSepReference SepSimplArgs himpl_antisym thm
+ax 10939:10948 <> isubst_nil
+binder 10959:10959 <> t:56
+R10976:10978 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10964:10969 SLF.WPgen <> isubst def
+R10975:10975 SLF.WPsound <> t:56 var
+R10971:10973 Coq.Init.Datatypes <> nil constr
+R10979:10979 SLF.WPsound <> t:56 var
+ax 11260:11269 <> isubst_rem
+binder 11280:11280 <> x:58
+binder 11282:11282 <> v:59
+binder 11284:11284 <> E:60
+binder 11286:11286 <> t:61
+R11310:11312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11291:11296 SLF.WPgen <> isubst def
+R11309:11309 SLF.WPsound <> t:61 var
+R11304:11305 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R11299:11299 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11301:11301 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11303:11303 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11300:11300 SLF.WPsound <> x:58 var
+R11302:11302 SLF.WPsound <> v:59 var
+R11306:11306 SLF.WPsound <> E:60 var
+R11313:11317 SLF.LibSepReference <> subst def
+R11324:11329 SLF.WPgen <> isubst def
+R11341:11341 SLF.WPsound <> t:61 var
+R11332:11334 SLF.WPgen <> rem def
+R11338:11338 SLF.WPsound <> E:60 var
+R11336:11336 SLF.WPsound <> x:58 var
+R11321:11321 SLF.WPsound <> v:59 var
+R11319:11319 SLF.WPsound <> x:58 var
+prf 12127:12144 <> wpgen_sound_induct
+binder 12155:12155 <> E:63
+binder 12157:12157 <> t:64
+R12162:12174 SLF.WPsound <> formula_sound def
+R12190:12194 SLF.WPgen WPgenRec wpgen def
+R12198:12198 SLF.WPsound <> t:64 var
+R12196:12196 SLF.WPsound <> E:63 var
+R12177:12182 SLF.WPgen <> isubst def
+R12186:12186 SLF.WPsound <> t:64 var
+R12184:12184 SLF.WPsound <> E:63 var
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12270:12283 SLF.WPsound <> mkstruct_sound thm
+R12323:12337 SLF.WPsound <> wpgen_val_sound thm
+R12323:12337 SLF.WPsound <> wpgen_val_sound thm
+R12370:12378 SLF.WPgen <> wpgen_var def
+R12390:12395 SLF.WPgen <> lookup def
+R12390:12395 SLF.WPgen <> lookup def
+R12429:12443 SLF.WPsound <> wpgen_val_sound thm
+R12429:12443 SLF.WPsound <> wpgen_val_sound thm
+R12471:12486 SLF.WPsound <> wpgen_fail_sound thm
+R12471:12486 SLF.WPsound <> wpgen_fail_sound thm
+R12504:12518 SLF.WPsound <> wpgen_fun_sound thm
+R12504:12518 SLF.WPsound <> wpgen_fun_sound thm
+R12550:12559 SLF.WPsound <> isubst_rem defax
+R12550:12559 SLF.WPsound <> isubst_rem defax
+R12550:12559 SLF.WPsound <> isubst_rem defax
+R12600:12614 SLF.WPsound <> wpgen_fix_sound thm
+R12600:12614 SLF.WPsound <> wpgen_fix_sound thm
+R12651:12662 SLF.LibSepReference <> isubst_rem_2 thm
+R12651:12662 SLF.LibSepReference <> isubst_rem_2 thm
+R12651:12662 SLF.LibSepReference <> isubst_rem_2 thm
+R12692:12706 SLF.WPsound <> wpgen_app_sound thm
+R12692:12706 SLF.WPsound <> wpgen_app_sound thm
+R12722:12736 SLF.WPsound <> wpgen_seq_sound thm
+R12722:12736 SLF.WPsound <> wpgen_seq_sound thm
+R12803:12817 SLF.WPsound <> wpgen_let_sound thm
+R12803:12817 SLF.WPsound <> wpgen_let_sound thm
+R12868:12877 SLF.WPsound <> isubst_rem defax
+R12868:12877 SLF.WPsound <> isubst_rem defax
+R12868:12877 SLF.WPsound <> isubst_rem defax
+R12908:12921 SLF.WPsound <> wpgen_if_sound thm
+R12908:12921 SLF.WPsound <> wpgen_if_sound thm
+prf 13277:13287 <> wpgen_sound
+binder 13298:13298 <> t:65
+binder 13300:13300 <> Q:66
+R13318:13322 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R13305:13309 SLF.WPgen WPgenRec wpgen def
+R13317:13317 SLF.WPsound <> Q:66 var
+R13315:13315 SLF.WPsound <> t:65 var
+R13311:13313 Coq.Init.Datatypes <> nil constr
+R13323:13324 SLF.WPsem <> wp def
+R13328:13328 SLF.WPsound <> Q:66 var
+R13326:13326 SLF.WPsound <> t:65 var
+R13365:13375 SLF.LibSepReference <> wpgen_sound thm
+R13377:13379 Coq.Init.Datatypes <> nil constr
+R13365:13375 SLF.LibSepReference <> wpgen_sound thm
+R13377:13379 Coq.Init.Datatypes <> nil constr
+R13393:13402 SLF.WPsound <> isubst_nil defax
+R13393:13402 SLF.WPsound <> isubst_nil defax
+R13393:13402 SLF.WPsound <> isubst_nil defax
+prf 13566:13580 <> triple_of_wpgen
+binder 13591:13591 <> t:67
+binder 13593:13593 <> H:68
+binder 13595:13595 <> Q:69
+R13619:13624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13601:13605 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R13600:13600 SLF.WPsound <> H:68 var
+R13606:13610 SLF.WPgen WPgenRec wpgen def
+R13618:13618 SLF.WPsound <> Q:69 var
+R13616:13616 SLF.WPsound <> t:67 var
+R13612:13614 Coq.Init.Datatypes <> nil constr
+R13625:13630 SLF.LibSepReference <> triple def
+R13636:13636 SLF.WPsound <> Q:69 var
+R13634:13634 SLF.WPsound <> H:68 var
+R13632:13632 SLF.WPsound <> t:67 var
+R13675:13682 SLF.WPsem <> wp_equiv thm
+R13675:13682 SLF.WPsem <> wp_equiv thm
+R13675:13682 SLF.WPsem <> wp_equiv thm
+R13703:13713 SLF.WPsound <> wpgen_sound thm
+R13703:13713 SLF.WPsound <> wpgen_sound thm
+prf 14104:14128 <> triple_app_fun_from_wpgen
+binder 14139:14140 <> v1:70
+binder 14142:14143 <> v2:71
+binder 14145:14145 <> x:72
+binder 14147:14148 <> t1:73
+binder 14150:14150 <> H:74
+binder 14152:14152 <> Q:75
+R14174:14179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14159:14161 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14157:14158 SLF.WPsound <> v1:70 var
+R14162:14168 SLF.LibSepReference <> val_fun constr
+R14172:14173 SLF.WPsound <> t1:73 var
+R14170:14170 SLF.WPsound <> x:72 var
+R14210:14215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14181:14185 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14180:14180 SLF.WPsound <> H:74 var
+R14186:14190 SLF.WPgen WPgenRec wpgen def
+R14209:14209 SLF.WPsound <> Q:75 var
+R14206:14207 SLF.WPsound <> t1:73 var
+R14199:14200 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14193:14193 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14195:14195 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14198:14198 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14194:14194 SLF.WPsound <> x:72 var
+R14196:14197 SLF.WPsound <> v2:71 var
+R14201:14203 Coq.Init.Datatypes <> nil constr
+R14216:14221 SLF.LibSepReference <> triple def
+R14241:14241 SLF.WPsound <> Q:75 var
+R14239:14239 SLF.WPsound <> H:74 var
+R14224:14230 SLF.LibSepReference <> trm_app constr
+R14235:14236 SLF.WPsound <> v2:71 var
+R14232:14233 SLF.WPsound <> v1:70 var
+R14280:14293 SLF.WPsem <> triple_app_fun defax
+R14280:14293 SLF.WPsem <> triple_app_fun defax
+R14331:14333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14318:14322 SLF.LibSepReference <> subst def
+R14334:14339 SLF.WPgen <> isubst def
+R14348:14349 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14342:14342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14344:14344 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14347:14347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14350:14352 Coq.Init.Datatypes <> nil constr
+R14331:14333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14318:14322 SLF.LibSepReference <> subst def
+R14334:14339 SLF.WPgen <> isubst def
+R14348:14349 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14342:14342 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14344:14344 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14347:14347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14350:14352 Coq.Init.Datatypes <> nil constr
+R14372:14381 SLF.WPsound <> isubst_rem defax
+R14372:14381 SLF.WPsound <> isubst_rem defax
+R14372:14381 SLF.WPsound <> isubst_rem defax
+R14393:14402 SLF.WPsound <> isubst_nil defax
+R14393:14402 SLF.WPsound <> isubst_nil defax
+R14420:14427 SLF.WPsem <> wp_equiv thm
+R14420:14427 SLF.WPsem <> wp_equiv thm
+R14420:14427 SLF.WPsem <> wp_equiv thm
+R14449:14466 SLF.WPsound <> wpgen_sound_induct thm
+R14449:14466 SLF.WPsound <> wpgen_sound_induct thm
+prf 14575:14599 <> triple_app_fix_from_wpgen
+binder 14610:14611 <> v1:76
+binder 14613:14614 <> v2:77
+binder 14616:14616 <> f:78
+binder 14618:14618 <> x:79
+binder 14620:14621 <> t1:80
+binder 14623:14623 <> H:81
+binder 14625:14625 <> Q:82
+R14649:14654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14632:14634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14630:14631 SLF.WPsound <> v1:76 var
+R14635:14641 SLF.LibSepReference <> val_fix constr
+R14647:14648 SLF.WPsound <> t1:80 var
+R14645:14645 SLF.WPsound <> x:79 var
+R14643:14643 SLF.WPsound <> f:78 var
+R14693:14698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14656:14660 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14655:14655 SLF.WPsound <> H:81 var
+R14661:14665 SLF.WPgen WPgenRec wpgen def
+R14692:14692 SLF.WPsound <> Q:82 var
+R14689:14690 SLF.WPsound <> t1:80 var
+R14674:14675 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14668:14668 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14670:14670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14673:14673 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14669:14669 SLF.WPsound <> f:78 var
+R14671:14672 SLF.WPsound <> v1:76 var
+R14682:14683 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14676:14676 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14678:14678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14681:14681 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14677:14677 SLF.WPsound <> x:79 var
+R14679:14680 SLF.WPsound <> v2:77 var
+R14684:14686 Coq.Init.Datatypes <> nil constr
+R14699:14704 SLF.LibSepReference <> triple def
+R14724:14724 SLF.WPsound <> Q:82 var
+R14722:14722 SLF.WPsound <> H:81 var
+R14707:14713 SLF.LibSepReference <> trm_app constr
+R14718:14719 SLF.WPsound <> v2:77 var
+R14715:14716 SLF.WPsound <> v1:76 var
+R14763:14776 SLF.Rules <> triple_app_fix thm
+R14763:14776 SLF.Rules <> triple_app_fix thm
+R14827:14846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14801:14805 SLF.LibSepReference <> subst def
+R14813:14817 SLF.LibSepReference <> subst def
+R14847:14852 SLF.WPgen <> isubst def
+R14861:14862 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14855:14855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14857:14857 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14860:14860 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14869:14870 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14863:14863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14865:14865 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14868:14868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14871:14873 Coq.Init.Datatypes <> nil constr
+R14827:14846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14801:14805 SLF.LibSepReference <> subst def
+R14813:14817 SLF.LibSepReference <> subst def
+R14847:14852 SLF.WPgen <> isubst def
+R14861:14862 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14855:14855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14857:14857 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14860:14860 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14869:14870 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R14863:14863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14865:14865 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14868:14868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14871:14873 Coq.Init.Datatypes <> nil constr
+R14893:14904 SLF.LibSepReference <> isubst_rem_2 thm
+R14893:14904 SLF.LibSepReference <> isubst_rem_2 thm
+R14893:14904 SLF.LibSepReference <> isubst_rem_2 thm
+R14916:14925 SLF.WPsound <> isubst_nil defax
+R14916:14925 SLF.WPsound <> isubst_nil defax
+R14943:14950 SLF.WPsem <> wp_equiv thm
+R14943:14950 SLF.WPsem <> wp_equiv thm
+R14943:14950 SLF.WPsem <> wp_equiv thm
+R14972:14989 SLF.WPsound <> wpgen_sound_induct thm
+R14972:14989 SLF.WPsound <> wpgen_sound_induct thm
+mod 15233:15242 <> IsubstProp
+R15292:15294 SLF.WPgen <> ctx def
+prf 15900:15909 IsubstProp isubst_nil
+binder 15920:15920 <> t:83
+R15937:15939 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15925:15930 SLF.WPgen <> isubst def
+R15936:15936 SLF.WPsound <> t:83 var
+R15932:15934 Coq.Init.Datatypes <> nil constr
+R15940:15940 SLF.WPsound <> t:83 var
+prf 16934:16952 IsubstProp subst_eq_isubst_one
+binder 16963:16963 <> x:84
+binder 16965:16965 <> v:85
+binder 16967:16967 <> t:86
+R16983:16985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16972:16976 SLF.LibSepReference <> subst def
+R16982:16982 SLF.WPsound <> t:86 var
+R16980:16980 SLF.WPsound <> v:85 var
+R16978:16978 SLF.WPsound <> x:84 var
+R16986:16991 SLF.WPgen <> isubst def
+R17006:17006 SLF.WPsound <> t:86 var
+R16999:17000 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R16994:16994 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16996:16996 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16998:16998 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16995:16995 SLF.WPsound <> x:84 var
+R16997:16997 SLF.WPsound <> v:85 var
+R17001:17003 Coq.Init.Datatypes <> nil constr
+R17119:17128 SLF.WPsound IsubstProp isubst_nil thm
+R17119:17128 SLF.WPsound IsubstProp isubst_nil thm
+R17219:17228 SLF.WPsound IsubstProp isubst_nil thm
+R17219:17228 SLF.WPsound IsubstProp isubst_nil thm
+R17219:17228 SLF.WPsound IsubstProp isubst_nil thm
+R17219:17228 SLF.WPsound IsubstProp isubst_nil thm
+R17219:17228 SLF.WPsound IsubstProp isubst_nil thm
+R17219:17228 SLF.WPsound IsubstProp isubst_nil thm
+R17307:17316 SLF.WPsound IsubstProp isubst_nil thm
+R17307:17316 SLF.WPsound IsubstProp isubst_nil thm
+prf 17398:17407 IsubstProp lookup_rem
+binder 17418:17418 <> x:87
+binder 17420:17420 <> y:88
+binder 17422:17422 <> E:89
+R17445:17447 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17427:17432 SLF.WPgen <> lookup def
+R17437:17439 SLF.WPgen <> rem def
+R17443:17443 SLF.WPsound <> E:89 var
+R17441:17441 SLF.WPsound <> y:88 var
+R17434:17434 SLF.WPsound <> x:87 var
+R17451:17456 SLF.LibSepVar <> var_eq def
+R17460:17460 SLF.WPsound <> y:88 var
+R17458:17458 SLF.WPsound <> x:87 var
+R17477:17482 SLF.WPgen <> lookup def
+R17486:17486 SLF.WPsound <> E:89 var
+R17484:17484 SLF.WPsound <> x:87 var
+R17467:17470 Coq.Init.Datatypes <> None constr
+prf 17668:17674 IsubstProp rem_app
+binder 17685:17685 <> x:90
+binder 17687:17688 <> E1:91
+binder 17690:17691 <> E2:92
+R17712:17714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17696:17698 SLF.WPgen <> rem def
+R17705:17708 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R17703:17704 SLF.WPsound <> E1:91 var
+R17709:17710 SLF.WPsound <> E2:92 var
+R17700:17700 SLF.WPsound <> x:90 var
+R17723:17726 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R17715:17717 SLF.WPgen <> rem def
+R17721:17722 SLF.WPsound <> E1:91 var
+R17719:17719 SLF.WPsound <> x:90 var
+R17727:17729 SLF.WPgen <> rem def
+R17733:17734 SLF.WPsound <> E2:92 var
+R17731:17731 SLF.WPsound <> x:90 var
+def 17921:17929 IsubstProp ctx_equiv
+binder 17931:17932 <> E1:93
+binder 17934:17935 <> E2:94
+binder 17949:17949 <> x:95
+R17963:17965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17952:17957 SLF.WPgen <> lookup def
+R17961:17962 SLF.WPsound <> E1:93 var
+R17959:17959 SLF.WPsound <> x:95 var
+R17966:17971 SLF.WPgen <> lookup def
+R17975:17976 SLF.WPsound <> E2:94 var
+R17973:17973 SLF.WPsound <> x:95 var
+prf 18039:18051 IsubstProp ctx_equiv_rem
+binder 18062:18062 <> x:96
+binder 18064:18065 <> E1:97
+binder 18067:18068 <> E2:98
+R18088:18093 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18073:18081 SLF.WPsound IsubstProp ctx_equiv def
+R18086:18087 SLF.WPsound <> E2:98 var
+R18083:18084 SLF.WPsound <> E1:97 var
+R18094:18102 SLF.WPsound IsubstProp ctx_equiv def
+R18116:18118 SLF.WPgen <> rem def
+R18122:18123 SLF.WPsound <> E2:98 var
+R18120:18120 SLF.WPsound <> x:96 var
+R18105:18107 SLF.WPgen <> rem def
+R18111:18112 SLF.WPsound <> E1:97 var
+R18109:18109 SLF.WPsound <> x:96 var
+R18160:18168 SLF.WPsound IsubstProp ctx_equiv def
+R18160:18168 SLF.WPsound IsubstProp ctx_equiv def
+R18196:18205 SLF.WPsound IsubstProp lookup_rem thm
+R18196:18205 SLF.WPsound IsubstProp lookup_rem thm
+R18196:18205 SLF.WPsound IsubstProp lookup_rem thm
+R18196:18205 SLF.WPsound IsubstProp lookup_rem thm
+R18196:18205 SLF.WPsound IsubstProp lookup_rem thm
+prf 18312:18327 IsubstProp isubst_ctx_equiv
+binder 18338:18338 <> t:99
+binder 18340:18341 <> E1:100
+binder 18343:18344 <> E2:101
+R18364:18369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18349:18357 SLF.WPsound IsubstProp ctx_equiv def
+R18362:18363 SLF.WPsound <> E2:101 var
+R18359:18360 SLF.WPsound <> E1:100 var
+R18381:18383 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18370:18375 SLF.WPgen <> isubst def
+R18380:18380 SLF.WPsound <> t:99 var
+R18377:18378 SLF.WPsound <> E1:100 var
+R18384:18389 SLF.WPgen <> isubst def
+R18394:18394 SLF.WPsound <> t:99 var
+R18391:18392 SLF.WPsound <> E2:101 var
+R18417:18429 SLF.WPsound IsubstProp ctx_equiv_rem thm
+R18417:18429 SLF.WPsound IsubstProp ctx_equiv_rem thm
+def 18571:18582 IsubstProp ctx_disjoint
+binder 18584:18585 <> E1:102
+binder 18587:18588 <> E2:103
+binder 18602:18602 <> x:104
+binder 18604:18605 <> v1:105
+binder 18607:18608 <> v2:106
+R18632:18635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18622:18624 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18611:18616 SLF.WPgen <> lookup def
+R18620:18621 SLF.WPsound <> E1:102 var
+R18618:18618 SLF.WPsound <> x:104 var
+R18625:18628 Coq.Init.Datatypes <> Some constr
+R18630:18631 SLF.WPsound <> v1:105 var
+R18657:18660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18647:18649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18636:18641 SLF.WPgen <> lookup def
+R18645:18646 SLF.WPsound <> E2:103 var
+R18643:18643 SLF.WPsound <> x:104 var
+R18650:18653 Coq.Init.Datatypes <> Some constr
+R18655:18656 SLF.WPsound <> v2:106 var
+R18661:18665 Coq.Init.Logic <> False ind
+prf 18715:18730 IsubstProp ctx_disjoint_rem
+binder 18741:18741 <> x:107
+binder 18743:18744 <> E1:108
+binder 18746:18747 <> E2:109
+R18770:18775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18752:18763 SLF.WPsound IsubstProp ctx_disjoint def
+R18768:18769 SLF.WPsound <> E2:109 var
+R18765:18766 SLF.WPsound <> E1:108 var
+R18776:18787 SLF.WPsound IsubstProp ctx_disjoint def
+R18801:18803 SLF.WPgen <> rem def
+R18807:18808 SLF.WPsound <> E2:109 var
+R18805:18805 SLF.WPsound <> x:107 var
+R18790:18792 SLF.WPgen <> rem def
+R18796:18797 SLF.WPsound <> E1:108 var
+R18794:18794 SLF.WPsound <> x:107 var
+R18867:18876 SLF.WPsound IsubstProp lookup_rem thm
+R18867:18876 SLF.WPsound IsubstProp lookup_rem thm
+R18867:18876 SLF.WPsound IsubstProp lookup_rem thm
+prf 19089:19098 IsubstProp lookup_app
+binder 19109:19109 <> x:110
+binder 19111:19112 <> E1:111
+binder 19114:19115 <> E2:112
+R19139:19141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19120:19125 SLF.WPgen <> lookup def
+R19132:19135 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R19130:19131 SLF.WPsound <> E1:111 var
+R19136:19137 SLF.WPsound <> E2:112 var
+R19127:19127 SLF.WPsound <> x:110 var
+R19148:19153 SLF.WPgen <> lookup def
+R19157:19158 SLF.WPsound <> E1:111 var
+R19155:19155 SLF.WPsound <> x:110 var
+R19191:19194 Coq.Init.Datatypes <> None constr
+R19199:19204 SLF.WPgen <> lookup def
+R19208:19209 SLF.WPsound <> E2:112 var
+R19206:19206 SLF.WPsound <> x:110 var
+R19237:19240 Coq.Init.Datatypes <> Some constr
+R19247:19250 Coq.Init.Datatypes <> Some constr
+prf 19492:19501 IsubstProp isubst_app
+binder 19512:19512 <> t:113
+binder 19514:19515 <> E1:114
+binder 19517:19518 <> E2:115
+R19542:19544 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19523:19528 SLF.WPgen <> isubst def
+R19541:19541 SLF.WPsound <> t:113 var
+R19533:19536 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R19531:19532 SLF.WPsound <> E1:114 var
+R19537:19538 SLF.WPsound <> E2:115 var
+R19545:19550 SLF.WPgen <> isubst def
+R19556:19561 SLF.WPgen <> isubst def
+R19566:19566 SLF.WPsound <> t:113 var
+R19563:19564 SLF.WPsound <> E1:114 var
+R19552:19553 SLF.WPsound <> E2:115 var
+R19590:19605 SLF.WPsound IsubstProp ctx_disjoint_rem thm
+R19590:19605 SLF.WPsound IsubstProp ctx_disjoint_rem thm
+R19693:19702 SLF.WPsound IsubstProp lookup_app thm
+R19693:19702 SLF.WPsound IsubstProp lookup_app thm
+R19718:19723 SLF.WPgen <> lookup def
+R19752:19757 SLF.WPgen <> lookup def
+R19718:19723 SLF.WPgen <> lookup def
+R19752:19757 SLF.WPgen <> lookup def
+R19752:19757 SLF.WPgen <> lookup def
+R19863:19869 SLF.WPsound IsubstProp rem_app thm
+R19863:19869 SLF.WPsound IsubstProp rem_app thm
+R19901:19907 SLF.WPsound IsubstProp rem_app thm
+R19901:19907 SLF.WPsound IsubstProp rem_app thm
+R19901:19907 SLF.WPsound IsubstProp rem_app thm
+R19969:19975 SLF.WPsound IsubstProp rem_app thm
+R19969:19975 SLF.WPsound IsubstProp rem_app thm
+prf 20145:20159 IsubstProp isubst_app_swap
+binder 20170:20170 <> t:116
+binder 20172:20173 <> E1:117
+binder 20175:20176 <> E2:118
+R20199:20204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20181:20192 SLF.WPsound IsubstProp ctx_disjoint def
+R20197:20198 SLF.WPsound <> E2:118 var
+R20194:20195 SLF.WPsound <> E1:117 var
+R20224:20226 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20205:20210 SLF.WPgen <> isubst def
+R20223:20223 SLF.WPsound <> t:116 var
+R20215:20218 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R20213:20214 SLF.WPsound <> E1:117 var
+R20219:20220 SLF.WPsound <> E2:118 var
+R20227:20232 SLF.WPgen <> isubst def
+R20245:20245 SLF.WPsound <> t:116 var
+R20237:20240 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R20235:20236 SLF.WPsound <> E2:118 var
+R20241:20242 SLF.WPsound <> E1:117 var
+R20280:20295 SLF.WPsound IsubstProp isubst_ctx_equiv thm
+R20280:20295 SLF.WPsound IsubstProp isubst_ctx_equiv thm
+R20306:20327 SLF.LibSepReference <> ctx_disjoint_equiv_app thm
+R20306:20327 SLF.LibSepReference <> ctx_disjoint_equiv_app thm
+prf 20403:20412 IsubstProp isubst_rem
+binder 20423:20423 <> x:119
+binder 20425:20425 <> v:120
+binder 20427:20427 <> E:121
+binder 20429:20429 <> t:122
+R20454:20456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20434:20439 SLF.WPgen <> isubst def
+R20453:20453 SLF.WPsound <> t:122 var
+R20448:20449 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R20442:20442 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20444:20445 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20447:20447 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20443:20443 SLF.WPsound <> x:119 var
+R20446:20446 SLF.WPsound <> v:120 var
+R20450:20450 SLF.WPsound <> E:121 var
+R20457:20461 SLF.LibSepReference <> subst def
+R20468:20473 SLF.WPgen <> isubst def
+R20485:20485 SLF.WPsound <> t:122 var
+R20476:20478 SLF.WPgen <> rem def
+R20482:20482 SLF.WPsound <> E:121 var
+R20480:20480 SLF.WPsound <> x:119 var
+R20465:20465 SLF.WPsound <> v:120 var
+R20463:20463 SLF.WPsound <> x:119 var
+R20520:20538 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R20520:20538 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R20520:20538 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R20552:20561 SLF.WPsound IsubstProp isubst_app thm
+R20552:20561 SLF.WPsound IsubstProp isubst_app thm
+R20552:20561 SLF.WPsound IsubstProp isubst_app thm
+R20574:20588 SLF.WPsound IsubstProp isubst_app_swap thm
+R20574:20588 SLF.WPsound IsubstProp isubst_app_swap thm
+R20574:20588 SLF.WPsound IsubstProp isubst_app_swap thm
+R20574:20588 SLF.WPsound IsubstProp isubst_app_swap thm
+R20602:20617 SLF.WPsound IsubstProp isubst_ctx_equiv thm
+R20602:20617 SLF.WPsound IsubstProp isubst_ctx_equiv thm
+R20672:20681 SLF.WPsound IsubstProp lookup_rem thm
+R20672:20681 SLF.WPsound IsubstProp lookup_rem thm
+R20672:20681 SLF.WPsound IsubstProp lookup_rem thm
+R20764:20773 SLF.WPsound IsubstProp lookup_rem thm
+R20764:20773 SLF.WPsound IsubstProp lookup_rem thm
+R20764:20773 SLF.WPsound IsubstProp lookup_rem thm
+prf 20938:20949 IsubstProp isubst_rem_2
+binder 20960:20960 <> f:123
+binder 20962:20962 <> x:124
+binder 20964:20965 <> vf:125
+binder 20967:20968 <> vx:126
+binder 20970:20970 <> E:127
+binder 20972:20972 <> t:128
+R21007:21011 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20979:20984 SLF.WPgen <> isubst def
+R21006:21006 SLF.WPsound <> t:128 var
+R20993:20994 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R20987:20987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20989:20989 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20992:20992 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20988:20988 SLF.WPsound <> f:123 var
+R20990:20991 SLF.WPsound <> vf:125 var
+R21001:21002 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R20995:20995 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20997:20997 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21000:21000 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20996:20996 SLF.WPsound <> x:124 var
+R20998:20999 SLF.WPsound <> vx:126 var
+R21003:21003 SLF.WPsound <> E:127 var
+R21012:21016 SLF.LibSepReference <> subst def
+R21024:21028 SLF.LibSepReference <> subst def
+R21036:21041 SLF.WPgen <> isubst def
+R21061:21061 SLF.WPsound <> t:128 var
+R21044:21046 SLF.WPgen <> rem def
+R21051:21053 SLF.WPgen <> rem def
+R21057:21057 SLF.WPsound <> E:127 var
+R21055:21055 SLF.WPsound <> f:123 var
+R21048:21048 SLF.WPsound <> x:124 var
+R21032:21033 SLF.WPsound <> vf:125 var
+R21030:21030 SLF.WPsound <> f:123 var
+R21020:21021 SLF.WPsound <> vx:126 var
+R21018:21018 SLF.WPsound <> x:124 var
+R21102:21120 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R21102:21120 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R21102:21120 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R21102:21120 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R21102:21120 SLF.WPsound IsubstProp subst_eq_isubst_one thm
+R21139:21148 SLF.WPsound IsubstProp isubst_app thm
+R21139:21148 SLF.WPsound IsubstProp isubst_app thm
+R21139:21148 SLF.WPsound IsubstProp isubst_app thm
+R21139:21148 SLF.WPsound IsubstProp isubst_app thm
+R21139:21148 SLF.WPsound IsubstProp isubst_app thm
+R21161:21175 SLF.WPsound IsubstProp isubst_app_swap thm
+R21161:21175 SLF.WPsound IsubstProp isubst_app_swap thm
+R21161:21175 SLF.WPsound IsubstProp isubst_app_swap thm
+R21161:21175 SLF.WPsound IsubstProp isubst_app_swap thm
+R21189:21204 SLF.WPsound IsubstProp isubst_ctx_equiv thm
+R21189:21204 SLF.WPsound IsubstProp isubst_ctx_equiv thm
+R21251:21260 SLF.WPsound IsubstProp lookup_rem thm
+R21251:21260 SLF.WPsound IsubstProp lookup_rem thm
+R21251:21260 SLF.WPsound IsubstProp lookup_rem thm
+R21251:21260 SLF.WPsound IsubstProp lookup_rem thm
+R21251:21260 SLF.WPsound IsubstProp lookup_rem thm
+R21343:21352 SLF.WPsound IsubstProp lookup_rem thm
+R21343:21352 SLF.WPsound IsubstProp lookup_rem thm
+R21343:21352 SLF.WPsound IsubstProp lookup_rem thm
+R21343:21352 SLF.WPsound IsubstProp lookup_rem thm
+R21343:21352 SLF.WPsound IsubstProp lookup_rem thm
+R21383:21392 SLF.WPsound IsubstProp <> mod

@@ -1,0 +1,19 @@
+DIGEST debbe0e98cfac05b51d1b530d27513f9
+FSLF.LibUnit
+R379:388 SLF.LibTactics <> <> lib
+R390:397 SLF.LibLogic <> <> lib
+R399:408 SLF.LibReflect <> <> lib
+inst 1076:1085 <> Inhab_unit
+R1089:1093 SLF.LibLogic <> Inhab class
+R1095:1098 Coq.Init.Datatypes <> unit ind
+R1129:1140 SLF.LibLogic <> Inhab_of_val thm
+R1142:1143 Coq.Init.Datatypes <> tt constr
+R1129:1140 SLF.LibLogic <> Inhab_of_val thm
+R1142:1143 Coq.Init.Datatypes <> tt constr
+prf 1500:1506 <> unit_eq
+R1528:1531 Coq.Init.Datatypes <> unit ind
+binder 1518:1520 <> tt1:1
+binder 1522:1524 <> tt2:2
+R1540:1542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1537:1539 SLF.LibUnit <> tt1:1 var
+R1543:1545 SLF.LibUnit <> tt2:2 var

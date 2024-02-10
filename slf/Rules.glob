@@ -1,0 +1,1084 @@
+DIGEST 084c354795038041045d84a32706945f
+FSLF.Rules
+R102:116 SLF.LibSepReference <> <> lib
+R136:140 SLF.Basic <> <> lib
+R163:165 SLF.LibInt <> ::Int_scope:'int' not
+R187:189 SLF.LibSepReference <> trm ind
+R213:215 SLF.LibSepReference <> val ind
+R237:239 SLF.LibSepReference <> loc def
+R261:265 SLF.LibSepReference SepSimplArgs hprop def
+R290:291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R287:289 SLF.LibSepReference <> val ind
+R292:296 SLF.LibSepReference SepSimplArgs hprop def
+prf 2013:2022 <> triple_seq
+binder 2033:2034 <> t1:1
+binder 2036:2037 <> t2:2
+binder 2039:2039 <> H:3
+binder 2041:2041 <> Q:4
+binder 2043:2044 <> H1:5
+R2074:2079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2049:2054 SLF.LibSepReference <> triple def
+binder 2066:2066 <> v:6
+R2071:2072 SLF.Rules <> H1:5 var
+R2059:2059 SLF.Rules <> H:3 var
+R2056:2057 SLF.Rules <> t1:1 var
+R2094:2099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2080:2085 SLF.LibSepReference <> triple def
+R2093:2093 SLF.Rules <> Q:4 var
+R2090:2091 SLF.Rules <> H1:5 var
+R2087:2088 SLF.Rules <> t2:2 var
+R2100:2105 SLF.LibSepReference <> triple def
+R2125:2125 SLF.Rules <> Q:4 var
+R2123:2123 SLF.Rules <> H:3 var
+R2108:2114 SLF.LibSepReference <> trm_seq constr
+R2119:2120 SLF.Rules <> t2:2 var
+R2116:2117 SLF.Rules <> t1:1 var
+prf 3625:3634 <> triple_let
+binder 3645:3645 <> x:7
+binder 3647:3648 <> t1:8
+binder 3650:3651 <> t2:9
+binder 3653:3654 <> Q1:10
+binder 3656:3656 <> H:11
+binder 3658:3658 <> Q:12
+R3677:3682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3663:3668 SLF.LibSepReference <> triple def
+R3675:3676 SLF.Rules <> Q1:10 var
+R3673:3673 SLF.Rules <> H:11 var
+R3670:3671 SLF.Rules <> t1:8 var
+R3683:3683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3727:3733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3691:3692 <> v1:13
+R3695:3700 SLF.LibSepReference <> triple def
+R3726:3726 SLF.Rules <> Q:12 var
+R3719:3720 SLF.Rules <> Q1:10 var
+R3722:3723 SLF.Rules <> v1:13 var
+R3703:3707 SLF.LibSepReference <> subst def
+R3714:3715 SLF.Rules <> t2:9 var
+R3711:3712 SLF.Rules <> v1:13 var
+R3709:3709 SLF.Rules <> x:7 var
+R3734:3739 SLF.LibSepReference <> triple def
+R3761:3761 SLF.Rules <> Q:12 var
+R3759:3759 SLF.Rules <> H:11 var
+R3742:3748 SLF.LibSepReference <> trm_let constr
+R3755:3756 SLF.Rules <> t2:9 var
+R3752:3753 SLF.Rules <> t1:8 var
+R3750:3750 SLF.Rules <> x:7 var
+R3802:3809 SLF.LibSepReference <> eval_let constr
+R3802:3809 SLF.LibSepReference <> eval_let constr
+prf 4224:4237 <> triple_if_case
+binder 4248:4248 <> b:14
+binder 4250:4251 <> t1:15
+binder 4253:4254 <> t2:16
+binder 4256:4256 <> H:17
+binder 4258:4258 <> Q:18
+R4263:4263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4289:4295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4272:4275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4265:4267 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4264:4264 SLF.Rules <> b:14 var
+R4268:4271 Coq.Init.Datatypes <> true constr
+R4276:4281 SLF.LibSepReference <> triple def
+R4288:4288 SLF.Rules <> Q:18 var
+R4286:4286 SLF.Rules <> H:17 var
+R4283:4284 SLF.Rules <> t1:15 var
+R4296:4296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4323:4329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4306:4309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4298:4300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4297:4297 SLF.Rules <> b:14 var
+R4301:4305 Coq.Init.Datatypes <> false constr
+R4310:4315 SLF.LibSepReference <> triple def
+R4322:4322 SLF.Rules <> Q:18 var
+R4320:4320 SLF.Rules <> H:17 var
+R4317:4318 SLF.Rules <> t2:16 var
+R4330:4335 SLF.LibSepReference <> triple def
+R4367:4367 SLF.Rules <> Q:18 var
+R4365:4365 SLF.Rules <> H:17 var
+R4338:4343 SLF.LibSepReference <> trm_if constr
+R4361:4362 SLF.Rules <> t2:16 var
+R4358:4359 SLF.Rules <> t1:15 var
+R4346:4353 SLF.LibSepReference <> val_bool constr
+R4355:4355 SLF.Rules <> b:14 var
+prf 4791:4799 <> triple_if
+R4813:4816 Coq.Init.Datatypes <> bool ind
+binder 4811:4811 <> b:19
+binder 4819:4820 <> t1:20
+binder 4822:4823 <> t2:21
+binder 4825:4825 <> H:22
+binder 4827:4827 <> Q:23
+R4865:4870 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4832:4837 SLF.LibSepReference <> triple def
+R4864:4864 SLF.Rules <> Q:23 var
+R4862:4862 SLF.Rules <> H:22 var
+R4843:4843 SLF.Rules <> b:19 var
+R4858:4859 SLF.Rules <> t2:21 var
+R4850:4851 SLF.Rules <> t1:20 var
+R4871:4876 SLF.LibSepReference <> triple def
+R4897:4897 SLF.Rules <> Q:23 var
+R4895:4895 SLF.Rules <> H:22 var
+R4879:4884 SLF.LibSepReference <> trm_if constr
+R4891:4892 SLF.Rules <> t2:21 var
+R4888:4889 SLF.Rules <> t1:20 var
+R4886:4886 SLF.Rules <> b:19 var
+R4934:4940 SLF.LibSepReference <> eval_if constr
+R4934:4940 SLF.LibSepReference <> eval_if constr
+prf 5679:5688 <> triple_val
+binder 5699:5699 <> v:24
+binder 5701:5701 <> H:25
+binder 5703:5703 <> Q:26
+R5717:5722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5709:5713 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R5708:5708 SLF.Rules <> H:25 var
+R5714:5714 SLF.Rules <> Q:26 var
+R5716:5716 SLF.Rules <> v:24 var
+R5723:5728 SLF.LibSepReference <> triple def
+R5744:5744 SLF.Rules <> Q:26 var
+R5742:5742 SLF.Rules <> H:25 var
+R5731:5737 SLF.LibSepReference <> trm_val constr
+R5739:5739 SLF.Rules <> v:24 var
+R5781:5788 SLF.LibSepReference <> eval_val constr
+R5781:5788 SLF.LibSepReference <> eval_val constr
+prf 6200:6217 <> triple_val_minimal
+binder 6228:6228 <> v:27
+R6233:6238 SLF.LibSepReference <> triple def
+binder 6261:6261 <> r:28
+R6266:6267 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R6273:6273 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R6269:6271 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6268:6268 SLF.Rules <> r:28 var
+R6272:6272 SLF.Rules <> v:27 var
+R6252:6254 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R6241:6247 SLF.LibSepReference <> trm_val constr
+R6249:6249 SLF.Rules <> v:27 var
+prf 6713:6723 <> triple_val'
+binder 6734:6734 <> v:29
+binder 6736:6736 <> H:30
+binder 6738:6738 <> Q:31
+R6752:6757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6744:6748 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R6743:6743 SLF.Rules <> H:30 var
+R6749:6749 SLF.Rules <> Q:31 var
+R6751:6751 SLF.Rules <> v:29 var
+R6758:6763 SLF.LibSepReference <> triple def
+R6779:6779 SLF.Rules <> Q:31 var
+R6777:6777 SLF.Rules <> H:30 var
+R6766:6772 SLF.LibSepReference <> trm_val constr
+R6774:6774 SLF.Rules <> v:29 var
+prf 8054:8063 <> triple_fun
+binder 8074:8074 <> x:32
+binder 8076:8077 <> t1:33
+binder 8079:8079 <> H:34
+binder 8081:8081 <> Q:35
+R8108:8113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8087:8091 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R8086:8086 SLF.Rules <> H:34 var
+R8092:8092 SLF.Rules <> Q:35 var
+R8095:8101 SLF.LibSepReference <> val_fun constr
+R8105:8106 SLF.Rules <> t1:33 var
+R8103:8103 SLF.Rules <> x:32 var
+R8114:8119 SLF.LibSepReference <> triple def
+R8138:8138 SLF.Rules <> Q:35 var
+R8136:8136 SLF.Rules <> H:34 var
+R8122:8128 SLF.LibSepReference <> trm_fun constr
+R8132:8133 SLF.Rules <> t1:33 var
+R8130:8130 SLF.Rules <> x:32 var
+R8175:8182 SLF.LibSepReference <> eval_fun constr
+R8175:8182 SLF.LibSepReference <> eval_fun constr
+prf 8409:8418 <> triple_fix
+binder 8429:8429 <> f:36
+binder 8431:8431 <> x:37
+binder 8433:8434 <> t1:38
+binder 8436:8436 <> H:39
+binder 8438:8438 <> Q:40
+R8467:8472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8444:8448 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R8443:8443 SLF.Rules <> H:39 var
+R8449:8449 SLF.Rules <> Q:40 var
+R8452:8458 SLF.LibSepReference <> val_fix constr
+R8464:8465 SLF.Rules <> t1:38 var
+R8462:8462 SLF.Rules <> x:37 var
+R8460:8460 SLF.Rules <> f:36 var
+R8473:8478 SLF.LibSepReference <> triple def
+R8499:8499 SLF.Rules <> Q:40 var
+R8497:8497 SLF.Rules <> H:39 var
+R8481:8487 SLF.LibSepReference <> trm_fix constr
+R8493:8494 SLF.Rules <> t1:38 var
+R8491:8491 SLF.Rules <> x:37 var
+R8489:8489 SLF.Rules <> f:36 var
+R8536:8543 SLF.LibSepReference <> eval_fix constr
+R8536:8543 SLF.LibSepReference <> eval_fix constr
+prf 9233:9246 <> triple_app_fun
+binder 9257:9257 <> x:41
+binder 9259:9260 <> v1:42
+binder 9262:9263 <> v2:43
+binder 9265:9266 <> t1:44
+binder 9268:9268 <> H:45
+binder 9270:9270 <> Q:46
+R9292:9297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9277:9279 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9275:9276 SLF.Rules <> v1:42 var
+R9280:9286 SLF.LibSepReference <> val_fun constr
+R9290:9291 SLF.Rules <> t1:44 var
+R9288:9288 SLF.Rules <> x:41 var
+R9324:9329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9298:9303 SLF.LibSepReference <> triple def
+R9323:9323 SLF.Rules <> Q:46 var
+R9321:9321 SLF.Rules <> H:45 var
+R9306:9310 SLF.LibSepReference <> subst def
+R9317:9318 SLF.Rules <> t1:44 var
+R9314:9315 SLF.Rules <> v2:43 var
+R9312:9312 SLF.Rules <> x:41 var
+R9330:9335 SLF.LibSepReference <> triple def
+R9355:9355 SLF.Rules <> Q:46 var
+R9353:9353 SLF.Rules <> H:45 var
+R9338:9344 SLF.LibSepReference <> trm_app constr
+R9349:9350 SLF.Rules <> v2:43 var
+R9346:9347 SLF.Rules <> v1:42 var
+R9394:9405 SLF.LibSepReference <> eval_app_fun constr
+R9394:9405 SLF.LibSepReference <> eval_app_fun constr
+prf 9686:9699 <> triple_app_fix
+binder 9710:9711 <> v1:47
+binder 9713:9714 <> v2:48
+binder 9716:9716 <> f:49
+binder 9718:9718 <> x:50
+binder 9720:9721 <> t1:51
+binder 9723:9723 <> H:52
+binder 9725:9725 <> Q:53
+R9749:9754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9732:9734 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9730:9731 SLF.Rules <> v1:47 var
+R9735:9741 SLF.LibSepReference <> val_fix constr
+R9747:9748 SLF.Rules <> t1:51 var
+R9745:9745 SLF.Rules <> x:50 var
+R9743:9743 SLF.Rules <> f:49 var
+R9794:9799 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9755:9760 SLF.LibSepReference <> triple def
+R9793:9793 SLF.Rules <> Q:53 var
+R9791:9791 SLF.Rules <> H:52 var
+R9763:9767 SLF.LibSepReference <> subst def
+R9775:9779 SLF.LibSepReference <> subst def
+R9786:9787 SLF.Rules <> t1:51 var
+R9783:9784 SLF.Rules <> v1:47 var
+R9781:9781 SLF.Rules <> f:49 var
+R9771:9772 SLF.Rules <> v2:48 var
+R9769:9769 SLF.Rules <> x:50 var
+R9800:9805 SLF.LibSepReference <> triple def
+R9825:9825 SLF.Rules <> Q:53 var
+R9823:9823 SLF.Rules <> H:52 var
+R9808:9814 SLF.LibSepReference <> trm_app constr
+R9819:9820 SLF.Rules <> v2:48 var
+R9816:9817 SLF.Rules <> v1:47 var
+R9864:9875 SLF.LibSepReference <> eval_app_fix constr
+R9864:9875 SLF.LibSepReference <> eval_app_fix constr
+ax 10810:10817 <> eval_add
+binder 10828:10828 <> s:54
+binder 10830:10831 <> n1:55
+binder 10833:10834 <> n2:56
+binder 10836:10836 <> Q:57
+R10864:10869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10841:10841 SLF.Rules <> Q:57 var
+R10844:10850 SLF.LibSepReference <> val_int constr
+R10855:10857 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R10853:10854 SLF.Rules <> n1:55 var
+R10858:10859 SLF.Rules <> n2:56 var
+R10863:10863 SLF.Rules <> s:54 var
+R10870:10873 SLF.LibSepReference <> eval ind
+R10913:10913 SLF.Rules <> Q:57 var
+R10878:10884 SLF.LibSepReference <> val_add constr
+R10887:10893 SLF.LibSepReference <> val_int constr
+R10895:10896 SLF.Rules <> n1:55 var
+R10900:10906 SLF.LibSepReference <> val_int constr
+R10908:10909 SLF.Rules <> n2:56 var
+R10875:10875 SLF.Rules <> s:54 var
+prf 11112:11121 <> triple_add
+binder 11132:11133 <> n1:59
+binder 11135:11136 <> n2:60
+R11141:11146 SLF.LibSepReference <> triple def
+binder 11181:11181 <> r:61
+R11186:11187 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R11209:11209 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R11189:11191 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11188:11188 SLF.Rules <> r:61 var
+R11192:11198 SLF.LibSepReference <> val_int constr
+R11203:11205 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R11201:11202 SLF.Rules <> n1:59 var
+R11206:11207 SLF.Rules <> n2:60 var
+R11168:11170 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R11149:11155 SLF.LibSepReference <> val_add constr
+R11157:11158 SLF.Rules <> n1:59 var
+R11160:11161 SLF.Rules <> n2:60 var
+R11247:11254 SLF.Rules <> eval_add defax
+R11247:11254 SLF.Rules <> eval_add defax
+R11266:11275 SLF.LibSepReference SepSimplArgs hempty_inv thm
+R11266:11275 SLF.LibSepReference SepSimplArgs hempty_inv thm
+R11290:11300 SLF.LibSepReference SepSimplArgs hpure_intro thm
+R11290:11300 SLF.LibSepReference SepSimplArgs hpure_intro thm
+ax 11673:11680 <> eval_div
+binder 11691:11691 <> s:62
+binder 11693:11694 <> n1:63
+binder 11696:11697 <> n2:64
+binder 11699:11699 <> Q:65
+R11711:11716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11706:11709 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11704:11705 SLF.Rules <> n2:64 var
+R11745:11750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11717:11717 SLF.Rules <> Q:65 var
+R11720:11726 SLF.LibSepReference <> val_int constr
+R11729:11734 Coq.ZArith.BinInt Z quot def
+R11736:11737 SLF.Rules <> n1:63 var
+R11739:11740 SLF.Rules <> n2:64 var
+R11744:11744 SLF.Rules <> s:62 var
+R11751:11754 SLF.LibSepReference <> eval ind
+R11794:11794 SLF.Rules <> Q:65 var
+R11759:11765 SLF.LibSepReference <> val_div constr
+R11768:11774 SLF.LibSepReference <> val_int constr
+R11776:11777 SLF.Rules <> n1:63 var
+R11781:11787 SLF.LibSepReference <> val_int constr
+R11789:11790 SLF.Rules <> n2:64 var
+R11756:11756 SLF.Rules <> s:62 var
+prf 11804:11813 <> triple_div
+binder 11824:11825 <> n1:67
+binder 11827:11828 <> n2:68
+R11840:11845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11835:11838 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11833:11834 SLF.Rules <> n2:68 var
+R11846:11851 SLF.LibSepReference <> triple def
+binder 11886:11886 <> r:69
+R11891:11892 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R11919:11919 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R11894:11896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11893:11893 SLF.Rules <> r:69 var
+R11897:11903 SLF.LibSepReference <> val_int constr
+R11906:11911 Coq.ZArith.BinInt Z quot def
+R11913:11914 SLF.Rules <> n1:67 var
+R11916:11917 SLF.Rules <> n2:68 var
+R11873:11875 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R11854:11860 SLF.LibSepReference <> val_div constr
+R11862:11863 SLF.Rules <> n1:67 var
+R11865:11866 SLF.Rules <> n2:68 var
+R11961:11968 SLF.Rules <> eval_div defax
+R11961:11968 SLF.Rules <> eval_div defax
+R11980:11989 SLF.LibSepReference SepSimplArgs hempty_inv thm
+R11980:11989 SLF.LibSepReference SepSimplArgs hempty_inv thm
+R12004:12014 SLF.LibSepReference SepSimplArgs hpure_intro thm
+R12004:12014 SLF.LibSepReference SepSimplArgs hpure_intro thm
+ax 12531:12539 <> eval_rand
+binder 12550:12550 <> s:70
+binder 12552:12552 <> n:71
+binder 12554:12554 <> Q:72
+R12564:12569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12560:12562 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R12559:12559 SLF.Rules <> n:71 var
+R12570:12570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12603:12609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 12578:12579 <> n1:73
+R12593:12596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12583:12586 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R12589:12591 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R12587:12588 SLF.Rules <> n1:73 var
+R12587:12588 SLF.Rules <> n1:73 var
+R12592:12592 SLF.Rules <> n:71 var
+R12597:12597 SLF.Rules <> Q:72 var
+R12599:12600 SLF.Rules <> n1:73 var
+R12602:12602 SLF.Rules <> s:70 var
+R12610:12613 SLF.LibSepReference <> eval ind
+R12640:12640 SLF.Rules <> Q:72 var
+R12618:12625 SLF.LibSepReference <> val_rand constr
+R12628:12634 SLF.LibSepReference <> val_int constr
+R12636:12636 SLF.Rules <> n:71 var
+R12615:12615 SLF.Rules <> s:70 var
+prf 12960:12970 <> triple_rand
+binder 12981:12981 <> n:75
+R12991:12996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12987:12989 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R12986:12986 SLF.Rules <> n:75 var
+R12997:13002 SLF.LibSepReference <> triple def
+binder 13034:13034 <> r:76
+R13039:13040 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R13081:13081 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R13041:13047 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13050:13051 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 13048:13049 <> n1:77
+R13066:13069 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13053:13055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13052:13052 SLF.Rules <> r:76 var
+R13056:13062 SLF.LibSepReference <> val_int constr
+R13064:13065 SLF.Rules <> n1:77 var
+R13071:13074 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R13077:13079 SLF.LibOrder <> ::comp_scope:x_'<='_x_'<'_x not
+R13075:13076 SLF.Rules <> n1:77 var
+R13075:13076 SLF.Rules <> n1:77 var
+R13080:13080 SLF.Rules <> n:75 var
+R13021:13023 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R13005:13012 SLF.LibSepReference <> val_rand constr
+R13014:13014 SLF.Rules <> n:75 var
+prf 14442:14451 <> triple_ref
+binder 14462:14462 <> v:78
+R14467:14472 SLF.LibSepReference <> triple def
+binder 14503:14503 <> r:79
+R14508:14515 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R14517:14518 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 14516:14516 <> p:80
+R14535:14538 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14519:14520 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14534:14534 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14522:14524 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14521:14521 SLF.Rules <> r:79 var
+R14525:14531 SLF.LibSepReference <> val_loc constr
+R14533:14533 SLF.Rules <> p:80 var
+R14540:14544 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14539:14539 SLF.Rules <> p:80 var
+R14545:14545 SLF.Rules <> v:78 var
+R14490:14492 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R14475:14481 SLF.LibSepReference <> val_ref constr
+R14483:14483 SLF.Rules <> v:78 var
+R14592:14599 SLF.LibSepReference <> eval_ref constr
+R14592:14599 SLF.LibSepReference <> eval_ref constr
+R14625:14634 SLF.LibSepReference SepSimplArgs hempty_inv thm
+R14625:14634 SLF.LibSepReference SepSimplArgs hempty_inv thm
+R14647:14663 SLF.LibSepReference Fmap update_empty thm
+R14647:14663 SLF.LibSepReference Fmap update_empty thm
+R14647:14663 SLF.LibSepReference Fmap update_empty thm
+R14675:14687 SLF.LibSepReference SepSimplArgs hexists_intro thm
+R14675:14687 SLF.LibSepReference SepSimplArgs hexists_intro thm
+R14700:14712 SLF.LibSepReference SepSimplArgs hstar_hpure_l thm
+R14700:14712 SLF.LibSepReference SepSimplArgs hstar_hpure_l thm
+R14700:14712 SLF.LibSepReference SepSimplArgs hstar_hpure_l thm
+R14732:14744 SLF.LibSepReference SepSimplArgs hsingle_intro thm
+R14732:14744 SLF.LibSepReference SepSimplArgs hsingle_intro thm
+prf 14940:14950 <> triple_ref'
+binder 14961:14961 <> v:81
+R14966:14971 SLF.LibSepReference <> triple def
+R14998:15004 SLF.LibSepReference <> ::hprop_scope:'funloc'_x_'=>'_x not
+R15006:15009 SLF.LibSepReference <> ::hprop_scope:'funloc'_x_'=>'_x not
+binder 15005:15005 <> p:82
+binder 15005:15005 <> p:83
+binder 15005:15005 <> p:84
+R15011:15015 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15010:15010 SLF.Rules <> p:82 var
+R15016:15016 SLF.Rules <> v:81 var
+R14989:14991 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R14974:14980 SLF.LibSepReference <> val_ref constr
+R14982:14982 SLF.Rules <> v:81 var
+R15039:15048 SLF.Rules <> triple_ref thm
+R15039:15048 SLF.Rules <> triple_ref thm
+prf 15653:15664 <> triple_free'
+binder 15675:15675 <> p:85
+binder 15677:15677 <> v:86
+R15682:15687 SLF.LibSepReference <> triple def
+binder 15735:15735 <> r:87
+R15740:15741 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R15754:15754 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R15743:15745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15742:15742 SLF.Rules <> r:87 var
+R15746:15753 SLF.LibSepReference <> val_unit constr
+R15718:15722 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15717:15717 SLF.Rules <> p:85 var
+R15723:15723 SLF.Rules <> v:86 var
+R15690:15697 SLF.LibSepReference <> val_free constr
+R15700:15706 SLF.LibSepReference <> val_loc constr
+R15708:15708 SLF.Rules <> p:85 var
+prf 15954:15964 <> triple_free
+binder 15975:15975 <> p:88
+binder 15977:15977 <> v:89
+R15982:15987 SLF.LibSepReference <> triple def
+R16040:16042 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R16018:16022 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16017:16017 SLF.Rules <> p:88 var
+R16023:16023 SLF.Rules <> v:89 var
+R15990:15997 SLF.LibSepReference <> val_free constr
+R16000:16006 SLF.LibSepReference <> val_loc constr
+R16008:16008 SLF.Rules <> p:88 var
+R16074:16086 SLF.LibSepReference <> triple_conseq thm
+R16088:16099 SLF.Rules <> triple_free' prfax
+R16074:16086 SLF.LibSepReference <> triple_conseq thm
+R16088:16099 SLF.Rules <> triple_free' prfax
+prf 16741:16750 <> triple_get
+binder 16761:16761 <> v:90
+binder 16763:16763 <> p:91
+R16768:16773 SLF.LibSepReference <> triple def
+binder 16810:16810 <> r:92
+R16823:16827 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16835:16835 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16815:16816 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R16822:16822 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R16818:16820 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16817:16817 SLF.Rules <> r:92 var
+R16821:16821 SLF.Rules <> v:90 var
+R16829:16833 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16828:16828 SLF.Rules <> p:91 var
+R16834:16834 SLF.Rules <> v:90 var
+R16793:16797 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16792:16792 SLF.Rules <> p:91 var
+R16798:16798 SLF.Rules <> v:90 var
+R16776:16782 SLF.LibSepReference <> val_get constr
+R16784:16784 SLF.Rules <> p:91 var
+R16883:16893 SLF.LibSepReference SepSimplArgs hsingle_inv thm
+R16883:16893 SLF.LibSepReference SepSimplArgs hsingle_inv thm
+R16905:16912 SLF.LibSepReference <> eval_get constr
+R16905:16912 SLF.LibSepReference <> eval_get constr
+R16927:16943 SLF.LibSepReference Fmap indom_single thm
+R16927:16943 SLF.LibSepReference Fmap indom_single thm
+R16960:16972 SLF.LibSepReference SepSimplArgs hstar_hpure_l thm
+R16960:16972 SLF.LibSepReference SepSimplArgs hstar_hpure_l thm
+R16960:16972 SLF.LibSepReference SepSimplArgs hstar_hpure_l thm
+R16992:17007 SLF.LibSepReference Fmap read_single thm
+R16992:17007 SLF.LibSepReference Fmap read_single thm
+prf 17646:17655 <> triple_set
+binder 17666:17666 <> w:93
+binder 17668:17668 <> p:94
+binder 17670:17670 <> v:95
+R17675:17680 SLF.LibSepReference <> triple def
+binder 17729:17729 <> r:96
+R17749:17753 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17761:17761 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17734:17735 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17748:17748 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17737:17739 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17736:17736 SLF.Rules <> r:96 var
+R17740:17747 SLF.LibSepReference <> val_unit constr
+R17755:17759 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17754:17754 SLF.Rules <> p:94 var
+R17760:17760 SLF.Rules <> v:95 var
+R17712:17716 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17711:17711 SLF.Rules <> p:94 var
+R17717:17717 SLF.Rules <> w:93 var
+R17683:17689 SLF.LibSepReference <> val_set constr
+R17692:17698 SLF.LibSepReference <> val_loc constr
+R17700:17700 SLF.Rules <> p:94 var
+R17703:17703 SLF.Rules <> v:95 var
+mod 18093:18107 <> ExamplePrograms
+R18117:18129 SLF.LibSepReference ProgramSyntax <> mod
+def 18834:18837 ExamplePrograms incr
+R18841:18843 SLF.LibSepReference <> val ind
+R18850:18856 SLF.LibSepReference <> val_fun constr
+R18868:18874 SLF.LibSepReference <> trm_let constr
+R18918:18924 SLF.LibSepReference <> trm_let constr
+R19019:19025 SLF.LibSepReference <> trm_app constr
+R19060:19066 SLF.LibSepReference <> trm_var constr
+R19028:19034 SLF.LibSepReference <> trm_app constr
+R19045:19051 SLF.LibSepReference <> trm_var constr
+R19036:19042 SLF.LibSepReference <> val_set constr
+R18931:18937 SLF.LibSepReference <> trm_app constr
+R19001:19007 SLF.LibSepReference <> val_int constr
+R18940:18946 SLF.LibSepReference <> trm_app constr
+R18986:18992 SLF.LibSepReference <> trm_var constr
+R18948:18954 SLF.LibSepReference <> val_add constr
+R18881:18887 SLF.LibSepReference <> trm_app constr
+R18898:18904 SLF.LibSepReference <> trm_var constr
+R18889:18895 SLF.LibSepReference <> val_get constr
+def 19194:19198 ExamplePrograms incr'
+R19202:19204 SLF.LibSepReference <> val ind
+R19211:19213 SLF.LibSepReference <> ::trm_scope:'<{'_x_'}>' not
+R19289:19291 SLF.LibSepReference <> ::trm_scope:'<{'_x_'}>' not
+R19214:19217 SLF.LibSepReference <> :trm:val_scope:'fun'_x_'=>'_x not
+R19220:19230 SLF.LibSepReference <> :trm:val_scope:'fun'_x_'=>'_x not
+R19218:19219 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''p' not
+R19231:19234 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R19237:19239 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R19244:19254 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R19235:19236 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R19240:19241 SLF.LibSepReference <> :trm:trm_scope:'!'_x not
+R19242:19243 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''p' not
+R19255:19258 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R19261:19263 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R19270:19280 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R19259:19260 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''m' not
+R19266:19268 SLF.LibSepReference <> :trm:trm_scope:x_'+'_x not
+R19264:19265 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R19283:19286 SLF.LibSepReference <> :trm:trm_scope:x_':='_x not
+R19281:19282 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''p' not
+R19287:19288 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''m' not
+prf 19368:19380 ExamplePrograms incr_eq_incr'
+R19390:19392 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19386:19389 SLF.Rules ExamplePrograms incr def
+R19393:19397 SLF.Rules ExamplePrograms incr' def
+prf 19659:19669 ExamplePrograms triple_incr
+R19683:19685 SLF.LibSepReference <> loc def
+binder 19681:19681 <> p:97
+R19691:19693 SLF.LibInt <> ::Int_scope:'int' not
+binder 19689:19689 <> n:98
+R19699:19704 SLF.LibSepReference <> triple def
+R19752:19757 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R19761:19761 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R19751:19751 SLF.Rules <> p:97 var
+R19759:19759 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R19758:19758 SLF.Rules <> n:98 var
+R19729:19733 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R19728:19728 SLF.Rules <> p:97 var
+R19734:19734 SLF.Rules <> n:98 var
+R19707:19713 SLF.LibSepReference <> trm_app constr
+R19720:19720 SLF.Rules <> p:97 var
+R19715:19718 SLF.Rules ExamplePrograms incr def
+R20083:20096 SLF.Rules <> triple_app_fun thm
+R20083:20096 SLF.Rules <> triple_app_fun thm
+R20166:20175 SLF.Rules <> triple_let thm
+R20166:20175 SLF.Rules <> triple_let thm
+R20214:20223 SLF.Rules <> triple_get thm
+R20214:20223 SLF.Rules <> triple_get thm
+R20339:20350 SLF.LibSepReference <> triple_hpure thm
+R20339:20350 SLF.LibSepReference <> triple_hpure thm
+R20407:20416 SLF.Rules <> triple_let thm
+R20407:20416 SLF.Rules <> triple_let thm
+R20482:20500 SLF.LibSepReference <> triple_conseq_frame thm
+R20482:20500 SLF.LibSepReference <> triple_conseq_frame thm
+R20564:20573 SLF.Rules <> triple_add thm
+R20564:20573 SLF.Rules <> triple_add thm
+R20724:20735 SLF.LibSepReference <> triple_hpure thm
+R20724:20735 SLF.LibSepReference <> triple_hpure thm
+R20788:20806 SLF.LibSepReference <> triple_conseq_frame thm
+R20788:20806 SLF.LibSepReference <> triple_conseq_frame thm
+R20822:20831 SLF.Rules <> triple_set prfax
+R20822:20831 SLF.Rules <> triple_set prfax
+def 21056:21070 ExamplePrograms succ_using_incr
+R21074:21076 SLF.LibSepReference <> val ind
+R21083:21085 SLF.LibSepReference <> ::trm_scope:'<{'_x_'}>' not
+R21195:21197 SLF.LibSepReference <> ::trm_scope:'<{'_x_'}>' not
+R21086:21089 SLF.LibSepReference <> :trm:val_scope:'fun'_x_'=>'_x not
+R21092:21102 SLF.LibSepReference <> :trm:val_scope:'fun'_x_'=>'_x not
+R21090:21091 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R21103:21106 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R21109:21111 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R21122:21132 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R21107:21108 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''r' not
+R21119:21119 SLF.LibSepReference <> :trm:trm_scope:x_x not
+R21112:21118 SLF.LibSepReference <> val_ref constr
+R21120:21121 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R21140:21148 SLF.LibSepReference <> :trm:trm_scope:x_';'_x not
+R21137:21137 SLF.LibSepReference <> :trm:trm_scope:x_x not
+R21133:21136 SLF.Rules ExamplePrograms incr def
+R21138:21139 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''r' not
+R21149:21152 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R21155:21157 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R21162:21172 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R21153:21154 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''x' not
+R21158:21159 SLF.LibSepReference <> :trm:trm_scope:'!'_x not
+R21160:21161 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''r' not
+R21184:21192 SLF.LibSepReference <> :trm:trm_scope:x_';'_x not
+R21181:21181 SLF.LibSepReference <> :trm:trm_scope:x_x not
+R21173:21180 SLF.LibSepReference <> val_free constr
+R21182:21183 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''r' not
+R21193:21194 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''x' not
+prf 21262:21283 ExamplePrograms triple_succ_using_incr
+R21297:21299 SLF.LibInt <> ::Int_scope:'int' not
+binder 21295:21295 <> n:99
+R21305:21310 SLF.LibSepReference <> triple def
+binder 21357:21357 <> v:100
+R21362:21363 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R21381:21381 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R21365:21367 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21364:21364 SLF.Rules <> v:100 var
+R21368:21374 SLF.LibSepReference <> val_int constr
+R21378:21378 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R21377:21377 SLF.Rules <> n:99 var
+R21344:21346 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R21313:21319 SLF.LibSepReference <> trm_app constr
+R21337:21337 SLF.Rules <> n:99 var
+R21321:21335 SLF.Rules ExamplePrograms succ_using_incr def
+R21771:21785 SLF.Rules ExamplePrograms <> mod
+mod 22480:22498 <> ProofsSameSemantics
+def 23158:23166 ProofsSameSemantics eval_like
+R23175:23177 SLF.LibSepReference <> trm ind
+binder 23169:23170 <> t1:101
+binder 23172:23173 <> t2:102
+binder 23199:23199 <> s:103
+binder 23201:23201 <> Q:104
+R23215:23218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23204:23207 SLF.LibSepReference <> eval ind
+R23214:23214 SLF.Rules <> Q:104 var
+R23211:23212 SLF.Rules <> t1:101 var
+R23209:23209 SLF.Rules <> s:103 var
+R23219:23222 SLF.LibSepReference <> eval ind
+R23229:23229 SLF.Rules <> Q:104 var
+R23226:23227 SLF.Rules <> t2:102 var
+R23224:23224 SLF.Rules <> s:103 var
+prf 23450:23465 ProofsSameSemantics triple_eval_like
+binder 23476:23477 <> t1:105
+binder 23479:23480 <> t2:106
+binder 23482:23482 <> H:107
+binder 23484:23484 <> Q:108
+R23504:23509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23489:23497 SLF.Rules ProofsSameSemantics eval_like def
+R23502:23503 SLF.Rules <> t2:106 var
+R23499:23500 SLF.Rules <> t1:105 var
+R23523:23528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23510:23515 SLF.LibSepReference <> triple def
+R23522:23522 SLF.Rules <> Q:108 var
+R23520:23520 SLF.Rules <> H:107 var
+R23517:23518 SLF.Rules <> t1:105 var
+R23529:23534 SLF.LibSepReference <> triple def
+R23541:23541 SLF.Rules <> Q:108 var
+R23539:23539 SLF.Rules <> H:107 var
+R23536:23537 SLF.Rules <> t2:106 var
+prf 23906:23928 ProofsSameSemantics eval_like_eta_reduction
+R23942:23944 SLF.LibSepReference <> trm ind
+binder 23940:23940 <> t:109
+R23950:23952 SLF.LibSepVar <> var def
+binder 23948:23948 <> x:110
+R23958:23966 SLF.Rules ProofsSameSemantics eval_like def
+R23971:23977 SLF.LibSepReference <> trm_let constr
+R23983:23983 SLF.Rules <> x:110 var
+R23981:23981 SLF.Rules <> t:109 var
+R23979:23979 SLF.Rules <> x:110 var
+R23968:23968 SLF.Rules <> t:109 var
+R24019:24026 SLF.LibSepReference <> eval_let constr
+R24019:24026 SLF.LibSepReference <> eval_let constr
+R24048:24058 SLF.LibSepVar <> var_eq_spec thm
+R24048:24058 SLF.LibSepVar <> var_eq_spec thm
+R24048:24058 SLF.LibSepVar <> var_eq_spec thm
+R24090:24097 SLF.LibSepReference <> eval_val constr
+R24090:24097 SLF.LibSepReference <> eval_val constr
+prf 24277:24299 ProofsSameSemantics eval_like_eta_expansion
+R24313:24315 SLF.LibSepReference <> trm ind
+binder 24311:24311 <> t:111
+R24321:24323 SLF.LibSepVar <> var def
+binder 24319:24319 <> x:112
+R24329:24337 SLF.Rules ProofsSameSemantics eval_like def
+R24355:24355 SLF.Rules <> t:111 var
+R24340:24346 SLF.LibSepReference <> trm_let constr
+R24352:24352 SLF.Rules <> x:112 var
+R24350:24350 SLF.Rules <> t:111 var
+R24348:24348 SLF.Rules <> x:112 var
+prf 24718:24733 ProofsSameSemantics eta_same_triples
+R24747:24749 SLF.LibSepReference <> trm ind
+binder 24745:24745 <> t:113
+R24755:24757 SLF.LibSepVar <> var def
+binder 24753:24753 <> x:114
+binder 24760:24760 <> H:115
+binder 24762:24762 <> Q:116
+R24780:24784 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R24768:24773 SLF.LibSepReference <> triple def
+R24779:24779 SLF.Rules <> Q:116 var
+R24777:24777 SLF.Rules <> H:115 var
+R24775:24775 SLF.Rules <> t:113 var
+R24785:24790 SLF.LibSepReference <> triple def
+R24810:24810 SLF.Rules <> Q:116 var
+R24808:24808 SLF.Rules <> H:115 var
+R24793:24799 SLF.LibSepReference <> trm_let constr
+R24805:24805 SLF.Rules <> x:114 var
+R24803:24803 SLF.Rules <> t:113 var
+R24801:24801 SLF.Rules <> x:114 var
+prf 25102:25115 ProofsSameSemantics triple_app_fun
+binder 25126:25126 <> x:117
+binder 25128:25129 <> v1:118
+binder 25131:25132 <> v2:119
+binder 25134:25135 <> t1:120
+binder 25137:25137 <> H:121
+binder 25139:25139 <> Q:122
+R25161:25166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25146:25148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25144:25145 SLF.Rules <> v1:118 var
+R25149:25155 SLF.LibSepReference <> val_fun constr
+R25159:25160 SLF.Rules <> t1:120 var
+R25157:25157 SLF.Rules <> x:117 var
+R25193:25198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25167:25172 SLF.LibSepReference <> triple def
+R25192:25192 SLF.Rules <> Q:122 var
+R25190:25190 SLF.Rules <> H:121 var
+R25175:25179 SLF.LibSepReference <> subst def
+R25186:25187 SLF.Rules <> t1:120 var
+R25183:25184 SLF.Rules <> v2:119 var
+R25181:25181 SLF.Rules <> x:117 var
+R25199:25204 SLF.LibSepReference <> triple def
+R25224:25224 SLF.Rules <> Q:122 var
+R25222:25222 SLF.Rules <> H:121 var
+R25207:25213 SLF.LibSepReference <> trm_app constr
+R25218:25219 SLF.Rules <> v2:119 var
+R25215:25216 SLF.Rules <> v1:118 var
+R25262:25277 SLF.Rules ProofsSameSemantics triple_eval_like prfax
+R25262:25277 SLF.Rules ProofsSameSemantics triple_eval_like prfax
+R25302:25313 SLF.LibSepReference <> eval_app_fun constr
+R25302:25313 SLF.LibSepReference <> eval_app_fun constr
+prf 25867:25886 ProofsSameSemantics triple_trm_seq_assoc
+binder 25897:25898 <> t1:123
+binder 25900:25901 <> t2:124
+binder 25903:25904 <> t3:125
+binder 25906:25906 <> H:126
+binder 25908:25908 <> Q:127
+R25952:25957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25913:25918 SLF.LibSepReference <> triple def
+R25951:25951 SLF.Rules <> Q:127 var
+R25949:25949 SLF.Rules <> H:126 var
+R25921:25927 SLF.LibSepReference <> trm_seq constr
+R25945:25946 SLF.Rules <> t3:125 var
+R25930:25936 SLF.LibSepReference <> trm_seq constr
+R25941:25942 SLF.Rules <> t2:124 var
+R25938:25939 SLF.Rules <> t1:123 var
+R25958:25963 SLF.LibSepReference <> triple def
+R25996:25996 SLF.Rules <> Q:127 var
+R25994:25994 SLF.Rules <> H:126 var
+R25966:25972 SLF.LibSepReference <> trm_seq constr
+R25978:25984 SLF.LibSepReference <> trm_seq constr
+R25989:25990 SLF.Rules <> t3:125 var
+R25986:25987 SLF.Rules <> t2:124 var
+R25974:25975 SLF.Rules <> t1:123 var
+R26057:26075 SLF.Rules ProofsSameSemantics <> mod
+mod 26197:26204 <> LetFrame
+ax 26264:26273 LetFrame triple_let
+binder 26284:26284 <> x:128
+binder 26286:26287 <> t1:129
+binder 26289:26290 <> t2:130
+binder 26292:26293 <> Q1:131
+binder 26295:26295 <> H:132
+binder 26297:26297 <> Q:133
+R26316:26321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26302:26307 SLF.LibSepReference <> triple def
+R26314:26315 SLF.Rules <> Q1:131 var
+R26312:26312 SLF.Rules <> H:132 var
+R26309:26310 SLF.Rules <> t1:129 var
+R26322:26322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26366:26372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26330:26331 <> v1:134
+R26334:26339 SLF.LibSepReference <> triple def
+R26365:26365 SLF.Rules <> Q:133 var
+R26358:26359 SLF.Rules <> Q1:131 var
+R26361:26362 SLF.Rules <> v1:134 var
+R26342:26346 SLF.LibSepReference <> subst def
+R26353:26354 SLF.Rules <> t2:130 var
+R26350:26351 SLF.Rules <> v1:134 var
+R26348:26348 SLF.Rules <> x:128 var
+R26373:26378 SLF.LibSepReference <> triple def
+R26400:26400 SLF.Rules <> Q:133 var
+R26398:26398 SLF.Rules <> H:132 var
+R26381:26387 SLF.LibSepReference <> trm_let constr
+R26394:26395 SLF.Rules <> t2:130 var
+R26391:26392 SLF.Rules <> t1:129 var
+R26389:26389 SLF.Rules <> x:128 var
+prf 27137:27152 LetFrame triple_let_frame
+binder 27163:27163 <> x:136
+binder 27165:27166 <> t1:137
+binder 27168:27169 <> t2:138
+binder 27171:27172 <> Q1:139
+binder 27174:27174 <> H:140
+binder 27176:27177 <> H1:141
+binder 27179:27180 <> H2:142
+binder 27182:27182 <> Q:143
+R27202:27207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27187:27192 SLF.LibSepReference <> triple def
+R27200:27201 SLF.Rules <> Q1:139 var
+R27197:27198 SLF.Rules <> H1:141 var
+R27194:27195 SLF.Rules <> t1:137 var
+R27222:27227 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27209:27213 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R27208:27208 SLF.Rules <> H:140 var
+R27216:27219 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R27214:27215 SLF.Rules <> H1:141 var
+R27220:27221 SLF.Rules <> H2:142 var
+R27228:27228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27278:27284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 27236:27237 <> v1:144
+R27240:27245 SLF.LibSepReference <> triple def
+R27277:27277 SLF.Rules <> Q:143 var
+R27269:27272 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R27264:27265 SLF.Rules <> Q1:139 var
+R27267:27268 SLF.Rules <> v1:144 var
+R27273:27274 SLF.Rules <> H2:142 var
+R27248:27252 SLF.LibSepReference <> subst def
+R27259:27260 SLF.Rules <> t2:138 var
+R27256:27257 SLF.Rules <> v1:144 var
+R27254:27254 SLF.Rules <> x:136 var
+R27285:27290 SLF.LibSepReference <> triple def
+R27312:27312 SLF.Rules <> Q:143 var
+R27310:27310 SLF.Rules <> H:140 var
+R27293:27299 SLF.LibSepReference <> trm_let constr
+R27306:27307 SLF.Rules <> t2:138 var
+R27303:27304 SLF.Rules <> t1:137 var
+R27301:27301 SLF.Rules <> x:136 var
+R27484:27491 SLF.Rules LetFrame <> mod
+mod 27740:27746 <> DivSpec
+ax 27807:27816 DivSpec triple_div
+binder 27827:27828 <> n1:145
+binder 27830:27831 <> n2:146
+R27843:27848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27838:27841 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R27836:27837 SLF.Rules <> n2:146 var
+R27849:27854 SLF.LibSepReference <> triple def
+binder 27889:27889 <> r:147
+R27894:27895 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R27922:27922 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R27897:27899 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27896:27896 SLF.Rules <> r:147 var
+R27900:27906 SLF.LibSepReference <> val_int constr
+R27909:27914 Coq.ZArith.BinInt Z quot def
+R27916:27917 SLF.Rules <> n1:145 var
+R27919:27920 SLF.Rules <> n2:146 var
+R27876:27878 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R27857:27863 SLF.LibSepReference <> val_div constr
+R27865:27866 SLF.Rules <> n1:145 var
+R27868:27869 SLF.Rules <> n2:146 var
+ax 28025:28035 DivSpec triple_div'
+binder 28046:28047 <> n1:149
+binder 28049:28050 <> n2:150
+R28055:28060 SLF.LibSepReference <> triple def
+binder 28102:28102 <> r:151
+R28107:28108 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28135:28135 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28110:28112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28109:28109 SLF.Rules <> r:151 var
+R28113:28119 SLF.LibSepReference <> val_int constr
+R28122:28127 Coq.ZArith.BinInt Z quot def
+R28129:28130 SLF.Rules <> n1:149 var
+R28132:28133 SLF.Rules <> n2:150 var
+R28082:28083 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28091:28091 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28086:28089 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R28084:28085 SLF.Rules <> n2:150 var
+R28063:28069 SLF.LibSepReference <> val_div constr
+R28071:28072 SLF.Rules <> n1:149 var
+R28074:28075 SLF.Rules <> n2:150 var
+prf 28250:28276 DivSpec triple_div'_from_triple_div
+binder 28287:28288 <> n1:153
+binder 28290:28291 <> n2:154
+R28296:28301 SLF.LibSepReference <> triple def
+binder 28343:28343 <> r:155
+R28348:28349 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28376:28376 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28351:28353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28350:28350 SLF.Rules <> r:155 var
+R28354:28360 SLF.LibSepReference <> val_int constr
+R28363:28368 Coq.ZArith.BinInt Z quot def
+R28370:28371 SLF.Rules <> n1:153 var
+R28373:28374 SLF.Rules <> n2:154 var
+R28323:28324 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28332:28332 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28327:28330 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R28325:28326 SLF.Rules <> n2:154 var
+R28304:28310 SLF.LibSepReference <> val_div constr
+R28312:28313 SLF.Rules <> n1:153 var
+R28315:28316 SLF.Rules <> n2:154 var
+R28410:28422 SLF.LibSepReference <> triple_hpure' defax
+R28410:28422 SLF.LibSepReference <> triple_hpure' defax
+R28432:28441 SLF.Rules DivSpec triple_div defax
+R28432:28441 SLF.Rules DivSpec triple_div defax
+prf 28591:28617 DivSpec triple_div_from_triple_div'
+binder 28628:28629 <> n1:156
+binder 28631:28632 <> n2:157
+R28644:28649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28639:28642 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R28637:28638 SLF.Rules <> n2:157 var
+R28650:28655 SLF.LibSepReference <> triple def
+binder 28690:28690 <> r:158
+R28695:28696 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28723:28723 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R28698:28700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28697:28697 SLF.Rules <> r:158 var
+R28701:28707 SLF.LibSepReference <> val_int constr
+R28710:28715 Coq.ZArith.BinInt Z quot def
+R28717:28718 SLF.Rules <> n1:156 var
+R28720:28721 SLF.Rules <> n2:157 var
+R28677:28679 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R28658:28664 SLF.LibSepReference <> val_div constr
+R28666:28667 SLF.Rules <> n1:156 var
+R28669:28670 SLF.Rules <> n2:157 var
+R29034:29040 SLF.Rules DivSpec <> mod
+mod 29184:29193 <> MatchStyle
+ax 29264:29273 MatchStyle triple_ref
+binder 29284:29284 <> v:159
+R29289:29294 SLF.LibSepReference <> triple def
+binder 29325:29325 <> r:160
+R29330:29337 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R29339:29340 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 29338:29338 <> p:161
+R29357:29360 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R29341:29342 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R29356:29356 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R29344:29346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29343:29343 SLF.Rules <> r:160 var
+R29347:29353 SLF.LibSepReference <> val_loc constr
+R29355:29355 SLF.Rules <> p:161 var
+R29362:29366 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R29361:29361 SLF.Rules <> p:161 var
+R29367:29367 SLF.Rules <> v:159 var
+R29312:29314 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R29297:29303 SLF.LibSepReference <> val_ref constr
+R29305:29305 SLF.Rules <> v:159 var
+ax 29519:29529 MatchStyle triple_ref'
+binder 29540:29540 <> v:163
+R29545:29550 SLF.LibSepReference <> triple def
+binder 29581:29581 <> r:164
+R29592:29592 SLF.Rules <> r:164 var
+R29615:29621 SLF.LibSepReference <> val_loc constr
+R29630:29634 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R29635:29635 SLF.Rules <> v:163 var
+R29659:29660 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R29666:29666 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R29661:29665 Coq.Init.Logic <> False ind
+R29568:29570 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R29553:29559 SLF.LibSepReference <> val_ref constr
+R29561:29561 SLF.Rules <> v:163 var
+R29822:29831 SLF.Rules MatchStyle <> mod
+mod 30017:30032 <> ExamplePrograms2
+R30042:30054 SLF.LibSepReference ProgramSyntax <> mod
+R30064:30074 SLF.Basic Facto <> mod
+ax 30199:30211 ExamplePrograms2 triple_hpure'
+binder 30222:30222 <> t:167
+binder 30225:30225 <> P:168
+binder 30233:30233 <> Q:169
+R30238:30238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30258:30264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30240:30243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30239:30239 SLF.Rules <> P:168 var
+R30244:30249 SLF.LibSepReference <> triple def
+R30257:30257 SLF.Rules <> Q:169 var
+R30253:30255 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R30251:30251 SLF.Rules <> t:167 var
+R30265:30270 SLF.LibSepReference <> triple def
+R30279:30279 SLF.Rules <> Q:169 var
+R30274:30275 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R30277:30277 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R30276:30276 SLF.Rules <> P:168 var
+R30272:30272 SLF.Rules <> t:167 var
+def 30439:30446 ExamplePrograms2 factorec
+R30450:30452 SLF.LibSepReference <> val ind
+R30459:30461 SLF.LibSepReference <> ::trm_scope:'<{'_x_'}>' not
+R30619:30621 SLF.LibSepReference <> ::trm_scope:'<{'_x_'}>' not
+R30462:30465 SLF.LibSepReference <> :trm:val_scope:'fix'_x_x_'=>'_x not
+R30468:30468 SLF.LibSepReference <> :trm:val_scope:'fix'_x_x_'=>'_x not
+R30471:30481 SLF.LibSepReference <> :trm:val_scope:'fix'_x_x_'=>'_x not
+R30466:30467 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''f' not
+R30469:30470 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R30482:30485 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30488:30490 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30500:30510 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30486:30487 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''b' not
+R30491:30491 SLF.LibSepReference <> :trm:trm_scope:'('_x_')' not
+R30499:30499 SLF.LibSepReference <> :trm:trm_scope:'('_x_')' not
+R30494:30497 SLF.LibSepReference <> :trm:trm_scope:x_'<='_x not
+R30492:30493 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R30511:30513 SLF.LibSepReference <> :trm:trm_scope:'if'_x_'then'_x_'else'_x not
+R30516:30530 SLF.LibSepReference <> :trm:trm_scope:'if'_x_'then'_x_'else'_x not
+R30532:30546 SLF.LibSepReference <> :trm:trm_scope:'if'_x_'then'_x_'else'_x not
+R30514:30515 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''b' not
+R30547:30550 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30553:30555 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30562:30579 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30551:30552 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''x' not
+R30558:30560 SLF.LibSepReference <> :trm:trm_scope:x_'-'_x not
+R30556:30557 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R30580:30583 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30586:30588 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30594:30611 SLF.LibSepReference <> :trm:trm_scope:'let'_x_'='_x_'in'_x not
+R30584:30585 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''y' not
+R30591:30591 SLF.LibSepReference <> :trm:trm_scope:x_x not
+R30589:30590 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''f' not
+R30592:30593 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''x' not
+R30614:30616 SLF.LibSepReference <> :trm:trm_scope:x_'*'_x not
+R30612:30613 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''n' not
+R30617:30618 SLF.LibSepVar NotationForVariables :trm:trm_scope:'''y' not
+prf 31251:31265 ExamplePrograms2 triple_factorec
+binder 31276:31276 <> n:171
+R31287:31292 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31282:31285 SLF.LibOrder <> ::comp_scope:x_'>='_x not
+R31281:31281 SLF.Rules <> n:171 var
+R31293:31298 SLF.LibSepReference <> triple def
+binder 31330:31330 <> r:172
+R31335:31336 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R31348:31348 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R31338:31340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31337:31337 SLF.Rules <> r:172 var
+R31341:31345 SLF.Basic Facto facto defax
+R31347:31347 SLF.Rules <> n:171 var
+R31317:31319 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\[]' not
+R31301:31308 SLF.Rules ExamplePrograms2 factorec def
+R31310:31310 SLF.Rules <> n:171 var
+R31410:31425 SLF.Rules ExamplePrograms2 <> mod

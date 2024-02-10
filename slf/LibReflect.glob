@@ -1,0 +1,650 @@
+DIGEST 13397c638208922d642b6bf1b884ea7d
+FSLF.LibReflect
+R455:464 SLF.LibTactics <> <> lib
+R491:497 SLF.LibBool <> <> lib
+R499:506 SLF.LibLogic <> <> lib
+R552:555 Coq.Init.Datatypes <> bool ind
+def 1308:1313 <> istrue
+R1320:1323 Coq.Init.Datatypes <> bool ind
+binder 1316:1316 <> b:1
+R1338:1340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1337:1337 SLF.LibReflect <> b:1 var
+R1341:1344 Coq.Init.Datatypes <> true constr
+prf 1377:1393 <> istrue_eq_eq_true
+binder 1404:1404 <> b:2
+R1417:1420 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1429:1429 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1409:1414 SLF.LibReflect <> istrue coe
+R1416:1416 SLF.LibReflect <> b:2 var
+R1422:1424 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1421:1421 SLF.LibReflect <> b:2 var
+R1425:1428 Coq.Init.Datatypes <> true constr
+prf 1470:1483 <> istrue_true_eq
+R1500:1502 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1489:1494 SLF.LibReflect <> istrue coe
+R1496:1499 Coq.Init.Datatypes <> true constr
+R1503:1506 Coq.Init.Logic <> True ind
+R1530:1546 SLF.LibReflect <> istrue_eq_eq_true thm
+R1530:1546 SLF.LibReflect <> istrue_eq_eq_true thm
+R1530:1546 SLF.LibReflect <> istrue_eq_eq_true thm
+prf 1570:1584 <> istrue_false_eq
+R1602:1604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1590:1595 SLF.LibReflect <> istrue coe
+R1597:1601 Coq.Init.Datatypes <> false constr
+R1605:1609 Coq.Init.Logic <> False ind
+R1633:1649 SLF.LibReflect <> istrue_eq_eq_true thm
+R1633:1649 SLF.LibReflect <> istrue_eq_eq_true thm
+R1633:1649 SLF.LibReflect <> istrue_eq_eq_true thm
+R1697:1702 SLF.LibReflect <> istrue coe
+prf 1759:1769 <> istrue_true
+R1773:1778 SLF.LibReflect <> istrue coe
+R1780:1783 Coq.Init.Datatypes <> true constr
+prf 1837:1852 <> not_istrue_false
+R1856:1858 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1871:1871 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1859:1864 SLF.LibReflect <> istrue coe
+R1866:1870 Coq.Init.Datatypes <> false constr
+R1910:1924 SLF.LibReflect <> istrue_false_eq thm
+R1910:1924 SLF.LibReflect <> istrue_false_eq thm
+R1910:1924 SLF.LibReflect <> istrue_false_eq thm
+prf 1993:2006 <> false_of_False
+R2017:2022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2012:2016 Coq.Init.Logic <> False ind
+R2023:2027 Coq.Init.Datatypes <> false constr
+prf 2072:2085 <> False_of_false
+R2096:2101 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2091:2095 Coq.Init.Datatypes <> false constr
+R2102:2106 Coq.Init.Logic <> False ind
+R2141:2155 SLF.LibReflect <> istrue_false_eq thm
+R2141:2155 SLF.LibReflect <> istrue_false_eq thm
+R2294:2299 SLF.LibReflect <> istrue coe
+R2301:2305 Coq.Init.Datatypes <> false constr
+R2319:2332 SLF.LibReflect <> false_of_False thm
+R2361:2365 Coq.Init.Logic <> False ind
+R2394:2399 SLF.LibReflect <> istrue coe
+R2401:2405 Coq.Init.Datatypes <> false constr
+R2394:2399 SLF.LibReflect <> istrue coe
+R2401:2405 Coq.Init.Datatypes <> false constr
+R2422:2437 SLF.LibReflect <> not_istrue_false thm
+def 2767:2772 <> isTrue
+binder 2775:2775 <> P:3
+R2787:2790 Coq.Init.Datatypes <> bool ind
+R2797:2799 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2801:2806 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2811:2816 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2817:2821 Coq.Init.Datatypes <> false constr
+R2807:2810 Coq.Init.Datatypes <> true constr
+R2800:2800 SLF.LibReflect <> P:3 var
+prf 2853:2864 <> isTrue_eq_if
+binder 2875:2875 <> P:4
+R2888:2890 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2880:2885 SLF.LibReflect <> isTrue def
+R2887:2887 SLF.LibReflect <> P:4 var
+R2891:2893 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2895:2900 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2905:2910 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2911:2915 Coq.Init.Datatypes <> false constr
+R2901:2904 Coq.Init.Datatypes <> true constr
+R2894:2894 SLF.LibReflect <> P:4 var
+prf 2956:2966 <> isTrue_True
+R2983:2985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2972:2977 SLF.LibReflect <> isTrue def
+R2979:2982 Coq.Init.Logic <> True ind
+R2986:2989 Coq.Init.Datatypes <> true constr
+prf 3048:3059 <> isTrue_False
+R3077:3079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3065:3070 SLF.LibReflect <> isTrue def
+R3072:3076 Coq.Init.Logic <> False ind
+R3080:3084 Coq.Init.Datatypes <> false constr
+R3151:3156 SLF.LibReflect <> isTrue def
+prf 3181:3194 <> isTrue_eq_true
+binder 3205:3205 <> P:5
+R3211:3216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3210:3210 SLF.LibReflect <> P:5 var
+R3225:3227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3217:3222 SLF.LibReflect <> isTrue def
+R3224:3224 SLF.LibReflect <> P:5 var
+R3228:3231 Coq.Init.Datatypes <> true constr
+R3263:3274 SLF.LibReflect <> isTrue_eq_if thm
+R3263:3274 SLF.LibReflect <> isTrue_eq_if thm
+R3263:3274 SLF.LibReflect <> isTrue_eq_if thm
+prf 3299:3313 <> isTrue_eq_false
+binder 3324:3324 <> P:6
+R3332:3337 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3329:3330 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3331:3331 SLF.LibReflect <> P:6 var
+R3346:3348 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3338:3343 SLF.LibReflect <> isTrue def
+R3345:3345 SLF.LibReflect <> P:6 var
+R3349:3353 Coq.Init.Datatypes <> false constr
+R3385:3396 SLF.LibReflect <> isTrue_eq_if thm
+R3385:3396 SLF.LibReflect <> isTrue_eq_if thm
+R3385:3396 SLF.LibReflect <> isTrue_eq_if thm
+prf 3640:3647 <> bool_ext
+binder 3658:3659 <> b1:7
+binder 3661:3662 <> b2:8
+R3667:3667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3677:3683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3670:3674 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3668:3669 SLF.LibReflect <> b1:7 var
+R3675:3676 SLF.LibReflect <> b2:8 var
+R3686:3688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3684:3685 SLF.LibReflect <> b1:7 var
+R3689:3690 SLF.LibReflect <> b2:8 var
+prf 3825:3835 <> bool_ext_eq
+binder 3846:3847 <> b1:9
+binder 3849:3850 <> b2:10
+R3855:3855 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3863:3867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3877:3877 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3858:3860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3856:3857 SLF.LibReflect <> b1:9 var
+R3861:3862 SLF.LibReflect <> b2:10 var
+R3870:3874 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3868:3869 SLF.LibReflect <> b1:9 var
+R3875:3876 SLF.LibReflect <> b2:10 var
+R3940:3947 SLF.LibReflect <> bool_ext thm
+R3940:3947 SLF.LibReflect <> bool_ext thm
+inst 3977:3995 <> Extensionality_bool
+R3999:4012 SLF.LibEqual <> Extensionality class
+R4014:4017 Coq.Init.Datatypes <> bool ind
+R4040:4058 SLF.LibEqual <> Extensionality_make constr
+R4060:4067 SLF.LibReflect <> bool_ext thm
+R4040:4058 SLF.LibEqual <> Extensionality_make constr
+R4060:4067 SLF.LibReflect <> bool_ext thm
+def 4446:4456 <> isTrue_pred
+binder 4458:4458 <> A:11
+R4464:4465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4463:4463 SLF.LibReflect <> A:11 var
+R4466:4469 Coq.Init.Datatypes <> bool ind
+binder 4461:4461 <> p:12
+R4476:4477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4475:4475 SLF.LibReflect <> A:11 var
+binder 4473:4473 <> P:13
+binder 4503:4503 <> x:14
+R4509:4511 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4506:4506 SLF.LibReflect <> p:12 var
+R4508:4508 SLF.LibReflect <> x:14 var
+R4512:4517 SLF.LibReflect <> isTrue def
+R4520:4520 SLF.LibReflect <> P:13 var
+R4522:4522 SLF.LibReflect <> x:14 var
+def 4685:4690 <> is_beq
+binder 4692:4692 <> A:15
+R4698:4699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4697:4697 SLF.LibReflect <> A:15 var
+R4701:4702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4700:4700 SLF.LibReflect <> A:15 var
+R4703:4706 Coq.Init.Datatypes <> bool ind
+binder 4695:4695 <> f:16
+binder 4721:4721 <> x:17
+binder 4723:4723 <> y:18
+R4731:4733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4726:4726 SLF.LibReflect <> f:16 var
+R4730:4730 SLF.LibReflect <> y:18 var
+R4728:4728 SLF.LibReflect <> x:17 var
+R4734:4739 SLF.LibReflect <> isTrue def
+R4743:4745 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4742:4742 SLF.LibReflect <> x:17 var
+R4746:4746 SLF.LibReflect <> y:18 var
+prf 5134:5149 <> istrue_isTrue_eq
+binder 5160:5160 <> P:19
+R5182:5184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5165:5170 SLF.LibReflect <> istrue coe
+R5173:5178 SLF.LibReflect <> isTrue def
+R5180:5180 SLF.LibReflect <> P:19 var
+R5185:5185 SLF.LibReflect <> P:19 var
+R5217:5228 SLF.LibReflect <> isTrue_eq_if thm
+R5217:5228 SLF.LibReflect <> isTrue_eq_if thm
+R5217:5228 SLF.LibReflect <> isTrue_eq_if thm
+prf 5265:5277 <> istrue_neg_eq
+binder 5288:5288 <> b:20
+R5304:5306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5293:5298 SLF.LibReflect <> istrue coe
+R5301:5301 SLF.LibBool <> ::Bool_scope:'!'_x not
+R5302:5302 SLF.LibReflect <> b:20 var
+R5307:5309 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5318:5318 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5310:5315 SLF.LibReflect <> istrue coe
+R5317:5317 SLF.LibReflect <> b:20 var
+prf 5362:5374 <> istrue_and_eq
+binder 5385:5386 <> b1:21
+binder 5388:5389 <> b2:22
+R5411:5414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5437:5437 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5394:5399 SLF.LibReflect <> istrue coe
+R5404:5407 SLF.LibBool <> ::Bool_scope:x_'&&'_x not
+R5402:5403 SLF.LibReflect <> b1:21 var
+R5408:5409 SLF.LibReflect <> b2:22 var
+R5424:5427 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5415:5420 SLF.LibReflect <> istrue coe
+R5422:5423 SLF.LibReflect <> b1:21 var
+R5428:5433 SLF.LibReflect <> istrue coe
+R5435:5436 SLF.LibReflect <> b2:22 var
+prf 5481:5492 <> istrue_or_eq
+binder 5503:5504 <> b1:23
+binder 5506:5507 <> b2:24
+R5529:5532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5555:5555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5512:5517 SLF.LibReflect <> istrue coe
+R5522:5525 SLF.LibBool <> ::Bool_scope:x_'||'_x not
+R5520:5521 SLF.LibReflect <> b1:23 var
+R5526:5527 SLF.LibReflect <> b2:24 var
+R5542:5545 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R5533:5538 SLF.LibReflect <> istrue coe
+R5540:5541 SLF.LibReflect <> b1:23 var
+R5546:5551 SLF.LibReflect <> istrue coe
+R5553:5554 SLF.LibReflect <> b2:24 var
+prf 5617:5633 <> istrue_neg_isTrue
+binder 5644:5644 <> P:25
+R5668:5670 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5649:5654 SLF.LibReflect <> istrue coe
+R5657:5658 SLF.LibBool <> ::Bool_scope:'!'_x not
+R5659:5664 SLF.LibReflect <> isTrue def
+R5666:5666 SLF.LibReflect <> P:25 var
+R5671:5672 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5673:5673 SLF.LibReflect <> P:25 var
+R5705:5717 SLF.LibReflect <> istrue_neg_eq thm
+R5705:5717 SLF.LibReflect <> istrue_neg_eq thm
+R5705:5717 SLF.LibReflect <> istrue_neg_eq thm
+R5729:5744 SLF.LibReflect <> istrue_isTrue_eq thm
+R5729:5744 SLF.LibReflect <> istrue_isTrue_eq thm
+prf 5793:5801 <> If_istrue
+binder 5812:5812 <> b:26
+binder 5814:5814 <> A:27
+R5823:5823 SLF.LibReflect <> A:27 var
+binder 5817:5817 <> x:28
+binder 5819:5819 <> y:29
+R5831:5831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5857:5863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5882:5882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5832:5834 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R5843:5848 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R5850:5855 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R5856:5856 SLF.LibReflect <> y:29 var
+R5849:5849 SLF.LibReflect <> x:28 var
+R5835:5840 SLF.LibReflect <> istrue coe
+R5842:5842 SLF.LibReflect <> b:26 var
+R5867:5867 SLF.LibReflect <> b:26 var
+R5881:5881 SLF.LibReflect <> y:29 var
+R5874:5874 SLF.LibReflect <> x:28 var
+prf 5952:5963 <> istrue_If_eq
+binder 5974:5974 <> P:30
+binder 5976:5977 <> b1:31
+binder 5979:5980 <> b2:32
+R6016:6021 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6056:6056 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5987:5992 SLF.LibReflect <> istrue coe
+R5995:5997 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R5999:6004 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6007:6012 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6013:6014 SLF.LibReflect <> b2:32 var
+R6005:6006 SLF.LibReflect <> b1:31 var
+R5998:5998 SLF.LibReflect <> P:30 var
+R6022:6024 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6026:6031 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6041:6046 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6047:6052 SLF.LibReflect <> istrue coe
+R6054:6055 SLF.LibReflect <> b2:32 var
+R6032:6037 SLF.LibReflect <> istrue coe
+R6039:6040 SLF.LibReflect <> b1:31 var
+R6025:6025 SLF.LibReflect <> P:30 var
+prf 6102:6113 <> istrue_if_eq
+binder 6124:6125 <> b1:33
+binder 6127:6128 <> b2:34
+binder 6130:6131 <> b3:35
+R6168:6173 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6216:6216 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6138:6143 SLF.LibReflect <> istrue coe
+R6149:6150 SLF.LibReflect <> b1:33 var
+R6165:6166 SLF.LibReflect <> b3:35 var
+R6157:6158 SLF.LibReflect <> b2:34 var
+R6174:6176 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6186:6191 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6201:6206 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6207:6212 SLF.LibReflect <> istrue coe
+R6214:6215 SLF.LibReflect <> b3:35 var
+R6192:6197 SLF.LibReflect <> istrue coe
+R6199:6200 SLF.LibReflect <> b2:34 var
+R6177:6182 SLF.LibReflect <> istrue coe
+R6184:6185 SLF.LibReflect <> b1:33 var
+prf 6474:6486 <> isTrue_istrue
+binder 6497:6497 <> b:36
+R6519:6521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6502:6507 SLF.LibReflect <> isTrue def
+R6510:6515 SLF.LibReflect <> istrue coe
+R6517:6517 SLF.LibReflect <> b:36 var
+R6522:6522 SLF.LibReflect <> b:36 var
+R6555:6570 SLF.LibReflect <> istrue_isTrue_eq thm
+R6555:6570 SLF.LibReflect <> istrue_isTrue_eq thm
+prf 6585:6594 <> isTrue_not
+binder 6605:6605 <> P:37
+R6622:6624 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6610:6615 SLF.LibReflect <> isTrue def
+R6618:6619 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6620:6620 SLF.LibReflect <> P:37 var
+R6625:6626 SLF.LibBool <> ::Bool_scope:'!'_x not
+R6627:6632 SLF.LibReflect <> isTrue def
+R6634:6634 SLF.LibReflect <> P:37 var
+R6671:6682 SLF.LibReflect <> isTrue_eq_if thm
+R6671:6682 SLF.LibReflect <> isTrue_eq_if thm
+R6671:6682 SLF.LibReflect <> isTrue_eq_if thm
+R6671:6682 SLF.LibReflect <> isTrue_eq_if thm
+R6671:6682 SLF.LibReflect <> isTrue_eq_if thm
+prf 6724:6733 <> isTrue_and
+binder 6744:6745 <> P1:38
+binder 6747:6748 <> P2:39
+R6770:6773 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6796:6796 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6753:6758 SLF.LibReflect <> isTrue def
+R6763:6766 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6761:6762 SLF.LibReflect <> P1:38 var
+R6767:6768 SLF.LibReflect <> P2:39 var
+R6783:6786 SLF.LibBool <> ::Bool_scope:x_'&&'_x not
+R6774:6779 SLF.LibReflect <> isTrue def
+R6781:6782 SLF.LibReflect <> P1:38 var
+R6787:6792 SLF.LibReflect <> isTrue def
+R6794:6795 SLF.LibReflect <> P2:39 var
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+R6833:6844 SLF.LibReflect <> isTrue_eq_if thm
+prf 6886:6894 <> isTrue_or
+binder 6905:6906 <> P1:40
+binder 6908:6909 <> P2:41
+R6931:6934 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6957:6957 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6914:6919 SLF.LibReflect <> isTrue def
+R6924:6927 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6922:6923 SLF.LibReflect <> P1:40 var
+R6928:6929 SLF.LibReflect <> P2:41 var
+R6944:6947 SLF.LibBool <> ::Bool_scope:x_'||'_x not
+R6935:6940 SLF.LibReflect <> isTrue def
+R6942:6943 SLF.LibReflect <> P1:40 var
+R6948:6953 SLF.LibReflect <> isTrue def
+R6955:6956 SLF.LibReflect <> P2:41 var
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+R6994:7005 SLF.LibReflect <> isTrue_eq_if thm
+prf 7065:7081 <> isTrue_not_istrue
+binder 7092:7092 <> b:42
+R7116:7118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7097:7102 SLF.LibReflect <> isTrue def
+R7105:7106 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7107:7112 SLF.LibReflect <> istrue coe
+R7114:7114 SLF.LibReflect <> b:42 var
+R7119:7119 SLF.LibBool <> ::Bool_scope:'!'_x not
+R7120:7120 SLF.LibReflect <> b:42 var
+R7152:7161 SLF.LibReflect <> isTrue_not thm
+R7152:7161 SLF.LibReflect <> isTrue_not thm
+R7152:7161 SLF.LibReflect <> isTrue_not thm
+R7173:7185 SLF.LibReflect <> isTrue_istrue thm
+R7173:7185 SLF.LibReflect <> isTrue_istrue thm
+sec 7256:7271 <> IsTrueEqualities
+R7341:7352 SLF.LibReflect <> isTrue_eq_if thm
+prf 7389:7405 <> true_eq_isTrue_eq
+binder 7416:7416 <> P:43
+R7421:7421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7437:7440 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7426:7428 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7422:7425 Coq.Init.Datatypes <> true constr
+R7429:7434 SLF.LibReflect <> isTrue def
+R7436:7436 SLF.LibReflect <> P:43 var
+R7441:7441 SLF.LibReflect <> P:43 var
+prf 7489:7505 <> isTrue_eq_true_eq
+binder 7516:7516 <> P:44
+R7521:7521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7537:7540 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7530:7532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7522:7527 SLF.LibReflect <> isTrue def
+R7529:7529 SLF.LibReflect <> P:44 var
+R7533:7536 Coq.Init.Datatypes <> true constr
+R7541:7541 SLF.LibReflect <> P:44 var
+prf 7589:7606 <> false_eq_isTrue_eq
+binder 7617:7617 <> P:45
+R7622:7622 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7639:7642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7628:7630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7623:7627 Coq.Init.Datatypes <> false constr
+R7631:7636 SLF.LibReflect <> isTrue def
+R7638:7638 SLF.LibReflect <> P:45 var
+R7643:7644 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7645:7645 SLF.LibReflect <> P:45 var
+prf 7693:7710 <> isTrue_eq_false_eq
+binder 7721:7721 <> P:46
+R7726:7726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7743:7746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7735:7737 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7727:7732 SLF.LibReflect <> isTrue def
+R7734:7734 SLF.LibReflect <> P:46 var
+R7738:7742 Coq.Init.Datatypes <> false constr
+R7747:7748 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7749:7749 SLF.LibReflect <> P:46 var
+prf 7797:7815 <> isTrue_eq_isTrue_eq
+binder 7826:7827 <> P1:47
+binder 7829:7830 <> P2:48
+R7835:7835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7857:7861 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7871:7871 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7845:7847 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7836:7841 SLF.LibReflect <> isTrue def
+R7843:7844 SLF.LibReflect <> P1:47 var
+R7848:7853 SLF.LibReflect <> isTrue def
+R7855:7856 SLF.LibReflect <> P2:48 var
+R7864:7868 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7862:7863 SLF.LibReflect <> P1:47 var
+R7869:7870 SLF.LibReflect <> P2:48 var
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7925:7936 SLF.LibReflect <> isTrue_eq_if thm
+R7985:8000 SLF.LibReflect IsTrueEqualities <> sec
+prf 8044:8052 <> if_isTrue
+binder 8063:8063 <> P:49
+binder 8065:8065 <> A:50
+R8074:8074 SLF.LibReflect <> A:50 var
+binder 8068:8068 <> x:51
+binder 8070:8070 <> y:52
+R8082:8082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8108:8114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8133:8133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8086:8091 SLF.LibReflect <> isTrue def
+R8093:8093 SLF.LibReflect <> P:49 var
+R8107:8107 SLF.LibReflect <> y:52 var
+R8100:8100 SLF.LibReflect <> x:51 var
+R8115:8117 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8119:8124 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8126:8131 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8132:8132 SLF.LibReflect <> y:52 var
+R8125:8125 SLF.LibReflect <> x:51 var
+R8118:8118 SLF.LibReflect <> P:49 var
+R8206:8222 SLF.LibReflect <> isTrue_eq_true_eq thm
+R8206:8222 SLF.LibReflect <> isTrue_eq_true_eq thm
+R8245:8262 SLF.LibReflect <> isTrue_eq_false_eq thm
+R8245:8262 SLF.LibReflect <> isTrue_eq_false_eq thm
+prf 8284:8292 <> isTrue_If
+binder 8303:8304 <> P1:53
+binder 8306:8307 <> P2:54
+binder 8309:8310 <> P3:55
+R8347:8351 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8317:8322 SLF.LibReflect <> isTrue def
+R8325:8327 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8330:8335 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8338:8343 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8344:8345 SLF.LibReflect <> P3:55 var
+R8336:8337 SLF.LibReflect <> P2:54 var
+R8328:8329 SLF.LibReflect <> P1:53 var
+R8352:8354 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8357:8362 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8372:8377 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8378:8383 SLF.LibReflect <> isTrue def
+R8385:8386 SLF.LibReflect <> P3:55 var
+R8363:8368 SLF.LibReflect <> isTrue def
+R8370:8371 SLF.LibReflect <> P2:54 var
+R8355:8356 SLF.LibReflect <> P1:53 var
+prf 8432:8453 <> isTrue_If_eq_if_isTrue
+binder 8464:8465 <> P1:56
+binder 8467:8468 <> P2:57
+binder 8470:8471 <> P3:58
+R8508:8513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8556:8556 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8478:8483 SLF.LibReflect <> isTrue def
+R8486:8488 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8491:8496 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8499:8504 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R8505:8506 SLF.LibReflect <> P3:58 var
+R8497:8498 SLF.LibReflect <> P2:57 var
+R8489:8490 SLF.LibReflect <> P1:56 var
+R8517:8522 SLF.LibReflect <> isTrue def
+R8524:8525 SLF.LibReflect <> P1:56 var
+R8547:8552 SLF.LibReflect <> isTrue def
+R8554:8555 SLF.LibReflect <> P3:58 var
+R8532:8537 SLF.LibReflect <> isTrue def
+R8539:8540 SLF.LibReflect <> P2:57 var
+R8588:8596 SLF.LibReflect <> if_isTrue thm
+R8588:8596 SLF.LibReflect <> if_isTrue thm
+R8588:8596 SLF.LibReflect <> if_isTrue thm
+R8608:8616 SLF.LibReflect <> isTrue_If thm
+R8608:8616 SLF.LibReflect <> isTrue_If thm
+prf 8819:8829 <> bool_inv_or
+binder 8840:8840 <> b:59
+R8846:8849 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8845:8845 SLF.LibReflect <> b:59 var
+R8850:8850 SLF.LibBool <> ::Bool_scope:'!'_x not
+R8851:8851 SLF.LibReflect <> b:59 var
+prf 8887:8900 <> bool_inv_or_eq
+binder 8911:8911 <> b:60
+R8924:8927 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8917:8919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8916:8916 SLF.LibReflect <> b:60 var
+R8920:8923 Coq.Init.Datatypes <> true constr
+R8929:8931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8928:8928 SLF.LibReflect <> b:60 var
+R8932:8936 Coq.Init.Datatypes <> false constr
+prf 8972:8981 <> xor_inv_or
+binder 8992:8993 <> b1:61
+binder 8995:8996 <> b2:62
+R9010:9018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9001:9003 SLF.LibBool <> xor def
+R9008:9009 SLF.LibReflect <> b2:62 var
+R9005:9006 SLF.LibReflect <> b1:61 var
+R9019:9019 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9043:9050 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9074:9074 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9029:9032 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9022:9024 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9020:9021 SLF.LibReflect <> b1:61 var
+R9025:9028 Coq.Init.Datatypes <> true constr
+R9035:9037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9033:9034 SLF.LibReflect <> b2:62 var
+R9038:9042 Coq.Init.Datatypes <> false constr
+R9061:9064 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9053:9055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9051:9052 SLF.LibReflect <> b1:61 var
+R9056:9060 Coq.Init.Datatypes <> false constr
+R9067:9069 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9065:9066 SLF.LibReflect <> b2:62 var
+R9070:9073 Coq.Init.Datatypes <> true constr
+R9127:9136 SLF.LibReflect <> xor_inv_or thm
+R9127:9136 SLF.LibReflect <> xor_inv_or thm
+prf 9372:9386 <> bool_eq_true_eq
+binder 9397:9397 <> b:63
+R9402:9402 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9411:9414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9404:9406 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9403:9403 SLF.LibReflect <> b:63 var
+R9407:9410 Coq.Init.Datatypes <> true constr
+R9415:9420 SLF.LibReflect <> istrue coe
+R9422:9422 SLF.LibReflect <> b:63 var
+prf 9466:9481 <> bool_eq_false_eq
+binder 9492:9492 <> b:64
+R9497:9497 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9507:9510 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9499:9501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9498:9498 SLF.LibReflect <> b:64 var
+R9502:9506 Coq.Init.Datatypes <> false constr
+R9511:9516 SLF.LibReflect <> istrue coe
+R9519:9519 SLF.LibBool <> ::Bool_scope:'!'_x not
+R9520:9520 SLF.LibReflect <> b:64 var
+prf 9565:9579 <> true_eq_bool_eq
+binder 9590:9590 <> b:65
+R9595:9595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9604:9607 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9600:9602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9596:9599 Coq.Init.Datatypes <> true constr
+R9603:9603 SLF.LibReflect <> b:65 var
+R9608:9613 SLF.LibReflect <> istrue coe
+R9615:9615 SLF.LibReflect <> b:65 var
+prf 9659:9674 <> false_eq_bool_eq
+binder 9685:9685 <> b:66
+R9690:9690 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9700:9703 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9696:9698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9691:9695 Coq.Init.Datatypes <> false constr
+R9699:9699 SLF.LibReflect <> b:66 var
+R9704:9709 SLF.LibReflect <> istrue coe
+R9712:9712 SLF.LibBool <> ::Bool_scope:'!'_x not
+R9713:9713 SLF.LibReflect <> b:66 var
+R10277:10290 SLF.LibReflect <> istrue_true_eq thm
+R10292:10306 SLF.LibReflect <> istrue_false_eq thm
+R10308:10323 SLF.LibReflect <> istrue_isTrue_eq thm
+R10327:10339 SLF.LibReflect <> istrue_neg_eq thm
+R10341:10353 SLF.LibReflect <> istrue_and_eq thm
+R10355:10366 SLF.LibReflect <> istrue_or_eq thm
+R10370:10378 SLF.LibReflect <> If_istrue thm
+R10380:10391 SLF.LibReflect <> istrue_If_eq thm
+R10393:10404 SLF.LibReflect <> istrue_if_eq thm
+R11548:11558 SLF.LibReflect <> isTrue_True thm
+R11560:11571 SLF.LibReflect <> isTrue_False thm
+R11573:11585 SLF.LibReflect <> isTrue_istrue thm
+R11589:11598 SLF.LibReflect <> isTrue_not thm
+R11600:11609 SLF.LibReflect <> isTrue_and thm
+R11611:11619 SLF.LibReflect <> isTrue_or thm
+R11623:11631 SLF.LibReflect <> if_isTrue thm
+R11633:11641 SLF.LibReflect <> isTrue_If thm
+R12834:12850 SLF.LibReflect <> true_eq_isTrue_eq thm
+R12852:12868 SLF.LibReflect <> isTrue_eq_true_eq thm
+R12872:12889 SLF.LibReflect <> false_eq_isTrue_eq thm
+R12891:12908 SLF.LibReflect <> isTrue_eq_false_eq thm
+R12912:12930 SLF.LibReflect <> isTrue_eq_isTrue_eq thm
+R12934:12943 SLF.LibLogic <> not_not_eq thm
+R12947:12960 SLF.LibReflect <> istrue_true_eq thm
+R12962:12976 SLF.LibReflect <> istrue_false_eq thm
+R12978:12993 SLF.LibReflect <> istrue_isTrue_eq thm
+R12997:13009 SLF.LibReflect <> istrue_neg_eq thm
+R13011:13023 SLF.LibReflect <> istrue_and_eq thm
+R13025:13036 SLF.LibReflect <> istrue_or_eq thm
+R13040:13054 SLF.LibReflect <> bool_eq_true_eq thm
+R13056:13071 SLF.LibReflect <> bool_eq_false_eq thm
+R13073:13087 SLF.LibReflect <> true_eq_bool_eq thm
+R13089:13104 SLF.LibReflect <> false_eq_bool_eq thm
+R14589:14594 SLF.LibReflect <> istrue coe
+R14666:14669 Coq.Init.Datatypes <> bool ind
+R14666:14669 Coq.Init.Datatypes <> bool ind
+R14738:14738 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14740:14742 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14744:14744 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14738:14738 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14740:14742 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14744:14744 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14949:14954 SLF.LibReflect <> istrue coe
+R14949:14954 SLF.LibReflect <> istrue coe
+R14971:14976 SLF.LibReflect <> istrue coe
+R14979:14981 SLF.LibBool <> neg def
+R14971:14976 SLF.LibReflect <> istrue coe
+R14979:14981 SLF.LibBool <> neg def
+R15001:15003 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15001:15003 Coq.Init.Logic <> ::type_scope:x_'='_x not

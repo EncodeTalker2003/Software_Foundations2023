@@ -1,0 +1,2727 @@
+DIGEST 198967f752146a3aaf80a6db56f4ed45
+FSLF.LibSepFmap
+R93:99 SLF.LibCore <> <> lib
+def 1548:1550 <> map
+binder 1553:1553 <> A:1
+binder 1555:1555 <> B:2
+R1578:1581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1577:1577 SLF.LibSepFmap <> A:1 var
+R1582:1587 Coq.Init.Datatypes <> option ind
+R1589:1589 SLF.LibSepFmap <> B:2 var
+def 1747:1755 <> map_union
+binder 1758:1758 <> A:3
+binder 1760:1760 <> B:4
+R1779:1781 SLF.LibSepFmap <> map def
+R1785:1785 SLF.LibSepFmap <> B:4 var
+R1783:1783 SLF.LibSepFmap <> A:3 var
+binder 1771:1772 <> f1:5
+binder 1774:1775 <> f2:6
+R1790:1792 SLF.LibSepFmap <> map def
+R1796:1796 SLF.LibSepFmap <> B:4 var
+R1794:1794 SLF.LibSepFmap <> A:3 var
+R1810:1810 SLF.LibSepFmap <> A:3 var
+binder 1808:1808 <> x:7
+R1822:1823 SLF.LibSepFmap <> f1:5 var
+R1825:1825 SLF.LibSepFmap <> x:7 var
+R1845:1848 Coq.Init.Datatypes <> Some constr
+R1855:1858 Coq.Init.Datatypes <> Some constr
+R1875:1878 Coq.Init.Datatypes <> None constr
+R1883:1884 SLF.LibSepFmap <> f2:6 var
+R1886:1886 SLF.LibSepFmap <> x:7 var
+def 1957:1966 <> map_remove
+binder 1969:1969 <> A:8
+binder 1971:1971 <> B:9
+R1986:1988 SLF.LibSepFmap <> map def
+R1992:1992 SLF.LibSepFmap <> B:9 var
+R1990:1990 SLF.LibSepFmap <> A:8 var
+binder 1982:1982 <> f:10
+R1998:1998 SLF.LibSepFmap <> A:8 var
+binder 1996:1996 <> k:11
+R2003:2005 SLF.LibSepFmap <> map def
+R2009:2009 SLF.LibSepFmap <> B:9 var
+R2007:2007 SLF.LibSepFmap <> A:8 var
+R2023:2023 SLF.LibSepFmap <> A:8 var
+binder 2021:2021 <> x:12
+R2029:2031 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2037:2042 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2047:2052 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2053:2053 SLF.LibSepFmap <> f:10 var
+R2055:2055 SLF.LibSepFmap <> x:12 var
+R2043:2046 Coq.Init.Datatypes <> None constr
+R2033:2035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2032:2032 SLF.LibSepFmap <> x:12 var
+R2036:2036 SLF.LibSepFmap <> k:11 var
+def 2114:2123 <> map_finite
+binder 2126:2126 <> A:13
+binder 2128:2128 <> B:14
+R2143:2145 SLF.LibSepFmap <> map def
+R2149:2149 SLF.LibSepFmap <> B:14 var
+R2147:2147 SLF.LibSepFmap <> A:13 var
+binder 2139:2139 <> f:15
+R2157:2164 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2175:2177 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2169:2172 Coq.Init.Datatypes <> list ind
+R2174:2174 SLF.LibSepFmap <> A:13 var
+binder 2165:2165 <> L:16
+R2188:2188 SLF.LibSepFmap <> A:13 var
+binder 2186:2186 <> x:17
+R2203:2206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2195:2198 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2192:2192 SLF.LibSepFmap <> f:15 var
+R2194:2194 SLF.LibSepFmap <> x:17 var
+R2199:2202 Coq.Init.Datatypes <> None constr
+R2207:2209 SLF.LibList <> mem ind
+R2213:2213 SLF.LibSepFmap <> L:16 var
+R2211:2211 SLF.LibSepFmap <> x:17 var
+def 2284:2295 <> map_disjoint
+binder 2298:2298 <> A:18
+binder 2300:2300 <> B:19
+R2319:2321 SLF.LibSepFmap <> map def
+R2325:2325 SLF.LibSepFmap <> B:19 var
+R2323:2323 SLF.LibSepFmap <> A:18 var
+binder 2311:2312 <> f1:20
+binder 2314:2315 <> f2:21
+R2343:2343 SLF.LibSepFmap <> A:18 var
+binder 2341:2341 <> x:22
+R2358:2361 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2351:2353 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2347:2348 SLF.LibSepFmap <> f1:20 var
+R2350:2350 SLF.LibSepFmap <> x:22 var
+R2354:2357 Coq.Init.Datatypes <> None constr
+R2366:2368 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2362:2363 SLF.LibSepFmap <> f2:21 var
+R2365:2365 SLF.LibSepFmap <> x:22 var
+R2369:2372 Coq.Init.Datatypes <> None constr
+def 2523:2531 <> map_agree
+binder 2534:2534 <> A:23
+binder 2536:2536 <> B:24
+R2555:2557 SLF.LibSepFmap <> map def
+R2561:2561 SLF.LibSepFmap <> B:24 var
+R2559:2559 SLF.LibSepFmap <> A:23 var
+binder 2547:2548 <> f1:25
+binder 2550:2551 <> f2:26
+binder 2576:2576 <> x:27
+binder 2578:2579 <> v1:28
+binder 2581:2582 <> v2:29
+R2601:2606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2591:2593 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2587:2588 SLF.LibSepFmap <> f1:25 var
+R2590:2590 SLF.LibSepFmap <> x:27 var
+R2594:2597 Coq.Init.Datatypes <> Some constr
+R2599:2600 SLF.LibSepFmap <> v1:28 var
+R2621:2626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2611:2613 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2607:2608 SLF.LibSepFmap <> f2:26 var
+R2610:2610 SLF.LibSepFmap <> x:27 var
+R2614:2617 Coq.Init.Datatypes <> Some constr
+R2619:2620 SLF.LibSepFmap <> v2:29 var
+R2629:2631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2627:2628 SLF.LibSepFmap <> v1:28 var
+R2632:2633 SLF.LibSepFmap <> v2:29 var
+def 2689:2697 <> map_indom
+binder 2700:2700 <> A:30
+binder 2702:2702 <> B:31
+R2718:2720 SLF.LibSepFmap <> map def
+R2724:2724 SLF.LibSepFmap <> B:31 var
+R2722:2722 SLF.LibSepFmap <> A:30 var
+binder 2713:2714 <> f1:32
+R2731:2732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2730:2730 SLF.LibSepFmap <> A:30 var
+R2751:2751 SLF.LibSepFmap <> A:30 var
+binder 2749:2749 <> x:33
+R2761:2764 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2757:2758 SLF.LibSepFmap <> f1:32 var
+R2760:2760 SLF.LibSepFmap <> x:33 var
+R2765:2768 Coq.Init.Datatypes <> None constr
+def 2820:2829 <> map_filter
+binder 2831:2831 <> A:34
+binder 2833:2833 <> B:35
+R2839:2840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2838:2838 SLF.LibSepFmap <> A:34 var
+R2842:2843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2841:2841 SLF.LibSepFmap <> B:35 var
+binder 2836:2836 <> F:36
+R2853:2855 SLF.LibSepFmap <> map def
+R2859:2859 SLF.LibSepFmap <> B:35 var
+R2857:2857 SLF.LibSepFmap <> A:34 var
+binder 2851:2851 <> f:37
+R2864:2866 SLF.LibSepFmap <> map def
+R2870:2870 SLF.LibSepFmap <> B:35 var
+R2868:2868 SLF.LibSepFmap <> A:34 var
+R2884:2884 SLF.LibSepFmap <> A:34 var
+binder 2882:2882 <> x:38
+R2896:2896 SLF.LibSepFmap <> f:37 var
+R2898:2898 SLF.LibSepFmap <> x:38 var
+R2911:2914 Coq.Init.Datatypes <> None constr
+R2919:2922 Coq.Init.Datatypes <> None constr
+R2930:2933 Coq.Init.Datatypes <> Some constr
+R2940:2942 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2948:2953 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2960:2965 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R2966:2969 Coq.Init.Datatypes <> None constr
+R2954:2957 Coq.Init.Datatypes <> Some constr
+R2943:2943 SLF.LibSepFmap <> F:36 var
+R2945:2945 SLF.LibSepFmap <> x:38 var
+def 3038:3044 <> map_map
+binder 3046:3046 <> A:39
+binder 3048:3049 <> B1:40
+binder 3051:3052 <> B2:41
+R3058:3059 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3057:3057 SLF.LibSepFmap <> A:39 var
+R3062:3063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3060:3061 SLF.LibSepFmap <> B1:40 var
+R3064:3065 SLF.LibSepFmap <> B2:41 var
+binder 3055:3055 <> F:42
+R3071:3073 SLF.LibSepFmap <> map def
+R3077:3078 SLF.LibSepFmap <> B1:40 var
+R3075:3075 SLF.LibSepFmap <> A:39 var
+binder 3069:3069 <> f:43
+R3083:3085 SLF.LibSepFmap <> map def
+R3089:3090 SLF.LibSepFmap <> B2:41 var
+R3087:3087 SLF.LibSepFmap <> A:39 var
+R3104:3104 SLF.LibSepFmap <> A:39 var
+binder 3102:3102 <> x:44
+R3116:3116 SLF.LibSepFmap <> f:43 var
+R3118:3118 SLF.LibSepFmap <> x:44 var
+R3131:3134 Coq.Init.Datatypes <> None constr
+R3139:3142 Coq.Init.Datatypes <> None constr
+R3150:3153 Coq.Init.Datatypes <> Some constr
+R3160:3163 Coq.Init.Datatypes <> Some constr
+R3166:3166 SLF.LibSepFmap <> F:42 var
+R3168:3168 SLF.LibSepFmap <> x:44 var
+sec 3286:3291 <> MapOps
+var 3305:3305 MapOps A
+var 3307:3307 MapOps B
+R3337:3339 SLF.LibSepFmap <> map def
+R3343:3343 SLF.LibSepFmap <> MapOps.B var
+R3341:3341 SLF.LibSepFmap <> MapOps.A var
+prf 3386:3400 <> map_disjoint_eq
+binder 3411:3412 <> f1:47
+binder 3414:3415 <> f2:48
+R3438:3441 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3493:3493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3420:3431 SLF.LibSepFmap <> map_disjoint def
+R3436:3437 SLF.LibSepFmap <> f2:48 var
+R3433:3434 SLF.LibSepFmap <> f1:47 var
+binder 3449:3449 <> x:49
+R3466:3469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3452:3460 SLF.LibSepFmap <> map_indom def
+R3465:3465 SLF.LibSepFmap <> x:49 var
+R3462:3463 SLF.LibSepFmap <> f1:47 var
+R3484:3487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3470:3478 SLF.LibSepFmap <> map_indom def
+R3483:3483 SLF.LibSepFmap <> x:49 var
+R3480:3481 SLF.LibSepFmap <> f2:48 var
+R3488:3492 Coq.Init.Logic <> False ind
+R3526:3537 SLF.LibSepFmap <> map_disjoint def
+R3540:3548 SLF.LibSepFmap <> map_indom def
+prf 3826:3841 <> map_disjoint_sym
+R3847:3849 SLF.LibRelation <> sym def
+R3853:3864 SLF.LibSepFmap <> map_disjoint def
+R3866:3866 SLF.LibSepFmap <> MapOps.A var
+R3868:3868 SLF.LibSepFmap <> MapOps.B var
+R3905:3916 SLF.LibSepFmap <> map_disjoint def
+R3905:3916 SLF.LibSepFmap <> map_disjoint def
+prf 4009:4022 <> map_union_comm
+binder 4033:4034 <> f1:50
+binder 4036:4037 <> f2:51
+R4060:4065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4042:4053 SLF.LibSepFmap <> map_disjoint def
+R4058:4059 SLF.LibSepFmap <> f2:51 var
+R4055:4056 SLF.LibSepFmap <> f1:50 var
+R4081:4083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4066:4074 SLF.LibSepFmap <> map_union def
+R4079:4080 SLF.LibSepFmap <> f2:51 var
+R4076:4077 SLF.LibSepFmap <> f1:50 var
+R4084:4092 SLF.LibSepFmap <> map_union def
+R4097:4098 SLF.LibSepFmap <> f1:50 var
+R4094:4095 SLF.LibSepFmap <> f2:51 var
+R4133:4135 SLF.LibSepFmap <> map def
+R4166:4177 SLF.LibSepFmap <> map_disjoint def
+R4180:4188 SLF.LibSepFmap <> map_union def
+R4166:4177 SLF.LibSepFmap <> map_disjoint def
+R4180:4188 SLF.LibSepFmap <> map_union def
+prf 4303:4318 <> map_union_finite
+binder 4329:4330 <> f1:52
+binder 4332:4333 <> f2:53
+R4351:4356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4338:4347 SLF.LibSepFmap <> map_finite def
+R4349:4350 SLF.LibSepFmap <> f1:52 var
+R4370:4375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4357:4366 SLF.LibSepFmap <> map_finite def
+R4368:4369 SLF.LibSepFmap <> f2:53 var
+R4376:4385 SLF.LibSepFmap <> map_finite def
+R4388:4396 SLF.LibSepFmap <> map_union def
+R4401:4402 SLF.LibSepFmap <> f2:53 var
+R4398:4399 SLF.LibSepFmap <> f1:52 var
+R4455:4458 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R4455:4458 SLF.LibList <> ::liblist_scope:x_'++'_x not
+R4521:4529 SLF.LibSepFmap <> map_union def
+R4545:4551 SLF.LibList <> mem_app thm
+R4545:4551 SLF.LibList <> mem_app thm
+def 4619:4635 <> map_remove_finite
+binder 4646:4646 <> x:54
+binder 4648:4648 <> f:55
+R4665:4670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4653:4662 SLF.LibSepFmap <> map_finite def
+R4664:4664 SLF.LibSepFmap <> f:55 var
+R4671:4680 SLF.LibSepFmap <> map_finite def
+R4683:4692 SLF.LibSepFmap <> map_remove def
+R4696:4696 SLF.LibSepFmap <> x:54 var
+R4694:4694 SLF.LibSepFmap <> f:55 var
+R4779:4788 SLF.LibSepFmap <> map_remove def
+def 4852:4868 <> map_filter_finite
+R4883:4884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4882:4882 SLF.LibSepFmap <> MapOps.A var
+R4886:4887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4885:4885 SLF.LibSepFmap <> MapOps.B var
+binder 4880:4880 <> F:56
+binder 4894:4894 <> f:57
+R4911:4916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4899:4908 SLF.LibSepFmap <> map_finite def
+R4910:4910 SLF.LibSepFmap <> f:57 var
+R4917:4926 SLF.LibSepFmap <> map_finite def
+R4929:4938 SLF.LibSepFmap <> map_filter def
+R4942:4942 SLF.LibSepFmap <> f:57 var
+R4940:4940 SLF.LibSepFmap <> F:56 var
+R5025:5034 SLF.LibSepFmap <> map_filter def
+def 5145:5158 <> map_map_finite
+binder 5169:5169 <> C:58
+R5175:5176 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5174:5174 SLF.LibSepFmap <> MapOps.A var
+R5178:5179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5177:5177 SLF.LibSepFmap <> MapOps.B var
+R5180:5180 SLF.LibSepFmap <> C:58 var
+binder 5172:5172 <> F:59
+binder 5183:5183 <> f:60
+R5200:5205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5188:5197 SLF.LibSepFmap <> map_finite def
+R5199:5199 SLF.LibSepFmap <> f:60 var
+R5206:5215 SLF.LibSepFmap <> map_finite def
+R5218:5224 SLF.LibSepFmap <> map_map def
+R5228:5228 SLF.LibSepFmap <> f:60 var
+R5226:5226 SLF.LibSepFmap <> F:59 var
+R5311:5317 SLF.LibSepFmap <> map_map def
+R5386:5391 SLF.LibSepFmap MapOps <> sec
+rec 5636:5639 <> fmap
+proj 5673:5681 <> fmap_data
+proj 5697:5707 <> fmap_finite
+binder 5642:5642 <> A:61
+binder 5644:5644 <> B:62
+R5686:5688 SLF.LibSepFmap <> map def
+R5692:5692 SLF.LibSepFmap <> B:62 var
+R5690:5690 SLF.LibSepFmap <> A:61 var
+R5711:5720 SLF.LibSepFmap <> map_finite def
+R5722:5730 SLF.LibSepFmap <> fmap_data:64 meth
+R5746:5749 SLF.LibSepFmap <> make constr
+R5746:5749 SLF.LibSepFmap <> make constr
+def 5936:5940 <> indom
+binder 5943:5943 <> A:66
+binder 5945:5945 <> B:67
+R5957:5960 SLF.LibSepFmap <> fmap indrec
+R5964:5964 SLF.LibSepFmap <> B:67 var
+R5962:5962 SLF.LibSepFmap <> A:66 var
+binder 5955:5955 <> h:68
+R5971:5972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5970:5970 SLF.LibSepFmap <> A:66 var
+R5984:5992 SLF.LibSepFmap <> map_indom def
+R5994:5994 SLF.LibSepFmap <> h:68 var
+def 6036:6040 <> empty
+binder 6043:6043 <> A:69
+binder 6045:6045 <> B:70
+R6057:6060 SLF.LibSepFmap <> fmap indrec
+R6064:6064 SLF.LibSepFmap <> B:70 var
+R6062:6062 SLF.LibSepFmap <> A:69 var
+R6071:6074 SLF.LibSepFmap <> make constr
+binder 6081:6081 <> l:71
+R6086:6089 Coq.Init.Datatypes <> None constr
+R6121:6123 Coq.Init.Datatypes <> nil constr
+R6121:6123 Coq.Init.Datatypes <> nil constr
+R6157:6161 SLF.LibSepFmap <> empty def
+R6157:6161 SLF.LibSepFmap <> empty def
+def 6215:6220 <> single
+binder 6222:6222 <> A:72
+binder 6224:6224 <> B:73
+R6229:6229 SLF.LibSepFmap <> A:72 var
+binder 6227:6227 <> x:74
+R6235:6235 SLF.LibSepFmap <> B:73 var
+binder 6233:6233 <> v:75
+R6240:6243 SLF.LibSepFmap <> fmap indrec
+R6247:6247 SLF.LibSepFmap <> B:73 var
+R6245:6245 SLF.LibSepFmap <> A:72 var
+R6254:6257 SLF.LibSepFmap <> make constr
+binder 6264:6265 <> x':76
+R6270:6272 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6279:6284 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6291:6296 SLF.LibLogic <> ::type_scope:'If'_x_'then'_x_'else'_x not
+R6297:6300 Coq.Init.Datatypes <> None constr
+R6285:6288 Coq.Init.Datatypes <> Some constr
+R6290:6290 SLF.LibSepFmap <> v:75 var
+R6274:6276 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6273:6273 SLF.LibSepFmap <> x:74 var
+R6277:6278 SLF.LibSepFmap <> x':76 var
+R6334:6335 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R6336:6338 Coq.Init.Datatypes <> nil constr
+R6334:6335 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R6336:6338 Coq.Init.Datatypes <> nil constr
+def 6415:6419 <> union
+binder 6421:6421 <> A:77
+binder 6423:6423 <> B:78
+R6432:6435 SLF.LibSepFmap <> fmap indrec
+R6439:6439 SLF.LibSepFmap <> B:78 var
+R6437:6437 SLF.LibSepFmap <> A:77 var
+binder 6426:6427 <> h1:79
+binder 6429:6430 <> h2:80
+R6444:6447 SLF.LibSepFmap <> fmap indrec
+R6451:6451 SLF.LibSepFmap <> B:78 var
+R6449:6449 SLF.LibSepFmap <> A:77 var
+R6458:6461 SLF.LibSepFmap <> make constr
+R6464:6472 SLF.LibSepFmap <> map_union def
+R6477:6478 SLF.LibSepFmap <> h2:80 var
+R6474:6475 SLF.LibSepFmap <> h1:79 var
+R6534:6549 SLF.LibSepFmap <> map_union_finite thm
+R6534:6549 SLF.LibSepFmap <> map_union_finite thm
+R6582:6586 SLF.LibSepFmap <> union def
+not 6567:6567 <> ::fmap_scope:x_'\+'_x
+def 6708:6713 <> update
+binder 6715:6715 <> A:81
+binder 6717:6717 <> B:82
+R6722:6725 SLF.LibSepFmap <> fmap indrec
+R6729:6729 SLF.LibSepFmap <> B:82 var
+R6727:6727 SLF.LibSepFmap <> A:81 var
+binder 6720:6720 <> h:83
+R6735:6735 SLF.LibSepFmap <> A:81 var
+binder 6733:6733 <> x:84
+R6741:6741 SLF.LibSepFmap <> B:82 var
+binder 6739:6739 <> v:85
+R6746:6749 SLF.LibSepFmap <> fmap indrec
+R6753:6753 SLF.LibSepFmap <> B:82 var
+R6751:6751 SLF.LibSepFmap <> A:81 var
+R6760:6764 SLF.LibSepFmap <> union def
+R6779:6779 SLF.LibSepFmap <> h:83 var
+R6767:6772 SLF.LibSepFmap <> single def
+R6776:6776 SLF.LibSepFmap <> v:85 var
+R6774:6774 SLF.LibSepFmap <> x:84 var
+def 6886:6889 <> read
+binder 6892:6892 <> A:86
+binder 6894:6894 <> B:87
+R6908:6912 SLF.LibLogic <> Inhab class
+R6914:6914 SLF.LibSepFmap <> B:87 var
+binder 6905:6906 <> IB:88
+R6920:6923 SLF.LibSepFmap <> fmap indrec
+R6927:6927 SLF.LibSepFmap <> B:87 var
+R6925:6925 SLF.LibSepFmap <> A:86 var
+binder 6918:6918 <> h:89
+R6933:6933 SLF.LibSepFmap <> A:86 var
+binder 6931:6931 <> x:90
+R6938:6938 SLF.LibSepFmap <> B:87 var
+R6951:6959 SLF.LibSepFmap <> fmap_data proj
+R6963:6963 SLF.LibSepFmap <> x:90 var
+R6961:6961 SLF.LibSepFmap <> h:89 var
+R6974:6977 Coq.Init.Datatypes <> Some constr
+R6990:6993 Coq.Init.Datatypes <> None constr
+R6998:7006 SLF.LibLogic <> arbitrary def
+def 7063:7068 <> remove
+binder 7070:7070 <> A:91
+binder 7072:7072 <> B:92
+R7077:7080 SLF.LibSepFmap <> fmap indrec
+R7084:7084 SLF.LibSepFmap <> B:92 var
+R7082:7082 SLF.LibSepFmap <> A:91 var
+binder 7075:7075 <> h:93
+R7090:7090 SLF.LibSepFmap <> A:91 var
+binder 7088:7088 <> x:94
+R7095:7098 SLF.LibSepFmap <> fmap indrec
+R7102:7102 SLF.LibSepFmap <> B:92 var
+R7100:7100 SLF.LibSepFmap <> A:91 var
+R7109:7112 SLF.LibSepFmap <> make constr
+R7115:7124 SLF.LibSepFmap <> map_remove def
+R7128:7128 SLF.LibSepFmap <> x:94 var
+R7126:7126 SLF.LibSepFmap <> h:93 var
+R7170:7186 SLF.LibSepFmap <> map_remove_finite def
+R7170:7186 SLF.LibSepFmap <> map_remove_finite def
+def 7241:7246 <> filter
+binder 7248:7248 <> A:95
+binder 7250:7250 <> B:96
+R7256:7257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7255:7255 SLF.LibSepFmap <> A:95 var
+R7259:7260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7258:7258 SLF.LibSepFmap <> B:96 var
+binder 7253:7253 <> F:97
+R7270:7273 SLF.LibSepFmap <> fmap indrec
+R7277:7277 SLF.LibSepFmap <> B:96 var
+R7275:7275 SLF.LibSepFmap <> A:95 var
+binder 7268:7268 <> h:98
+R7282:7285 SLF.LibSepFmap <> fmap indrec
+R7289:7289 SLF.LibSepFmap <> B:96 var
+R7287:7287 SLF.LibSepFmap <> A:95 var
+R7296:7299 SLF.LibSepFmap <> make constr
+R7302:7311 SLF.LibSepFmap <> map_filter def
+R7315:7315 SLF.LibSepFmap <> h:98 var
+R7313:7313 SLF.LibSepFmap <> F:97 var
+R7357:7373 SLF.LibSepFmap <> map_filter_finite def
+R7357:7373 SLF.LibSepFmap <> map_filter_finite def
+def 7448:7451 <> map_
+binder 7453:7453 <> A:99
+binder 7455:7456 <> B1:100
+binder 7458:7459 <> B2:101
+R7465:7466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7464:7464 SLF.LibSepFmap <> A:99 var
+R7469:7470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7467:7468 SLF.LibSepFmap <> B1:100 var
+R7471:7472 SLF.LibSepFmap <> B2:101 var
+binder 7462:7462 <> F:102
+R7478:7481 SLF.LibSepFmap <> fmap indrec
+R7485:7486 SLF.LibSepFmap <> B1:100 var
+R7483:7483 SLF.LibSepFmap <> A:99 var
+binder 7476:7476 <> h:103
+R7491:7494 SLF.LibSepFmap <> fmap indrec
+R7498:7499 SLF.LibSepFmap <> B2:101 var
+R7496:7496 SLF.LibSepFmap <> A:99 var
+R7506:7509 SLF.LibSepFmap <> make constr
+R7512:7518 SLF.LibSepFmap <> map_map def
+R7522:7522 SLF.LibSepFmap <> h:103 var
+R7520:7520 SLF.LibSepFmap <> F:102 var
+R7564:7577 SLF.LibSepFmap <> map_map_finite def
+R7564:7577 SLF.LibSepFmap <> map_map_finite def
+inst 7632:7641 <> Inhab_fmap
+binder 7643:7643 <> A:104
+binder 7645:7645 <> B:105
+R7649:7653 SLF.LibLogic <> Inhab class
+R7656:7659 SLF.LibSepFmap <> fmap indrec
+R7663:7663 SLF.LibSepFmap <> B:105 var
+R7661:7661 SLF.LibSepFmap <> A:104 var
+R7695:7706 SLF.LibLogic <> Inhab_of_val thm
+R7710:7714 SLF.LibSepFmap <> empty def
+R7695:7706 SLF.LibLogic <> Inhab_of_val thm
+R7710:7714 SLF.LibSepFmap <> empty def
+def 7921:7925 <> agree
+binder 7927:7927 <> A:106
+binder 7929:7929 <> B:107
+R7938:7941 SLF.LibSepFmap <> fmap indrec
+R7945:7945 SLF.LibSepFmap <> B:107 var
+R7943:7943 SLF.LibSepFmap <> A:106 var
+binder 7932:7933 <> h1:108
+binder 7935:7936 <> h2:109
+R7953:7961 SLF.LibSepFmap <> map_agree def
+R7966:7967 SLF.LibSepFmap <> h2:109 var
+R7963:7964 SLF.LibSepFmap <> h1:108 var
+def 8005:8012 <> disjoint
+binder 8014:8014 <> A:110
+binder 8016:8016 <> B:111
+R8027:8030 SLF.LibSepFmap <> fmap indrec
+R8034:8034 SLF.LibSepFmap <> B:111 var
+R8032:8032 SLF.LibSepFmap <> A:110 var
+binder 8019:8020 <> h1:112
+binder 8022:8023 <> h2:113
+R8049:8060 SLF.LibSepFmap <> map_disjoint def
+R8065:8066 SLF.LibSepFmap <> h2:113 var
+R8062:8063 SLF.LibSepFmap <> h1:112 var
+def 8150:8159 <> disjoint_3
+binder 8161:8161 <> A:114
+binder 8163:8163 <> B:115
+R8177:8180 SLF.LibSepFmap <> fmap indrec
+R8184:8184 SLF.LibSepFmap <> B:115 var
+R8182:8182 SLF.LibSepFmap <> A:114 var
+binder 8166:8167 <> h1:116
+binder 8169:8170 <> h2:117
+binder 8172:8173 <> h3:118
+R8209:8214 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8195:8202 SLF.LibSepFmap <> disjoint def
+R8207:8208 SLF.LibSepFmap <> h2:117 var
+R8204:8205 SLF.LibSepFmap <> h1:116 var
+R8229:8234 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8215:8222 SLF.LibSepFmap <> disjoint def
+R8227:8228 SLF.LibSepFmap <> h3:118 var
+R8224:8225 SLF.LibSepFmap <> h2:117 var
+R8235:8242 SLF.LibSepFmap <> disjoint def
+R8247:8248 SLF.LibSepFmap <> h3:118 var
+R8244:8245 SLF.LibSepFmap <> h1:116 var
+mod 8293:8315 <> NotationForFmapDisjoint
+R8343:8350 SLF.LibSepFmap <> disjoint def
+not 8328:8328 NotationForFmapDisjoint ::fmap_scope:'\#'_x_x
+R8465:8474 SLF.LibSepFmap <> disjoint_3 def
+not 8447:8447 NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x
+R8586:8608 SLF.LibSepFmap NotationForFmapDisjoint <> mod
+R8619:8641 SLF.LibSepFmap NotationForFmapDisjoint <> mod
+sec 8774:8781 <> FmapProp
+var 8795:8795 FmapProp A
+var 8797:8797 FmapProp B
+R8831:8834 SLF.LibSepFmap <> fmap indrec
+R8838:8838 SLF.LibSepFmap <> FmapProp.B var
+R8836:8836 SLF.LibSepFmap <> FmapProp.A var
+R8860:8860 SLF.LibSepFmap <> FmapProp.A var
+R8882:8882 SLF.LibSepFmap <> FmapProp.B var
+prf 8984:8990 <> make_eq
+R9008:9010 SLF.LibSepFmap <> map def
+R9014:9014 SLF.LibSepFmap <> FmapProp.B var
+R9012:9012 SLF.LibSepFmap <> FmapProp.A var
+binder 9002:9003 <> f1:121
+binder 9005:9006 <> f2:122
+binder 9017:9018 <> F1:123
+binder 9020:9021 <> F2:124
+R9026:9026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9048:9054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9034:9034 <> x:125
+R9041:9043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9037:9038 SLF.LibSepFmap <> f1:121 var
+R9040:9040 SLF.LibSepFmap <> x:125 var
+R9044:9045 SLF.LibSepFmap <> f2:122 var
+R9047:9047 SLF.LibSepFmap <> x:125 var
+R9065:9067 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9055:9058 SLF.LibSepFmap <> make constr
+R9063:9064 SLF.LibSepFmap <> F1:123 var
+R9060:9061 SLF.LibSepFmap <> f1:121 var
+R9068:9071 SLF.LibSepFmap <> make constr
+R9076:9077 SLF.LibSepFmap <> F2:124 var
+R9073:9074 SLF.LibSepFmap <> f2:122 var
+R9117:9119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9117:9119 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9134:9136 SLF.LibSepFmap <> map def
+prf 9219:9237 <> eq_inv_fmap_data_eq
+binder 9248:9249 <> h1:126
+binder 9251:9252 <> h2:127
+R9264:9269 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9259:9261 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9257:9258 SLF.LibSepFmap <> h1:126 var
+R9262:9263 SLF.LibSepFmap <> h2:127 var
+binder 9277:9277 <> x:128
+R9294:9296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9280:9288 SLF.LibSepFmap <> fmap_data proj
+R9293:9293 SLF.LibSepFmap <> x:128 var
+R9290:9291 SLF.LibSepFmap <> h1:126 var
+R9297:9305 SLF.LibSepFmap <> fmap_data proj
+R9310:9310 SLF.LibSepFmap <> x:128 var
+R9307:9308 SLF.LibSepFmap <> h2:127 var
+prf 9355:9365 <> fmap_extens
+binder 9376:9377 <> h1:129
+binder 9379:9380 <> h2:130
+R9385:9385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9427:9433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 9393:9393 <> x:131
+R9410:9412 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9396:9404 SLF.LibSepFmap <> fmap_data proj
+R9409:9409 SLF.LibSepFmap <> x:131 var
+R9406:9407 SLF.LibSepFmap <> h1:129 var
+R9413:9421 SLF.LibSepFmap <> fmap_data proj
+R9426:9426 SLF.LibSepFmap <> x:131 var
+R9423:9424 SLF.LibSepFmap <> h2:130 var
+R9436:9438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9434:9435 SLF.LibSepFmap <> h1:129 var
+R9439:9440 SLF.LibSepFmap <> h2:130 var
+R9498:9504 SLF.LibSepFmap <> make_eq thm
+R9498:9504 SLF.LibSepFmap <> make_eq thm
+prf 9610:9624 <> indom_single_eq
+binder 9635:9635 <> x:132
+binder 9637:9637 <> y:133
+binder 9639:9639 <> v:134
+R9664:9667 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9673:9673 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9644:9648 SLF.LibSepFmap <> indom def
+R9663:9663 SLF.LibSepFmap <> y:133 var
+R9651:9656 SLF.LibSepFmap <> single def
+R9660:9660 SLF.LibSepFmap <> v:134 var
+R9658:9658 SLF.LibSepFmap <> x:132 var
+R9669:9671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9668:9668 SLF.LibSepFmap <> x:132 var
+R9672:9672 SLF.LibSepFmap <> y:133 var
+R9706:9711 SLF.LibSepFmap <> single def
+R9714:9718 SLF.LibSepFmap <> indom def
+R9721:9729 SLF.LibSepFmap <> map_indom def
+prf 9780:9791 <> indom_single
+binder 9802:9802 <> x:135
+binder 9804:9804 <> v:136
+R9809:9813 SLF.LibSepFmap <> indom def
+R9828:9828 SLF.LibSepFmap <> x:135 var
+R9816:9821 SLF.LibSepFmap <> single def
+R9825:9825 SLF.LibSepFmap <> v:136 var
+R9823:9823 SLF.LibSepFmap <> x:135 var
+R9861:9875 SLF.LibSepFmap <> indom_single_eq thm
+R9861:9875 SLF.LibSepFmap <> indom_single_eq thm
+prf 9890:9903 <> indom_union_eq
+binder 9914:9915 <> h1:137
+binder 9917:9918 <> h2:138
+binder 9920:9920 <> x:139
+R9946:9949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9974:9974 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9925:9929 SLF.LibSepFmap <> indom def
+R9945:9945 SLF.LibSepFmap <> x:139 var
+R9932:9936 SLF.LibSepFmap <> union def
+R9941:9942 SLF.LibSepFmap <> h2:138 var
+R9938:9939 SLF.LibSepFmap <> h1:137 var
+R9960:9963 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9950:9954 SLF.LibSepFmap <> indom def
+R9959:9959 SLF.LibSepFmap <> x:139 var
+R9956:9957 SLF.LibSepFmap <> h1:137 var
+R9964:9968 SLF.LibSepFmap <> indom def
+R9973:9973 SLF.LibSepFmap <> x:139 var
+R9970:9971 SLF.LibSepFmap <> h2:138 var
+R10016:10020 SLF.LibSepFmap <> indom def
+R10023:10027 SLF.LibSepFmap <> union def
+R10030:10038 SLF.LibSepFmap <> map_indom def
+R10041:10049 SLF.LibSepFmap <> map_union def
+R10016:10020 SLF.LibSepFmap <> indom def
+R10023:10027 SLF.LibSepFmap <> union def
+R10030:10038 SLF.LibSepFmap <> map_indom def
+R10041:10049 SLF.LibSepFmap <> map_union def
+R10071:10079 SLF.LibSepFmap <> fmap_data proj
+R10097:10105 SLF.LibSepFmap <> fmap_data proj
+R10071:10079 SLF.LibSepFmap <> fmap_data proj
+R10097:10105 SLF.LibSepFmap <> fmap_data proj
+R10097:10105 SLF.LibSepFmap <> fmap_data proj
+prf 10139:10151 <> indom_union_l
+binder 10162:10163 <> h1:140
+binder 10165:10166 <> h2:141
+binder 10168:10168 <> x:142
+R10183:10188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10173:10177 SLF.LibSepFmap <> indom def
+R10182:10182 SLF.LibSepFmap <> x:142 var
+R10179:10180 SLF.LibSepFmap <> h1:140 var
+R10189:10193 SLF.LibSepFmap <> indom def
+R10209:10209 SLF.LibSepFmap <> x:142 var
+R10196:10200 SLF.LibSepFmap <> union def
+R10205:10206 SLF.LibSepFmap <> h2:141 var
+R10202:10203 SLF.LibSepFmap <> h1:140 var
+R10242:10255 SLF.LibSepFmap <> indom_union_eq thm
+R10242:10255 SLF.LibSepFmap <> indom_union_eq thm
+prf 10270:10282 <> indom_union_r
+binder 10293:10294 <> h1:143
+binder 10296:10297 <> h2:144
+binder 10299:10299 <> x:145
+R10314:10319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10304:10308 SLF.LibSepFmap <> indom def
+R10313:10313 SLF.LibSepFmap <> x:145 var
+R10310:10311 SLF.LibSepFmap <> h2:144 var
+R10320:10324 SLF.LibSepFmap <> indom def
+R10340:10340 SLF.LibSepFmap <> x:145 var
+R10327:10331 SLF.LibSepFmap <> union def
+R10336:10337 SLF.LibSepFmap <> h2:144 var
+R10333:10334 SLF.LibSepFmap <> h1:143 var
+R10373:10386 SLF.LibSepFmap <> indom_union_eq thm
+R10373:10386 SLF.LibSepFmap <> indom_union_eq thm
+prf 10401:10415 <> indom_update_eq
+binder 10426:10426 <> h:146
+binder 10428:10428 <> x:147
+binder 10430:10430 <> v:148
+binder 10432:10432 <> y:149
+R10459:10462 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10481:10481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10437:10441 SLF.LibSepFmap <> indom def
+R10458:10458 SLF.LibSepFmap <> y:149 var
+R10444:10449 SLF.LibSepFmap <> update def
+R10455:10455 SLF.LibSepFmap <> v:148 var
+R10453:10453 SLF.LibSepFmap <> x:147 var
+R10451:10451 SLF.LibSepFmap <> h:146 var
+R10468:10471 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10464:10466 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10463:10463 SLF.LibSepFmap <> x:147 var
+R10467:10467 SLF.LibSepFmap <> y:149 var
+R10472:10476 SLF.LibSepFmap <> indom def
+R10480:10480 SLF.LibSepFmap <> y:149 var
+R10478:10478 SLF.LibSepFmap <> h:146 var
+R10514:10519 SLF.LibSepFmap <> update def
+R10530:10543 SLF.LibSepFmap <> indom_union_eq thm
+R10546:10560 SLF.LibSepFmap <> indom_single_eq thm
+R10530:10543 SLF.LibSepFmap <> indom_union_eq thm
+R10530:10543 SLF.LibSepFmap <> indom_union_eq thm
+R10546:10560 SLF.LibSepFmap <> indom_single_eq thm
+R10546:10560 SLF.LibSepFmap <> indom_single_eq thm
+prf 10581:10595 <> indom_remove_eq
+binder 10606:10606 <> h:150
+binder 10608:10608 <> x:151
+binder 10610:10610 <> y:152
+R10635:10638 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10658:10658 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10615:10619 SLF.LibSepFmap <> indom def
+R10634:10634 SLF.LibSepFmap <> y:152 var
+R10622:10627 SLF.LibSepFmap <> remove def
+R10631:10631 SLF.LibSepFmap <> x:151 var
+R10629:10629 SLF.LibSepFmap <> h:150 var
+R10645:10648 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10640:10643 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10639:10639 SLF.LibSepFmap <> x:151 var
+R10644:10644 SLF.LibSepFmap <> y:152 var
+R10649:10653 SLF.LibSepFmap <> indom def
+R10657:10657 SLF.LibSepFmap <> y:152 var
+R10655:10655 SLF.LibSepFmap <> h:150 var
+R10700:10704 SLF.LibSepFmap <> indom def
+R10707:10712 SLF.LibSepFmap <> remove def
+R10715:10723 SLF.LibSepFmap <> map_indom def
+R10726:10735 SLF.LibSepFmap <> map_remove def
+R10700:10704 SLF.LibSepFmap <> indom def
+R10707:10712 SLF.LibSepFmap <> remove def
+R10715:10723 SLF.LibSepFmap <> map_indom def
+R10726:10735 SLF.LibSepFmap <> map_remove def
+prf 10885:10895 <> disjoint_eq
+binder 10906:10907 <> h1:153
+binder 10909:10910 <> h2:154
+R10929:10932 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10976:10976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10915:10922 SLF.LibSepFmap <> disjoint def
+R10927:10928 SLF.LibSepFmap <> h2:154 var
+R10924:10925 SLF.LibSepFmap <> h1:153 var
+binder 10940:10940 <> x:155
+R10953:10956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10943:10947 SLF.LibSepFmap <> indom def
+R10952:10952 SLF.LibSepFmap <> x:155 var
+R10949:10950 SLF.LibSepFmap <> h1:153 var
+R10967:10970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10957:10961 SLF.LibSepFmap <> indom def
+R10966:10966 SLF.LibSepFmap <> x:155 var
+R10963:10964 SLF.LibSepFmap <> h2:154 var
+R10971:10975 Coq.Init.Logic <> False ind
+R11022:11036 SLF.LibSepFmap <> map_disjoint_eq thm
+R11022:11036 SLF.LibSepFmap <> map_disjoint_eq thm
+prf 11051:11062 <> disjoint_eq'
+binder 11073:11074 <> h1:156
+binder 11076:11077 <> h2:157
+R11096:11099 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11143:11143 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11082:11089 SLF.LibSepFmap <> disjoint def
+R11094:11095 SLF.LibSepFmap <> h2:157 var
+R11091:11092 SLF.LibSepFmap <> h1:156 var
+binder 11107:11107 <> x:158
+R11120:11123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11110:11114 SLF.LibSepFmap <> indom def
+R11119:11119 SLF.LibSepFmap <> x:158 var
+R11116:11117 SLF.LibSepFmap <> h1:156 var
+R11134:11137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11124:11128 SLF.LibSepFmap <> indom def
+R11133:11133 SLF.LibSepFmap <> x:158 var
+R11130:11131 SLF.LibSepFmap <> h2:157 var
+R11138:11142 Coq.Init.Logic <> False ind
+R11261:11265 SLF.LibSepFmap <> indom def
+R11268:11276 SLF.LibSepFmap <> map_indom def
+R11261:11265 SLF.LibSepFmap <> indom def
+R11268:11276 SLF.LibSepFmap <> map_indom def
+R11290:11300 SLF.LibLogic <> not_not_inv thm
+R11290:11300 SLF.LibLogic <> not_not_inv thm
+prf 11351:11376 <> disjoint_of_not_indom_both
+binder 11387:11388 <> h1:159
+binder 11390:11391 <> h2:160
+R11396:11396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11440:11446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11404:11404 <> x:161
+R11417:11420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11407:11411 SLF.LibSepFmap <> indom def
+R11416:11416 SLF.LibSepFmap <> x:161 var
+R11413:11414 SLF.LibSepFmap <> h1:159 var
+R11431:11434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11421:11425 SLF.LibSepFmap <> indom def
+R11430:11430 SLF.LibSepFmap <> x:161 var
+R11427:11428 SLF.LibSepFmap <> h2:160 var
+R11435:11439 Coq.Init.Logic <> False ind
+R11447:11454 SLF.LibSepFmap <> disjoint def
+R11459:11460 SLF.LibSepFmap <> h2:160 var
+R11456:11457 SLF.LibSepFmap <> h1:159 var
+R11495:11505 SLF.LibSepFmap <> disjoint_eq thm
+R11495:11505 SLF.LibSepFmap <> disjoint_eq thm
+prf 11520:11546 <> disjoint_inv_not_indom_both
+binder 11557:11558 <> h1:162
+binder 11560:11561 <> h2:163
+binder 11563:11563 <> x:164
+R11582:11587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11568:11575 SLF.LibSepFmap <> disjoint def
+R11580:11581 SLF.LibSepFmap <> h2:163 var
+R11577:11578 SLF.LibSepFmap <> h1:162 var
+R11598:11603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11588:11592 SLF.LibSepFmap <> indom def
+R11597:11597 SLF.LibSepFmap <> x:164 var
+R11594:11595 SLF.LibSepFmap <> h1:162 var
+R11614:11619 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11604:11608 SLF.LibSepFmap <> indom def
+R11613:11613 SLF.LibSepFmap <> x:164 var
+R11610:11611 SLF.LibSepFmap <> h2:163 var
+R11620:11624 Coq.Init.Logic <> False ind
+R11657:11667 SLF.LibSepFmap <> disjoint_eq thm
+R11657:11667 SLF.LibSepFmap <> disjoint_eq thm
+prf 11682:11709 <> disjoint_single_of_not_indom
+binder 11720:11720 <> h:165
+binder 11722:11722 <> x:166
+binder 11724:11724 <> v:167
+R11740:11745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11729:11730 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11731:11735 SLF.LibSepFmap <> indom def
+R11739:11739 SLF.LibSepFmap <> x:166 var
+R11737:11737 SLF.LibSepFmap <> h:165 var
+R11746:11753 SLF.LibSepFmap <> disjoint def
+R11768:11768 SLF.LibSepFmap <> h:165 var
+R11756:11761 SLF.LibSepFmap <> single def
+R11765:11765 SLF.LibSepFmap <> v:167 var
+R11763:11763 SLF.LibSepFmap <> x:166 var
+R11804:11811 SLF.LibSepFmap <> disjoint def
+R11814:11825 SLF.LibSepFmap <> map_disjoint def
+R11804:11811 SLF.LibSepFmap <> disjoint def
+R11814:11825 SLF.LibSepFmap <> map_disjoint def
+R11836:11841 SLF.LibSepFmap <> single def
+R11844:11848 SLF.LibSepFmap <> indom def
+R11851:11859 SLF.LibSepFmap <> map_indom def
+R11836:11841 SLF.LibSepFmap <> single def
+R11844:11848 SLF.LibSepFmap <> indom def
+R11851:11859 SLF.LibSepFmap <> map_indom def
+prf 12140:12151 <> disjoint_sym
+binder 12162:12163 <> h1:168
+binder 12165:12166 <> h2:169
+R12179:12184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12171:12173 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12176:12176 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12174:12175 SLF.LibSepFmap <> h1:168 var
+R12177:12178 SLF.LibSepFmap <> h2:169 var
+R12185:12187 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12190:12190 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12188:12189 SLF.LibSepFmap <> h2:169 var
+R12191:12192 SLF.LibSepFmap <> h1:168 var
+R12238:12253 SLF.LibSepFmap <> map_disjoint_sym thm
+R12238:12253 SLF.LibSepFmap <> map_disjoint_sym thm
+prf 12268:12280 <> disjoint_comm
+binder 12291:12292 <> h1:170
+binder 12294:12295 <> h2:171
+R12308:12310 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12300:12302 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12305:12305 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12303:12304 SLF.LibSepFmap <> h1:170 var
+R12306:12307 SLF.LibSepFmap <> h2:171 var
+R12311:12313 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12316:12316 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12314:12315 SLF.LibSepFmap <> h2:171 var
+R12317:12318 SLF.LibSepFmap <> h1:170 var
+R12340:12351 SLF.LibSepFmap <> disjoint_sym thm
+R12340:12351 SLF.LibSepFmap <> disjoint_sym thm
+prf 12375:12390 <> disjoint_empty_l
+binder 12401:12401 <> h:172
+R12406:12408 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12414:12414 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12409:12413 SLF.LibSepFmap <> empty def
+R12415:12415 SLF.LibSepFmap <> h:172 var
+prf 12468:12483 <> disjoint_empty_r
+binder 12494:12494 <> h:173
+R12499:12501 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12503:12503 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12502:12502 SLF.LibSepFmap <> h:173 var
+R12504:12508 SLF.LibSepFmap <> empty def
+prf 12639:12657 <> disjoint_union_eq_r
+binder 12668:12669 <> h1:174
+binder 12671:12672 <> h2:175
+binder 12674:12675 <> h3:176
+R12696:12701 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12722:12722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12680:12682 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12685:12686 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12695:12695 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12683:12684 SLF.LibSepFmap <> h1:174 var
+R12689:12692 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R12687:12688 SLF.LibSepFmap <> h2:175 var
+R12693:12694 SLF.LibSepFmap <> h3:176 var
+R12710:12713 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12702:12704 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12707:12707 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12705:12706 SLF.LibSepFmap <> h1:174 var
+R12708:12709 SLF.LibSepFmap <> h2:175 var
+R12714:12716 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12719:12719 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R12717:12718 SLF.LibSepFmap <> h1:174 var
+R12720:12721 SLF.LibSepFmap <> h3:176 var
+R12782:12789 SLF.LibSepFmap <> disjoint def
+R12792:12796 SLF.LibSepFmap <> union def
+R12782:12789 SLF.LibSepFmap <> disjoint def
+R12792:12796 SLF.LibSepFmap <> union def
+R12817:12828 SLF.LibSepFmap <> map_disjoint def
+R12831:12839 SLF.LibSepFmap <> map_union def
+R12817:12828 SLF.LibSepFmap <> map_disjoint def
+R12831:12839 SLF.LibSepFmap <> map_union def
+prf 13033:13051 <> disjoint_union_eq_l
+binder 13062:13063 <> h1:177
+binder 13065:13066 <> h2:178
+binder 13068:13069 <> h3:179
+R13090:13095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13116:13116 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13074:13077 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13086:13087 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13080:13083 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R13078:13079 SLF.LibSepFmap <> h2:178 var
+R13084:13085 SLF.LibSepFmap <> h3:179 var
+R13088:13089 SLF.LibSepFmap <> h1:177 var
+R13104:13107 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13096:13098 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13101:13101 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13099:13100 SLF.LibSepFmap <> h1:177 var
+R13102:13103 SLF.LibSepFmap <> h2:178 var
+R13108:13110 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13113:13113 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13111:13112 SLF.LibSepFmap <> h1:177 var
+R13114:13115 SLF.LibSepFmap <> h3:179 var
+R13150:13162 SLF.LibSepFmap <> disjoint_comm thm
+R13150:13162 SLF.LibSepFmap <> disjoint_comm thm
+R13150:13162 SLF.LibSepFmap <> disjoint_comm thm
+R13173:13191 SLF.LibSepFmap <> disjoint_union_eq_r thm
+R13173:13191 SLF.LibSepFmap <> disjoint_union_eq_r thm
+prf 13206:13227 <> disjoint_single_single
+R13245:13245 SLF.LibSepFmap <> FmapProp.A var
+binder 13239:13240 <> x1:180
+binder 13242:13243 <> x2:181
+R13255:13255 SLF.LibSepFmap <> FmapProp.B var
+binder 13249:13250 <> v1:182
+binder 13252:13253 <> v2:183
+R13269:13274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13263:13266 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R13261:13262 SLF.LibSepFmap <> x1:180 var
+R13267:13268 SLF.LibSepFmap <> x2:181 var
+R13275:13278 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13291:13293 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13306:13306 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13279:13284 SLF.LibSepFmap <> single def
+R13289:13290 SLF.LibSepFmap <> v1:182 var
+R13286:13287 SLF.LibSepFmap <> x1:180 var
+R13294:13299 SLF.LibSepFmap <> single def
+R13304:13305 SLF.LibSepFmap <> v2:183 var
+R13301:13302 SLF.LibSepFmap <> x2:181 var
+prf 13384:13414 <> disjoint_single_single_same_inv
+R13428:13428 SLF.LibSepFmap <> FmapProp.A var
+binder 13426:13426 <> x:184
+R13438:13438 SLF.LibSepFmap <> FmapProp.B var
+binder 13432:13433 <> v1:185
+binder 13435:13436 <> v2:186
+R13474:13479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13444:13447 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13459:13461 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13473:13473 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13448:13453 SLF.LibSepFmap <> single def
+R13457:13458 SLF.LibSepFmap <> v1:185 var
+R13455:13455 SLF.LibSepFmap <> x:184 var
+R13462:13467 SLF.LibSepFmap <> single def
+R13471:13472 SLF.LibSepFmap <> v2:186 var
+R13469:13469 SLF.LibSepFmap <> x:184 var
+R13480:13484 Coq.Init.Logic <> False ind
+prf 13580:13596 <> disjoint_3_unfold
+binder 13607:13608 <> h1:187
+binder 13610:13611 <> h2:188
+binder 13613:13614 <> h3:189
+R13630:13633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13666:13666 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13619:13621 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R13624:13624 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R13627:13627 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R13622:13623 SLF.LibSepFmap <> h1:187 var
+R13625:13626 SLF.LibSepFmap <> h2:188 var
+R13628:13629 SLF.LibSepFmap <> h3:189 var
+R13642:13645 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13634:13636 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13639:13639 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13637:13638 SLF.LibSepFmap <> h1:187 var
+R13640:13641 SLF.LibSepFmap <> h2:188 var
+R13654:13657 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13646:13648 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13651:13651 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13649:13650 SLF.LibSepFmap <> h2:188 var
+R13652:13653 SLF.LibSepFmap <> h3:189 var
+R13658:13660 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13663:13663 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13661:13662 SLF.LibSepFmap <> h1:187 var
+R13664:13665 SLF.LibSepFmap <> h3:189 var
+prf 13700:13718 <> disjoint_single_set
+binder 13729:13729 <> h:190
+binder 13731:13731 <> l:191
+binder 13733:13734 <> v1:192
+binder 13736:13737 <> v2:193
+R13760:13765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13742:13745 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13757:13758 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13746:13751 SLF.LibSepFmap <> single def
+R13755:13756 SLF.LibSepFmap <> v1:192 var
+R13753:13753 SLF.LibSepFmap <> l:191 var
+R13759:13759 SLF.LibSepFmap <> h:190 var
+R13766:13769 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13781:13782 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R13770:13775 SLF.LibSepFmap <> single def
+R13779:13780 SLF.LibSepFmap <> v2:193 var
+R13777:13777 SLF.LibSepFmap <> l:191 var
+R13783:13783 SLF.LibSepFmap <> h:190 var
+R13819:13826 SLF.LibSepFmap <> disjoint def
+R13829:13834 SLF.LibSepFmap <> single def
+R13837:13848 SLF.LibSepFmap <> map_disjoint def
+R13819:13826 SLF.LibSepFmap <> disjoint def
+R13829:13834 SLF.LibSepFmap <> single def
+R13837:13848 SLF.LibSepFmap <> map_disjoint def
+prf 13936:13952 <> disjoint_update_l
+binder 13963:13964 <> h1:194
+binder 13966:13967 <> h2:195
+binder 13969:13969 <> x:196
+binder 13971:13971 <> v:197
+R13990:13995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13976:13983 SLF.LibSepFmap <> disjoint def
+R13988:13989 SLF.LibSepFmap <> h2:195 var
+R13985:13986 SLF.LibSepFmap <> h1:194 var
+R14006:14011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13996:14000 SLF.LibSepFmap <> indom def
+R14005:14005 SLF.LibSepFmap <> x:196 var
+R14002:14003 SLF.LibSepFmap <> h1:194 var
+R14012:14019 SLF.LibSepFmap <> disjoint def
+R14037:14038 SLF.LibSepFmap <> h2:195 var
+R14022:14027 SLF.LibSepFmap <> update def
+R14034:14034 SLF.LibSepFmap <> v:197 var
+R14032:14032 SLF.LibSepFmap <> x:196 var
+R14029:14030 SLF.LibSepFmap <> h1:194 var
+R14078:14088 SLF.LibSepFmap <> disjoint_eq thm
+R14078:14088 SLF.LibSepFmap <> disjoint_eq thm
+R14078:14088 SLF.LibSepFmap <> disjoint_eq thm
+R14124:14138 SLF.LibSepFmap <> indom_update_eq thm
+R14124:14138 SLF.LibSepFmap <> indom_update_eq thm
+R14124:14138 SLF.LibSepFmap <> indom_update_eq thm
+prf 14215:14235 <> disjoint_update_not_r
+binder 14246:14247 <> h1:198
+binder 14249:14250 <> h2:199
+binder 14252:14252 <> x:200
+binder 14254:14254 <> v:201
+R14273:14278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14259:14266 SLF.LibSepFmap <> disjoint def
+R14271:14272 SLF.LibSepFmap <> h2:199 var
+R14268:14269 SLF.LibSepFmap <> h1:198 var
+R14291:14296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14279:14280 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14281:14285 SLF.LibSepFmap <> indom def
+R14290:14290 SLF.LibSepFmap <> x:200 var
+R14287:14288 SLF.LibSepFmap <> h2:199 var
+R14297:14304 SLF.LibSepFmap <> disjoint def
+R14322:14323 SLF.LibSepFmap <> h2:199 var
+R14307:14312 SLF.LibSepFmap <> update def
+R14319:14319 SLF.LibSepFmap <> v:201 var
+R14317:14317 SLF.LibSepFmap <> x:200 var
+R14314:14315 SLF.LibSepFmap <> h1:198 var
+R14363:14373 SLF.LibSepFmap <> disjoint_eq thm
+R14363:14373 SLF.LibSepFmap <> disjoint_eq thm
+R14363:14373 SLF.LibSepFmap <> disjoint_eq thm
+R14409:14423 SLF.LibSepFmap <> indom_update_eq thm
+R14409:14423 SLF.LibSepFmap <> indom_update_eq thm
+R14409:14423 SLF.LibSepFmap <> indom_update_eq thm
+prf 14500:14516 <> disjoint_remove_l
+binder 14527:14528 <> h1:202
+binder 14530:14531 <> h2:203
+binder 14533:14533 <> x:204
+R14552:14557 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14538:14545 SLF.LibSepFmap <> disjoint def
+R14550:14551 SLF.LibSepFmap <> h2:203 var
+R14547:14548 SLF.LibSepFmap <> h1:202 var
+R14558:14565 SLF.LibSepFmap <> disjoint def
+R14581:14582 SLF.LibSepFmap <> h2:203 var
+R14568:14573 SLF.LibSepFmap <> remove def
+R14578:14578 SLF.LibSepFmap <> x:204 var
+R14575:14576 SLF.LibSepFmap <> h1:202 var
+R14618:14628 SLF.LibSepFmap <> disjoint_eq thm
+R14618:14628 SLF.LibSepFmap <> disjoint_eq thm
+R14618:14628 SLF.LibSepFmap <> disjoint_eq thm
+R14665:14679 SLF.LibSepFmap <> indom_remove_eq thm
+R14665:14679 SLF.LibSepFmap <> indom_remove_eq thm
+prf 14790:14799 <> union_self
+binder 14810:14810 <> h:205
+R14821:14823 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14816:14819 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R14815:14815 SLF.LibSepFmap <> h:205 var
+R14820:14820 SLF.LibSepFmap <> h:205 var
+R14824:14824 SLF.LibSepFmap <> h:205 var
+R14863:14869 SLF.LibSepFmap <> make_eq thm
+R14863:14869 SLF.LibSepFmap <> make_eq thm
+R14898:14906 SLF.LibSepFmap <> map_union def
+prf 14935:14947 <> union_empty_l
+binder 14958:14958 <> h:206
+R14973:14975 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14968:14971 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R14963:14967 SLF.LibSepFmap <> empty def
+R14972:14972 SLF.LibSepFmap <> h:206 var
+R14976:14976 SLF.LibSepFmap <> h:206 var
+R15015:15019 SLF.LibSepFmap <> union def
+R15022:15030 SLF.LibSepFmap <> map_union def
+R15033:15037 SLF.LibSepFmap <> empty def
+R15056:15062 SLF.LibSepFmap <> make_eq thm
+R15056:15062 SLF.LibSepFmap <> make_eq thm
+prf 15077:15089 <> union_empty_r
+binder 15100:15100 <> h:207
+R15115:15117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15106:15109 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15105:15105 SLF.LibSepFmap <> h:207 var
+R15110:15114 SLF.LibSepFmap <> empty def
+R15118:15118 SLF.LibSepFmap <> h:207 var
+R15157:15161 SLF.LibSepFmap <> union def
+R15164:15172 SLF.LibSepFmap <> map_union def
+R15175:15179 SLF.LibSepFmap <> empty def
+R15197:15203 SLF.LibSepFmap <> make_eq thm
+R15197:15203 SLF.LibSepFmap <> make_eq thm
+prf 15245:15264 <> union_eq_empty_inv_l
+binder 15275:15276 <> h1:208
+binder 15278:15279 <> h2:209
+R15300:15305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15292:15294 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15286:15289 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15284:15285 SLF.LibSepFmap <> h1:208 var
+R15290:15291 SLF.LibSepFmap <> h2:209 var
+R15295:15299 SLF.LibSepFmap <> empty def
+R15308:15310 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15306:15307 SLF.LibSepFmap <> h1:208 var
+R15311:15315 SLF.LibSepFmap <> empty def
+R15384:15390 SLF.LibSepFmap <> make_eq thm
+R15384:15390 SLF.LibSepFmap <> make_eq thm
+R15413:15421 SLF.LibSepFmap <> map_union def
+R15413:15421 SLF.LibSepFmap <> map_union def
+R15432:15439 SLF.LibEqual <> fun_eq_1 thm
+R15432:15439 SLF.LibEqual <> fun_eq_1 thm
+prf 15486:15505 <> union_eq_empty_inv_r
+binder 15516:15517 <> h1:210
+binder 15519:15520 <> h2:211
+R15541:15546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15533:15535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15527:15530 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15525:15526 SLF.LibSepFmap <> h1:210 var
+R15531:15532 SLF.LibSepFmap <> h2:211 var
+R15536:15540 SLF.LibSepFmap <> empty def
+R15549:15551 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15547:15548 SLF.LibSepFmap <> h2:211 var
+R15552:15556 SLF.LibSepFmap <> empty def
+R15625:15631 SLF.LibSepFmap <> make_eq thm
+R15625:15631 SLF.LibSepFmap <> make_eq thm
+R15654:15662 SLF.LibSepFmap <> map_union def
+R15654:15662 SLF.LibSepFmap <> map_union def
+R15673:15680 SLF.LibEqual <> fun_eq_1 thm
+R15673:15680 SLF.LibEqual <> fun_eq_1 thm
+prf 15727:15748 <> union_comm_of_disjoint
+binder 15759:15760 <> h1:212
+binder 15762:15763 <> h2:213
+R15776:15781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15768:15770 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R15773:15773 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R15771:15772 SLF.LibSepFmap <> h1:212 var
+R15774:15775 SLF.LibSepFmap <> h2:213 var
+R15790:15792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15784:15787 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15782:15783 SLF.LibSepFmap <> h1:212 var
+R15788:15789 SLF.LibSepFmap <> h2:213 var
+R15795:15798 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15793:15794 SLF.LibSepFmap <> h2:213 var
+R15799:15800 SLF.LibSepFmap <> h1:212 var
+R15858:15864 SLF.LibSepFmap <> make_eq thm
+R15858:15864 SLF.LibSepFmap <> make_eq thm
+R15893:15906 SLF.LibSepFmap <> map_union_comm thm
+R15893:15906 SLF.LibSepFmap <> map_union_comm thm
+prf 15921:15939 <> union_comm_of_agree
+binder 15950:15951 <> h1:214
+binder 15953:15954 <> h2:215
+R15970:15975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15959:15963 SLF.LibSepFmap <> agree def
+R15968:15969 SLF.LibSepFmap <> h2:215 var
+R15965:15966 SLF.LibSepFmap <> h1:214 var
+R15984:15986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15978:15981 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15976:15977 SLF.LibSepFmap <> h1:214 var
+R15982:15983 SLF.LibSepFmap <> h2:215 var
+R15989:15992 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R15987:15988 SLF.LibSepFmap <> h2:215 var
+R15993:15994 SLF.LibSepFmap <> h1:214 var
+R16052:16058 SLF.LibSepFmap <> make_eq thm
+R16052:16058 SLF.LibSepFmap <> make_eq thm
+R16105:16113 SLF.LibSepFmap <> map_union def
+R16105:16113 SLF.LibSepFmap <> map_union def
+prf 16192:16202 <> union_assoc
+binder 16213:16214 <> h1:216
+binder 16216:16217 <> h2:217
+binder 16219:16220 <> h3:218
+R16241:16243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16225:16225 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16234:16238 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16228:16231 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16226:16227 SLF.LibSepFmap <> h1:216 var
+R16232:16233 SLF.LibSepFmap <> h2:217 var
+R16239:16240 SLF.LibSepFmap <> h3:218 var
+R16246:16250 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16259:16259 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16244:16245 SLF.LibSepFmap <> h1:216 var
+R16253:16256 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16251:16252 SLF.LibSepFmap <> h2:217 var
+R16257:16258 SLF.LibSepFmap <> h3:218 var
+R16317:16321 SLF.LibSepFmap <> union def
+R16317:16321 SLF.LibSepFmap <> union def
+R16340:16346 SLF.LibSepFmap <> make_eq thm
+R16340:16346 SLF.LibSepFmap <> make_eq thm
+R16366:16374 SLF.LibSepFmap <> map_union def
+prf 16407:16430 <> union_eq_inv_of_disjoint
+binder 16441:16442 <> h2:219
+binder 16444:16445 <> h1:220
+binder 16447:16449 <> h1':221
+R16462:16467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16454:16456 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R16459:16459 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R16457:16458 SLF.LibSepFmap <> h1:220 var
+R16460:16461 SLF.LibSepFmap <> h2:219 var
+R16477:16482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16468:16470 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R16474:16474 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R16471:16473 SLF.LibSepFmap <> h1':221 var
+R16475:16476 SLF.LibSepFmap <> h2:219 var
+R16503:16508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16491:16493 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16485:16488 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16483:16484 SLF.LibSepFmap <> h1:220 var
+R16489:16490 SLF.LibSepFmap <> h2:219 var
+R16497:16500 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R16494:16496 SLF.LibSepFmap <> h1':221 var
+R16501:16502 SLF.LibSepFmap <> h2:219 var
+R16511:16513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16509:16510 SLF.LibSepFmap <> h1:220 var
+R16514:16516 SLF.LibSepFmap <> h1':221 var
+R16584:16590 SLF.LibSepFmap <> make_eq thm
+R16584:16590 SLF.LibSepFmap <> make_eq thm
+R16649:16667 SLF.LibSepFmap <> eq_inv_fmap_data_eq thm
+R16670:16671 SLF.LibTactics <> rm def
+R16649:16667 SLF.LibSepFmap <> eq_inv_fmap_data_eq thm
+R16670:16671 SLF.LibTactics <> rm def
+R16697:16705 SLF.LibSepFmap <> map_union def
+R16697:16705 SLF.LibSepFmap <> map_union def
+prf 16913:16922 <> agree_refl
+binder 16933:16933 <> h:222
+R16938:16942 SLF.LibSepFmap <> agree def
+R16946:16946 SLF.LibSepFmap <> h:222 var
+R16944:16944 SLF.LibSepFmap <> h:222 var
+prf 17012:17020 <> agree_sym
+binder 17031:17032 <> f1:223
+binder 17034:17035 <> f2:224
+R17051:17056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17040:17044 SLF.LibSepFmap <> agree def
+R17049:17050 SLF.LibSepFmap <> f2:224 var
+R17046:17047 SLF.LibSepFmap <> f1:223 var
+R17057:17061 SLF.LibSepFmap <> agree def
+R17066:17067 SLF.LibSepFmap <> f1:223 var
+R17063:17064 SLF.LibSepFmap <> f2:224 var
+prf 17151:17167 <> agree_of_disjoint
+binder 17178:17179 <> h1:225
+binder 17181:17182 <> h2:226
+R17201:17206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17187:17194 SLF.LibSepFmap <> disjoint def
+R17199:17200 SLF.LibSepFmap <> h2:226 var
+R17196:17197 SLF.LibSepFmap <> h1:225 var
+R17207:17211 SLF.LibSepFmap <> agree def
+R17216:17217 SLF.LibSepFmap <> h2:226 var
+R17213:17214 SLF.LibSepFmap <> h1:225 var
+prf 17304:17316 <> agree_empty_l
+binder 17327:17327 <> h:227
+R17332:17336 SLF.LibSepFmap <> agree def
+R17344:17344 SLF.LibSepFmap <> h:227 var
+R17338:17342 SLF.LibSepFmap <> empty def
+prf 17411:17423 <> agree_empty_r
+binder 17434:17434 <> h:228
+R17439:17443 SLF.LibSepFmap <> agree def
+R17447:17451 SLF.LibSepFmap <> empty def
+R17445:17445 SLF.LibSepFmap <> h:228 var
+R17474:17482 SLF.LibSepFmap <> agree_sym thm
+R17485:17497 SLF.LibSepFmap <> agree_empty_l thm
+R17474:17482 SLF.LibSepFmap <> agree_sym thm
+R17485:17497 SLF.LibSepFmap <> agree_empty_l thm
+prf 17519:17531 <> agree_union_l
+binder 17542:17543 <> f1:229
+binder 17545:17546 <> f2:230
+binder 17548:17549 <> f3:231
+R17565:17570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17554:17558 SLF.LibSepFmap <> agree def
+R17563:17564 SLF.LibSepFmap <> f3:231 var
+R17560:17561 SLF.LibSepFmap <> f1:229 var
+R17582:17587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17571:17575 SLF.LibSepFmap <> agree def
+R17580:17581 SLF.LibSepFmap <> f3:231 var
+R17577:17578 SLF.LibSepFmap <> f2:230 var
+R17588:17592 SLF.LibSepFmap <> agree def
+R17605:17606 SLF.LibSepFmap <> f3:231 var
+R17597:17600 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R17595:17596 SLF.LibSepFmap <> f1:229 var
+R17601:17602 SLF.LibSepFmap <> f2:230 var
+R17716:17724 SLF.LibSepFmap <> map_union def
+R17716:17724 SLF.LibSepFmap <> map_union def
+R17734:17742 SLF.LibSepFmap <> fmap_data proj
+R17734:17742 SLF.LibSepFmap <> fmap_data proj
+prf 17811:17823 <> agree_union_r
+binder 17834:17835 <> f1:232
+binder 17837:17838 <> f2:233
+binder 17840:17841 <> f3:234
+R17857:17862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17846:17850 SLF.LibSepFmap <> agree def
+R17855:17856 SLF.LibSepFmap <> f2:233 var
+R17852:17853 SLF.LibSepFmap <> f1:232 var
+R17874:17879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17863:17867 SLF.LibSepFmap <> agree def
+R17872:17873 SLF.LibSepFmap <> f3:234 var
+R17869:17870 SLF.LibSepFmap <> f1:232 var
+R17880:17884 SLF.LibSepFmap <> agree def
+R17892:17895 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R17890:17891 SLF.LibSepFmap <> f2:233 var
+R17896:17897 SLF.LibSepFmap <> f3:234 var
+R17886:17887 SLF.LibSepFmap <> f1:232 var
+R17921:17929 SLF.LibSepFmap <> agree_sym thm
+R17932:17944 SLF.LibSepFmap <> agree_union_l thm
+R17921:17929 SLF.LibSepFmap <> agree_sym thm
+R17932:17944 SLF.LibSepFmap <> agree_union_l thm
+prf 17966:17979 <> agree_union_lr
+binder 17990:17991 <> f1:235
+binder 17993:17994 <> g1:236
+binder 17996:17997 <> f2:237
+binder 17999:18000 <> g2:238
+R18016:18021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18005:18009 SLF.LibSepFmap <> agree def
+R18014:18015 SLF.LibSepFmap <> g2:238 var
+R18011:18012 SLF.LibSepFmap <> g1:236 var
+R18041:18046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18022:18024 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R18027:18027 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R18030:18031 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R18040:18040 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R18025:18026 SLF.LibSepFmap <> f1:235 var
+R18028:18029 SLF.LibSepFmap <> f2:237 var
+R18034:18037 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18032:18033 SLF.LibSepFmap <> g1:236 var
+R18038:18039 SLF.LibSepFmap <> g2:238 var
+R18047:18051 SLF.LibSepFmap <> agree def
+R18067:18070 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18065:18066 SLF.LibSepFmap <> f2:237 var
+R18071:18072 SLF.LibSepFmap <> g2:238 var
+R18056:18059 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18054:18055 SLF.LibSepFmap <> f1:235 var
+R18060:18061 SLF.LibSepFmap <> g1:236 var
+R18126:18144 SLF.LibSepFmap <> disjoint_union_eq_r thm
+R18126:18144 SLF.LibSepFmap <> disjoint_union_eq_r thm
+R18126:18144 SLF.LibSepFmap <> disjoint_union_eq_r thm
+R18161:18173 SLF.LibSepFmap <> agree_union_l thm
+R18183:18195 SLF.LibSepFmap <> agree_union_r thm
+R18222:18238 SLF.LibSepFmap <> agree_of_disjoint thm
+R18161:18173 SLF.LibSepFmap <> agree_union_l thm
+R18183:18195 SLF.LibSepFmap <> agree_union_r thm
+R18183:18195 SLF.LibSepFmap <> agree_union_r thm
+R18222:18238 SLF.LibSepFmap <> agree_of_disjoint thm
+R18222:18238 SLF.LibSepFmap <> agree_of_disjoint thm
+R18222:18238 SLF.LibSepFmap <> agree_of_disjoint thm
+R18222:18238 SLF.LibSepFmap <> agree_of_disjoint thm
+prf 18263:18280 <> agree_union_ll_inv
+binder 18291:18292 <> f1:239
+binder 18294:18295 <> f2:240
+binder 18297:18298 <> f3:241
+R18322:18327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18303:18307 SLF.LibSepFmap <> agree def
+R18320:18321 SLF.LibSepFmap <> f3:241 var
+R18312:18315 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18310:18311 SLF.LibSepFmap <> f1:239 var
+R18316:18317 SLF.LibSepFmap <> f2:240 var
+R18328:18332 SLF.LibSepFmap <> agree def
+R18337:18338 SLF.LibSepFmap <> f3:241 var
+R18334:18335 SLF.LibSepFmap <> f1:239 var
+R18423:18431 SLF.LibSepFmap <> map_union def
+R18423:18431 SLF.LibSepFmap <> map_union def
+prf 18476:18493 <> agree_union_rl_inv
+binder 18504:18505 <> f1:242
+binder 18507:18508 <> f2:243
+binder 18510:18511 <> f3:244
+R18535:18540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18516:18520 SLF.LibSepFmap <> agree def
+R18528:18531 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18526:18527 SLF.LibSepFmap <> f2:243 var
+R18532:18533 SLF.LibSepFmap <> f3:244 var
+R18522:18523 SLF.LibSepFmap <> f1:242 var
+R18541:18545 SLF.LibSepFmap <> agree def
+R18550:18551 SLF.LibSepFmap <> f2:243 var
+R18547:18548 SLF.LibSepFmap <> f1:242 var
+R18574:18591 SLF.LibSepFmap <> agree_union_ll_inv thm
+R18594:18602 SLF.LibSepFmap <> agree_sym thm
+R18574:18591 SLF.LibSepFmap <> agree_union_ll_inv thm
+R18594:18602 SLF.LibSepFmap <> agree_sym thm
+prf 18624:18653 <> agree_union_lr_inv_agree_agree
+binder 18664:18665 <> f1:245
+binder 18667:18668 <> f2:246
+binder 18670:18671 <> f3:247
+R18695:18700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18676:18680 SLF.LibSepFmap <> agree def
+R18693:18694 SLF.LibSepFmap <> f3:247 var
+R18685:18688 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18683:18684 SLF.LibSepFmap <> f1:245 var
+R18689:18690 SLF.LibSepFmap <> f2:246 var
+R18712:18717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18701:18705 SLF.LibSepFmap <> agree def
+R18710:18711 SLF.LibSepFmap <> f2:246 var
+R18707:18708 SLF.LibSepFmap <> f1:245 var
+R18718:18722 SLF.LibSepFmap <> agree def
+R18727:18728 SLF.LibSepFmap <> f3:247 var
+R18724:18725 SLF.LibSepFmap <> f2:246 var
+R18769:18787 SLF.LibSepFmap <> union_comm_of_agree thm
+R18769:18787 SLF.LibSepFmap <> union_comm_of_agree thm
+R18812:18829 SLF.LibSepFmap <> agree_union_ll_inv thm
+R18812:18829 SLF.LibSepFmap <> agree_union_ll_inv thm
+prf 18844:18867 <> agree_union_rr_inv_agree
+binder 18878:18879 <> f1:248
+binder 18881:18882 <> f2:249
+binder 18884:18885 <> f3:250
+R18909:18914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18890:18894 SLF.LibSepFmap <> agree def
+R18902:18905 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R18900:18901 SLF.LibSepFmap <> f2:249 var
+R18906:18907 SLF.LibSepFmap <> f3:250 var
+R18896:18897 SLF.LibSepFmap <> f1:248 var
+R18926:18931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18915:18919 SLF.LibSepFmap <> agree def
+R18924:18925 SLF.LibSepFmap <> f3:250 var
+R18921:18922 SLF.LibSepFmap <> f2:249 var
+R18932:18936 SLF.LibSepFmap <> agree def
+R18941:18942 SLF.LibSepFmap <> f3:250 var
+R18938:18939 SLF.LibSepFmap <> f1:248 var
+R18965:18994 SLF.LibSepFmap <> agree_union_lr_inv_agree_agree thm
+R18997:19005 SLF.LibSepFmap <> agree_sym thm
+R18965:18994 SLF.LibSepFmap <> agree_union_lr_inv_agree_agree thm
+R18997:19005 SLF.LibSepFmap <> agree_sym thm
+prf 19027:19043 <> agree_union_l_inv
+binder 19054:19055 <> f1:251
+binder 19057:19058 <> f2:252
+binder 19060:19061 <> f3:253
+R19085:19090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19066:19070 SLF.LibSepFmap <> agree def
+R19083:19084 SLF.LibSepFmap <> f3:253 var
+R19075:19078 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R19073:19074 SLF.LibSepFmap <> f1:251 var
+R19079:19080 SLF.LibSepFmap <> f2:252 var
+R19102:19110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19091:19095 SLF.LibSepFmap <> agree def
+R19100:19101 SLF.LibSepFmap <> f2:252 var
+R19097:19098 SLF.LibSepFmap <> f1:251 var
+R19122:19127 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19111:19115 SLF.LibSepFmap <> agree def
+R19120:19121 SLF.LibSepFmap <> f3:253 var
+R19117:19118 SLF.LibSepFmap <> f1:251 var
+R19128:19132 SLF.LibSepFmap <> agree def
+R19137:19138 SLF.LibSepFmap <> f3:253 var
+R19134:19135 SLF.LibSepFmap <> f2:252 var
+R19189:19206 SLF.LibSepFmap <> agree_union_ll_inv thm
+R19189:19206 SLF.LibSepFmap <> agree_union_ll_inv thm
+R19223:19252 SLF.LibSepFmap <> agree_union_lr_inv_agree_agree thm
+R19223:19252 SLF.LibSepFmap <> agree_union_lr_inv_agree_agree thm
+prf 19269:19285 <> agree_union_r_inv
+binder 19296:19297 <> f1:254
+binder 19299:19300 <> f2:255
+binder 19302:19303 <> f3:256
+R19327:19332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19308:19312 SLF.LibSepFmap <> agree def
+R19320:19323 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R19318:19319 SLF.LibSepFmap <> f2:255 var
+R19324:19325 SLF.LibSepFmap <> f3:256 var
+R19314:19315 SLF.LibSepFmap <> f1:254 var
+R19344:19352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19333:19337 SLF.LibSepFmap <> agree def
+R19342:19343 SLF.LibSepFmap <> f3:256 var
+R19339:19340 SLF.LibSepFmap <> f2:255 var
+R19364:19369 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19353:19357 SLF.LibSepFmap <> agree def
+R19362:19363 SLF.LibSepFmap <> f2:255 var
+R19359:19360 SLF.LibSepFmap <> f1:254 var
+R19370:19374 SLF.LibSepFmap <> agree def
+R19379:19380 SLF.LibSepFmap <> f3:256 var
+R19376:19377 SLF.LibSepFmap <> f1:254 var
+R19403:19411 SLF.LibSepFmap <> agree_sym thm
+R19403:19411 SLF.LibSepFmap <> agree_sym thm
+R19443:19459 SLF.LibSepFmap <> agree_union_l_inv thm
+R19443:19459 SLF.LibSepFmap <> agree_union_l_inv thm
+prf 19571:19581 <> read_single
+R19596:19600 SLF.LibLogic <> Inhab class
+R19602:19602 SLF.LibSepFmap <> FmapProp.B var
+binder 19593:19594 <> IB:257
+binder 19605:19605 <> x:258
+binder 19607:19607 <> v:259
+R19631:19633 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19612:19615 SLF.LibSepFmap <> read def
+R19630:19630 SLF.LibSepFmap <> x:258 var
+R19618:19623 SLF.LibSepFmap <> single def
+R19627:19627 SLF.LibSepFmap <> v:259 var
+R19625:19625 SLF.LibSepFmap <> x:258 var
+R19634:19634 SLF.LibSepFmap <> v:259 var
+R19667:19670 SLF.LibSepFmap <> read def
+R19673:19678 SLF.LibSepFmap <> single def
+prf 19710:19721 <> read_union_l
+R19736:19740 SLF.LibLogic <> Inhab class
+R19742:19742 SLF.LibSepFmap <> FmapProp.B var
+binder 19733:19734 <> IB:260
+binder 19745:19746 <> h1:261
+binder 19748:19749 <> h2:262
+binder 19751:19751 <> x:263
+R19766:19771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19756:19760 SLF.LibSepFmap <> indom def
+R19765:19765 SLF.LibSepFmap <> x:263 var
+R19762:19763 SLF.LibSepFmap <> h1:261 var
+R19792:19794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19772:19775 SLF.LibSepFmap <> read def
+R19791:19791 SLF.LibSepFmap <> x:263 var
+R19778:19782 SLF.LibSepFmap <> union def
+R19787:19788 SLF.LibSepFmap <> h2:262 var
+R19784:19785 SLF.LibSepFmap <> h1:261 var
+R19795:19798 SLF.LibSepFmap <> read def
+R19803:19803 SLF.LibSepFmap <> x:263 var
+R19800:19801 SLF.LibSepFmap <> h1:261 var
+R19836:19839 SLF.LibSepFmap <> read def
+R19842:19846 SLF.LibSepFmap <> union def
+R19849:19857 SLF.LibSepFmap <> map_union def
+R19878:19886 SLF.LibSepFmap <> fmap_data proj
+R19878:19886 SLF.LibSepFmap <> fmap_data proj
+prf 19919:19930 <> read_union_r
+R19945:19949 SLF.LibLogic <> Inhab class
+R19951:19951 SLF.LibSepFmap <> FmapProp.B var
+binder 19942:19943 <> IB:264
+binder 19954:19955 <> h1:265
+binder 19957:19958 <> h2:266
+binder 19960:19960 <> x:267
+R19977:19982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19965:19966 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19967:19971 SLF.LibSepFmap <> indom def
+R19976:19976 SLF.LibSepFmap <> x:267 var
+R19973:19974 SLF.LibSepFmap <> h1:265 var
+R20003:20005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19983:19986 SLF.LibSepFmap <> read def
+R20002:20002 SLF.LibSepFmap <> x:267 var
+R19989:19993 SLF.LibSepFmap <> union def
+R19998:19999 SLF.LibSepFmap <> h2:266 var
+R19995:19996 SLF.LibSepFmap <> h1:265 var
+R20006:20009 SLF.LibSepFmap <> read def
+R20014:20014 SLF.LibSepFmap <> x:267 var
+R20011:20012 SLF.LibSepFmap <> h2:266 var
+R20047:20050 SLF.LibSepFmap <> read def
+R20053:20057 SLF.LibSepFmap <> union def
+R20060:20068 SLF.LibSepFmap <> map_union def
+R20089:20097 SLF.LibSepFmap <> fmap_data proj
+R20089:20097 SLF.LibSepFmap <> fmap_data proj
+prf 20266:20287 <> update_eq_union_single
+binder 20298:20298 <> h:268
+binder 20300:20300 <> x:269
+binder 20302:20302 <> v:270
+R20319:20321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20307:20312 SLF.LibSepFmap <> update def
+R20318:20318 SLF.LibSepFmap <> v:270 var
+R20316:20316 SLF.LibSepFmap <> x:269 var
+R20314:20314 SLF.LibSepFmap <> h:268 var
+R20322:20326 SLF.LibSepFmap <> union def
+R20341:20341 SLF.LibSepFmap <> h:268 var
+R20329:20334 SLF.LibSepFmap <> single def
+R20338:20338 SLF.LibSepFmap <> v:270 var
+R20336:20336 SLF.LibSepFmap <> x:269 var
+prf 20375:20386 <> update_empty
+binder 20397:20397 <> x:271
+binder 20399:20399 <> v:272
+R20420:20422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20404:20409 SLF.LibSepFmap <> update def
+R20419:20419 SLF.LibSepFmap <> v:272 var
+R20417:20417 SLF.LibSepFmap <> x:271 var
+R20411:20415 SLF.LibSepFmap <> empty def
+R20423:20428 SLF.LibSepFmap <> single def
+R20432:20432 SLF.LibSepFmap <> v:272 var
+R20430:20430 SLF.LibSepFmap <> x:271 var
+R20466:20487 SLF.LibSepFmap <> update_eq_union_single thm
+R20466:20487 SLF.LibSepFmap <> update_eq_union_single thm
+R20466:20487 SLF.LibSepFmap <> update_eq_union_single thm
+R20499:20511 SLF.LibSepFmap <> union_empty_r thm
+R20499:20511 SLF.LibSepFmap <> union_empty_r thm
+prf 20526:20538 <> update_single
+binder 20549:20549 <> x:273
+binder 20551:20551 <> v:274
+binder 20553:20553 <> w:275
+R20581:20583 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20558:20563 SLF.LibSepFmap <> update def
+R20580:20580 SLF.LibSepFmap <> w:275 var
+R20578:20578 SLF.LibSepFmap <> x:273 var
+R20566:20571 SLF.LibSepFmap <> single def
+R20575:20575 SLF.LibSepFmap <> v:274 var
+R20573:20573 SLF.LibSepFmap <> x:273 var
+R20584:20589 SLF.LibSepFmap <> single def
+R20593:20593 SLF.LibSepFmap <> w:275 var
+R20591:20591 SLF.LibSepFmap <> x:273 var
+R20627:20648 SLF.LibSepFmap <> update_eq_union_single thm
+R20627:20648 SLF.LibSepFmap <> update_eq_union_single thm
+R20627:20648 SLF.LibSepFmap <> update_eq_union_single thm
+R20660:20666 SLF.LibSepFmap <> make_eq thm
+R20660:20666 SLF.LibSepFmap <> make_eq thm
+R20688:20696 SLF.LibSepFmap <> map_union def
+R20699:20704 SLF.LibSepFmap <> single def
+prf 20736:20749 <> update_union_l
+binder 20760:20761 <> h1:276
+binder 20763:20764 <> h2:277
+binder 20766:20766 <> x:278
+binder 20768:20768 <> v:279
+R20783:20788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20773:20777 SLF.LibSepFmap <> indom def
+R20782:20782 SLF.LibSepFmap <> x:278 var
+R20779:20780 SLF.LibSepFmap <> h1:276 var
+R20813:20815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20789:20794 SLF.LibSepFmap <> update def
+R20812:20812 SLF.LibSepFmap <> v:279 var
+R20810:20810 SLF.LibSepFmap <> x:278 var
+R20797:20801 SLF.LibSepFmap <> union def
+R20806:20807 SLF.LibSepFmap <> h2:277 var
+R20803:20804 SLF.LibSepFmap <> h1:276 var
+R20816:20820 SLF.LibSepFmap <> union def
+R20838:20839 SLF.LibSepFmap <> h2:277 var
+R20823:20828 SLF.LibSepFmap <> update def
+R20835:20835 SLF.LibSepFmap <> v:279 var
+R20833:20833 SLF.LibSepFmap <> x:278 var
+R20830:20831 SLF.LibSepFmap <> h1:276 var
+R20878:20899 SLF.LibSepFmap <> update_eq_union_single thm
+R20878:20899 SLF.LibSepFmap <> update_eq_union_single thm
+R20878:20899 SLF.LibSepFmap <> update_eq_union_single thm
+R20878:20899 SLF.LibSepFmap <> update_eq_union_single thm
+R20878:20899 SLF.LibSepFmap <> update_eq_union_single thm
+R20911:20917 SLF.LibSepFmap <> make_eq thm
+R20911:20917 SLF.LibSepFmap <> make_eq thm
+R20939:20947 SLF.LibSepFmap <> map_union def
+R20950:20954 SLF.LibSepFmap <> union def
+R20957:20965 SLF.LibSepFmap <> map_union def
+prf 20997:21010 <> update_union_r
+binder 21021:21022 <> h1:280
+binder 21024:21025 <> h2:281
+binder 21027:21027 <> x:282
+binder 21029:21029 <> v:283
+R21046:21051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21034:21035 Coq.Init.Logic <> ::type_scope:'~'_x not
+R21036:21040 SLF.LibSepFmap <> indom def
+R21045:21045 SLF.LibSepFmap <> x:282 var
+R21042:21043 SLF.LibSepFmap <> h1:280 var
+R21076:21078 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21052:21057 SLF.LibSepFmap <> update def
+R21075:21075 SLF.LibSepFmap <> v:283 var
+R21073:21073 SLF.LibSepFmap <> x:282 var
+R21060:21064 SLF.LibSepFmap <> union def
+R21069:21070 SLF.LibSepFmap <> h2:281 var
+R21066:21067 SLF.LibSepFmap <> h1:280 var
+R21079:21083 SLF.LibSepFmap <> union def
+R21089:21094 SLF.LibSepFmap <> update def
+R21101:21101 SLF.LibSepFmap <> v:283 var
+R21099:21099 SLF.LibSepFmap <> x:282 var
+R21096:21097 SLF.LibSepFmap <> h2:281 var
+R21085:21086 SLF.LibSepFmap <> h1:280 var
+R21143:21147 SLF.LibLogic <> Inhab class
+R21149:21149 SLF.LibSepFmap <> FmapProp.B var
+R21143:21147 SLF.LibLogic <> Inhab class
+R21149:21149 SLF.LibSepFmap <> FmapProp.B var
+R21162:21173 SLF.LibLogic <> Inhab_of_val thm
+R21162:21173 SLF.LibLogic <> Inhab_of_val thm
+R21195:21216 SLF.LibSepFmap <> update_eq_union_single thm
+R21195:21216 SLF.LibSepFmap <> update_eq_union_single thm
+R21195:21216 SLF.LibSepFmap <> update_eq_union_single thm
+R21195:21216 SLF.LibSepFmap <> update_eq_union_single thm
+R21195:21216 SLF.LibSepFmap <> update_eq_union_single thm
+R21228:21234 SLF.LibSepFmap <> make_eq thm
+R21228:21234 SLF.LibSepFmap <> make_eq thm
+R21256:21264 SLF.LibSepFmap <> map_union def
+R21267:21271 SLF.LibSepFmap <> union def
+R21274:21282 SLF.LibSepFmap <> map_union def
+R21322:21330 SLF.LibSepFmap <> fmap_data proj
+R21322:21330 SLF.LibSepFmap <> fmap_data proj
+prf 21407:21424 <> update_union_not_r
+binder 21435:21436 <> h1:284
+binder 21438:21439 <> h2:285
+binder 21441:21441 <> x:286
+binder 21443:21443 <> v:287
+R21460:21465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21448:21449 Coq.Init.Logic <> ::type_scope:'~'_x not
+R21450:21454 SLF.LibSepFmap <> indom def
+R21459:21459 SLF.LibSepFmap <> x:286 var
+R21456:21457 SLF.LibSepFmap <> h2:285 var
+R21490:21492 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21466:21471 SLF.LibSepFmap <> update def
+R21489:21489 SLF.LibSepFmap <> v:287 var
+R21487:21487 SLF.LibSepFmap <> x:286 var
+R21474:21478 SLF.LibSepFmap <> union def
+R21483:21484 SLF.LibSepFmap <> h2:285 var
+R21480:21481 SLF.LibSepFmap <> h1:284 var
+R21493:21497 SLF.LibSepFmap <> union def
+R21515:21516 SLF.LibSepFmap <> h2:285 var
+R21500:21505 SLF.LibSepFmap <> update def
+R21512:21512 SLF.LibSepFmap <> v:287 var
+R21510:21510 SLF.LibSepFmap <> x:286 var
+R21507:21508 SLF.LibSepFmap <> h1:284 var
+R21555:21576 SLF.LibSepFmap <> update_eq_union_single thm
+R21555:21576 SLF.LibSepFmap <> update_eq_union_single thm
+R21555:21576 SLF.LibSepFmap <> update_eq_union_single thm
+R21555:21576 SLF.LibSepFmap <> update_eq_union_single thm
+R21555:21576 SLF.LibSepFmap <> update_eq_union_single thm
+R21588:21594 SLF.LibSepFmap <> make_eq thm
+R21588:21594 SLF.LibSepFmap <> make_eq thm
+R21616:21624 SLF.LibSepFmap <> map_union def
+R21627:21631 SLF.LibSepFmap <> union def
+R21634:21642 SLF.LibSepFmap <> map_union def
+prf 21674:21691 <> update_union_not_l
+binder 21702:21703 <> h1:288
+binder 21705:21706 <> h2:289
+binder 21708:21708 <> x:290
+binder 21710:21710 <> v:291
+R21727:21732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21715:21716 Coq.Init.Logic <> ::type_scope:'~'_x not
+R21717:21721 SLF.LibSepFmap <> indom def
+R21726:21726 SLF.LibSepFmap <> x:290 var
+R21723:21724 SLF.LibSepFmap <> h1:288 var
+R21757:21759 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21733:21738 SLF.LibSepFmap <> update def
+R21756:21756 SLF.LibSepFmap <> v:291 var
+R21754:21754 SLF.LibSepFmap <> x:290 var
+R21741:21745 SLF.LibSepFmap <> union def
+R21750:21751 SLF.LibSepFmap <> h2:289 var
+R21747:21748 SLF.LibSepFmap <> h1:288 var
+R21760:21764 SLF.LibSepFmap <> union def
+R21770:21775 SLF.LibSepFmap <> update def
+R21782:21782 SLF.LibSepFmap <> v:291 var
+R21780:21780 SLF.LibSepFmap <> x:290 var
+R21777:21778 SLF.LibSepFmap <> h2:289 var
+R21766:21767 SLF.LibSepFmap <> h1:288 var
+R21824:21828 SLF.LibLogic <> Inhab class
+R21830:21830 SLF.LibSepFmap <> FmapProp.B var
+R21824:21828 SLF.LibLogic <> Inhab class
+R21830:21830 SLF.LibSepFmap <> FmapProp.B var
+R21843:21854 SLF.LibLogic <> Inhab_of_val thm
+R21843:21854 SLF.LibLogic <> Inhab_of_val thm
+R21876:21897 SLF.LibSepFmap <> update_eq_union_single thm
+R21876:21897 SLF.LibSepFmap <> update_eq_union_single thm
+R21876:21897 SLF.LibSepFmap <> update_eq_union_single thm
+R21876:21897 SLF.LibSepFmap <> update_eq_union_single thm
+R21876:21897 SLF.LibSepFmap <> update_eq_union_single thm
+R21909:21915 SLF.LibSepFmap <> make_eq thm
+R21909:21915 SLF.LibSepFmap <> make_eq thm
+R21937:21945 SLF.LibSepFmap <> map_union def
+R21948:21952 SLF.LibSepFmap <> union def
+R21955:21963 SLF.LibSepFmap <> map_union def
+R22003:22011 SLF.LibSepFmap <> fmap_data proj
+R22003:22011 SLF.LibSepFmap <> fmap_data proj
+prf 22179:22191 <> remove_single
+binder 22202:22202 <> x:292
+binder 22204:22204 <> v:293
+R22230:22232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22209:22214 SLF.LibSepFmap <> remove def
+R22229:22229 SLF.LibSepFmap <> x:292 var
+R22217:22222 SLF.LibSepFmap <> single def
+R22226:22226 SLF.LibSepFmap <> v:293 var
+R22224:22224 SLF.LibSepFmap <> x:292 var
+R22233:22237 SLF.LibSepFmap <> empty def
+R22270:22280 SLF.LibSepFmap <> fmap_extens thm
+R22270:22280 SLF.LibSepFmap <> fmap_extens thm
+R22302:22307 SLF.LibSepFmap <> remove def
+R22310:22319 SLF.LibSepFmap <> map_remove def
+R22322:22327 SLF.LibSepFmap <> single def
+R22330:22334 SLF.LibSepFmap <> empty def
+prf 22378:22400 <> remove_disjoint_union_l
+binder 22411:22412 <> h1:294
+binder 22414:22415 <> h2:295
+binder 22417:22417 <> x:296
+R22432:22437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22422:22426 SLF.LibSepFmap <> indom def
+R22431:22431 SLF.LibSepFmap <> x:296 var
+R22428:22429 SLF.LibSepFmap <> h1:294 var
+R22452:22457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22438:22445 SLF.LibSepFmap <> disjoint def
+R22450:22451 SLF.LibSepFmap <> h2:295 var
+R22447:22448 SLF.LibSepFmap <> h1:294 var
+R22480:22482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22458:22463 SLF.LibSepFmap <> remove def
+R22479:22479 SLF.LibSepFmap <> x:296 var
+R22466:22470 SLF.LibSepFmap <> union def
+R22475:22476 SLF.LibSepFmap <> h2:295 var
+R22472:22473 SLF.LibSepFmap <> h1:294 var
+R22483:22487 SLF.LibSepFmap <> union def
+R22503:22504 SLF.LibSepFmap <> h2:295 var
+R22490:22495 SLF.LibSepFmap <> remove def
+R22500:22500 SLF.LibSepFmap <> x:296 var
+R22497:22498 SLF.LibSepFmap <> h1:294 var
+R22541:22551 SLF.LibSepFmap <> fmap_extens thm
+R22541:22551 SLF.LibSepFmap <> fmap_extens thm
+R22574:22584 SLF.LibSepFmap <> disjoint_eq thm
+R22574:22584 SLF.LibSepFmap <> disjoint_eq thm
+R22574:22584 SLF.LibSepFmap <> disjoint_eq thm
+R22623:22624 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22625:22629 SLF.LibSepFmap <> indom def
+R22623:22624 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22625:22629 SLF.LibSepFmap <> indom def
+R22647:22652 SLF.LibSepFmap <> remove def
+R22655:22664 SLF.LibSepFmap <> map_remove def
+R22667:22671 SLF.LibSepFmap <> union def
+R22674:22682 SLF.LibSepFmap <> map_union def
+R22685:22690 SLF.LibSepFmap <> single def
+R22746:22750 SLF.LibSepFmap <> indom def
+R22753:22761 SLF.LibSepFmap <> map_indom def
+R22746:22750 SLF.LibSepFmap <> indom def
+R22753:22761 SLF.LibSepFmap <> map_indom def
+prf 22827:22847 <> remove_union_single_l
+binder 22858:22858 <> h:297
+binder 22860:22860 <> x:298
+binder 22862:22862 <> v:299
+R22878:22883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22867:22868 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22869:22873 SLF.LibSepFmap <> indom def
+R22877:22877 SLF.LibSepFmap <> x:298 var
+R22875:22875 SLF.LibSepFmap <> h:297 var
+R22915:22917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22884:22889 SLF.LibSepFmap <> remove def
+R22914:22914 SLF.LibSepFmap <> x:298 var
+R22892:22896 SLF.LibSepFmap <> union def
+R22911:22911 SLF.LibSepFmap <> h:297 var
+R22899:22904 SLF.LibSepFmap <> single def
+R22908:22908 SLF.LibSepFmap <> v:299 var
+R22906:22906 SLF.LibSepFmap <> x:298 var
+R22918:22918 SLF.LibSepFmap <> h:297 var
+R22953:22963 SLF.LibSepFmap <> fmap_extens thm
+R22953:22963 SLF.LibSepFmap <> fmap_extens thm
+R22985:22990 SLF.LibSepFmap <> remove def
+R22993:23002 SLF.LibSepFmap <> map_remove def
+R23005:23009 SLF.LibSepFmap <> union def
+R23012:23020 SLF.LibSepFmap <> map_union def
+R23023:23028 SLF.LibSepFmap <> single def
+R23081:23085 SLF.LibSepFmap <> indom def
+R23088:23096 SLF.LibSepFmap <> map_indom def
+R23081:23085 SLF.LibSepFmap <> indom def
+R23088:23096 SLF.LibSepFmap <> map_indom def
+R23159:23166 SLF.LibSepFmap FmapProp <> sec
+R23205:23215 SLF.LibSepFmap <> union_assoc thm
+R23205:23215 SLF.LibSepFmap <> union_assoc thm
+R23236:23257 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R23236:23257 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R23278:23296 SLF.LibSepFmap <> union_comm_of_agree thm
+R23278:23296 SLF.LibSepFmap <> union_comm_of_agree thm
+mod 23764:23776 <> DisjointHints
+R23854:23866 SLF.LibSepFmap DisjointHints <> mod
+R23895:23913 SLF.LibSepFmap <> disjoint_union_eq_l thm
+R23917:23935 SLF.LibSepFmap <> disjoint_union_eq_r thm
+R23939:23955 SLF.LibSepFmap <> disjoint_3_unfold thm
+prf 24258:24270 <> disjoint_demo
+binder 24281:24281 <> A:300
+binder 24283:24283 <> B:301
+R24301:24304 SLF.LibSepFmap <> fmap indrec
+R24308:24308 SLF.LibSepFmap <> B:301 var
+R24306:24306 SLF.LibSepFmap <> A:300 var
+binder 24286:24287 <> h1:302
+binder 24289:24290 <> h2:303
+binder 24292:24293 <> h3:304
+binder 24295:24296 <> h4:305
+binder 24298:24299 <> h5:306
+R24327:24332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24316:24318 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24314:24315 SLF.LibSepFmap <> h1:302 var
+R24321:24324 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R24319:24320 SLF.LibSepFmap <> h2:303 var
+R24325:24326 SLF.LibSepFmap <> h3:304 var
+R24341:24346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24333:24335 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R24338:24338 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R24336:24337 SLF.LibSepFmap <> h2:303 var
+R24339:24340 SLF.LibSepFmap <> h3:304 var
+R24358:24363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24347:24349 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R24352:24352 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R24355:24355 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R24350:24351 SLF.LibSepFmap <> h1:302 var
+R24353:24354 SLF.LibSepFmap <> h4:305 var
+R24356:24357 SLF.LibSepFmap <> h5:306 var
+R24375:24378 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24364:24366 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R24369:24369 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R24372:24372 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R24367:24368 SLF.LibSepFmap <> h3:304 var
+R24370:24371 SLF.LibSepFmap <> h2:303 var
+R24373:24374 SLF.LibSepFmap <> h5:306 var
+R24379:24381 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R24384:24384 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R24382:24383 SLF.LibSepFmap <> h4:305 var
+R24385:24386 SLF.LibSepFmap <> h5:306 var
+R24661:24671 SLF.LibSepFmap <> union_assoc thm
+R24675:24687 SLF.LibSepFmap <> union_empty_l thm
+R24691:24703 SLF.LibSepFmap <> union_empty_r thm
+sec 25052:25058 <> StateEq
+var 25072:25072 StateEq A
+var 25074:25074 StateEq B
+R25104:25107 SLF.LibSepFmap <> fmap indrec
+R25111:25111 SLF.LibSepFmap <> StateEq.B var
+R25109:25109 SLF.LibSepFmap <> StateEq.A var
+prf 25370:25386 <> union_eq_cancel_1
+binder 25397:25398 <> h1:309
+binder 25400:25401 <> h2:310
+binder 25403:25405 <> h2':311
+R25418:25423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25412:25414 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25410:25411 SLF.LibSepFmap <> h2:310 var
+R25415:25417 SLF.LibSepFmap <> h2':311 var
+R25432:25434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25426:25429 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25424:25425 SLF.LibSepFmap <> h1:309 var
+R25430:25431 SLF.LibSepFmap <> h2:310 var
+R25437:25440 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25435:25436 SLF.LibSepFmap <> h1:309 var
+R25441:25443 SLF.LibSepFmap <> h2':311 var
+prf 25492:25509 <> union_eq_cancel_1'
+binder 25520:25521 <> h1:312
+R25528:25530 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25526:25527 SLF.LibSepFmap <> h1:312 var
+R25531:25532 SLF.LibSepFmap <> h1:312 var
+prf 25574:25590 <> union_eq_cancel_2
+binder 25601:25602 <> h1:313
+binder 25604:25606 <> h1':314
+binder 25608:25609 <> h2:315
+binder 25611:25613 <> h2':316
+R25627:25632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25618:25620 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R25623:25623 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R25621:25622 SLF.LibSepFmap <> h1:313 var
+R25624:25626 SLF.LibSepFmap <> h1':314 var
+R25648:25653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25635:25637 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25633:25634 SLF.LibSepFmap <> h2:315 var
+R25641:25644 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25638:25640 SLF.LibSepFmap <> h1':314 var
+R25645:25647 SLF.LibSepFmap <> h2':316 var
+R25662:25664 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25656:25659 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25654:25655 SLF.LibSepFmap <> h1:313 var
+R25660:25661 SLF.LibSepFmap <> h2:315 var
+R25668:25671 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25665:25667 SLF.LibSepFmap <> h1':314 var
+R25674:25677 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25672:25673 SLF.LibSepFmap <> h1:313 var
+R25678:25680 SLF.LibSepFmap <> h2':316 var
+R25724:25734 SLF.LibSepFmap <> union_assoc thm
+R25724:25734 SLF.LibSepFmap <> union_assoc thm
+R25724:25734 SLF.LibSepFmap <> union_assoc thm
+R25748:25769 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R25748:25769 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R25748:25769 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R25748:25769 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R25791:25801 SLF.LibSepFmap <> union_assoc thm
+R25791:25801 SLF.LibSepFmap <> union_assoc thm
+prf 25822:25839 <> union_eq_cancel_2'
+binder 25850:25851 <> h1:317
+binder 25853:25855 <> h1':318
+binder 25857:25858 <> h2:319
+R25872:25877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25863:25865 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R25868:25868 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R25866:25867 SLF.LibSepFmap <> h1:317 var
+R25869:25871 SLF.LibSepFmap <> h1':318 var
+R25886:25891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25880:25882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25878:25879 SLF.LibSepFmap <> h2:319 var
+R25883:25885 SLF.LibSepFmap <> h1':318 var
+R25900:25902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25894:25897 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25892:25893 SLF.LibSepFmap <> h1:317 var
+R25898:25899 SLF.LibSepFmap <> h2:319 var
+R25906:25909 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R25903:25905 SLF.LibSepFmap <> h1':318 var
+R25910:25911 SLF.LibSepFmap <> h1:317 var
+R25951:25972 SLF.LibSepFmap <> union_comm_of_disjoint thm
+R25951:25972 SLF.LibSepFmap <> union_comm_of_disjoint thm
+prf 25987:26003 <> union_eq_cancel_3
+binder 26014:26015 <> h1:320
+binder 26017:26019 <> h1':321
+binder 26021:26022 <> h2:322
+binder 26024:26026 <> h2':323
+binder 26028:26030 <> h3':324
+R26053:26058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26035:26037 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26040:26041 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26052:26052 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26038:26039 SLF.LibSepFmap <> h1:320 var
+R26045:26048 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26042:26044 SLF.LibSepFmap <> h1':321 var
+R26049:26051 SLF.LibSepFmap <> h2':323 var
+R26081:26086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26061:26063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26059:26060 SLF.LibSepFmap <> h2:322 var
+R26067:26070 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26064:26066 SLF.LibSepFmap <> h1':321 var
+R26074:26077 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26071:26073 SLF.LibSepFmap <> h2':323 var
+R26078:26080 SLF.LibSepFmap <> h3':324 var
+R26095:26097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26089:26092 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26087:26088 SLF.LibSepFmap <> h1:320 var
+R26093:26094 SLF.LibSepFmap <> h2:322 var
+R26101:26104 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26098:26100 SLF.LibSepFmap <> h1':321 var
+R26108:26111 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26105:26107 SLF.LibSepFmap <> h2':323 var
+R26114:26117 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26112:26113 SLF.LibSepFmap <> h1:320 var
+R26118:26120 SLF.LibSepFmap <> h3':324 var
+R26167:26177 SLF.LibSepFmap <> union_assoc thm
+R26167:26177 SLF.LibSepFmap <> union_assoc thm
+R26167:26177 SLF.LibSepFmap <> union_assoc thm
+R26207:26217 SLF.LibSepFmap <> union_assoc thm
+R26230:26233 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26207:26217 SLF.LibSepFmap <> union_assoc thm
+R26230:26233 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26207:26217 SLF.LibSepFmap <> union_assoc thm
+R26230:26233 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26250:26266 SLF.LibSepFmap <> union_eq_cancel_2 thm
+R26250:26266 SLF.LibSepFmap <> union_eq_cancel_2 thm
+prf 26281:26298 <> union_eq_cancel_3'
+binder 26309:26310 <> h1:325
+binder 26312:26314 <> h1':326
+binder 26316:26317 <> h2:327
+binder 26319:26321 <> h2':328
+R26344:26349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26326:26328 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26331:26332 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26343:26343 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26329:26330 SLF.LibSepFmap <> h1:325 var
+R26336:26339 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26333:26335 SLF.LibSepFmap <> h1':326 var
+R26340:26342 SLF.LibSepFmap <> h2':328 var
+R26365:26370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26352:26354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26350:26351 SLF.LibSepFmap <> h2:327 var
+R26358:26361 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26355:26357 SLF.LibSepFmap <> h1':326 var
+R26362:26364 SLF.LibSepFmap <> h2':328 var
+R26379:26381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26373:26376 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26371:26372 SLF.LibSepFmap <> h1:325 var
+R26377:26378 SLF.LibSepFmap <> h2:327 var
+R26385:26388 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26382:26384 SLF.LibSepFmap <> h1':326 var
+R26392:26395 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26389:26391 SLF.LibSepFmap <> h2':328 var
+R26396:26397 SLF.LibSepFmap <> h1:325 var
+R26444:26454 SLF.LibSepFmap <> union_assoc thm
+R26444:26454 SLF.LibSepFmap <> union_assoc thm
+R26444:26454 SLF.LibSepFmap <> union_assoc thm
+R26478:26495 SLF.LibSepFmap <> union_eq_cancel_2' thm
+R26478:26495 SLF.LibSepFmap <> union_eq_cancel_2' thm
+prf 26510:26526 <> union_eq_cancel_4
+binder 26537:26538 <> h1:329
+binder 26540:26542 <> h1':330
+binder 26544:26545 <> h2:331
+binder 26547:26549 <> h2':332
+binder 26551:26553 <> h3':333
+binder 26555:26557 <> h4':334
+R26589:26594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26562:26564 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26567:26568 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26588:26588 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26565:26566 SLF.LibSepFmap <> h1:329 var
+R26569:26569 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26580:26584 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26573:26576 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26570:26572 SLF.LibSepFmap <> h1':330 var
+R26577:26579 SLF.LibSepFmap <> h2':332 var
+R26585:26587 SLF.LibSepFmap <> h3':333 var
+R26624:26629 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26597:26599 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26595:26596 SLF.LibSepFmap <> h2:331 var
+R26603:26606 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26600:26602 SLF.LibSepFmap <> h1':330 var
+R26610:26613 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26607:26609 SLF.LibSepFmap <> h2':332 var
+R26617:26620 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26614:26616 SLF.LibSepFmap <> h3':333 var
+R26621:26623 SLF.LibSepFmap <> h4':334 var
+R26638:26640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26632:26635 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26630:26631 SLF.LibSepFmap <> h1:329 var
+R26636:26637 SLF.LibSepFmap <> h2:331 var
+R26644:26647 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26641:26643 SLF.LibSepFmap <> h1':330 var
+R26651:26654 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26648:26650 SLF.LibSepFmap <> h2':332 var
+R26658:26661 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26655:26657 SLF.LibSepFmap <> h3':333 var
+R26664:26667 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26662:26663 SLF.LibSepFmap <> h1:329 var
+R26668:26670 SLF.LibSepFmap <> h4':334 var
+R26717:26727 SLF.LibSepFmap <> union_assoc thm
+R26741:26744 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26717:26727 SLF.LibSepFmap <> union_assoc thm
+R26741:26744 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26717:26727 SLF.LibSepFmap <> union_assoc thm
+R26741:26744 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26766:26776 SLF.LibSepFmap <> union_assoc thm
+R26790:26793 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26796:26799 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26766:26776 SLF.LibSepFmap <> union_assoc thm
+R26790:26793 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26796:26799 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26766:26776 SLF.LibSepFmap <> union_assoc thm
+R26790:26793 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26796:26799 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26816:26832 SLF.LibSepFmap <> union_eq_cancel_3 thm
+R26816:26832 SLF.LibSepFmap <> union_eq_cancel_3 thm
+prf 26847:26864 <> union_eq_cancel_4'
+binder 26875:26876 <> h1:335
+binder 26878:26880 <> h1':336
+binder 26882:26883 <> h2:337
+binder 26885:26887 <> h2':338
+binder 26889:26891 <> h3':339
+R26921:26926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26896:26898 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26901:26902 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26920:26920 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R26899:26900 SLF.LibSepFmap <> h1:335 var
+R26906:26909 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26903:26905 SLF.LibSepFmap <> h1':336 var
+R26913:26916 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26910:26912 SLF.LibSepFmap <> h2':338 var
+R26917:26919 SLF.LibSepFmap <> h3':339 var
+R26949:26954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26929:26931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26927:26928 SLF.LibSepFmap <> h2:337 var
+R26935:26938 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26932:26934 SLF.LibSepFmap <> h1':336 var
+R26942:26945 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26939:26941 SLF.LibSepFmap <> h2':338 var
+R26946:26948 SLF.LibSepFmap <> h3':339 var
+R26963:26965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26957:26960 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26955:26956 SLF.LibSepFmap <> h1:335 var
+R26961:26962 SLF.LibSepFmap <> h2:337 var
+R26969:26972 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26966:26968 SLF.LibSepFmap <> h1':336 var
+R26976:26979 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26973:26975 SLF.LibSepFmap <> h2':338 var
+R26983:26986 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R26980:26982 SLF.LibSepFmap <> h3':339 var
+R26987:26988 SLF.LibSepFmap <> h1:335 var
+R27035:27045 SLF.LibSepFmap <> union_assoc thm
+R27035:27045 SLF.LibSepFmap <> union_assoc thm
+R27035:27045 SLF.LibSepFmap <> union_assoc thm
+R27069:27086 SLF.LibSepFmap <> union_eq_cancel_3' thm
+R27069:27086 SLF.LibSepFmap <> union_eq_cancel_3' thm
+R27099:27105 SLF.LibSepFmap StateEq <> sec
+R27182:27184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27182:27184 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27231:27233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27224:27227 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27237:27240 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27231:27233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27224:27227 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27237:27240 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27287:27289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27280:27283 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27294:27297 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27287:27289 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27280:27283 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27294:27297 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27344:27346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27337:27340 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27351:27354 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27358:27361 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27344:27346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27337:27340 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27351:27354 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27358:27361 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27408:27410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27401:27404 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27415:27418 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27423:27426 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27408:27410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27401:27404 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27415:27418 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27423:27426 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27473:27475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27466:27469 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27480:27483 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27488:27491 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27495:27498 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27473:27475 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27466:27469 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27480:27483 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27488:27491 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27495:27498 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27545:27547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27538:27541 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27552:27555 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27560:27563 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27568:27571 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27545:27547 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27538:27541 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27552:27555 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27560:27563 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27568:27571 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27618:27620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27611:27614 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27625:27628 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27633:27636 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27641:27644 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27648:27651 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27618:27620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27611:27614 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27625:27628 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27633:27636 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27641:27644 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27648:27651 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R27666:27682 SLF.LibSepFmap <> union_eq_cancel_4 thm
+R27585:27602 SLF.LibSepFmap <> union_eq_cancel_4' thm
+R27513:27529 SLF.LibSepFmap <> union_eq_cancel_3 thm
+R27440:27457 SLF.LibSepFmap <> union_eq_cancel_3' thm
+R27376:27392 SLF.LibSepFmap <> union_eq_cancel_2 thm
+R27311:27328 SLF.LibSepFmap <> union_eq_cancel_2' thm
+R27255:27271 SLF.LibSepFmap <> union_eq_cancel_1 thm
+R27198:27215 SLF.LibSepFmap <> union_eq_cancel_1' thm
+R27832:27834 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R27836:27836 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R27832:27834 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R27836:27836 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R27863:27865 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R27867:27867 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R27869:27869 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R27863:27865 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R27867:27867 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R27869:27869 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+prf 28016:28027 <> fmap_eq_demo
+binder 28038:28038 <> A:340
+binder 28040:28040 <> B:341
+R28058:28061 SLF.LibSepFmap <> fmap indrec
+R28065:28065 SLF.LibSepFmap <> B:341 var
+R28063:28063 SLF.LibSepFmap <> A:340 var
+binder 28043:28044 <> h1:342
+binder 28046:28047 <> h2:343
+binder 28049:28050 <> h3:344
+binder 28052:28053 <> h4:345
+binder 28055:28056 <> h5:346
+R28082:28087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28071:28073 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R28076:28076 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R28079:28079 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R28074:28075 SLF.LibSepFmap <> h1:342 var
+R28077:28078 SLF.LibSepFmap <> h2:343 var
+R28080:28081 SLF.LibSepFmap <> h3:344 var
+R28113:28118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28088:28091 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R28106:28107 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R28110:28110 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x_x not
+R28094:28097 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28092:28093 SLF.LibSepFmap <> h1:342 var
+R28100:28103 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28098:28099 SLF.LibSepFmap <> h2:343 var
+R28104:28105 SLF.LibSepFmap <> h3:344 var
+R28108:28109 SLF.LibSepFmap <> h4:345 var
+R28111:28112 SLF.LibSepFmap <> h5:346 var
+R28132:28137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28121:28123 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28119:28120 SLF.LibSepFmap <> h1:342 var
+R28126:28129 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28124:28125 SLF.LibSepFmap <> h2:343 var
+R28130:28131 SLF.LibSepFmap <> h3:344 var
+R28152:28154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28140:28143 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28138:28139 SLF.LibSepFmap <> h4:345 var
+R28146:28149 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28144:28145 SLF.LibSepFmap <> h1:342 var
+R28150:28151 SLF.LibSepFmap <> h5:346 var
+R28157:28160 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28155:28156 SLF.LibSepFmap <> h2:343 var
+R28163:28166 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28161:28162 SLF.LibSepFmap <> h5:346 var
+R28169:28172 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28167:28168 SLF.LibSepFmap <> h4:345 var
+R28173:28174 SLF.LibSepFmap <> h3:344 var
+R28245:28246 Coq.Init.Datatypes <> tt constr
+R28281:28282 Coq.Init.Datatypes <> tt constr
+R28302:28303 Coq.Init.Datatypes <> tt constr
+def 28675:28680 <> conseq
+binder 28683:28683 <> B:347
+R28695:28698 Coq.Init.Datatypes <> list ind
+R28700:28700 SLF.LibSepFmap <> B:347 var
+binder 28692:28693 <> vs:348
+R28706:28708 Coq.Init.Datatypes <> nat ind
+binder 28704:28704 <> l:349
+R28713:28716 SLF.LibSepFmap <> fmap indrec
+R28722:28722 SLF.LibSepFmap <> B:347 var
+R28718:28720 Coq.Init.Datatypes <> nat ind
+R28735:28736 SLF.LibSepFmap <> vs:348 var
+R28747:28749 Coq.Init.Datatypes <> nil constr
+R28754:28758 SLF.LibSepFmap <> empty def
+R28765:28766 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R28774:28774 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28785:28790 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28807:28807 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28775:28780 SLF.LibSepFmap <> single def
+R28782:28782 SLF.LibSepFmap <> l:349 var
+R28791:28796 SLF.LibSepFmap <> conseq:350 def
+R28803:28803 Coq.Init.Datatypes <> S constr
+R28805:28805 SLF.LibSepFmap <> l:349 var
+prf 28823:28832 <> conseq_nil
+binder 28843:28843 <> B:352
+R28848:28850 Coq.Init.Datatypes <> nat ind
+binder 28846:28846 <> l:353
+R28873:28875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28856:28861 SLF.LibSepFmap <> conseq def
+R28872:28872 SLF.LibSepFmap <> l:353 var
+R28865:28867 Coq.Init.Datatypes <> nil constr
+R28869:28869 SLF.LibSepFmap <> B:352 var
+R28876:28880 SLF.LibSepFmap <> empty def
+prf 28914:28924 <> conseq_cons
+binder 28935:28935 <> B:354
+R28940:28942 Coq.Init.Datatypes <> nat ind
+binder 28938:28938 <> l:355
+R28948:28948 SLF.LibSepFmap <> B:354 var
+binder 28946:28946 <> v:356
+R28955:28958 Coq.Init.Datatypes <> list ind
+R28960:28960 SLF.LibSepFmap <> B:354 var
+binder 28952:28953 <> vs:357
+R28982:28984 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28966:28971 SLF.LibSepFmap <> conseq def
+R28981:28981 SLF.LibSepFmap <> l:355 var
+R28975:28976 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R28974:28974 SLF.LibSepFmap <> v:356 var
+R28977:28978 SLF.LibSepFmap <> vs:357 var
+R28985:28985 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28996:29001 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R29017:29017 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R28986:28991 SLF.LibSepFmap <> single def
+R28995:28995 SLF.LibSepFmap <> v:356 var
+R28993:28993 SLF.LibSepFmap <> l:355 var
+R29002:29007 SLF.LibSepFmap <> conseq def
+R29013:29013 Coq.Init.Datatypes <> S constr
+R29015:29015 SLF.LibSepFmap <> l:355 var
+R29009:29010 SLF.LibSepFmap <> vs:357 var
+prf 29051:29062 <> conseq_cons'
+binder 29073:29073 <> B:358
+R29078:29080 Coq.Init.Datatypes <> nat ind
+binder 29076:29076 <> l:359
+R29086:29086 SLF.LibSepFmap <> B:358 var
+binder 29084:29084 <> v:360
+R29093:29096 Coq.Init.Datatypes <> list ind
+R29098:29098 SLF.LibSepFmap <> B:358 var
+binder 29090:29091 <> vs:361
+R29120:29122 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29104:29109 SLF.LibSepFmap <> conseq def
+R29119:29119 SLF.LibSepFmap <> l:359 var
+R29113:29114 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R29112:29112 SLF.LibSepFmap <> v:360 var
+R29115:29116 SLF.LibSepFmap <> vs:361 var
+R29123:29123 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R29134:29139 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R29155:29155 SLF.LibSepFmap <> ::fmap_scope:x_'\+'_x not
+R29124:29129 SLF.LibSepFmap <> single def
+R29133:29133 SLF.LibSepFmap <> v:360 var
+R29131:29131 SLF.LibSepFmap <> l:359 var
+R29140:29145 SLF.LibSepFmap <> conseq def
+R29152:29152 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29151:29151 SLF.LibSepFmap <> l:359 var
+R29147:29148 SLF.LibSepFmap <> vs:361 var
+R29196:29198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29194:29194 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29199:29199 Coq.Init.Datatypes <> S constr
+R29196:29198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29194:29194 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29199:29199 Coq.Init.Datatypes <> S constr
+R29216:29226 SLF.LibSepFmap <> conseq_cons thm
+R29216:29226 SLF.LibSepFmap <> conseq_cons thm
+R29249:29254 SLF.LibSepFmap <> conseq def
+R29281:29290 SLF.LibSepFmap <> conseq_nil thm
+R29292:29302 SLF.LibSepFmap <> conseq_cons thm
+def 29441:29453 <> loc_fresh_gen
+R29460:29463 Coq.Init.Datatypes <> list ind
+R29465:29467 Coq.Init.Datatypes <> nat ind
+binder 29456:29456 <> L:362
+R29477:29479 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29480:29489 SLF.LibList <> fold_right def
+R29498:29498 SLF.LibSepFmap <> L:362 var
+R29496:29496 Coq.Init.Datatypes <> O constr
+R29491:29494 Coq.Init.Peano <> plus abbrev
+prf 29513:29525 <> loc_fresh_ind
+binder 29536:29536 <> l:363
+binder 29538:29538 <> L:364
+R29550:29555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29543:29545 SLF.LibList <> mem ind
+R29549:29549 SLF.LibSepFmap <> L:364 var
+R29547:29547 SLF.LibSepFmap <> l:363 var
+R29558:29560 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R29557:29557 SLF.LibSepFmap <> l:363 var
+R29561:29573 SLF.LibSepFmap <> loc_fresh_gen def
+R29575:29575 SLF.LibSepFmap <> L:364 var
+R29617:29629 SLF.LibSepFmap <> loc_fresh_gen def
+prf 29731:29746 <> loc_fresh_nat_ge
+R29760:29763 Coq.Init.Datatypes <> list ind
+R29765:29767 Coq.Init.Datatypes <> nat ind
+binder 29758:29758 <> L:365
+R29773:29780 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29786:29788 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R29783:29785 Coq.Init.Datatypes <> nat ind
+binder 29781:29781 <> l:366
+R29799:29801 Coq.Init.Datatypes <> nat ind
+binder 29797:29797 <> i:367
+R29805:29806 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29807:29809 SLF.LibList <> mem ind
+R29821:29821 SLF.LibSepFmap <> L:365 var
+R29813:29813 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29812:29812 SLF.LibSepFmap <> l:366 var
+R29814:29814 SLF.LibSepFmap <> i:367 var
+R29857:29869 SLF.LibSepFmap <> loc_fresh_gen def
+R29857:29869 SLF.LibSepFmap <> loc_fresh_gen def
+R29895:29907 SLF.LibSepFmap <> loc_fresh_ind thm
+R29895:29907 SLF.LibSepFmap <> loc_fresh_ind thm
+prf 30043:30055 <> loc_fresh_nat
+R30069:30072 Coq.Init.Datatypes <> list ind
+R30074:30076 Coq.Init.Datatypes <> nat ind
+binder 30067:30067 <> L:368
+R30082:30089 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30095:30097 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30092:30094 Coq.Init.Datatypes <> nat ind
+binder 30090:30090 <> l:369
+R30098:30099 Coq.Init.Logic <> ::type_scope:'~'_x not
+R30100:30102 SLF.LibList <> mem ind
+R30106:30106 SLF.LibSepFmap <> L:368 var
+R30104:30104 SLF.LibSepFmap <> l:369 var
+R30150:30165 SLF.LibSepFmap <> loc_fresh_nat_ge thm
+R30150:30165 SLF.LibSepFmap <> loc_fresh_nat_ge thm
+sec 30243:30251 <> FmapFresh
+var 30265:30265 FmapFresh B
+R30295:30298 SLF.LibSepFmap <> fmap indrec
+R30304:30304 SLF.LibSepFmap <> FmapFresh.B var
+R30300:30302 Coq.Init.Datatypes <> nat ind
+prf 30417:30428 <> exists_fresh
+binder 30439:30442 <> null:371
+binder 30444:30444 <> h:372
+R30449:30455 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30457:30458 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30456:30456 <> l:373
+R30470:30473 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30459:30460 Coq.Init.Logic <> ::type_scope:'~'_x not
+R30461:30465 SLF.LibSepFmap <> indom def
+R30469:30469 SLF.LibSepFmap <> l:373 var
+R30467:30467 SLF.LibSepFmap <> h:372 var
+R30475:30478 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30474:30474 SLF.LibSepFmap <> l:373 var
+R30479:30482 SLF.LibSepFmap <> null:371 var
+R30530:30534 SLF.LibSepFmap <> indom def
+R30537:30545 SLF.LibSepFmap <> map_indom def
+R30570:30582 SLF.LibSepFmap <> loc_fresh_nat thm
+R30589:30590 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R30570:30582 SLF.LibSepFmap <> loc_fresh_nat thm
+R30589:30590 SLF.LibList <> ::liblist_scope:x_'::'_x not
+prf 30850:30861 <> single_fresh
+binder 30872:30875 <> null:374
+binder 30877:30877 <> h:375
+binder 30879:30879 <> v:376
+R30884:30890 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30892:30893 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30891:30891 <> l:377
+R30911:30914 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30894:30897 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R30908:30909 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R30898:30903 SLF.LibSepFmap <> single def
+R30907:30907 SLF.LibSepFmap <> v:376 var
+R30905:30905 SLF.LibSepFmap <> l:377 var
+R30910:30910 SLF.LibSepFmap <> h:375 var
+R30916:30919 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30915:30915 SLF.LibSepFmap <> l:377 var
+R30920:30923 SLF.LibSepFmap <> null:374 var
+R30967:30978 SLF.LibSepFmap <> exists_fresh thm
+R30967:30978 SLF.LibSepFmap <> exists_fresh thm
+R31016:31043 SLF.LibSepFmap <> disjoint_single_of_not_indom thm
+R31016:31043 SLF.LibSepFmap <> disjoint_single_of_not_indom thm
+prf 31058:31069 <> conseq_fresh
+binder 31080:31083 <> null:378
+binder 31085:31085 <> h:379
+binder 31087:31088 <> vs:380
+R31093:31099 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R31101:31102 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 31100:31100 <> l:381
+R31121:31124 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31103:31106 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R31118:31119 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R31107:31112 SLF.LibSepFmap <> conseq def
+R31117:31117 SLF.LibSepFmap <> l:381 var
+R31114:31115 SLF.LibSepFmap <> vs:380 var
+R31120:31120 SLF.LibSepFmap <> h:379 var
+R31126:31129 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R31125:31125 SLF.LibSepFmap <> l:381 var
+R31130:31133 SLF.LibSepFmap <> null:378 var
+R31186:31193 SLF.LibSepFmap <> disjoint def
+R31196:31207 SLF.LibSepFmap <> map_disjoint def
+R31232:31247 SLF.LibSepFmap <> loc_fresh_nat_ge thm
+R31254:31255 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R31232:31247 SLF.LibSepFmap <> loc_fresh_nat_ge thm
+R31254:31255 SLF.LibList <> ::liblist_scope:x_'::'_x not
+R31367:31377 SLF.LibSepFmap <> conseq_cons thm
+R31367:31377 SLF.LibSepFmap <> conseq_cons thm
+R31367:31377 SLF.LibSepFmap <> conseq_cons thm
+R31397:31397 Coq.Init.Datatypes <> S constr
+R31397:31397 Coq.Init.Datatypes <> S constr
+R31447:31447 Coq.Init.Datatypes <> S constr
+R31447:31447 Coq.Init.Datatypes <> S constr
+R31496:31504 SLF.LibSepFmap <> map_union def
+R31548:31558 SLF.LibLogic <> not_not_inv thm
+R31548:31558 SLF.LibLogic <> not_not_inv thm
+R31628:31630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31626:31626 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R31628:31630 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31626:31626 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+prf 31738:31759 <> disjoint_single_conseq
+binder 31770:31770 <> B:382
+binder 31772:31772 <> l:383
+binder 31774:31775 <> l':384
+binder 31777:31777 <> L:385
+R31782:31782 SLF.LibSepFmap <> B:382 var
+binder 31780:31780 <> v:386
+R31826:31831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31800:31803 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31790:31792 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31789:31789 SLF.LibSepFmap <> l:383 var
+R31793:31794 SLF.LibSepFmap <> l':384 var
+R31806:31809 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R31805:31805 SLF.LibSepFmap <> l:383 var
+R31812:31812 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R31810:31811 SLF.LibSepFmap <> l':384 var
+R31813:31818 SLF.LibList <> length def
+R31820:31820 SLF.LibSepFmap <> L:385 var
+R31832:31835 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R31846:31848 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R31860:31860 SLF.LibSepFmap NotationForFmapDisjoint ::fmap_scope:'\#'_x_x not
+R31836:31841 SLF.LibSepFmap <> single def
+R31845:31845 SLF.LibSepFmap <> v:386 var
+R31843:31843 SLF.LibSepFmap <> l:383 var
+R31849:31854 SLF.LibSepFmap <> conseq def
+R31858:31859 SLF.LibSepFmap <> l':384 var
+R31856:31856 SLF.LibSepFmap <> L:385 var
+R31939:31948 SLF.LibSepFmap <> conseq_nil thm
+R31939:31948 SLF.LibSepFmap <> conseq_nil thm
+R31980:31990 SLF.LibSepFmap <> conseq_cons thm
+R31980:31990 SLF.LibSepFmap <> conseq_cons thm
+R31980:31990 SLF.LibSepFmap <> conseq_cons thm
+R32027:32048 SLF.LibSepFmap <> disjoint_single_single thm
+R32027:32048 SLF.LibSepFmap <> disjoint_single_single thm
+def 32378:32382 <> fresh
+R32390:32392 Coq.Init.Datatypes <> nat ind
+binder 32385:32388 <> null:387
+R32398:32401 SLF.LibSepFmap <> fmap indrec
+R32407:32407 SLF.LibSepFmap <> FmapFresh.B var
+R32403:32405 Coq.Init.Datatypes <> nat ind
+binder 32396:32396 <> h:388
+R32413:32415 Coq.Init.Datatypes <> nat ind
+binder 32411:32411 <> l:389
+R32441:32444 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32430:32431 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32432:32436 SLF.LibSepFmap <> indom def
+R32440:32440 SLF.LibSepFmap <> l:389 var
+R32438:32438 SLF.LibSepFmap <> h:388 var
+R32446:32449 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32445:32445 SLF.LibSepFmap <> l:389 var
+R32450:32453 SLF.LibSepFmap <> null:387 var
+def 32468:32481 <> smallest_fresh
+R32489:32491 Coq.Init.Datatypes <> nat ind
+binder 32484:32487 <> null:390
+R32497:32500 SLF.LibSepFmap <> fmap indrec
+R32506:32506 SLF.LibSepFmap <> FmapFresh.B var
+R32502:32504 Coq.Init.Datatypes <> nat ind
+binder 32495:32495 <> h:391
+R32512:32514 Coq.Init.Datatypes <> nat ind
+binder 32510:32510 <> l:392
+R32543:32547 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32586:32586 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32529:32533 SLF.LibSepFmap <> fresh def
+R32542:32542 SLF.LibSepFmap <> l:392 var
+R32540:32540 SLF.LibSepFmap <> h:391 var
+R32535:32538 SLF.LibSepFmap <> null:390 var
+binder 32555:32556 <> l':393
+R32565:32568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32561:32563 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R32559:32560 SLF.LibSepFmap <> l':393 var
+R32564:32564 SLF.LibSepFmap <> l:392 var
+R32569:32570 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32571:32575 SLF.LibSepFmap <> fresh def
+R32584:32585 SLF.LibSepFmap <> l':393 var
+R32582:32582 SLF.LibSepFmap <> h:391 var
+R32577:32580 SLF.LibSepFmap <> null:390 var
+prf 32596:32616 <> exists_smallest_fresh
+binder 32627:32630 <> null:394
+binder 32632:32632 <> h:395
+R32637:32643 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32645:32646 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32644:32644 <> l:396
+R32647:32660 SLF.LibSepFmap <> smallest_fresh def
+R32669:32669 SLF.LibSepFmap <> l:396 var
+R32667:32667 SLF.LibSepFmap <> h:395 var
+R32662:32665 SLF.LibSepFmap <> null:394 var
+binder 32713:32714 <> l0:397
+R32732:32747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32717:32721 SLF.LibSepFmap <> fresh def
+R32730:32731 SLF.LibSepFmap <> l0:397 var
+R32748:32754 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32756:32757 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32755:32755 <> l:398
+R32772:32795 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32834:32834 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32758:32762 SLF.LibSepFmap <> fresh def
+R32771:32771 SLF.LibSepFmap <> l:398 var
+binder 32803:32804 <> l':399
+R32813:32816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32809:32811 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R32807:32808 SLF.LibSepFmap <> l':399 var
+R32812:32812 SLF.LibSepFmap <> l:398 var
+R32817:32818 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32819:32823 SLF.LibSepFmap <> fresh def
+R32832:32833 SLF.LibSepFmap <> l':399 var
+binder 32713:32714 <> l0:400
+R32732:32747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32717:32721 SLF.LibSepFmap <> fresh def
+R32730:32731 SLF.LibSepFmap <> l0:400 var
+R32748:32754 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R32756:32757 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 32755:32755 <> l:401
+R32772:32795 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32834:32834 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R32758:32762 SLF.LibSepFmap <> fresh def
+R32771:32771 SLF.LibSepFmap <> l:401 var
+binder 32803:32804 <> l':402
+R32813:32816 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32809:32811 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R32807:32808 SLF.LibSepFmap <> l':402 var
+R32812:32812 SLF.LibSepFmap <> l:401 var
+R32817:32818 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32819:32823 SLF.LibSepFmap <> fresh def
+R32832:32833 SLF.LibSepFmap <> l':402 var
+R32857:32868 SLF.LibSepFmap <> exists_fresh thm
+R32857:32868 SLF.LibSepFmap <> exists_fresh thm
+R32931:32935 SLF.LibWf <> wf_lt thm
+R32931:32935 SLF.LibWf <> wf_lt thm
+binder 32970:32971 <> l':403
+R32981:32984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32976:32978 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R32974:32975 SLF.LibSepFmap <> l':403 var
+R32985:32986 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32987:32991 SLF.LibSepFmap <> fresh def
+R33000:33001 SLF.LibSepFmap <> l':403 var
+binder 32970:32971 <> l':404
+R32981:32984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32976:32978 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R32974:32975 SLF.LibSepFmap <> l':404 var
+R32985:32986 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32987:32991 SLF.LibSepFmap <> fresh def
+R33000:33001 SLF.LibSepFmap <> l':404 var
+prf 33341:33356 <> exists_not_empty
+R33372:33376 SLF.LibLogic <> Inhab class
+R33378:33378 SLF.LibSepFmap <> FmapFresh.B var
+binder 33369:33370 <> IB:405
+R33384:33391 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33404:33406 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33394:33397 SLF.LibSepFmap <> fmap indrec
+R33403:33403 SLF.LibSepFmap <> FmapFresh.B var
+R33399:33401 Coq.Init.Datatypes <> nat ind
+binder 33392:33392 <> h:406
+R33408:33411 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R33407:33407 SLF.LibSepFmap <> h:406 var
+R33412:33416 SLF.LibSepFmap <> empty def
+R33466:33471 SLF.LibSepFmap <> single def
+R33476:33484 SLF.LibLogic <> arbitrary def
+R33490:33490 SLF.LibSepFmap <> FmapFresh.B var
+R33466:33471 SLF.LibSepFmap <> single def
+R33476:33484 SLF.LibLogic <> arbitrary def
+R33490:33490 SLF.LibSepFmap <> FmapFresh.B var
+R33536:33539 SLF.LibSepFmap <> fmap indrec
+R33545:33545 SLF.LibSepFmap <> FmapFresh.B var
+R33541:33543 Coq.Init.Datatypes <> nat ind
+R33530:33534 SLF.LibSepFmap <> empty def
+R33536:33539 SLF.LibSepFmap <> fmap indrec
+R33545:33545 SLF.LibSepFmap <> FmapFresh.B var
+R33541:33543 Coq.Init.Datatypes <> nat ind
+R33530:33534 SLF.LibSepFmap <> empty def
+R33564:33568 SLF.LibSepFmap <> indom def
+R33564:33568 SLF.LibSepFmap <> indom def
+R33587:33598 SLF.LibSepFmap <> indom_single thm
+R33587:33598 SLF.LibSepFmap <> indom_single thm
+R33618:33619 Coq.Init.Logic <> ::type_scope:'~'_x not
+R33620:33624 SLF.LibSepFmap <> indom def
+R33618:33619 Coq.Init.Logic <> ::type_scope:'~'_x not
+R33620:33624 SLF.LibSepFmap <> indom def
+R33646:33650 SLF.LibSepFmap <> indom def
+R33653:33661 SLF.LibSepFmap <> map_indom def
+R33665:33669 SLF.LibSepFmap <> empty def
+R33646:33650 SLF.LibSepFmap <> indom def
+R33653:33661 SLF.LibSepFmap <> map_indom def
+R33665:33669 SLF.LibSepFmap <> empty def
+R33731:33739 SLF.LibSepFmap FmapFresh <> sec

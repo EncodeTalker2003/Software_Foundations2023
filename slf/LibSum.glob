@@ -1,0 +1,155 @@
+DIGEST 3ae9407013de75ad056d2fac72ab1021
+FSLF.LibSum
+R455:464 SLF.LibTactics <> <> lib
+R466:473 SLF.LibLogic <> <> lib
+R475:481 SLF.LibBool <> <> lib
+R1160:1162 Coq.Init.Datatypes <> inl constr
+R1160:1162 Coq.Init.Datatypes <> inl constr
+R1183:1185 Coq.Init.Datatypes <> inr constr
+R1183:1185 Coq.Init.Datatypes <> inr constr
+inst 1386:1396 <> sum_inhab_l
+R1409:1413 SLF.LibLogic <> Inhab class
+binder 1415:1415 <> A:1
+binder 1409:1415 <> H:2
+binder 1418:1418 <> B:3
+R1421:1425 SLF.LibLogic <> Inhab class
+R1429:1431 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R1428:1428 SLF.LibSum <> A:1 var
+R1432:1432 SLF.LibSum <> B:3 var
+R1464:1475 SLF.LibLogic <> Inhab_of_val thm
+R1478:1480 Coq.Init.Datatypes <> inl constr
+R1482:1490 SLF.LibLogic <> arbitrary def
+R1464:1475 SLF.LibLogic <> Inhab_of_val thm
+R1478:1480 Coq.Init.Datatypes <> inl constr
+R1482:1490 SLF.LibLogic <> arbitrary def
+inst 1520:1530 <> sum_inhab_r
+R1543:1547 SLF.LibLogic <> Inhab class
+binder 1549:1549 <> B:4
+binder 1543:1549 <> H:5
+binder 1552:1552 <> A:6
+R1555:1559 SLF.LibLogic <> Inhab class
+R1563:1565 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R1562:1562 SLF.LibSum <> A:6 var
+R1566:1566 SLF.LibSum <> B:4 var
+R1598:1609 SLF.LibLogic <> Inhab_of_val thm
+R1612:1614 Coq.Init.Datatypes <> inr constr
+R1616:1624 SLF.LibLogic <> arbitrary def
+R1598:1609 SLF.LibLogic <> Inhab_of_val thm
+R1612:1614 Coq.Init.Datatypes <> inr constr
+R1616:1624 SLF.LibLogic <> arbitrary def
+def 1646:1654 <> Inhab_sum
+R1667:1671 SLF.LibLogic <> Inhab class
+binder 1673:1673 <> A:7
+binder 1667:1673 <> H:8
+R1676:1680 SLF.LibLogic <> Inhab class
+binder 1682:1682 <> B:9
+binder 1676:1682 <> H0:10
+R1686:1690 SLF.LibLogic <> Inhab class
+R1694:1696 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R1693:1693 SLF.LibSum <> A:7 var
+R1697:1697 SLF.LibSum <> B:9 var
+def 2103:2108 <> is_inl
+binder 2111:2111 <> A:11
+binder 2113:2113 <> B:12
+R2129:2131 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R2128:2128 SLF.LibSum <> A:11 var
+R2132:2132 SLF.LibSum <> B:12 var
+binder 2124:2124 <> x:13
+R2137:2140 Coq.Init.Datatypes <> bool ind
+R2153:2153 SLF.LibSum <> x:13 var
+R2164:2166 Coq.Init.Datatypes <> inl constr
+R2173:2176 Coq.Init.Datatypes <> true constr
+R2182:2184 Coq.Init.Datatypes <> inr constr
+R2191:2195 Coq.Init.Datatypes <> false constr
+def 2216:2221 <> is_inr
+binder 2224:2224 <> A:15
+binder 2226:2226 <> B:16
+R2242:2244 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R2241:2241 SLF.LibSum <> A:15 var
+R2245:2245 SLF.LibSum <> B:16 var
+binder 2237:2237 <> x:17
+R2250:2253 Coq.Init.Datatypes <> bool ind
+R2266:2266 SLF.LibSum <> x:17 var
+R2277:2279 Coq.Init.Datatypes <> inl constr
+R2286:2290 Coq.Init.Datatypes <> false constr
+R2296:2298 Coq.Init.Datatypes <> inr constr
+R2305:2308 Coq.Init.Datatypes <> true constr
+sec 2326:2329 <> IsIn
+var 2343:2343 IsIn A
+var 2345:2345 IsIn B
+R2375:2377 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R2374:2374 SLF.LibSum <> IsIn.A var
+R2378:2378 SLF.LibSum <> IsIn.B var
+prf 2388:2404 <> is_inl_neg_is_inr
+binder 2415:2415 <> x:21
+R2428:2430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2420:2425 SLF.LibSum <> is_inl def
+R2427:2427 SLF.LibSum <> x:21 var
+R2431:2433 SLF.LibBool <> ::Bool_scope:'!'_x not
+R2442:2442 SLF.LibBool <> ::Bool_scope:'!'_x not
+R2434:2439 SLF.LibSum <> is_inr def
+R2441:2441 SLF.LibSum <> x:21 var
+prf 2493:2509 <> is_inr_neg_is_inl
+binder 2520:2520 <> x:22
+R2533:2535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2525:2530 SLF.LibSum <> is_inr def
+R2532:2532 SLF.LibSum <> x:22 var
+R2536:2538 SLF.LibBool <> ::Bool_scope:'!'_x not
+R2547:2547 SLF.LibBool <> ::Bool_scope:'!'_x not
+R2539:2544 SLF.LibSum <> is_inl def
+R2546:2546 SLF.LibSum <> x:22 var
+R2596:2599 SLF.LibSum IsIn <> sec
+sec 2780:2782 <> Get
+R2799:2803 SLF.LibLogic <> Inhab class
+binder 2805:2806 <> A1:23
+binder 2795:2797 <> IA1:24
+R2815:2819 SLF.LibLogic <> Inhab class
+binder 2821:2822 <> A2:25
+binder 2811:2813 <> IA2:26
+R2847:2847 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R2845:2846 SLF.LibSum <> Get.A1 var
+R2848:2849 SLF.LibSum <> Get.A2 var
+def 2864:2868 <> get21
+binder 2870:2870 <> x:27
+R2883:2883 SLF.LibSum <> x:27 var
+R2894:2896 Coq.Init.Datatypes <> inl constr
+R2911:2913 Coq.Init.Datatypes <> inr constr
+R2921:2929 SLF.LibLogic <> arbitrary def
+def 2950:2954 <> get22
+binder 2956:2956 <> x:29
+R2969:2969 SLF.LibSum <> x:29 var
+R2980:2982 Coq.Init.Datatypes <> inl constr
+R2990:2998 SLF.LibLogic <> arbitrary def
+R3004:3006 Coq.Init.Datatypes <> inr constr
+R3029:3031 SLF.LibSum Get <> sec
+sec 3217:3220 <> Fget
+binder 3232:3233 <> A1:31
+binder 3242:3243 <> A2:32
+R3257:3261 SLF.LibLogic <> Inhab class
+binder 3263:3264 <> B1:33
+binder 3253:3255 <> IB1:34
+R3273:3277 SLF.LibLogic <> Inhab class
+binder 3279:3280 <> B2:35
+binder 3269:3271 <> IB2:36
+R3308:3309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3305:3305 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R3303:3304 SLF.LibSum <> Fget.A1 var
+R3306:3307 SLF.LibSum <> Fget.A2 var
+R3312:3312 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R3310:3311 SLF.LibSum <> Fget.B1 var
+R3313:3314 SLF.LibSum <> Fget.B2 var
+def 3329:3337 <> fun_get21
+binder 3339:3339 <> f:37
+binder 3350:3350 <> x:38
+R3355:3359 SLF.LibSum <> get21 def
+R3362:3362 SLF.LibSum <> f:37 var
+R3365:3367 Coq.Init.Datatypes <> inl constr
+R3369:3369 SLF.LibSum <> x:38 var
+def 3385:3393 <> fun_get22
+binder 3395:3395 <> f:39
+binder 3406:3406 <> x:40
+R3411:3415 SLF.LibSum <> get22 def
+R3418:3418 SLF.LibSum <> f:39 var
+R3421:3423 Coq.Init.Datatypes <> inr constr
+R3425:3425 SLF.LibSum <> x:40 var
+R3435:3438 SLF.LibSum Fget <> sec
