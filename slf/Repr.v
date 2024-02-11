@@ -376,7 +376,12 @@ Lemma triple_mlength : forall L p,
   triple (mlength p)
     (MList L p)
     (fun r => \[r = val_int (length L)] \* (MList L p)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+  intros. gen p. induction_wf IH: list_sub L.
+	xwp. xapp. xchange MList_if. xif; intros C; case_if; xpull.
+	{ intros ->. xval. xsimpl*. subst. xchange* <- MList_nil. }
+	{ intros x q L' ->. xapp. xapp. xapp. xchange* <- MList_cons. xsimpl*. rew_list. math.  }
+Qed.
 
 (** [] *)
 
@@ -427,11 +432,30 @@ Definition mlength' : val :=
 
 (* FILL IN HERE *)
 
+Lemma triple_acclength : forall L c p n,
+	triple (acclength c p) 
+		(c ~~> n \* MList L p) 
+		(fun _ => c ~~> (n + (length L)) \* MList L p).
+Proof using.
+	intros L. induction_wf IH: list_sub L.
+	xwp. xapp. xchange MList_if. xif; intros; case_if.
+	{ xapp. intros. xapp. xapp.
+		{ rewrite H0. auto. }
+		{ xsimpl. 
+			{	rewrite H0. rew_list. math. }
+			{ xchange <- MList_cons. rewrite H0. xsimpl. } } }
+	{ xval. xsimpl*; intros; subst. 
+		{ rew_list. math. }
+		{ xchange <- MList_nil. reflexivity. } }
+Qed.
+
 Lemma triple_mlength' : forall L p,
   triple (mlength' p)
     (MList L p)
     (fun r => \[r = val_int (length L)] \* (MList L p)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. xwp. xapp. intros c. xapp triple_acclength. xapp. xsimpl*.
+Qed.
 
 (** [] *)
 
@@ -474,7 +498,12 @@ Lemma triple_mfree : forall L p,
   triple (mfree p)
     (MList L p)
     (fun _ => \[]).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros L. induction_wf IH: list_sub L.
+	xwp. xapp. xchange MList_if. xif; intros; case_if.
+	{ xapp. intros. subst. xapp. xapp. xsimpl. }
+	{ xval. subst. xsimpl. }
+Qed.  
 
 (** [] *)
 
@@ -647,7 +676,10 @@ Lemma triple_push : forall L s x,
   triple (push s x)
     (Stack L s)
     (fun u => Stack (x::L) s).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	xwp. unfold Stack. xpull. intros p. repeat xapp. intros.
+	repeat xapp. xsimpl*. rew_list. math.
+Qed.
 
 (** [] *)
 
@@ -670,14 +702,19 @@ Definition pop : val :=
 
     Prove the following specification for the [pop] operation. *)
 
+(** [] *) 
+
 Lemma triple_pop : forall L s,
   L <> nil ->
   triple (pop s)
     (Stack L s)
     (fun x => \exists L', \[L = x::L'] \* Stack L' s).
-Proof using. (* FILL IN HERE *) Admitted.
-
-(** [] *)
+Proof using. 
+	intros. xwp. unfold Stack. xpull. intros p. xapp.
+	xchange MList_if. case_if.
+	{ xpull. }
+	{ xapp. intros. repeat xapp. xval. subst. xsimpl*. rew_list. math. }
+Qed.
 
 (** The [top] operation extracts the element at the head of the list. *)
 
@@ -844,7 +881,9 @@ Lemma triple_mnode' : forall T1 T2 n p1 p2,
   triple (mnode n p1 p2)
     (MTree T1 p1 \* MTree T2 p2)
     (funloc p => MTree (Node n T1 T2) p).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. xapp triple_mnode. intros p. xsimpl*. xchange <- MTree_Node.
+Qed.
 
 #[global] Hint Resolve triple_mnode' : triple.
 
@@ -892,7 +931,15 @@ Lemma triple_tree_copy : forall p T,
   triple (tree_copy p)
     (MTree T p)
     (funloc q => (MTree T p) \* (MTree T q)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. gen p. induction_wf IH: tree_sub T. intros p.
+	xwp. xapp. xchange MTree_if. xif; intros; case_if; xpull.
+	{ intros. subst. xval. xsimpl*. xchange <- (MTree_Leaf null). auto. xsimpl*. xchange <- (MTree_Leaf null). auto. }
+	{ intros. subst. repeat xapp. apply tree_sub_1. intros. 
+		repeat xapp. apply tree_sub_2. intros.
+		xapp. intros. xsimpl*. xchange <- MTree_Node. }
+Qed.
+
 
 (** [] *)
 
@@ -1038,7 +1085,7 @@ Lemma triple_create_counter :
 Proof using.
   xwp. xapp. intros p.
   xfun. intros f Hf.
-  xsimpl.
+  xsimpl. unfold CounterSpec.
   { intros m.
 (** To reason about the call to the function [f], we can exploit [Hf], either
     explicitly by calling [apply Hf], or automatically by simply calling [xapp].
@@ -1085,7 +1132,10 @@ Lemma triple_apply_counter_abstract : forall f n,
   triple (f ())
     (IsCounter f n)
     (fun r => \[r = n+1] \* (IsCounter f (n+1))).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	xtriple. unfold IsCounter. xpull. intros p H.
+	xapp. xsimpl*.
+Qed.
 
 (** [] *)
 
@@ -1223,7 +1273,7 @@ Proof using.
 (** We reason about the call to [f] *)
   { xapp. { math. } xapp.
 (** We next reason about the recursive call. *)
-    xapp. { math. } { math. }
+    xapp. { math. } { math. } 
     math_rewrite ((n - m) + 1 = n - (m - 1)). xsimpl. }
 (** Finally, when [m] reaches zero, we check that we obtain [I n]. *)
   { xval. math_rewrite (n - m = n). xsimpl. }
@@ -1274,7 +1324,21 @@ Lemma triple_miter : forall (I:list val->hprop) L (f:val) p,
   triple (miter f p)
     (MList L p \* I nil)
     (fun u => MList L p \* I L).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	introv Hf. 
+	cuts G: (forall (q:loc) (L1 L2:list val), L = L1 ++ L2 ->
+		triple (miter f q) 
+			(MList L2 q \* I L1)
+			(fun u => MList L2 q \* I (L1 ++ L2))).
+	{ eapply G. auto. }
+	intros q L1 L2. gen q L1. induction_wf IH: list_sub L2. intros.
+	xwp. xapp. xchange MList_if. xif; intros C; case_if; xpull.
+	{ intros. subst. xapp. xapp. xapp. xapp.
+		{ eauto. }
+		{ rewrite app_assoc. rewrite app_cons_one_r. auto. }
+		{ xchange <- MList_cons. xsimpl*. rewrite app_assoc. rewrite app_cons_one_r. xsimpl*. } }
+	{ intros. subst. xval. xsimpl*. xchange <- MList_nil. auto. xsimpl*. rew_list. auto. }
+Qed.
 
 (** [] *)
 
@@ -1319,7 +1383,13 @@ Lemma triple_mlength_using_miter : forall p L,
   triple (mlength_using_miter p)
     (MList L p)
     (fun r => \[r = length L] \* MList L p).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. gen p. induction_wf IH: list_sub L. 
+	intros p. xwp. xapp. intros q. 
+	xfun. intros. xapp (triple_miter (fun K => q ~~> length K)).
+	{ intros. xapp. xapp. xsimpl*. rew_list. math. }
+	{ xapp. xsimpl*. }
+Qed.
 
 (** [] *)
 
