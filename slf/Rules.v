@@ -63,7 +63,10 @@ Lemma triple_seq : forall t1 t2 H Q H1,
 
     Prove [triple_seq] by unfolding [triple] and using [eval_seq]. *)
 
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. unfold triple. intros.
+	applys* eval_seq.
+Qed.
 
 (** [] *)
 
@@ -118,7 +121,10 @@ Lemma triple_if_case : forall b t1 t2 H Q,
     Prove [triple_if_case] by unfolding [triple] and using [eval_if]. Hint: use
     the tactic [case_if] to perform a case analysis. *)
 
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. unfold triple. intros.
+	applys* eval_if. case_if; autos*.
+Qed.
 
 (** [] *)
 
@@ -166,7 +172,9 @@ Proof using. introv M Hs. applys* eval_val. Qed.
 
 Lemma triple_val_minimal : forall v,
   triple (trm_val v) \[] (fun r => \[r = v]).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. applys triple_val. xsimpl*.
+Qed.
 
 (** [] *)
 
@@ -181,7 +189,12 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma triple_val' : forall v H Q,
   H ==> Q v ->
   triple (trm_val v) H Q.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. applys* triple_conseq_frame.
+	- applys* triple_val_minimal.
+	- xsimpl*.
+	- xsimpl*. intros. subst. auto.
+Qed.
 
 (** [] *)
 
@@ -197,6 +210,15 @@ Proof using. (* FILL IN HERE *) Admitted.
 *)
 
 (* FILL IN HERE *)
+
+Lemma triple_let_val : forall x v1 t2 H Q,
+	triple (subst x v1 t2) H Q ->
+  triple (trm_let x v1 t2) H Q.
+Proof using.
+	intros. applys* triple_let (fun v => \[v = v1] \* H).
+	- applys* triple_val. xsimpl*.
+	- intros. applys triple_hpure. intros. subst. auto.
+Qed.
 
 (** [] *)
 
@@ -350,7 +372,11 @@ Lemma triple_rand : forall n,
   triple (val_rand n)
     \[]
     (fun r => \[exists n1, r = val_int n1 /\ 0 <= n1 < n]).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. unfold triple. intros. 
+	applys* eval_rand. lets ->: hempty_inv H0.
+	intros. applys hpure_intro. eauto.
+Qed.
 
 (** [] *)
 
@@ -414,7 +440,12 @@ Lemma triple_free' : forall p v,
   triple (val_free (val_loc p))
     (p ~~> v)
     (fun r => \[r = val_unit]).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. intros s K. lets ->: hsingle_inv K.
+	applys eval_free. 
+	- applys* Fmap.indom_single.
+	- rewrite Fmap.remove_single. apply hpure_intro. auto.
+Qed.
 
 (** [] *)
 
@@ -466,7 +497,11 @@ Lemma triple_set : forall w p v,
   triple (val_set (val_loc p) v)
     (p ~~> w)
     (fun r => \[r = val_unit] \* (p ~~> v)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. intros s K. lets ->: hsingle_inv K. applys eval_set.
+	{ applys* Fmap.indom_single. }
+	{ rewrite Fmap.update_single. rewrite* hstar_hpure_l. split*. apply* hsingle_intro. }
+Qed.
 
 (** [] *)
 
@@ -600,7 +635,21 @@ Lemma triple_succ_using_incr : forall (n:int),
     [applys triple_val] for reasoning about the final return value, namely [x].
     *)
 
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. applys* triple_app_fun. simpl.
+	applys* triple_let. { apply triple_ref. }
+	intros. simpl. 
+	applys triple_hexists. intros. applys triple_hpure. intros. subst.
+	applys* triple_seq.
+	{ apply triple_incr. }
+	applys* triple_let.
+	{ apply triple_get. }
+	intros. simpl. 
+	applys triple_hpure. intros. subst.
+	applys* triple_seq.
+	{ apply triple_free. }
+	applys* triple_val. xsimpl*.
+Qed.
 
 (** [] *)
 
@@ -649,8 +698,11 @@ Lemma triple_eval_like : forall t1 t2 H Q,
   eval_like t1 t2 ->
   triple t1 H Q ->
   triple t2 H Q.
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using. 
+	intros. unfold triple. intros. 
+	unfold eval_like in H0. unfold triple in H1.
+	apply H1 in H2. apply H0 in H2. auto.
+Qed.
 (** [] *)
 
 (** The remaining of this section presents 4 examples applications of this
@@ -685,7 +737,11 @@ Proof using. (* FILL IN HERE *) Admitted.
 
 Lemma eta_same_triples : forall (t:trm) (x:var) H Q,
    triple t H Q <-> triple (trm_let x t x) H Q.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	split. 
+	{ apply* triple_eval_like. apply* eval_like_eta_reduction. }
+	{ apply* triple_eval_like. apply* eval_like_eta_expansion. }
+Qed. 
 
 (** [] *)
 
@@ -756,7 +812,17 @@ Lemma triple_let_frame : forall x t1 t2 Q1 H H1 H2 Q,
 
     Prove the let-frame rule. *)
 
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros.
+	apply triple_let with (Q1 := (Q1 \*+ H2)).
+	{ 
+		eapply triple_conseq_frame.
+		- apply H0.
+		- apply H3.
+		- xsimpl*.
+	}
+	apply H4.
+Qed.
 
 (** [] *)
 
@@ -806,7 +872,9 @@ Lemma triple_div_from_triple_div' : forall n1 n2,
   triple (val_div n1 n2)
     \[]
     (fun r => \[r = val_int (Z.quot n1 n2)]).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. apply* triple_conseq. apply triple_div. auto. xsimpl*.
+Qed.
 
 (** [] *)
 
@@ -894,8 +962,21 @@ Lemma triple_factorec : forall n,
   triple (factorec n)
     \[]
     (fun r => \[r = facto n]).
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using. 
+	intros n. induction_wf IH: (downto 0) n. intros.
+	applys* triple_app_fix. simpl.
+	applys* triple_let. { applys* triple_le. } simpl. 
+	intros. applys* triple_hpure'. intros. subst.
+	applys* triple_if. case_if.
+	{ applys* triple_val. xsimpl*. rewrite facto_init; autos*. }
+	applys* triple_let. { applys* triple_sub. } simpl.
+	intros. applys* triple_hpure'. intros. subst.
+	applys* triple_let. 
+	{ applys* IH; math. }
+	intros. simpl. applys* triple_hpure'. intros. subst.
+	assert (facto n = n * facto (n - 1)). { apply facto_step. math. }
+	rewrite H0. applys* triple_mul. 
+Qed.
 (** [] *)
 
 End ExamplePrograms2.

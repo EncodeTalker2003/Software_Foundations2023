@@ -1141,8 +1141,8 @@ R27425:27432 SLF.WPsem <> wp_equiv thm
 R27425:27432 SLF.WPsem <> wp_equiv thm
 R27442:27460 SLF.WPsem <> triple_conseq_frame defax
 R27442:27460 SLF.WPsem <> triple_conseq_frame defax
-R27474:27483 SLF.Rules <> triple_set prfax
-R27474:27483 SLF.Rules <> triple_set prfax
+R27474:27483 SLF.Rules <> triple_set thm
+R27474:27483 SLF.Rules <> triple_set thm
 R27497:27506 SLF.LibSepReference SepSimplArgs himpl_refl thm
 R27497:27506 SLF.LibSepReference SepSimplArgs himpl_refl thm
 R27534:27551 SLF.LibSepReference SepSimplArgs hforall_specialize thm

@@ -1084,8 +1084,8 @@ R49457:49469 SLF.WPgen <> xstruct_lemma thm
 R49457:49469 SLF.WPgen <> xstruct_lemma thm
 R49481:49490 SLF.WPgen <> xapp_lemma thm
 R49481:49490 SLF.WPgen <> xapp_lemma thm
-R49501:49510 SLF.Rules <> triple_set prfax
-R49501:49510 SLF.Rules <> triple_set prfax
+R49501:49510 SLF.Rules <> triple_set thm
+R49501:49510 SLF.Rules <> triple_set thm
 prf 49784:49818 ProofsWithXlemmas triple_succ_using_incr_with_xlemmas
 R49832:49834 SLF.LibInt <> ::Int_scope:'int' not
 binder 49830:49830 <> n:187
@@ -1144,8 +1144,8 @@ R52057:52066 SLF.Rules <> triple_get thm
 R52057:52066 SLF.Rules <> triple_get thm
 R52097:52106 SLF.Rules <> triple_add thm
 R52097:52106 SLF.Rules <> triple_add thm
-R52137:52146 SLF.Rules <> triple_set prfax
-R52137:52146 SLF.Rules <> triple_set prfax
+R52137:52146 SLF.Rules <> triple_set thm
+R52137:52146 SLF.Rules <> triple_set thm
 prf 52331:52366 ProofsWithXtactics triple_succ_using_incr_with_xtactics
 R52380:52382 SLF.LibInt <> ::Int_scope:'int' not
 binder 52378:52378 <> n:191
