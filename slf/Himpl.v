@@ -84,7 +84,9 @@ Lemma himpl_antisym : forall H1 H2,
   (H1 ==> H2) ->
   (H2 ==> H1) ->
   H1 = H2.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. apply predicate_extensionality. intros. split; eauto.
+Qed.
 
 (** [] *)
 
@@ -127,7 +129,9 @@ Lemma qimpl_antisym : forall Q1 Q2,
   (Q1 ===> Q2) ->
   (Q2 ===> Q1) ->
   (Q1 = Q2).
-Proof using.  (* FILL IN HERE *) Admitted.
+Proof using.  
+	intros. apply functional_extensionality. intros. apply himpl_antisym; eauto.
+Qed.
 
 (** [] *)
 
@@ -170,7 +174,9 @@ Lemma himpl_hstar_hpure_r : forall P H H',
   P ->
   (H ==> H') ->
   H ==> (\[P] \* H').
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. intros h Hh. rewrite hstar_hpure_l. split; eauto.
+Qed. 
 
 (** [] *)
 
@@ -187,8 +193,10 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma himpl_hstar_hpure_l : forall (P:Prop) (H H':hprop),
   (P -> H ==> H') ->
   (\[P] \* H) ==> H'.
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using. 
+	intros. unfold himpl in *. intros.
+	rewrite hstar_hpure_l in H1. destruct H1. eauto.
+Qed.
 (** [] *)
 
 (** Consider an entailment of the form [H ==> (\exists x, J x)], where [x] has
@@ -202,7 +210,9 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma himpl_hexists_r : forall A (x:A) H J,
   (H ==> J x) ->
   H ==> (\exists x, J x).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	unfold himpl. intros. exists x. eauto.
+Qed.
 
 (** [] *)
 
@@ -225,7 +235,9 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma himpl_hexists_l : forall (A:Type) (H:hprop) (J:A->hprop),
   (forall x, J x ==> H) ->
   (\exists x, J x) ==> H.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	unfold himpl. intros. destruct H1. eauto.
+Qed.
 
 (** [] *)
 
@@ -284,7 +296,11 @@ Qed.
 
 Lemma hexists_named_eq : forall H,
   H = (\exists h, \[H h] \* (= h)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. apply predicate_extensionality. intros. split; intros.
+	{ exists x. rewrite hstar_hpure_l. split; eauto. }
+	{ destruct H0. rewrite hstar_hpure_l in H0. destruct H0. rewrite H1. eauto. }
+Qed.
 
 (** [] *)
 
@@ -316,10 +332,6 @@ Parameter case_study_2 : forall p q,
 Parameter case_study_3 : forall p q,
       q ~~> 4 \* p ~~> 3
   ==> p ~~> 4.
-
-Parameter case_study_4 : forall p q,
-      q ~~> 4 \* p ~~> 3
-  ==> p ~~> 3.
 
 Parameter case_study_5 : forall p q,
       \[False] \* p ~~> 3
@@ -464,7 +476,27 @@ Implicit Types n : int.
 Lemma himpl_example_1 : forall p1 p2 p3 p4,
       p1 ~~> 6 \* p2 ~~> 7 \* p3 ~~> 8 \* p4 ~~> 9
   ==> p4 ~~> 9 \* p3 ~~> 8 \* p2 ~~> 7 \* p1 ~~> 6.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros.
+	rewrite hstar_comm.
+	rewrite hstar_assoc.
+	rewrite hstar_assoc.
+	rewrite hstar_comm.
+	rewrite hstar_assoc.
+	rewrite hstar_assoc.
+	rewrite hstar_comm.
+	rewrite hstar_assoc.
+	rewrite hstar_assoc.
+	apply himpl_frame_r.
+	rewrite hstar_comm.
+	rewrite hstar_assoc.
+	rewrite hstar_comm.
+	rewrite hstar_assoc.
+	apply himpl_frame_r.
+	rewrite hstar_comm. 
+	apply himpl_frame_l.
+	apply himpl_refl.
+Qed.
 
 (** [] *)
 
@@ -775,7 +807,9 @@ Lemma xchange_lemma : forall H1 H1' H H' H2,
   H ==> H1 \* H2 ->
   H1' \* H2 ==> H' ->
   H ==> H'.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. xchange H3. xchange H0. xchange H4.
+Qed.
 
 (** [] *)
 
@@ -803,7 +837,12 @@ Module EntailmentRulesProofs.
 Lemma himpl_frame_l : forall H2 H1 H1',
   H1 ==> H1' ->
   (H1 \* H2) ==> (H1' \* H2).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros.  intros h H3.
+	unfold hstar in H3. destruct H3 as (h1&h2&H3&H4&H5&H6).
+	unfold hstar.
+	apply H in H3. exists h1 h2. split; eauto.
+Qed.
 
 (** [] *)
 
@@ -816,7 +855,9 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma himpl_frame_r : forall H1 H2 H2',
   H2 ==> H2' ->
   (H1 \* H2) ==> (H1 \* H2').
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. rewrite (hstar_comm H1 H2). rewrite (hstar_comm H1 H2'). apply himpl_frame_l. auto.
+Qed.
 
 (** [] *)
 
@@ -831,7 +872,12 @@ Lemma himpl_frame_lr : forall H1 H1' H2 H2',
   H1 ==> H1' ->
   H2 ==> H2' ->
   (H1 \* H2) ==> (H1' \* H2').
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. intros h H3.
+	destruct H3 as (h1&h2&H3&H4&H5&H6).
+	unfold hstar. exists h1 h2.
+	apply H in H3. apply H0 in H4. split; eauto.
+Qed.
 
 (** [] *)
 

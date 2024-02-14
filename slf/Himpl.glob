@@ -1,4 +1,4 @@
-DIGEST 64de2a5ca9d9a6b1761ffa303221f73a
+DIGEST 0b605c659811cb22101d50409a51700e
 FSLF.Himpl
 R74:88 SLF.LibSepReference <> <> lib
 R115:119 SLF.Hprop <> <> lib
@@ -58,1162 +58,1235 @@ R3257:3258 SLF.Himpl <> H1:8 var
 R3268:3270 Coq.Init.Logic <> ::type_scope:x_'='_x not
 R3266:3267 SLF.Himpl <> H1:8 var
 R3271:3272 SLF.Himpl <> H2:9 var
-def 3786:3790 <> qimpl
-R3802:3803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3799:3801 SLF.LibSepReference <> val ind
-R3804:3808 SLF.Hprop <> hprop def
-binder 3793:3794 <> Q1:10
-binder 3796:3797 <> Q2:11
-R3833:3835 SLF.LibSepReference <> val ind
-binder 3831:3831 <> v:12
-R3843:3847 SLF.Himpl <> :::x_'==>'_x not
-R3839:3840 SLF.Himpl <> Q1:10 var
-R3842:3842 SLF.Himpl <> v:12 var
-R3848:3849 SLF.Himpl <> Q2:11 var
-R3851:3851 SLF.Himpl <> v:12 var
-R3881:3885 SLF.Himpl <> qimpl def
-not 3864:3864 <> :::x_'===>'_x
-prf 4177:4186 <> qimpl_refl
-binder 4197:4197 <> Q:13
-R4203:4208 SLF.Himpl <> :::x_'===>'_x not
-R4202:4202 SLF.Himpl <> Q:13 var
-R4209:4209 SLF.Himpl <> Q:13 var
-R4243:4252 SLF.Himpl <> himpl_refl thm
-R4243:4252 SLF.Himpl <> himpl_refl thm
-prf 4267:4277 <> qimpl_trans
-binder 4288:4289 <> Q2:14
-binder 4291:4292 <> Q1:15
-binder 4294:4295 <> Q3:16
-R4300:4300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4311:4317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4303:4308 SLF.Himpl <> :::x_'===>'_x not
-R4301:4302 SLF.Himpl <> Q1:15 var
-R4309:4310 SLF.Himpl <> Q2:14 var
-R4318:4318 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4329:4336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4347:4347 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4321:4326 SLF.Himpl <> :::x_'===>'_x not
-R4319:4320 SLF.Himpl <> Q2:14 var
-R4327:4328 SLF.Himpl <> Q3:16 var
-R4339:4344 SLF.Himpl <> :::x_'===>'_x not
-R4337:4338 SLF.Himpl <> Q1:15 var
-R4345:4346 SLF.Himpl <> Q3:16 var
-R4394:4404 SLF.Himpl <> himpl_trans thm
-R4394:4404 SLF.Himpl <> himpl_trans thm
-prf 4609:4621 <> qimpl_antisym
-binder 4632:4633 <> Q1:17
-binder 4635:4636 <> Q2:18
-R4641:4641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4652:4658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4644:4649 SLF.Himpl <> :::x_'===>'_x not
-R4642:4643 SLF.Himpl <> Q1:17 var
-R4650:4651 SLF.Himpl <> Q2:18 var
-R4659:4659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4670:4677 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4685:4685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4662:4667 SLF.Himpl <> :::x_'===>'_x not
-R4660:4661 SLF.Himpl <> Q2:18 var
-R4668:4669 SLF.Himpl <> Q1:17 var
-R4680:4682 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R4678:4679 SLF.Himpl <> Q1:17 var
-R4683:4684 SLF.Himpl <> Q2:18 var
-ax 5496:5508 <> himpl_frame_l
-binder 5519:5520 <> H2:19
-binder 5522:5523 <> H1:20
-binder 5525:5527 <> H1':21
-R5542:5547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5534:5538 SLF.Himpl <> :::x_'==>'_x not
-R5532:5533 SLF.Himpl <> H1:20 var
-R5539:5541 SLF.Himpl <> H1':21 var
-R5548:5548 SLF.Himpl <> :::x_'==>'_x not
-R5557:5563 SLF.Himpl <> :::x_'==>'_x not
-R5573:5573 SLF.Himpl <> :::x_'==>'_x not
-R5551:5554 SLF.Hprop <> :::x_'\*'_x not
-R5549:5550 SLF.Himpl <> H1:20 var
-R5555:5556 SLF.Himpl <> H2:19 var
-R5567:5570 SLF.Hprop <> :::x_'\*'_x not
-R5564:5566 SLF.Himpl <> H1':21 var
-R5571:5572 SLF.Himpl <> H2:19 var
-prf 6334:6352 <> himpl_hstar_hpure_r
-binder 6363:6363 <> P:23
-binder 6365:6365 <> H:24
-binder 6367:6368 <> H':25
-R6374:6379 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6373:6373 SLF.Himpl <> P:23 var
-R6380:6380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6389:6395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6382:6386 SLF.Himpl <> :::x_'==>'_x not
-R6381:6381 SLF.Himpl <> H:24 var
-R6387:6388 SLF.Himpl <> H':25 var
-R6397:6402 SLF.Himpl <> :::x_'==>'_x not
-R6413:6413 SLF.Himpl <> :::x_'==>'_x not
-R6396:6396 SLF.Himpl <> H:24 var
-R6407:6410 SLF.Hprop <> :::x_'\*'_x not
-R6403:6404 SLF.Hprop <> :::'\['_x_']' not
-R6406:6406 SLF.Hprop <> :::'\['_x_']' not
-R6405:6405 SLF.Himpl <> P:23 var
-R6411:6412 SLF.Himpl <> H':25 var
-prf 6981:6999 <> himpl_hstar_hpure_l
-binder 7011:7011 <> P:26
-R7025:7029 SLF.Hprop <> hprop def
-binder 7020:7020 <> H:27
-binder 7022:7023 <> H':28
-R7035:7035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7049:7055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7037:7040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7036:7036 SLF.Himpl <> P:26 var
-R7042:7046 SLF.Himpl <> :::x_'==>'_x not
-R7041:7041 SLF.Himpl <> H:27 var
-R7047:7048 SLF.Himpl <> H':28 var
-R7056:7056 SLF.Himpl <> :::x_'==>'_x not
-R7066:7071 SLF.Himpl <> :::x_'==>'_x not
-R7061:7064 SLF.Hprop <> :::x_'\*'_x not
-R7057:7058 SLF.Hprop <> :::'\['_x_']' not
-R7060:7060 SLF.Hprop <> :::'\['_x_']' not
-R7059:7059 SLF.Himpl <> P:26 var
-R7065:7065 SLF.Himpl <> H:27 var
-R7072:7073 SLF.Himpl <> H':28 var
-prf 7480:7494 <> himpl_hexists_r
-binder 7505:7505 <> A:29
-R7510:7510 SLF.Himpl <> A:29 var
-binder 7508:7508 <> x:30
-binder 7513:7513 <> H:31
-binder 7515:7515 <> J:32
-R7520:7520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7530:7536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7522:7526 SLF.Himpl <> :::x_'==>'_x not
-R7521:7521 SLF.Himpl <> H:31 var
-R7527:7527 SLF.Himpl <> J:32 var
-R7529:7529 SLF.Himpl <> x:30 var
-R7538:7543 SLF.Himpl <> :::x_'==>'_x not
-R7558:7558 SLF.Himpl <> :::x_'==>'_x not
-R7537:7537 SLF.Himpl <> H:31 var
-R7544:7551 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
-R7553:7554 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
-binder 7552:7552 <> x:33
-R7555:7555 SLF.Himpl <> J:32 var
-R7557:7557 SLF.Himpl <> x:33 var
-prf 8477:8491 <> himpl_hexists_l
-binder 8503:8503 <> A:34
-R8514:8518 SLF.Hprop <> hprop def
-binder 8512:8512 <> H:35
-R8525:8526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8524:8524 SLF.Himpl <> A:34 var
-R8527:8531 SLF.Hprop <> hprop def
-binder 8522:8522 <> J:36
-R8537:8537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8557:8563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-binder 8545:8545 <> x:37
-R8551:8555 SLF.Himpl <> :::x_'==>'_x not
-R8548:8548 SLF.Himpl <> J:36 var
-R8550:8550 SLF.Himpl <> x:37 var
-R8556:8556 SLF.Himpl <> H:35 var
-R8564:8564 SLF.Himpl <> :::x_'==>'_x not
-R8579:8584 SLF.Himpl <> :::x_'==>'_x not
-R8565:8572 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
-R8574:8575 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
-binder 8573:8573 <> x:38
-R8576:8576 SLF.Himpl <> J:36 var
-R8578:8578 SLF.Himpl <> x:38 var
-R8585:8585 SLF.Himpl <> H:35 var
-prf 9280:9301 <> hstar_hsingle_same_loc
-R9315:9317 SLF.LibSepReference <> loc def
-binder 9313:9313 <> p:39
-R9327:9329 SLF.LibSepReference <> val ind
-binder 9321:9322 <> v1:40
-binder 9324:9325 <> v2:41
-R9359:9363 SLF.Himpl <> :::x_'==>'_x not
-R9335:9335 SLF.Hprop <> :::x_'\*'_x not
-R9344:9349 SLF.Hprop <> :::x_'\*'_x not
-R9358:9358 SLF.Hprop <> :::x_'\*'_x not
-R9337:9341 SLF.Hprop <> :::x_'~~>'_x not
-R9336:9336 SLF.Himpl <> p:39 var
-R9342:9343 SLF.Himpl <> v1:40 var
-R9351:9355 SLF.Hprop <> :::x_'~~>'_x not
-R9350:9350 SLF.Himpl <> p:39 var
-R9356:9357 SLF.Himpl <> v2:41 var
-R9364:9365 SLF.Hprop <> :::'\['_x_']' not
-R9371:9371 SLF.Hprop <> :::'\['_x_']' not
-R9366:9370 Coq.Init.Logic <> False ind
-R10027:10033 SLF.Hprop <> hsingle def
-R10087:10122 SLF.LibSepReference Fmap disjoint_single_single_same_inv thm
-R10087:10122 SLF.LibSepReference Fmap disjoint_single_single_same_inv thm
-prf 11156:11171 <> hexists_named_eq
-binder 11182:11182 <> H:42
-R11188:11191 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R11218:11218 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R11187:11187 SLF.Himpl <> H:42 var
-R11192:11199 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
-R11201:11202 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
-binder 11200:11200 <> h:43
-R11209:11213 SLF.Hprop <> :::x_'\*'_x not
-R11217:11217 SLF.Hprop <> :::x_'\*'_x not
-R11203:11204 SLF.Hprop <> :::'\['_x_']' not
-R11208:11208 SLF.Hprop <> :::'\['_x_']' not
-R11205:11205 SLF.Himpl <> H:42 var
-R11207:11207 SLF.Himpl <> h:43 var
-R11214:11215 SLF.LibEqual <> :::'='_x not
-R11216:11216 SLF.Himpl <> h:43 var
-mod 11485:11496 <> XsimplTactic
-R11506:11520 SLF.LibSepReference <> <> mod
-R11547:11557 SLF.Hprop <> hprop def
-not 11532:11532 XsimplTactic :::'hprop'''
-mod 11569:11577 <> XsimplTactic.CaseStudy
-R11602:11604 SLF.LibSepReference <> loc def
-R11628:11630 SLF.LibInt <> ::Int_scope:'int' not
-ax 11781:11792 XsimplTactic.CaseStudy case_study_1
-binder 11803:11803 <> p:44
-binder 11805:11805 <> q:45
-R11832:11838 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R11821:11824 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R11815:11819 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11814:11814 SLF.Himpl <> p:44 var
-R11826:11830 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11825:11825 SLF.Himpl <> q:45 var
-R11846:11849 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R11840:11844 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11839:11839 SLF.Himpl <> q:45 var
-R11851:11855 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11850:11850 SLF.Himpl <> p:44 var
-ax 11870:11881 XsimplTactic.CaseStudy case_study_2
-binder 11892:11892 <> p:47
-binder 11894:11894 <> q:48
-R11910:11916 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R11904:11908 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11903:11903 SLF.Himpl <> p:47 var
-R11924:11927 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R11918:11922 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11917:11917 SLF.Himpl <> q:48 var
-R11929:11933 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11928:11928 SLF.Himpl <> p:47 var
-ax 11948:11959 XsimplTactic.CaseStudy case_study_3
-binder 11970:11970 <> p:50
-binder 11972:11972 <> q:51
-R11999:12005 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R11988:11991 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R11982:11986 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11981:11981 SLF.Himpl <> q:51 var
-R11993:11997 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R11992:11992 SLF.Himpl <> p:50 var
-R12007:12011 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12006:12006 SLF.Himpl <> p:50 var
-ax 12026:12037 XsimplTactic.CaseStudy case_study_4
-binder 12048:12048 <> p:53
-binder 12050:12050 <> q:54
-R12077:12083 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12066:12069 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12060:12064 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12059:12059 SLF.Himpl <> q:54 var
-R12071:12075 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12070:12070 SLF.Himpl <> p:53 var
-R12085:12089 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12084:12084 SLF.Himpl <> p:53 var
-ax 12104:12115 XsimplTactic.CaseStudy case_study_5
-binder 12126:12126 <> p:56
-binder 12128:12128 <> q:57
-R12156:12162 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12145:12148 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12137:12138 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12144:12144 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12139:12143 Coq.Init.Logic <> False ind
-R12150:12154 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12149:12149 SLF.Himpl <> p:56 var
-R12170:12173 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12164:12168 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12163:12163 SLF.Himpl <> p:56 var
-R12175:12179 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12174:12174 SLF.Himpl <> q:57 var
-ax 12194:12205 XsimplTactic.CaseStudy case_study_6
-binder 12216:12216 <> p:59
-binder 12218:12218 <> q:60
-R12245:12251 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12234:12237 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R3304:3327 SLF.Hprop <> predicate_extensionality prfax
+R3304:3327 SLF.Hprop <> predicate_extensionality prfax
+def 3826:3830 <> qimpl
+R3842:3843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3839:3841 SLF.LibSepReference <> val ind
+R3844:3848 SLF.Hprop <> hprop def
+binder 3833:3834 <> Q1:10
+binder 3836:3837 <> Q2:11
+R3873:3875 SLF.LibSepReference <> val ind
+binder 3871:3871 <> v:12
+R3883:3887 SLF.Himpl <> :::x_'==>'_x not
+R3879:3880 SLF.Himpl <> Q1:10 var
+R3882:3882 SLF.Himpl <> v:12 var
+R3888:3889 SLF.Himpl <> Q2:11 var
+R3891:3891 SLF.Himpl <> v:12 var
+R3921:3925 SLF.Himpl <> qimpl def
+not 3904:3904 <> :::x_'===>'_x
+prf 4217:4226 <> qimpl_refl
+binder 4237:4237 <> Q:13
+R4243:4248 SLF.Himpl <> :::x_'===>'_x not
+R4242:4242 SLF.Himpl <> Q:13 var
+R4249:4249 SLF.Himpl <> Q:13 var
+R4283:4292 SLF.Himpl <> himpl_refl thm
+R4283:4292 SLF.Himpl <> himpl_refl thm
+prf 4307:4317 <> qimpl_trans
+binder 4328:4329 <> Q2:14
+binder 4331:4332 <> Q1:15
+binder 4334:4335 <> Q3:16
+R4340:4340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4351:4357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4343:4348 SLF.Himpl <> :::x_'===>'_x not
+R4341:4342 SLF.Himpl <> Q1:15 var
+R4349:4350 SLF.Himpl <> Q2:14 var
+R4358:4358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4369:4376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4387:4387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4361:4366 SLF.Himpl <> :::x_'===>'_x not
+R4359:4360 SLF.Himpl <> Q2:14 var
+R4367:4368 SLF.Himpl <> Q3:16 var
+R4379:4384 SLF.Himpl <> :::x_'===>'_x not
+R4377:4378 SLF.Himpl <> Q1:15 var
+R4385:4386 SLF.Himpl <> Q3:16 var
+R4434:4444 SLF.Himpl <> himpl_trans thm
+R4434:4444 SLF.Himpl <> himpl_trans thm
+prf 4649:4661 <> qimpl_antisym
+binder 4672:4673 <> Q1:17
+binder 4675:4676 <> Q2:18
+R4681:4681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4692:4698 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4684:4689 SLF.Himpl <> :::x_'===>'_x not
+R4682:4683 SLF.Himpl <> Q1:17 var
+R4690:4691 SLF.Himpl <> Q2:18 var
+R4699:4699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4710:4717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4725:4725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4702:4707 SLF.Himpl <> :::x_'===>'_x not
+R4700:4701 SLF.Himpl <> Q2:18 var
+R4708:4709 SLF.Himpl <> Q1:17 var
+R4720:4722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4718:4719 SLF.Himpl <> Q1:17 var
+R4723:4724 SLF.Himpl <> Q2:18 var
+R4758:4782 SLF.Hprop <> functional_extensionality prfax
+R4758:4782 SLF.Hprop <> functional_extensionality prfax
+R4799:4811 SLF.Himpl <> himpl_antisym thm
+R4799:4811 SLF.Himpl <> himpl_antisym thm
+ax 5591:5603 <> himpl_frame_l
+binder 5614:5615 <> H2:19
+binder 5617:5618 <> H1:20
+binder 5620:5622 <> H1':21
+R5637:5642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5629:5633 SLF.Himpl <> :::x_'==>'_x not
+R5627:5628 SLF.Himpl <> H1:20 var
+R5634:5636 SLF.Himpl <> H1':21 var
+R5643:5643 SLF.Himpl <> :::x_'==>'_x not
+R5652:5658 SLF.Himpl <> :::x_'==>'_x not
+R5668:5668 SLF.Himpl <> :::x_'==>'_x not
+R5646:5649 SLF.Hprop <> :::x_'\*'_x not
+R5644:5645 SLF.Himpl <> H1:20 var
+R5650:5651 SLF.Himpl <> H2:19 var
+R5662:5665 SLF.Hprop <> :::x_'\*'_x not
+R5659:5661 SLF.Himpl <> H1':21 var
+R5666:5667 SLF.Himpl <> H2:19 var
+prf 6429:6447 <> himpl_hstar_hpure_r
+binder 6458:6458 <> P:23
+binder 6460:6460 <> H:24
+binder 6462:6463 <> H':25
+R6469:6474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6468:6468 SLF.Himpl <> P:23 var
+R6475:6475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6484:6490 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6477:6481 SLF.Himpl <> :::x_'==>'_x not
+R6476:6476 SLF.Himpl <> H:24 var
+R6482:6483 SLF.Himpl <> H':25 var
+R6492:6497 SLF.Himpl <> :::x_'==>'_x not
+R6508:6508 SLF.Himpl <> :::x_'==>'_x not
+R6491:6491 SLF.Himpl <> H:24 var
+R6502:6505 SLF.Hprop <> :::x_'\*'_x not
+R6498:6499 SLF.Hprop <> :::'\['_x_']' not
+R6501:6501 SLF.Hprop <> :::'\['_x_']' not
+R6500:6500 SLF.Himpl <> P:23 var
+R6506:6507 SLF.Himpl <> H':25 var
+R6554:6566 SLF.Hprop <> hstar_hpure_l defax
+R6554:6566 SLF.Hprop <> hstar_hpure_l defax
+R6554:6566 SLF.Hprop <> hstar_hpure_l defax
+prf 7112:7130 <> himpl_hstar_hpure_l
+binder 7142:7142 <> P:26
+R7156:7160 SLF.Hprop <> hprop def
+binder 7151:7151 <> H:27
+binder 7153:7154 <> H':28
+R7166:7166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7180:7186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7168:7171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7167:7167 SLF.Himpl <> P:26 var
+R7173:7177 SLF.Himpl <> :::x_'==>'_x not
+R7172:7172 SLF.Himpl <> H:27 var
+R7178:7179 SLF.Himpl <> H':28 var
+R7187:7187 SLF.Himpl <> :::x_'==>'_x not
+R7197:7202 SLF.Himpl <> :::x_'==>'_x not
+R7192:7195 SLF.Hprop <> :::x_'\*'_x not
+R7188:7189 SLF.Hprop <> :::'\['_x_']' not
+R7191:7191 SLF.Hprop <> :::'\['_x_']' not
+R7190:7190 SLF.Himpl <> P:26 var
+R7196:7196 SLF.Himpl <> H:27 var
+R7203:7204 SLF.Himpl <> H':28 var
+R7237:7241 SLF.Himpl <> himpl def
+R7266:7278 SLF.Hprop <> hstar_hpure_l defax
+R7266:7278 SLF.Hprop <> hstar_hpure_l defax
+R7266:7278 SLF.Hprop <> hstar_hpure_l defax
+prf 7673:7687 <> himpl_hexists_r
+binder 7698:7698 <> A:29
+R7703:7703 SLF.Himpl <> A:29 var
+binder 7701:7701 <> x:30
+binder 7706:7706 <> H:31
+binder 7708:7708 <> J:32
+R7713:7713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7723:7729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7715:7719 SLF.Himpl <> :::x_'==>'_x not
+R7714:7714 SLF.Himpl <> H:31 var
+R7720:7720 SLF.Himpl <> J:32 var
+R7722:7722 SLF.Himpl <> x:30 var
+R7731:7736 SLF.Himpl <> :::x_'==>'_x not
+R7751:7751 SLF.Himpl <> :::x_'==>'_x not
+R7730:7730 SLF.Himpl <> H:31 var
+R7737:7744 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
+R7746:7747 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
+binder 7745:7745 <> x:33
+R7748:7748 SLF.Himpl <> J:32 var
+R7750:7750 SLF.Himpl <> x:33 var
+R7776:7780 SLF.Himpl <> himpl def
+prf 8687:8701 <> himpl_hexists_l
+binder 8713:8713 <> A:34
+R8724:8728 SLF.Hprop <> hprop def
+binder 8722:8722 <> H:35
+R8735:8736 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8734:8734 SLF.Himpl <> A:34 var
+R8737:8741 SLF.Hprop <> hprop def
+binder 8732:8732 <> J:36
+R8747:8747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8767:8773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8755:8755 <> x:37
+R8761:8765 SLF.Himpl <> :::x_'==>'_x not
+R8758:8758 SLF.Himpl <> J:36 var
+R8760:8760 SLF.Himpl <> x:37 var
+R8766:8766 SLF.Himpl <> H:35 var
+R8774:8774 SLF.Himpl <> :::x_'==>'_x not
+R8789:8794 SLF.Himpl <> :::x_'==>'_x not
+R8775:8782 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
+R8784:8785 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
+binder 8783:8783 <> x:38
+R8786:8786 SLF.Himpl <> J:36 var
+R8788:8788 SLF.Himpl <> x:38 var
+R8795:8795 SLF.Himpl <> H:35 var
+R8820:8824 SLF.Himpl <> himpl def
+prf 9510:9531 <> hstar_hsingle_same_loc
+R9545:9547 SLF.LibSepReference <> loc def
+binder 9543:9543 <> p:39
+R9557:9559 SLF.LibSepReference <> val ind
+binder 9551:9552 <> v1:40
+binder 9554:9555 <> v2:41
+R9589:9593 SLF.Himpl <> :::x_'==>'_x not
+R9565:9565 SLF.Hprop <> :::x_'\*'_x not
+R9574:9579 SLF.Hprop <> :::x_'\*'_x not
+R9588:9588 SLF.Hprop <> :::x_'\*'_x not
+R9567:9571 SLF.Hprop <> :::x_'~~>'_x not
+R9566:9566 SLF.Himpl <> p:39 var
+R9572:9573 SLF.Himpl <> v1:40 var
+R9581:9585 SLF.Hprop <> :::x_'~~>'_x not
+R9580:9580 SLF.Himpl <> p:39 var
+R9586:9587 SLF.Himpl <> v2:41 var
+R9594:9595 SLF.Hprop <> :::'\['_x_']' not
+R9601:9601 SLF.Hprop <> :::'\['_x_']' not
+R9596:9600 Coq.Init.Logic <> False ind
+R10257:10263 SLF.Hprop <> hsingle def
+R10317:10352 SLF.LibSepReference Fmap disjoint_single_single_same_inv thm
+R10317:10352 SLF.LibSepReference Fmap disjoint_single_single_same_inv thm
+prf 11386:11401 <> hexists_named_eq
+binder 11412:11412 <> H:42
+R11418:11421 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11448:11448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11417:11417 SLF.Himpl <> H:42 var
+R11422:11429 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
+R11431:11432 SLF.Hprop <> :::'\exists'_x_'..'_x_','_x not
+binder 11430:11430 <> h:43
+R11439:11443 SLF.Hprop <> :::x_'\*'_x not
+R11447:11447 SLF.Hprop <> :::x_'\*'_x not
+R11433:11434 SLF.Hprop <> :::'\['_x_']' not
+R11438:11438 SLF.Hprop <> :::'\['_x_']' not
+R11435:11435 SLF.Himpl <> H:42 var
+R11437:11437 SLF.Himpl <> h:43 var
+R11444:11445 SLF.LibEqual <> :::'='_x not
+R11446:11446 SLF.Himpl <> h:43 var
+R11480:11503 SLF.Hprop <> predicate_extensionality prfax
+R11480:11503 SLF.Hprop <> predicate_extensionality prfax
+R11550:11562 SLF.Hprop <> hstar_hpure_l defax
+R11550:11562 SLF.Hprop <> hstar_hpure_l defax
+R11550:11562 SLF.Hprop <> hstar_hpure_l defax
+R11605:11617 SLF.Hprop <> hstar_hpure_l defax
+R11605:11617 SLF.Hprop <> hstar_hpure_l defax
+R11605:11617 SLF.Hprop <> hstar_hpure_l defax
+mod 11887:11898 <> XsimplTactic
+R11908:11922 SLF.LibSepReference <> <> mod
+R11949:11959 SLF.Hprop <> hprop def
+not 11934:11934 XsimplTactic :::'hprop'''
+mod 11971:11979 <> XsimplTactic.CaseStudy
+R12004:12006 SLF.LibSepReference <> loc def
+R12030:12032 SLF.LibInt <> ::Int_scope:'int' not
+ax 12183:12194 XsimplTactic.CaseStudy case_study_1
+binder 12205:12205 <> p:44
+binder 12207:12207 <> q:45
+R12234:12240 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12223:12226 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12217:12221 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12216:12216 SLF.Himpl <> p:44 var
 R12228:12232 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12227:12227 SLF.Himpl <> p:59 var
-R12239:12243 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12238:12238 SLF.Himpl <> q:60 var
-R12252:12253 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12259:12259 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12254:12258 Coq.Init.Logic <> False ind
-ax 12273:12284 XsimplTactic.CaseStudy case_study_7
-binder 12295:12295 <> p:62
-R12322:12328 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12311:12314 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12305:12309 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12304:12304 SLF.Himpl <> p:62 var
-R12316:12320 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12315:12315 SLF.Himpl <> p:62 var
-R12329:12330 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12336:12336 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12331:12335 Coq.Init.Logic <> False ind
-ax 12350:12361 XsimplTactic.CaseStudy case_study_8
-binder 12372:12372 <> p:64
-R12399:12405 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12388:12391 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12382:12386 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12381:12381 SLF.Himpl <> p:64 var
-R12393:12397 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12392:12392 SLF.Himpl <> p:64 var
-R12406:12407 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12413:12413 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12408:12412 Coq.Init.Logic <> False ind
-ax 12427:12438 XsimplTactic.CaseStudy case_study_9
-binder 12449:12449 <> p:66
-R12465:12471 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12459:12463 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12458:12458 SLF.Himpl <> p:66 var
-R12472:12479 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R12481:12482 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 12480:12480 <> n:67
-R12484:12488 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12483:12483 SLF.Himpl <> p:66 var
-R12489:12489 SLF.Himpl <> n:67 var
-ax 12503:12515 XsimplTactic.CaseStudy case_study_10
-binder 12526:12526 <> p:69
-R12535:12541 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R12543:12544 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 12542:12542 <> n:70
-R12552:12558 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12546:12550 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12545:12545 SLF.Himpl <> p:69 var
-R12551:12551 SLF.Himpl <> n:70 var
-R12560:12564 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12559:12559 SLF.Himpl <> p:69 var
-ax 12579:12591 XsimplTactic.CaseStudy case_study_11
-binder 12602:12602 <> p:72
-R12641:12647 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12611:12618 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R12620:12621 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 12619:12619 <> n:73
-R12629:12632 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12623:12627 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12622:12622 SLF.Himpl <> p:72 var
-R12628:12628 SLF.Himpl <> n:73 var
-R12633:12634 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12640:12640 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12636:12638 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R12635:12635 SLF.Himpl <> n:73 var
-R12648:12655 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R12657:12658 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 12656:12656 <> n:74
-R12667:12670 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12659:12660 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12666:12666 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12662:12664 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R12661:12661 SLF.Himpl <> n:74 var
-R12672:12677 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12681:12681 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12671:12671 SLF.Himpl <> p:72 var
-R12679:12679 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
-R12678:12678 SLF.Himpl <> n:74 var
-ax 12695:12707 XsimplTactic.CaseStudy case_study_12
-binder 12718:12718 <> p:76
-binder 12720:12720 <> q:77
-R12747:12753 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12736:12739 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12730:12734 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12729:12729 SLF.Himpl <> p:76 var
-R12741:12745 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12740:12740 SLF.Himpl <> q:77 var
-R12754:12761 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R12763:12764 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 12762:12762 <> n:78
-R12772:12775 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12766:12770 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12765:12765 SLF.Himpl <> p:76 var
-R12771:12771 SLF.Himpl <> n:78 var
-R12777:12781 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12776:12776 SLF.Himpl <> q:77 var
-R12782:12782 SLF.Himpl <> n:78 var
-ax 12796:12808 XsimplTactic.CaseStudy case_study_13
-binder 12819:12819 <> p:80
-binder 12821:12821 <> n:81
-R12857:12861 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R12833:12836 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12827:12831 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12826:12826 SLF.Himpl <> p:80 var
-R12832:12832 SLF.Himpl <> n:81 var
-R12845:12848 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12837:12838 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12844:12844 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12840:12842 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R12839:12839 SLF.Himpl <> n:81 var
-R12849:12850 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12856:12856 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R12852:12854 SLF.LibOrder <> ::comp_scope:x_'<'_x not
-R12851:12851 SLF.Himpl <> n:81 var
-R12869:12872 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R12863:12867 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12862:12862 SLF.Himpl <> p:80 var
-R12868:12868 SLF.Himpl <> n:81 var
-R12874:12878 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R12873:12873 SLF.Himpl <> p:80 var
-R12879:12879 SLF.Himpl <> n:81 var
-R12887:12895 SLF.Himpl XsimplTactic.CaseStudy <> mod
-mod 12906:12921 <> XsimplTactic.CaseStudyAnswers
-R13792:13794 SLF.LibSepReference <> loc def
-R13818:13820 SLF.LibInt <> ::Int_scope:'int' not
-prf 13830:13841 XsimplTactic.CaseStudyAnswers case_study_1
-binder 13852:13852 <> p:83
-binder 13854:13854 <> q:84
-R13881:13887 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R13870:13873 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R13864:13868 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R13863:13863 SLF.Himpl <> p:83 var
-R13875:13879 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R13874:13874 SLF.Himpl <> q:84 var
-R13895:13898 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R13889:13893 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R13888:13888 SLF.Himpl <> q:84 var
-R13900:13904 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R13899:13899 SLF.Himpl <> p:83 var
-prf 13941:13952 XsimplTactic.CaseStudyAnswers case_study_5
-binder 13963:13963 <> p:85
-binder 13965:13965 <> q:86
-R13993:13999 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R13982:13985 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R13974:13975 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R13981:13981 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R13976:13980 Coq.Init.Logic <> False ind
-R13987:13991 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R13986:13986 SLF.Himpl <> p:85 var
-R14007:14010 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14001:14005 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14000:14000 SLF.Himpl <> p:85 var
-R14012:14016 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14011:14011 SLF.Himpl <> q:86 var
-prf 14053:14064 XsimplTactic.CaseStudyAnswers case_study_7
-binder 14075:14075 <> p:87
-R14102:14108 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R14091:14094 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14085:14089 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14084:14084 SLF.Himpl <> p:87 var
-R14096:14100 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14095:14095 SLF.Himpl <> p:87 var
-R14109:14110 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14116:14116 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14111:14115 Coq.Init.Logic <> False ind
-R14149:14170 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
-R14149:14170 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
-prf 14188:14199 XsimplTactic.CaseStudyAnswers case_study_8
-binder 14210:14210 <> p:88
-R14237:14243 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R14226:14229 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14220:14224 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14219:14219 SLF.Himpl <> p:88 var
-R14231:14235 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14230:14230 SLF.Himpl <> p:88 var
-R14244:14245 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14251:14251 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14246:14250 Coq.Init.Logic <> False ind
-R14284:14305 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
-R14284:14305 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
-prf 14323:14334 XsimplTactic.CaseStudyAnswers case_study_9
-binder 14345:14345 <> p:89
-R14361:14367 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R14355:14359 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14354:14354 SLF.Himpl <> p:89 var
-R14368:14375 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R14377:14378 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 14376:14376 <> n:90
-R14380:14384 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14379:14379 SLF.Himpl <> p:89 var
-R14385:14385 SLF.Himpl <> n:90 var
-prf 14421:14433 XsimplTactic.CaseStudyAnswers case_study_11
-binder 14444:14444 <> p:91
-R14483:14489 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R14453:14460 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R14462:14463 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 14461:14461 <> n:92
-R14471:14474 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14465:14469 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14464:14464 SLF.Himpl <> p:91 var
-R14470:14470 SLF.Himpl <> n:92 var
-R14475:14476 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14482:14482 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14478:14480 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R14477:14477 SLF.Himpl <> n:92 var
-R14490:14497 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R14499:14500 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 14498:14498 <> n:93
-R14509:14512 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14501:14502 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14508:14508 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14504:14506 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R14503:14503 SLF.Himpl <> n:93 var
-R14514:14519 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14523:14523 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14513:14513 SLF.Himpl <> p:91 var
-R14521:14521 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
-R14520:14520 SLF.Himpl <> n:93 var
-R14578:14578 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
-R14578:14578 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
-prf 14609:14621 XsimplTactic.CaseStudyAnswers case_study_12
-binder 14632:14632 <> p:94
-binder 14634:14634 <> q:95
-R14661:14667 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R14650:14653 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14644:14648 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14643:14643 SLF.Himpl <> p:94 var
-R14655:14659 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14654:14654 SLF.Himpl <> q:95 var
-R14668:14675 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R14677:14678 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 14676:14676 <> n:96
-R14686:14689 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14680:14684 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14679:14679 SLF.Himpl <> p:94 var
-R14685:14685 SLF.Himpl <> n:96 var
-R14691:14695 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14690:14690 SLF.Himpl <> q:95 var
-R14696:14696 SLF.Himpl <> n:96 var
-prf 14732:14744 XsimplTactic.CaseStudyAnswers case_study_13
-binder 14755:14755 <> p:97
-binder 14757:14757 <> n:98
-R14793:14797 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R14769:14772 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14763:14767 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14762:14762 SLF.Himpl <> p:97 var
-R14768:14768 SLF.Himpl <> n:98 var
-R14781:14784 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14773:14774 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14780:14780 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14776:14778 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R14775:14775 SLF.Himpl <> n:98 var
-R14785:14786 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14792:14792 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R14788:14790 SLF.LibOrder <> ::comp_scope:x_'<'_x not
-R14787:14787 SLF.Himpl <> n:98 var
-R14805:14808 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R14799:14803 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14798:14798 SLF.Himpl <> p:97 var
-R14804:14804 SLF.Himpl <> n:98 var
-R14810:14814 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R14809:14809 SLF.Himpl <> p:97 var
-R14815:14815 SLF.Himpl <> n:98 var
-R14886:14901 SLF.Himpl XsimplTactic.CaseStudyAnswers <> mod
-mod 15118:15133 <> XsimplTactic.EntailmentProofs
-R15155:15157 SLF.LibSepReference <> loc def
-R15179:15181 SLF.LibInt <> ::Int_scope:'int' not
-prf 15978:15992 XsimplTactic.EntailmentProofs himpl_example_1
-binder 16003:16004 <> p1:99
-binder 16006:16007 <> p2:100
-binder 16009:16010 <> p3:101
-binder 16012:16013 <> p4:102
-R16066:16072 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R16030:16033 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16024:16028 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16022:16023 SLF.Himpl <> p1:99 var
-R16042:16045 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16036:16040 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16034:16035 SLF.Himpl <> p2:100 var
-R16054:16057 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16048:16052 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16046:16047 SLF.Himpl <> p3:101 var
-R16060:16064 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16058:16059 SLF.Himpl <> p4:102 var
-R16081:16084 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16075:16079 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16073:16074 SLF.Himpl <> p4:102 var
-R16093:16096 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16087:16091 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16085:16086 SLF.Himpl <> p3:101 var
-R16105:16108 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16099:16103 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16097:16098 SLF.Himpl <> p2:100 var
-R16111:16115 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16109:16110 SLF.Himpl <> p1:99 var
-prf 16474:16488 XsimplTactic.EntailmentProofs himpl_example_2
-binder 16499:16500 <> p1:103
-binder 16502:16503 <> p2:104
-binder 16505:16506 <> p3:105
-binder 16508:16508 <> n:106
-R16561:16567 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R16525:16528 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16519:16523 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16517:16518 SLF.Himpl <> p1:103 var
-R16537:16540 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16529:16530 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16536:16536 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16532:16534 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R16531:16531 SLF.Himpl <> n:106 var
-R16549:16552 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16543:16547 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16541:16542 SLF.Himpl <> p2:104 var
-R16553:16554 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16560:16560 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16556:16558 SLF.LibOrder <> ::comp_scope:x_'<'_x not
-R16555:16555 SLF.Himpl <> n:106 var
-R16570:16574 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16568:16569 SLF.Himpl <> p3:105 var
-prf 16907:16921 XsimplTactic.EntailmentProofs himpl_example_3
-binder 16932:16932 <> p:107
-R16971:16977 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R16941:16948 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R16950:16951 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 16949:16949 <> n:108
-R16959:16962 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16953:16957 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R16952:16952 SLF.Himpl <> p:107 var
-R16958:16958 SLF.Himpl <> n:108 var
-R16963:16964 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16970:16970 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16966:16968 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R16965:16965 SLF.Himpl <> n:108 var
-R16978:16985 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R16987:16988 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-binder 16986:16986 <> n:109
-R16997:17000 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R16989:16990 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16996:16996 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R16992:16994 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R16991:16991 SLF.Himpl <> n:109 var
-R17002:17007 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R17011:17011 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R17001:17001 SLF.Himpl <> p:107 var
-R17009:17009 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
-R17008:17008 SLF.Himpl <> n:109 var
-R17072:17087 SLF.Himpl XsimplTactic.EntailmentProofs <> mod
-prf 18353:18373 XsimplTactic xsimpl_demo_lhs_hpure
-binder 18384:18385 <> H1:110
-binder 18387:18388 <> H2:111
-binder 18390:18391 <> H3:112
-binder 18393:18394 <> H4:113
-R18399:18401 SLF.LibInt <> ::Int_scope:'int' not
-binder 18397:18397 <> n:114
-R18433:18437 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R18409:18412 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R18407:18408 SLF.Himpl <> H1:110 var
-R18415:18418 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R18413:18414 SLF.Himpl <> H2:111 var
-R18427:18430 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R18419:18420 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R18426:18426 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R18422:18424 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R18421:18421 SLF.Himpl <> n:114 var
-R18431:18432 SLF.Himpl <> H3:112 var
-R18438:18439 SLF.Himpl <> H4:113 var
-prf 18629:18649 XsimplTactic xsimpl_demo_lhs_hpure
-binder 18660:18661 <> H1:115
-binder 18663:18664 <> H2:116
-binder 18666:18667 <> H3:117
-binder 18669:18670 <> H4:118
-R18701:18705 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R18677:18680 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R18675:18676 SLF.Himpl <> H1:115 var
-R18683:18686 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R18681:18682 SLF.Himpl <> H2:116 var
-R18695:18698 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R18687:18688 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R18694:18694 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R18689:18693 Coq.Init.Logic <> False ind
-R18699:18700 SLF.Himpl <> H3:117 var
-R18706:18707 SLF.Himpl <> H4:118 var
-prf 18974:18996 XsimplTactic xsimpl_demo_lhs_hexists
-binder 19007:19008 <> H1:119
-binder 19010:19011 <> H2:120
-binder 19013:19014 <> H3:121
-binder 19016:19017 <> H4:122
-R19022:19024 SLF.LibSepReference <> loc def
-binder 19020:19020 <> p:123
-R19074:19078 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R19032:19035 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19030:19031 SLF.Himpl <> H1:119 var
-R19036:19044 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R19050:19052 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R19047:19049 SLF.LibInt <> ::Int_scope:'int' not
-binder 19045:19045 <> n:124
-R19053:19053 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19067:19071 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19061:19064 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19055:19059 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R19054:19054 SLF.Himpl <> p:123 var
-R19060:19060 SLF.Himpl <> n:124 var
-R19065:19066 SLF.Himpl <> H2:120 var
-R19072:19073 SLF.Himpl <> H3:121 var
-R19079:19080 SLF.Himpl <> H4:122 var
-prf 19255:19277 XsimplTactic xsimpl_demo_lhs_several
-binder 19288:19289 <> H1:125
-binder 19291:19292 <> H2:126
-binder 19294:19295 <> H3:127
-binder 19297:19298 <> H4:128
-R19305:19307 SLF.LibSepReference <> loc def
-binder 19301:19301 <> p:129
-binder 19303:19303 <> q:130
-R19382:19386 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R19315:19318 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19313:19314 SLF.Himpl <> H1:125 var
-R19319:19327 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R19333:19335 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R19330:19332 SLF.LibInt <> ::Int_scope:'int' not
-binder 19328:19328 <> n:131
-R19336:19336 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19362:19366 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19344:19347 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19338:19342 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R19337:19337 SLF.Himpl <> p:129 var
-R19343:19343 SLF.Himpl <> n:131 var
-R19356:19359 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19348:19349 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R19355:19355 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R19351:19353 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R19350:19350 SLF.Himpl <> n:131 var
-R19360:19361 SLF.Himpl <> H2:126 var
-R19376:19379 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19367:19368 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R19375:19375 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R19370:19373 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R19369:19369 SLF.Himpl <> p:129 var
-R19374:19374 SLF.Himpl <> q:130 var
-R19380:19381 SLF.Himpl <> H3:127 var
-R19387:19388 SLF.Himpl <> H4:128 var
-prf 19824:19845 XsimplTactic xsimpl_demo_cancel_one
-binder 19856:19857 <> H1:132
-binder 19859:19860 <> H2:133
-binder 19862:19863 <> H3:134
-binder 19865:19866 <> H4:135
-binder 19868:19869 <> H5:136
-binder 19871:19872 <> H6:137
-binder 19874:19875 <> H7:138
-R19900:19904 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R19882:19885 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19880:19881 SLF.Himpl <> H1:132 var
-R19888:19891 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19886:19887 SLF.Himpl <> H2:133 var
-R19894:19897 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19892:19893 SLF.Himpl <> H3:134 var
-R19898:19899 SLF.Himpl <> H4:135 var
-R19907:19910 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19905:19906 SLF.Himpl <> H5:136 var
-R19913:19916 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19911:19912 SLF.Himpl <> H6:137 var
-R19919:19922 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R19917:19918 SLF.Himpl <> H2:133 var
-R19923:19924 SLF.Himpl <> H7:138 var
-prf 20153:20175 XsimplTactic xsimpl_demo_cancel_many
-binder 20186:20187 <> H1:139
-binder 20189:20190 <> H2:140
-binder 20192:20193 <> H3:141
-binder 20195:20196 <> H4:142
-binder 20198:20199 <> H5:143
-R20224:20228 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R20206:20209 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20204:20205 SLF.Himpl <> H1:139 var
-R20212:20215 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20210:20211 SLF.Himpl <> H2:140 var
-R20218:20221 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20216:20217 SLF.Himpl <> H3:141 var
-R20222:20223 SLF.Himpl <> H4:142 var
-R20231:20234 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20229:20230 SLF.Himpl <> H4:142 var
-R20237:20240 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20235:20236 SLF.Himpl <> H3:141 var
-R20243:20246 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20241:20242 SLF.Himpl <> H5:143 var
-R20247:20248 SLF.Himpl <> H2:140 var
-prf 20520:20541 XsimplTactic xsimpl_demo_cancel_all
-binder 20552:20553 <> H1:144
-binder 20555:20556 <> H2:145
-binder 20558:20559 <> H3:146
-binder 20561:20562 <> H4:147
-R20587:20591 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R20569:20572 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20567:20568 SLF.Himpl <> H1:144 var
-R20575:20578 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20573:20574 SLF.Himpl <> H2:145 var
-R20581:20584 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20579:20580 SLF.Himpl <> H3:146 var
-R20585:20586 SLF.Himpl <> H4:147 var
-R20594:20597 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20592:20593 SLF.Himpl <> H4:147 var
-R20600:20603 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20598:20599 SLF.Himpl <> H3:146 var
-R20606:20609 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R20604:20605 SLF.Himpl <> H1:144 var
-R20610:20611 SLF.Himpl <> H2:145 var
-prf 21108:21128 XsimplTactic xsimpl_demo_rhs_hpure
-binder 21139:21140 <> H1:148
-binder 21142:21143 <> H2:149
-binder 21145:21146 <> H3:150
-R21151:21153 SLF.LibInt <> ::Int_scope:'int' not
-binder 21149:21149 <> n:151
-R21161:21165 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R21159:21160 SLF.Himpl <> H1:148 var
-R21168:21171 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R21166:21167 SLF.Himpl <> H2:149 var
-R21180:21183 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R21172:21173 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R21179:21179 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R21175:21177 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R21174:21174 SLF.Himpl <> n:151 var
-R21184:21185 SLF.Himpl <> H3:150 var
-prf 21530:21552 XsimplTactic xsimpl_demo_rhs_hexists
-binder 21563:21564 <> H1:152
-binder 21566:21567 <> H2:153
-binder 21569:21570 <> H3:154
-binder 21572:21573 <> H4:155
-R21578:21580 SLF.LibSepReference <> loc def
-binder 21576:21576 <> p:156
-R21588:21592 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R21586:21587 SLF.Himpl <> H1:152 var
-R21595:21598 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R21593:21594 SLF.Himpl <> H2:153 var
-R21599:21607 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R21613:21615 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R21610:21612 SLF.LibInt <> ::Int_scope:'int' not
-binder 21608:21608 <> n:157
-R21616:21616 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R21630:21634 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R21624:21627 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R21618:21622 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R21617:21617 SLF.Himpl <> p:156 var
-R21623:21623 SLF.Himpl <> n:157 var
-R21628:21629 SLF.Himpl <> H3:154 var
-R21635:21636 SLF.Himpl <> H4:155 var
-prf 22015:22043 XsimplTactic xsimpl_demo_rhs_hexists_unify
-binder 22054:22055 <> H1:158
-binder 22057:22058 <> H2:159
-binder 22060:22061 <> H3:160
-binder 22063:22064 <> H4:161
-R22069:22071 SLF.LibSepReference <> loc def
-binder 22067:22067 <> p:162
-R22092:22096 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R22079:22083 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22091:22091 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22077:22078 SLF.Himpl <> H1:158 var
-R22085:22089 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R22084:22084 SLF.Himpl <> p:162 var
-R22099:22102 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22097:22098 SLF.Himpl <> H2:159 var
-R22103:22111 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R22117:22119 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R22114:22116 SLF.LibInt <> ::Int_scope:'int' not
-binder 22112:22112 <> n:163
-R22120:22120 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22134:22138 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22128:22131 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22122:22126 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R22121:22121 SLF.Himpl <> p:162 var
-R22127:22127 SLF.Himpl <> n:163 var
-R22132:22133 SLF.Himpl <> H3:160 var
-R22139:22140 SLF.Himpl <> H4:161 var
-prf 22416:22449 XsimplTactic xsimpl_demo_rhs_hexists_unify_view
-binder 22460:22461 <> H1:164
-binder 22463:22464 <> H2:165
-binder 22466:22467 <> H4:166
-R22472:22474 SLF.LibSepReference <> loc def
-binder 22470:22470 <> p:167
-R22495:22499 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R22482:22486 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22494:22494 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22480:22481 SLF.Himpl <> H1:164 var
-R22488:22492 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R22487:22487 SLF.Himpl <> p:167 var
-R22502:22505 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22500:22501 SLF.Himpl <> H2:165 var
-R22506:22514 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R22520:22522 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R22517:22519 SLF.LibInt <> ::Int_scope:'int' not
-binder 22515:22515 <> n:168
-R22523:22523 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22543:22547 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22531:22534 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R22525:22529 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R22524:22524 SLF.Himpl <> p:167 var
-R22530:22530 SLF.Himpl <> n:168 var
-R22535:22536 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R22542:22542 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R22538:22540 SLF.LibOrder <> ::comp_scope:x_'>'_x not
-R22537:22537 SLF.Himpl <> n:168 var
-R22548:22549 SLF.Himpl <> H4:166 var
-prf 22969:22989 XsimplTactic xsimpl_demo_rhs_hints
-binder 23000:23001 <> H1:169
-R23008:23010 SLF.LibSepReference <> loc def
-binder 23004:23004 <> p:170
-binder 23006:23006 <> q:171
-R23018:23022 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R23016:23017 SLF.Himpl <> H1:169 var
-R23023:23031 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R23039:23042 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R23061:23061 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R23036:23038 SLF.LibInt <> ::Int_scope:'int' not
-binder 23032:23032 <> n:172
-R23036:23038 SLF.LibInt <> ::Int_scope:'int' not
-binder 23034:23034 <> m:173
-R23050:23053 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R23044:23048 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R23043:23043 SLF.Himpl <> p:170 var
-R23049:23049 SLF.Himpl <> n:172 var
-R23055:23059 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R23054:23054 SLF.Himpl <> q:171 var
-R23060:23060 SLF.Himpl <> m:173 var
-prf 23515:23540 XsimplTactic xsimpl_demo_rhs_hints_evar
-binder 23551:23552 <> H1:174
-R23559:23561 SLF.LibSepReference <> loc def
-binder 23555:23555 <> p:175
-binder 23557:23557 <> q:176
-R23569:23573 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R23567:23568 SLF.Himpl <> H1:174 var
-R23574:23582 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R23590:23593 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R23612:23612 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R23587:23589 SLF.LibInt <> ::Int_scope:'int' not
-binder 23583:23583 <> n:177
-R23587:23589 SLF.LibInt <> ::Int_scope:'int' not
-binder 23585:23585 <> m:178
-R23601:23604 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R23595:23599 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R23594:23594 SLF.Himpl <> p:175 var
-R23600:23600 SLF.Himpl <> n:177 var
-R23606:23610 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R23605:23605 SLF.Himpl <> q:176 var
-R23611:23611 SLF.Himpl <> m:178 var
-R23645:23646 SLF.LibTactics <> ::ltac_scope:'__' not
-R23645:23646 SLF.LibTactics <> ::ltac_scope:'__' not
-prf 24010:24024 XsimplTactic qimpl_example_1
-R24045:24046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R24042:24044 SLF.LibSepReference <> val ind
-R24047:24051 SLF.LibSepReference SepSimplArgs hprop def
-binder 24036:24037 <> Q1:179
-binder 24039:24040 <> Q2:180
-R24061:24065 SLF.LibSepReference SepSimplArgs hprop def
-binder 24055:24056 <> H2:181
-binder 24058:24059 <> H3:182
-R24080:24085 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'===>'_x not
-R24073:24077 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*+'_x not
-R24071:24072 SLF.Himpl <> Q1:179 var
-R24078:24079 SLF.Himpl <> H2:181 var
-R24095:24099 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*+'_x not
-R24088:24092 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*+'_x not
-R24086:24087 SLF.Himpl <> Q2:180 var
-R24093:24094 SLF.Himpl <> H2:181 var
-R24100:24101 SLF.Himpl <> H3:182 var
-prf 24411:24425 XsimplTactic xpull_example_1
-R24439:24441 SLF.LibSepReference <> loc def
-binder 24437:24437 <> p:183
-R24471:24477 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R24447:24455 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24461:24463 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24458:24460 SLF.LibInt <> ::Int_scope:'int' not
-binder 24456:24456 <> n:184
-R24465:24469 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24464:24464 SLF.Himpl <> p:183 var
-R24470:24470 SLF.Himpl <> n:184 var
-R24478:24486 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24492:24494 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24489:24491 SLF.LibInt <> ::Int_scope:'int' not
-binder 24487:24487 <> m:185
-R24496:24501 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24507:24507 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24495:24495 SLF.Himpl <> p:183 var
-R24503:24505 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
-R24502:24502 SLF.Himpl <> m:185 var
-prf 24554:24568 XsimplTactic xpull_example_2
-R24582:24586 SLF.LibSepReference SepSimplArgs hprop def
-binder 24580:24580 <> H:186
-R24600:24604 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R24592:24593 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R24599:24599 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
-R24594:24598 Coq.Init.Logic <> False ind
-R24605:24605 SLF.Himpl <> H:186 var
-prf 24814:24829 XsimplTactic xsimpl_example_1
-R24843:24845 SLF.LibSepReference <> loc def
-binder 24841:24841 <> p:187
-R24858:24864 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R24852:24856 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24851:24851 SLF.Himpl <> p:187 var
-R24865:24873 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24879:24881 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24876:24878 SLF.LibInt <> ::Int_scope:'int' not
-binder 24874:24874 <> n:188
-R24883:24887 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24882:24882 SLF.Himpl <> p:187 var
-R24888:24888 SLF.Himpl <> n:188 var
-prf 24924:24939 XsimplTactic xsimpl_example_2
-R24955:24957 SLF.LibSepReference <> loc def
-binder 24951:24951 <> p:189
-binder 24953:24953 <> q:190
-R24981:24987 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R24970:24973 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R24964:24968 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24963:24963 SLF.Himpl <> p:189 var
-R24975:24979 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R24974:24974 SLF.Himpl <> q:190 var
-R24988:24996 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R25002:25004 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R24999:25001 SLF.LibInt <> ::Int_scope:'int' not
-binder 24997:24997 <> n:191
-R25012:25015 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R25006:25010 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R25005:25005 SLF.Himpl <> p:189 var
-R25011:25011 SLF.Himpl <> n:191 var
-R25017:25021 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R25016:25016 SLF.Himpl <> q:190 var
-R25022:25022 SLF.Himpl <> n:191 var
-prf 25058:25073 XsimplTactic xsimpl_example_3
-R25087:25089 SLF.LibSepReference <> loc def
-binder 25085:25085 <> p:192
-R25119:25125 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R25095:25103 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R25109:25111 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R25106:25108 SLF.LibInt <> ::Int_scope:'int' not
-binder 25104:25104 <> n:193
-R25113:25117 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R25112:25112 SLF.Himpl <> p:192 var
-R25118:25118 SLF.Himpl <> n:193 var
-R25126:25134 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R25140:25142 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
-R25137:25139 SLF.LibInt <> ::Int_scope:'int' not
-binder 25135:25135 <> m:194
-R25144:25149 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R25155:25155 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
-R25143:25143 SLF.Himpl <> p:192 var
-R25151:25153 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
-R25150:25150 SLF.Himpl <> m:194 var
-R25263:25263 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
-R25263:25263 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
-prf 25699:25715 XsimplTactic xchange_demo_base
-binder 25726:25727 <> H1:195
-binder 25729:25730 <> H2:196
-binder 25732:25734 <> H2':197
-binder 25736:25737 <> H3:198
-binder 25739:25740 <> H4:199
-R25755:25760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R25747:25751 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R25745:25746 SLF.Himpl <> H2:196 var
-R25752:25754 SLF.Himpl <> H2':197 var
-R25775:25779 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R25763:25766 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R25761:25762 SLF.Himpl <> H1:195 var
-R25769:25772 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R25767:25768 SLF.Himpl <> H2:196 var
-R25773:25774 SLF.Himpl <> H3:198 var
-R25780:25781 SLF.Himpl <> H4:199 var
-prf 26112:26126 XsimplTactic xchange_demo_eq
-binder 26137:26138 <> H1:200
-binder 26140:26141 <> H2:201
-binder 26143:26144 <> H3:202
-binder 26146:26147 <> H4:203
-binder 26149:26150 <> H5:204
-R26168:26173 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26163:26165 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R26157:26160 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R26155:26156 SLF.Himpl <> H1:200 var
-R26161:26162 SLF.Himpl <> H3:202 var
-R26166:26167 SLF.Himpl <> H5:204 var
-R26188:26192 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R26176:26179 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R26174:26175 SLF.Himpl <> H1:200 var
-R26182:26185 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R26180:26181 SLF.Himpl <> H2:201 var
-R26186:26187 SLF.Himpl <> H3:202 var
-R26193:26194 SLF.Himpl <> H4:203 var
-prf 26522:26538 XsimplTactic xchange_demo_inst
-binder 26549:26550 <> H1:205
-R26561:26562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26558:26560 SLF.LibInt <> ::Int_scope:'int' not
-R26563:26567 SLF.LibSepReference SepSimplArgs hprop def
-binder 26553:26553 <> J:206
-binder 26555:26556 <> J':207
-binder 26570:26571 <> H3:208
-binder 26573:26574 <> H4:209
-R26579:26579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R26604:26610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-binder 26587:26587 <> n:210
-R26593:26595 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R26590:26590 SLF.Himpl <> J:206 var
-R26592:26592 SLF.Himpl <> n:210 var
-R26596:26597 SLF.Himpl <> J':207 var
-R26601:26601 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
-R26600:26600 SLF.Himpl <> n:210 var
-R26626:26630 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R26613:26616 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R26611:26612 SLF.Himpl <> H1:205 var
-R26620:26623 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R26617:26617 SLF.Himpl <> J:206 var
-R26624:26625 SLF.Himpl <> H3:208 var
-R26631:26632 SLF.Himpl <> H4:209 var
-prf 27535:27547 XsimplTactic xchange_lemma
-binder 27558:27559 <> H1:211
-binder 27561:27563 <> H1':212
-binder 27565:27565 <> H:213
-binder 27567:27568 <> H':214
-binder 27570:27571 <> H2:215
-R27586:27591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27578:27582 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R27576:27577 SLF.Himpl <> H1:211 var
-R27583:27585 SLF.Himpl <> H1':212 var
-R27606:27611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27593:27597 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R27592:27592 SLF.Himpl <> H:213 var
-R27600:27603 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R27598:27599 SLF.Himpl <> H1:211 var
-R27604:27605 SLF.Himpl <> H2:215 var
-R27628:27633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R27621:27625 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R27615:27618 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
-R27612:27614 SLF.Himpl <> H1':212 var
-R27619:27620 SLF.Himpl <> H2:215 var
-R27626:27627 SLF.Himpl <> H':214 var
-R27635:27639 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
-R27634:27634 SLF.Himpl <> H:213 var
-R27640:27641 SLF.Himpl <> H':214 var
-R27702:27713 SLF.Himpl XsimplTactic <> mod
-mod 27938:27958 <> EntailmentRulesProofs
-prf 28505:28517 EntailmentRulesProofs himpl_frame_l
-binder 28528:28529 <> H2:216
-binder 28531:28532 <> H1:217
-binder 28534:28536 <> H1':218
-R28551:28556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R28543:28547 SLF.Himpl <> :::x_'==>'_x not
-R28541:28542 SLF.Himpl <> H1:217 var
-R28548:28550 SLF.Himpl <> H1':218 var
-R28557:28557 SLF.Himpl <> :::x_'==>'_x not
-R28566:28572 SLF.Himpl <> :::x_'==>'_x not
-R28582:28582 SLF.Himpl <> :::x_'==>'_x not
-R28560:28563 SLF.Hprop <> :::x_'\*'_x not
-R28558:28559 SLF.Himpl <> H1:217 var
-R28564:28565 SLF.Himpl <> H2:216 var
-R28576:28579 SLF.Hprop <> :::x_'\*'_x not
-R28573:28575 SLF.Himpl <> H1':218 var
-R28580:28581 SLF.Himpl <> H2:216 var
-prf 28872:28884 EntailmentRulesProofs himpl_frame_r
-binder 28895:28896 <> H1:219
-binder 28898:28899 <> H2:220
-binder 28901:28903 <> H2':221
-R28918:28923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R28910:28914 SLF.Himpl <> :::x_'==>'_x not
-R28908:28909 SLF.Himpl <> H2:220 var
-R28915:28917 SLF.Himpl <> H2':221 var
-R28924:28924 SLF.Himpl <> :::x_'==>'_x not
-R28933:28939 SLF.Himpl <> :::x_'==>'_x not
-R28949:28949 SLF.Himpl <> :::x_'==>'_x not
-R28927:28930 SLF.Hprop <> :::x_'\*'_x not
-R28925:28926 SLF.Himpl <> H1:219 var
-R28931:28932 SLF.Himpl <> H2:220 var
-R28942:28945 SLF.Hprop <> :::x_'\*'_x not
-R28940:28941 SLF.Himpl <> H1:219 var
-R28946:28948 SLF.Himpl <> H2':221 var
-prf 29366:29379 EntailmentRulesProofs himpl_frame_lr
-binder 29390:29391 <> H1:222
-binder 29393:29395 <> H1':223
-binder 29397:29398 <> H2:224
-binder 29400:29402 <> H2':225
-R29417:29422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R29409:29413 SLF.Himpl <> :::x_'==>'_x not
-R29407:29408 SLF.Himpl <> H1:222 var
-R29414:29416 SLF.Himpl <> H1':223 var
-R29433:29438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R29425:29429 SLF.Himpl <> :::x_'==>'_x not
-R29423:29424 SLF.Himpl <> H2:224 var
-R29430:29432 SLF.Himpl <> H2':225 var
-R29439:29439 SLF.Himpl <> :::x_'==>'_x not
-R29448:29454 SLF.Himpl <> :::x_'==>'_x not
-R29465:29465 SLF.Himpl <> :::x_'==>'_x not
-R29442:29445 SLF.Hprop <> :::x_'\*'_x not
-R29440:29441 SLF.Himpl <> H1:222 var
-R29446:29447 SLF.Himpl <> H2:224 var
-R29458:29461 SLF.Hprop <> :::x_'\*'_x not
-R29455:29457 SLF.Himpl <> H1':223 var
-R29462:29464 SLF.Himpl <> H2':225 var
-R29526:29546 SLF.Himpl EntailmentRulesProofs <> mod
+R12227:12227 SLF.Himpl <> q:45 var
+R12248:12251 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12242:12246 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12241:12241 SLF.Himpl <> q:45 var
+R12253:12257 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12252:12252 SLF.Himpl <> p:44 var
+ax 12272:12283 XsimplTactic.CaseStudy case_study_2
+binder 12294:12294 <> p:47
+binder 12296:12296 <> q:48
+R12312:12318 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12306:12310 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12305:12305 SLF.Himpl <> p:47 var
+R12326:12329 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12320:12324 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12319:12319 SLF.Himpl <> q:48 var
+R12331:12335 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12330:12330 SLF.Himpl <> p:47 var
+ax 12350:12361 XsimplTactic.CaseStudy case_study_3
+binder 12372:12372 <> p:50
+binder 12374:12374 <> q:51
+R12401:12407 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12390:12393 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12384:12388 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12383:12383 SLF.Himpl <> q:51 var
+R12395:12399 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12394:12394 SLF.Himpl <> p:50 var
+R12409:12413 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12408:12408 SLF.Himpl <> p:50 var
+ax 12428:12439 XsimplTactic.CaseStudy case_study_5
+binder 12450:12450 <> p:53
+binder 12452:12452 <> q:54
+R12480:12486 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12469:12472 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12461:12462 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12468:12468 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12463:12467 Coq.Init.Logic <> False ind
+R12474:12478 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12473:12473 SLF.Himpl <> p:53 var
+R12494:12497 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12488:12492 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12487:12487 SLF.Himpl <> p:53 var
+R12499:12503 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12498:12498 SLF.Himpl <> q:54 var
+ax 12518:12529 XsimplTactic.CaseStudy case_study_6
+binder 12540:12540 <> p:56
+binder 12542:12542 <> q:57
+R12569:12575 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12558:12561 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12552:12556 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12551:12551 SLF.Himpl <> p:56 var
+R12563:12567 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12562:12562 SLF.Himpl <> q:57 var
+R12576:12577 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12583:12583 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12578:12582 Coq.Init.Logic <> False ind
+ax 12597:12608 XsimplTactic.CaseStudy case_study_7
+binder 12619:12619 <> p:59
+R12646:12652 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12635:12638 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12629:12633 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12628:12628 SLF.Himpl <> p:59 var
+R12640:12644 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12639:12639 SLF.Himpl <> p:59 var
+R12653:12654 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12660:12660 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12655:12659 Coq.Init.Logic <> False ind
+ax 12674:12685 XsimplTactic.CaseStudy case_study_8
+binder 12696:12696 <> p:61
+R12723:12729 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12712:12715 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12706:12710 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12705:12705 SLF.Himpl <> p:61 var
+R12717:12721 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12716:12716 SLF.Himpl <> p:61 var
+R12730:12731 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12737:12737 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12732:12736 Coq.Init.Logic <> False ind
+ax 12751:12762 XsimplTactic.CaseStudy case_study_9
+binder 12773:12773 <> p:63
+R12789:12795 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12783:12787 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12782:12782 SLF.Himpl <> p:63 var
+R12796:12803 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R12805:12806 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 12804:12804 <> n:64
+R12808:12812 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12807:12807 SLF.Himpl <> p:63 var
+R12813:12813 SLF.Himpl <> n:64 var
+ax 12827:12839 XsimplTactic.CaseStudy case_study_10
+binder 12850:12850 <> p:66
+R12859:12865 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12867:12868 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12866:12866 <> n:67
+R12876:12882 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12870:12874 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12869:12869 SLF.Himpl <> p:66 var
+R12875:12875 SLF.Himpl <> n:67 var
+R12884:12888 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12883:12883 SLF.Himpl <> p:66 var
+ax 12903:12915 XsimplTactic.CaseStudy case_study_11
+binder 12926:12926 <> p:69
+R12965:12971 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R12935:12942 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R12944:12945 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 12943:12943 <> n:70
+R12953:12956 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12947:12951 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12946:12946 SLF.Himpl <> p:69 var
+R12952:12952 SLF.Himpl <> n:70 var
+R12957:12958 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12964:12964 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12960:12962 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R12959:12959 SLF.Himpl <> n:70 var
+R12972:12979 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R12981:12982 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 12980:12980 <> n:71
+R12991:12994 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R12983:12984 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12990:12990 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R12986:12988 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R12985:12985 SLF.Himpl <> n:71 var
+R12996:13001 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13005:13005 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R12995:12995 SLF.Himpl <> p:69 var
+R13003:13003 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R13002:13002 SLF.Himpl <> n:71 var
+ax 13019:13031 XsimplTactic.CaseStudy case_study_12
+binder 13042:13042 <> p:73
+binder 13044:13044 <> q:74
+R13071:13077 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R13060:13063 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R13054:13058 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13053:13053 SLF.Himpl <> p:73 var
+R13065:13069 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13064:13064 SLF.Himpl <> q:74 var
+R13078:13085 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R13087:13088 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 13086:13086 <> n:75
+R13096:13099 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R13090:13094 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13089:13089 SLF.Himpl <> p:73 var
+R13095:13095 SLF.Himpl <> n:75 var
+R13101:13105 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13100:13100 SLF.Himpl <> q:74 var
+R13106:13106 SLF.Himpl <> n:75 var
+ax 13120:13132 XsimplTactic.CaseStudy case_study_13
+binder 13143:13143 <> p:77
+binder 13145:13145 <> n:78
+R13181:13185 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R13157:13160 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R13151:13155 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13150:13150 SLF.Himpl <> p:77 var
+R13156:13156 SLF.Himpl <> n:78 var
+R13169:13172 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R13161:13162 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R13168:13168 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R13164:13166 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R13163:13163 SLF.Himpl <> n:78 var
+R13173:13174 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R13180:13180 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R13176:13178 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R13175:13175 SLF.Himpl <> n:78 var
+R13193:13196 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R13187:13191 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13186:13186 SLF.Himpl <> p:77 var
+R13192:13192 SLF.Himpl <> n:78 var
+R13198:13202 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R13197:13197 SLF.Himpl <> p:77 var
+R13203:13203 SLF.Himpl <> n:78 var
+R13211:13219 SLF.Himpl XsimplTactic.CaseStudy <> mod
+mod 13230:13245 <> XsimplTactic.CaseStudyAnswers
+R14116:14118 SLF.LibSepReference <> loc def
+R14142:14144 SLF.LibInt <> ::Int_scope:'int' not
+prf 14154:14165 XsimplTactic.CaseStudyAnswers case_study_1
+binder 14176:14176 <> p:80
+binder 14178:14178 <> q:81
+R14205:14211 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14194:14197 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14188:14192 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14187:14187 SLF.Himpl <> p:80 var
+R14199:14203 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14198:14198 SLF.Himpl <> q:81 var
+R14219:14222 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14213:14217 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14212:14212 SLF.Himpl <> q:81 var
+R14224:14228 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14223:14223 SLF.Himpl <> p:80 var
+prf 14265:14276 XsimplTactic.CaseStudyAnswers case_study_5
+binder 14287:14287 <> p:82
+binder 14289:14289 <> q:83
+R14317:14323 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14306:14309 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14298:14299 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14305:14305 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14300:14304 Coq.Init.Logic <> False ind
+R14311:14315 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14310:14310 SLF.Himpl <> p:82 var
+R14331:14334 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14325:14329 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14324:14324 SLF.Himpl <> p:82 var
+R14336:14340 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14335:14335 SLF.Himpl <> q:83 var
+prf 14377:14388 XsimplTactic.CaseStudyAnswers case_study_7
+binder 14399:14399 <> p:84
+R14426:14432 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14415:14418 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14409:14413 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14408:14408 SLF.Himpl <> p:84 var
+R14420:14424 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14419:14419 SLF.Himpl <> p:84 var
+R14433:14434 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14440:14440 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14435:14439 Coq.Init.Logic <> False ind
+R14473:14494 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
+R14473:14494 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
+prf 14512:14523 XsimplTactic.CaseStudyAnswers case_study_8
+binder 14534:14534 <> p:85
+R14561:14567 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14550:14553 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14544:14548 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14543:14543 SLF.Himpl <> p:85 var
+R14555:14559 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14554:14554 SLF.Himpl <> p:85 var
+R14568:14569 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14575:14575 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14570:14574 Coq.Init.Logic <> False ind
+R14608:14629 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
+R14608:14629 SLF.LibSepReference SepSimplArgs hstar_hsingle_same_loc thm
+prf 14647:14658 XsimplTactic.CaseStudyAnswers case_study_9
+binder 14669:14669 <> p:86
+R14685:14691 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14679:14683 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14678:14678 SLF.Himpl <> p:86 var
+R14692:14699 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R14701:14702 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 14700:14700 <> n:87
+R14704:14708 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14703:14703 SLF.Himpl <> p:86 var
+R14709:14709 SLF.Himpl <> n:87 var
+prf 14745:14757 XsimplTactic.CaseStudyAnswers case_study_11
+binder 14768:14768 <> p:88
+R14807:14813 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14777:14784 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R14786:14787 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 14785:14785 <> n:89
+R14795:14798 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14789:14793 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14788:14788 SLF.Himpl <> p:88 var
+R14794:14794 SLF.Himpl <> n:89 var
+R14799:14800 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14806:14806 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14802:14804 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R14801:14801 SLF.Himpl <> n:89 var
+R14814:14821 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R14823:14824 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 14822:14822 <> n:90
+R14833:14836 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14825:14826 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14832:14832 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R14828:14830 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R14827:14827 SLF.Himpl <> n:90 var
+R14838:14843 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14847:14847 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14837:14837 SLF.Himpl <> p:88 var
+R14845:14845 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R14844:14844 SLF.Himpl <> n:90 var
+R14902:14902 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R14902:14902 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+prf 14933:14945 XsimplTactic.CaseStudyAnswers case_study_12
+binder 14956:14956 <> p:91
+binder 14958:14958 <> q:92
+R14985:14991 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R14974:14977 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R14968:14972 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14967:14967 SLF.Himpl <> p:91 var
+R14979:14983 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R14978:14978 SLF.Himpl <> q:92 var
+R14992:14999 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R15001:15002 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 15000:15000 <> n:93
+R15010:15013 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R15004:15008 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15003:15003 SLF.Himpl <> p:91 var
+R15009:15009 SLF.Himpl <> n:93 var
+R15015:15019 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15014:15014 SLF.Himpl <> q:92 var
+R15020:15020 SLF.Himpl <> n:93 var
+prf 15056:15068 XsimplTactic.CaseStudyAnswers case_study_13
+binder 15079:15079 <> p:94
+binder 15081:15081 <> n:95
+R15117:15121 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R15093:15096 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R15087:15091 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15086:15086 SLF.Himpl <> p:94 var
+R15092:15092 SLF.Himpl <> n:95 var
+R15105:15108 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R15097:15098 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R15104:15104 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R15100:15102 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R15099:15099 SLF.Himpl <> n:95 var
+R15109:15110 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R15116:15116 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R15112:15114 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R15111:15111 SLF.Himpl <> n:95 var
+R15129:15132 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R15123:15127 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15122:15122 SLF.Himpl <> p:94 var
+R15128:15128 SLF.Himpl <> n:95 var
+R15134:15138 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R15133:15133 SLF.Himpl <> p:94 var
+R15139:15139 SLF.Himpl <> n:95 var
+R15210:15225 SLF.Himpl XsimplTactic.CaseStudyAnswers <> mod
+mod 15442:15457 <> XsimplTactic.EntailmentProofs
+R15479:15481 SLF.LibSepReference <> loc def
+R15503:15505 SLF.LibInt <> ::Int_scope:'int' not
+prf 16302:16316 XsimplTactic.EntailmentProofs himpl_example_1
+binder 16327:16328 <> p1:96
+binder 16330:16331 <> p2:97
+binder 16333:16334 <> p3:98
+binder 16336:16337 <> p4:99
+R16390:16396 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R16354:16357 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16348:16352 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16346:16347 SLF.Himpl <> p1:96 var
+R16366:16369 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16360:16364 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16358:16359 SLF.Himpl <> p2:97 var
+R16378:16381 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16372:16376 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16370:16371 SLF.Himpl <> p3:98 var
+R16384:16388 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16382:16383 SLF.Himpl <> p4:99 var
+R16405:16408 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16399:16403 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16397:16398 SLF.Himpl <> p4:99 var
+R16417:16420 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16411:16415 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16409:16410 SLF.Himpl <> p3:98 var
+R16429:16432 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R16423:16427 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16421:16422 SLF.Himpl <> p2:97 var
+R16435:16439 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R16433:16434 SLF.Himpl <> p1:96 var
+R16475:16484 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16475:16484 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16475:16484 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16496:16506 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16496:16506 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16496:16506 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16518:16528 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16518:16528 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16518:16528 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16540:16549 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16540:16549 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16540:16549 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16561:16571 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16561:16571 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16561:16571 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16583:16593 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16583:16593 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16583:16593 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16605:16614 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16605:16614 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16605:16614 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16626:16636 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16626:16636 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16626:16636 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16648:16658 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16648:16658 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16648:16658 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16668:16680 SLF.LibSepReference SepSimplArgs himpl_frame_r thm
+R16668:16680 SLF.LibSepReference SepSimplArgs himpl_frame_r thm
+R16692:16701 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16692:16701 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16692:16701 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16713:16723 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16713:16723 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16713:16723 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16735:16744 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16735:16744 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16735:16744 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16756:16766 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16756:16766 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16756:16766 SLF.LibSepReference SepSimplArgs hstar_assoc thm
+R16776:16788 SLF.LibSepReference SepSimplArgs himpl_frame_r thm
+R16776:16788 SLF.LibSepReference SepSimplArgs himpl_frame_r thm
+R16800:16809 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16800:16809 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16800:16809 SLF.LibSepReference SepSimplArgs hstar_comm thm
+R16820:16832 SLF.LibSepReference SepSimplArgs himpl_frame_l thm
+R16820:16832 SLF.LibSepReference SepSimplArgs himpl_frame_l thm
+R16842:16851 SLF.LibSepReference SepSimplArgs himpl_refl thm
+R16842:16851 SLF.LibSepReference SepSimplArgs himpl_refl thm
+prf 17172:17186 XsimplTactic.EntailmentProofs himpl_example_2
+binder 17197:17198 <> p1:100
+binder 17200:17201 <> p2:101
+binder 17203:17204 <> p3:102
+binder 17206:17206 <> n:103
+R17259:17265 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R17223:17226 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17217:17221 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17215:17216 SLF.Himpl <> p1:100 var
+R17235:17238 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17227:17228 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17234:17234 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17230:17232 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17229:17229 SLF.Himpl <> n:103 var
+R17247:17250 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17241:17245 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17239:17240 SLF.Himpl <> p2:101 var
+R17251:17252 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17258:17258 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17254:17256 SLF.LibOrder <> ::comp_scope:x_'<'_x not
+R17253:17253 SLF.Himpl <> n:103 var
+R17268:17272 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17266:17267 SLF.Himpl <> p3:102 var
+prf 17605:17619 XsimplTactic.EntailmentProofs himpl_example_3
+binder 17630:17630 <> p:104
+R17669:17675 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R17639:17646 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R17648:17649 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 17647:17647 <> n:105
+R17657:17660 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17651:17655 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17650:17650 SLF.Himpl <> p:104 var
+R17656:17656 SLF.Himpl <> n:105 var
+R17661:17662 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17668:17668 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17664:17666 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17663:17663 SLF.Himpl <> n:105 var
+R17676:17683 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R17685:17686 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+binder 17684:17684 <> n:106
+R17695:17698 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R17687:17688 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17694:17694 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R17690:17692 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R17689:17689 SLF.Himpl <> n:106 var
+R17700:17705 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17709:17709 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R17699:17699 SLF.Himpl <> p:104 var
+R17707:17707 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R17706:17706 SLF.Himpl <> n:106 var
+R17770:17785 SLF.Himpl XsimplTactic.EntailmentProofs <> mod
+prf 19051:19071 XsimplTactic xsimpl_demo_lhs_hpure
+binder 19082:19083 <> H1:107
+binder 19085:19086 <> H2:108
+binder 19088:19089 <> H3:109
+binder 19091:19092 <> H4:110
+R19097:19099 SLF.LibInt <> ::Int_scope:'int' not
+binder 19095:19095 <> n:111
+R19131:19135 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R19107:19110 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19105:19106 SLF.Himpl <> H1:107 var
+R19113:19116 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19111:19112 SLF.Himpl <> H2:108 var
+R19125:19128 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19117:19118 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R19124:19124 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R19120:19122 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R19119:19119 SLF.Himpl <> n:111 var
+R19129:19130 SLF.Himpl <> H3:109 var
+R19136:19137 SLF.Himpl <> H4:110 var
+prf 19327:19347 XsimplTactic xsimpl_demo_lhs_hpure
+binder 19358:19359 <> H1:112
+binder 19361:19362 <> H2:113
+binder 19364:19365 <> H3:114
+binder 19367:19368 <> H4:115
+R19399:19403 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R19375:19378 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19373:19374 SLF.Himpl <> H1:112 var
+R19381:19384 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19379:19380 SLF.Himpl <> H2:113 var
+R19393:19396 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19385:19386 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R19392:19392 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R19387:19391 Coq.Init.Logic <> False ind
+R19397:19398 SLF.Himpl <> H3:114 var
+R19404:19405 SLF.Himpl <> H4:115 var
+prf 19672:19694 XsimplTactic xsimpl_demo_lhs_hexists
+binder 19705:19706 <> H1:116
+binder 19708:19709 <> H2:117
+binder 19711:19712 <> H3:118
+binder 19714:19715 <> H4:119
+R19720:19722 SLF.LibSepReference <> loc def
+binder 19718:19718 <> p:120
+R19772:19776 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R19730:19733 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19728:19729 SLF.Himpl <> H1:116 var
+R19734:19742 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R19748:19750 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R19745:19747 SLF.LibInt <> ::Int_scope:'int' not
+binder 19743:19743 <> n:121
+R19751:19751 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19765:19769 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19759:19762 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R19753:19757 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R19752:19752 SLF.Himpl <> p:120 var
+R19758:19758 SLF.Himpl <> n:121 var
+R19763:19764 SLF.Himpl <> H2:117 var
+R19770:19771 SLF.Himpl <> H3:118 var
+R19777:19778 SLF.Himpl <> H4:119 var
+prf 19953:19975 XsimplTactic xsimpl_demo_lhs_several
+binder 19986:19987 <> H1:122
+binder 19989:19990 <> H2:123
+binder 19992:19993 <> H3:124
+binder 19995:19996 <> H4:125
+R20003:20005 SLF.LibSepReference <> loc def
+binder 19999:19999 <> p:126
+binder 20001:20001 <> q:127
+R20080:20084 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R20013:20016 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20011:20012 SLF.Himpl <> H1:122 var
+R20017:20025 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R20031:20033 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R20028:20030 SLF.LibInt <> ::Int_scope:'int' not
+binder 20026:20026 <> n:128
+R20034:20034 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20060:20064 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20042:20045 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20036:20040 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R20035:20035 SLF.Himpl <> p:126 var
+R20041:20041 SLF.Himpl <> n:128 var
+R20054:20057 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20046:20047 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R20053:20053 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R20049:20051 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R20048:20048 SLF.Himpl <> n:128 var
+R20058:20059 SLF.Himpl <> H2:123 var
+R20074:20077 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20065:20066 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R20073:20073 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R20068:20071 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20067:20067 SLF.Himpl <> p:126 var
+R20072:20072 SLF.Himpl <> q:127 var
+R20078:20079 SLF.Himpl <> H3:124 var
+R20085:20086 SLF.Himpl <> H4:125 var
+prf 20522:20543 XsimplTactic xsimpl_demo_cancel_one
+binder 20554:20555 <> H1:129
+binder 20557:20558 <> H2:130
+binder 20560:20561 <> H3:131
+binder 20563:20564 <> H4:132
+binder 20566:20567 <> H5:133
+binder 20569:20570 <> H6:134
+binder 20572:20573 <> H7:135
+R20598:20602 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R20580:20583 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20578:20579 SLF.Himpl <> H1:129 var
+R20586:20589 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20584:20585 SLF.Himpl <> H2:130 var
+R20592:20595 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20590:20591 SLF.Himpl <> H3:131 var
+R20596:20597 SLF.Himpl <> H4:132 var
+R20605:20608 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20603:20604 SLF.Himpl <> H5:133 var
+R20611:20614 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20609:20610 SLF.Himpl <> H6:134 var
+R20617:20620 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20615:20616 SLF.Himpl <> H2:130 var
+R20621:20622 SLF.Himpl <> H7:135 var
+prf 20851:20873 XsimplTactic xsimpl_demo_cancel_many
+binder 20884:20885 <> H1:136
+binder 20887:20888 <> H2:137
+binder 20890:20891 <> H3:138
+binder 20893:20894 <> H4:139
+binder 20896:20897 <> H5:140
+R20922:20926 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R20904:20907 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20902:20903 SLF.Himpl <> H1:136 var
+R20910:20913 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20908:20909 SLF.Himpl <> H2:137 var
+R20916:20919 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20914:20915 SLF.Himpl <> H3:138 var
+R20920:20921 SLF.Himpl <> H4:139 var
+R20929:20932 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20927:20928 SLF.Himpl <> H4:139 var
+R20935:20938 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20933:20934 SLF.Himpl <> H3:138 var
+R20941:20944 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R20939:20940 SLF.Himpl <> H5:140 var
+R20945:20946 SLF.Himpl <> H2:137 var
+prf 21218:21239 XsimplTactic xsimpl_demo_cancel_all
+binder 21250:21251 <> H1:141
+binder 21253:21254 <> H2:142
+binder 21256:21257 <> H3:143
+binder 21259:21260 <> H4:144
+R21285:21289 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R21267:21270 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21265:21266 SLF.Himpl <> H1:141 var
+R21273:21276 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21271:21272 SLF.Himpl <> H2:142 var
+R21279:21282 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21277:21278 SLF.Himpl <> H3:143 var
+R21283:21284 SLF.Himpl <> H4:144 var
+R21292:21295 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21290:21291 SLF.Himpl <> H4:144 var
+R21298:21301 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21296:21297 SLF.Himpl <> H3:143 var
+R21304:21307 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21302:21303 SLF.Himpl <> H1:141 var
+R21308:21309 SLF.Himpl <> H2:142 var
+prf 21806:21826 XsimplTactic xsimpl_demo_rhs_hpure
+binder 21837:21838 <> H1:145
+binder 21840:21841 <> H2:146
+binder 21843:21844 <> H3:147
+R21849:21851 SLF.LibInt <> ::Int_scope:'int' not
+binder 21847:21847 <> n:148
+R21859:21863 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R21857:21858 SLF.Himpl <> H1:145 var
+R21866:21869 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21864:21865 SLF.Himpl <> H2:146 var
+R21878:21881 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R21870:21871 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R21877:21877 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R21873:21875 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R21872:21872 SLF.Himpl <> n:148 var
+R21882:21883 SLF.Himpl <> H3:147 var
+prf 22228:22250 XsimplTactic xsimpl_demo_rhs_hexists
+binder 22261:22262 <> H1:149
+binder 22264:22265 <> H2:150
+binder 22267:22268 <> H3:151
+binder 22270:22271 <> H4:152
+R22276:22278 SLF.LibSepReference <> loc def
+binder 22274:22274 <> p:153
+R22286:22290 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R22284:22285 SLF.Himpl <> H1:149 var
+R22293:22296 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22291:22292 SLF.Himpl <> H2:150 var
+R22297:22305 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R22311:22313 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R22308:22310 SLF.LibInt <> ::Int_scope:'int' not
+binder 22306:22306 <> n:154
+R22314:22314 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22328:22332 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22322:22325 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22316:22320 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R22315:22315 SLF.Himpl <> p:153 var
+R22321:22321 SLF.Himpl <> n:154 var
+R22326:22327 SLF.Himpl <> H3:151 var
+R22333:22334 SLF.Himpl <> H4:152 var
+prf 22713:22741 XsimplTactic xsimpl_demo_rhs_hexists_unify
+binder 22752:22753 <> H1:155
+binder 22755:22756 <> H2:156
+binder 22758:22759 <> H3:157
+binder 22761:22762 <> H4:158
+R22767:22769 SLF.LibSepReference <> loc def
+binder 22765:22765 <> p:159
+R22790:22794 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R22777:22781 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22789:22789 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22775:22776 SLF.Himpl <> H1:155 var
+R22783:22787 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R22782:22782 SLF.Himpl <> p:159 var
+R22797:22800 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22795:22796 SLF.Himpl <> H2:156 var
+R22801:22809 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R22815:22817 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R22812:22814 SLF.LibInt <> ::Int_scope:'int' not
+binder 22810:22810 <> n:160
+R22818:22818 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22832:22836 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22826:22829 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R22820:22824 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R22819:22819 SLF.Himpl <> p:159 var
+R22825:22825 SLF.Himpl <> n:160 var
+R22830:22831 SLF.Himpl <> H3:157 var
+R22837:22838 SLF.Himpl <> H4:158 var
+prf 23114:23147 XsimplTactic xsimpl_demo_rhs_hexists_unify_view
+binder 23158:23159 <> H1:161
+binder 23161:23162 <> H2:162
+binder 23164:23165 <> H4:163
+R23170:23172 SLF.LibSepReference <> loc def
+binder 23168:23168 <> p:164
+R23193:23197 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R23180:23184 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23192:23192 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23178:23179 SLF.Himpl <> H1:161 var
+R23186:23190 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R23185:23185 SLF.Himpl <> p:164 var
+R23200:23203 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23198:23199 SLF.Himpl <> H2:162 var
+R23204:23212 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R23218:23220 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R23215:23217 SLF.LibInt <> ::Int_scope:'int' not
+binder 23213:23213 <> n:165
+R23221:23221 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23241:23245 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23229:23232 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23223:23227 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R23222:23222 SLF.Himpl <> p:164 var
+R23228:23228 SLF.Himpl <> n:165 var
+R23233:23234 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R23240:23240 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R23236:23238 SLF.LibOrder <> ::comp_scope:x_'>'_x not
+R23235:23235 SLF.Himpl <> n:165 var
+R23246:23247 SLF.Himpl <> H4:163 var
+prf 23667:23687 XsimplTactic xsimpl_demo_rhs_hints
+binder 23698:23699 <> H1:166
+R23706:23708 SLF.LibSepReference <> loc def
+binder 23702:23702 <> p:167
+binder 23704:23704 <> q:168
+R23716:23720 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R23714:23715 SLF.Himpl <> H1:166 var
+R23721:23729 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R23737:23740 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R23759:23759 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R23734:23736 SLF.LibInt <> ::Int_scope:'int' not
+binder 23730:23730 <> n:169
+R23734:23736 SLF.LibInt <> ::Int_scope:'int' not
+binder 23732:23732 <> m:170
+R23748:23751 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R23742:23746 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R23741:23741 SLF.Himpl <> p:167 var
+R23747:23747 SLF.Himpl <> n:169 var
+R23753:23757 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R23752:23752 SLF.Himpl <> q:168 var
+R23758:23758 SLF.Himpl <> m:170 var
+prf 24213:24238 XsimplTactic xsimpl_demo_rhs_hints_evar
+binder 24249:24250 <> H1:171
+R24257:24259 SLF.LibSepReference <> loc def
+binder 24253:24253 <> p:172
+binder 24255:24255 <> q:173
+R24267:24271 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R24265:24266 SLF.Himpl <> H1:171 var
+R24272:24280 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R24288:24291 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R24310:24310 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R24285:24287 SLF.LibInt <> ::Int_scope:'int' not
+binder 24281:24281 <> n:174
+R24285:24287 SLF.LibInt <> ::Int_scope:'int' not
+binder 24283:24283 <> m:175
+R24299:24302 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R24293:24297 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R24292:24292 SLF.Himpl <> p:172 var
+R24298:24298 SLF.Himpl <> n:174 var
+R24304:24308 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R24303:24303 SLF.Himpl <> q:173 var
+R24309:24309 SLF.Himpl <> m:175 var
+R24343:24344 SLF.LibTactics <> ::ltac_scope:'__' not
+R24343:24344 SLF.LibTactics <> ::ltac_scope:'__' not
+prf 24708:24722 XsimplTactic qimpl_example_1
+R24743:24744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24740:24742 SLF.LibSepReference <> val ind
+R24745:24749 SLF.LibSepReference SepSimplArgs hprop def
+binder 24734:24735 <> Q1:176
+binder 24737:24738 <> Q2:177
+R24759:24763 SLF.LibSepReference SepSimplArgs hprop def
+binder 24753:24754 <> H2:178
+binder 24756:24757 <> H3:179
+R24778:24783 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'===>'_x not
+R24771:24775 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*+'_x not
+R24769:24770 SLF.Himpl <> Q1:176 var
+R24776:24777 SLF.Himpl <> H2:178 var
+R24793:24797 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*+'_x not
+R24786:24790 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*+'_x not
+R24784:24785 SLF.Himpl <> Q2:177 var
+R24791:24792 SLF.Himpl <> H2:178 var
+R24798:24799 SLF.Himpl <> H3:179 var
+prf 25109:25123 XsimplTactic xpull_example_1
+R25137:25139 SLF.LibSepReference <> loc def
+binder 25135:25135 <> p:180
+R25169:25175 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R25145:25153 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25159:25161 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25156:25158 SLF.LibInt <> ::Int_scope:'int' not
+binder 25154:25154 <> n:181
+R25163:25167 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25162:25162 SLF.Himpl <> p:180 var
+R25168:25168 SLF.Himpl <> n:181 var
+R25176:25184 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25190:25192 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25187:25189 SLF.LibInt <> ::Int_scope:'int' not
+binder 25185:25185 <> m:182
+R25194:25199 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25205:25205 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25193:25193 SLF.Himpl <> p:180 var
+R25201:25203 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25200:25200 SLF.Himpl <> m:182 var
+prf 25252:25266 XsimplTactic xpull_example_2
+R25280:25284 SLF.LibSepReference SepSimplArgs hprop def
+binder 25278:25278 <> H:183
+R25298:25302 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R25290:25291 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R25297:25297 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\['_x_']' not
+R25292:25296 Coq.Init.Logic <> False ind
+R25303:25303 SLF.Himpl <> H:183 var
+prf 25512:25527 XsimplTactic xsimpl_example_1
+R25541:25543 SLF.LibSepReference <> loc def
+binder 25539:25539 <> p:184
+R25556:25562 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R25550:25554 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25549:25549 SLF.Himpl <> p:184 var
+R25563:25571 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25577:25579 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25574:25576 SLF.LibInt <> ::Int_scope:'int' not
+binder 25572:25572 <> n:185
+R25581:25585 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25580:25580 SLF.Himpl <> p:184 var
+R25586:25586 SLF.Himpl <> n:185 var
+prf 25622:25637 XsimplTactic xsimpl_example_2
+R25653:25655 SLF.LibSepReference <> loc def
+binder 25649:25649 <> p:186
+binder 25651:25651 <> q:187
+R25679:25685 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R25668:25671 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R25662:25666 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25661:25661 SLF.Himpl <> p:186 var
+R25673:25677 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25672:25672 SLF.Himpl <> q:187 var
+R25686:25694 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25700:25702 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25697:25699 SLF.LibInt <> ::Int_scope:'int' not
+binder 25695:25695 <> n:188
+R25710:25713 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R25704:25708 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25703:25703 SLF.Himpl <> p:186 var
+R25709:25709 SLF.Himpl <> n:188 var
+R25715:25719 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25714:25714 SLF.Himpl <> q:187 var
+R25720:25720 SLF.Himpl <> n:188 var
+prf 25756:25771 XsimplTactic xsimpl_example_3
+R25785:25787 SLF.LibSepReference <> loc def
+binder 25783:25783 <> p:189
+R25817:25823 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R25793:25801 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25807:25809 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25804:25806 SLF.LibInt <> ::Int_scope:'int' not
+binder 25802:25802 <> n:190
+R25811:25815 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25810:25810 SLF.Himpl <> p:189 var
+R25816:25816 SLF.Himpl <> n:190 var
+R25824:25832 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25838:25840 SLF.LibSepReference SepSimplArgs ::hprop_scope:'\exists'_x_'..'_x_','_x not
+R25835:25837 SLF.LibInt <> ::Int_scope:'int' not
+binder 25833:25833 <> m:191
+R25842:25847 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25853:25853 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'~~>'_x not
+R25841:25841 SLF.Himpl <> p:189 var
+R25849:25851 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R25848:25848 SLF.Himpl <> m:191 var
+R25961:25961 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R25961:25961 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+prf 26397:26413 XsimplTactic xchange_demo_base
+binder 26424:26425 <> H1:192
+binder 26427:26428 <> H2:193
+binder 26430:26432 <> H2':194
+binder 26434:26435 <> H3:195
+binder 26437:26438 <> H4:196
+R26453:26458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26445:26449 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R26443:26444 SLF.Himpl <> H2:193 var
+R26450:26452 SLF.Himpl <> H2':194 var
+R26473:26477 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R26461:26464 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R26459:26460 SLF.Himpl <> H1:192 var
+R26467:26470 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R26465:26466 SLF.Himpl <> H2:193 var
+R26471:26472 SLF.Himpl <> H3:195 var
+R26478:26479 SLF.Himpl <> H4:196 var
+prf 26810:26824 XsimplTactic xchange_demo_eq
+binder 26835:26836 <> H1:197
+binder 26838:26839 <> H2:198
+binder 26841:26842 <> H3:199
+binder 26844:26845 <> H4:200
+binder 26847:26848 <> H5:201
+R26866:26871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26861:26863 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26855:26858 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R26853:26854 SLF.Himpl <> H1:197 var
+R26859:26860 SLF.Himpl <> H3:199 var
+R26864:26865 SLF.Himpl <> H5:201 var
+R26886:26890 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R26874:26877 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R26872:26873 SLF.Himpl <> H1:197 var
+R26880:26883 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R26878:26879 SLF.Himpl <> H2:198 var
+R26884:26885 SLF.Himpl <> H3:199 var
+R26891:26892 SLF.Himpl <> H4:200 var
+prf 27220:27236 XsimplTactic xchange_demo_inst
+binder 27247:27248 <> H1:202
+R27259:27260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27256:27258 SLF.LibInt <> ::Int_scope:'int' not
+R27261:27265 SLF.LibSepReference SepSimplArgs hprop def
+binder 27251:27251 <> J:203
+binder 27253:27254 <> J':204
+binder 27268:27269 <> H3:205
+binder 27271:27272 <> H4:206
+R27277:27277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27302:27308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 27285:27285 <> n:207
+R27291:27293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27288:27288 SLF.Himpl <> J:203 var
+R27290:27290 SLF.Himpl <> n:207 var
+R27294:27295 SLF.Himpl <> J':204 var
+R27299:27299 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R27298:27298 SLF.Himpl <> n:207 var
+R27324:27328 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R27311:27314 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R27309:27310 SLF.Himpl <> H1:202 var
+R27318:27321 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R27315:27315 SLF.Himpl <> J:203 var
+R27322:27323 SLF.Himpl <> H3:205 var
+R27329:27330 SLF.Himpl <> H4:206 var
+prf 28233:28245 XsimplTactic xchange_lemma
+binder 28256:28257 <> H1:208
+binder 28259:28261 <> H1':209
+binder 28263:28263 <> H:210
+binder 28265:28266 <> H':211
+binder 28268:28269 <> H2:212
+R28284:28289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28276:28280 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R28274:28275 SLF.Himpl <> H1:208 var
+R28281:28283 SLF.Himpl <> H1':209 var
+R28304:28309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28291:28295 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R28290:28290 SLF.Himpl <> H:210 var
+R28298:28301 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R28296:28297 SLF.Himpl <> H1:208 var
+R28302:28303 SLF.Himpl <> H2:212 var
+R28326:28331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28319:28323 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R28313:28316 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'\*'_x not
+R28310:28312 SLF.Himpl <> H1':209 var
+R28317:28318 SLF.Himpl <> H2:212 var
+R28324:28325 SLF.Himpl <> H':211 var
+R28333:28337 SLF.LibSepReference SepSimplArgs ::hprop_scope:x_'==>'_x not
+R28332:28332 SLF.Himpl <> H:210 var
+R28338:28339 SLF.Himpl <> H':211 var
+R28422:28433 SLF.Himpl XsimplTactic <> mod
+mod 28658:28678 <> EntailmentRulesProofs
+prf 29225:29237 EntailmentRulesProofs himpl_frame_l
+binder 29248:29249 <> H2:213
+binder 29251:29252 <> H1:214
+binder 29254:29256 <> H1':215
+R29271:29276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29263:29267 SLF.Himpl <> :::x_'==>'_x not
+R29261:29262 SLF.Himpl <> H1:214 var
+R29268:29270 SLF.Himpl <> H1':215 var
+R29277:29277 SLF.Himpl <> :::x_'==>'_x not
+R29286:29292 SLF.Himpl <> :::x_'==>'_x not
+R29302:29302 SLF.Himpl <> :::x_'==>'_x not
+R29280:29283 SLF.Hprop <> :::x_'\*'_x not
+R29278:29279 SLF.Himpl <> H1:214 var
+R29284:29285 SLF.Himpl <> H2:213 var
+R29296:29299 SLF.Hprop <> :::x_'\*'_x not
+R29293:29295 SLF.Himpl <> H1':215 var
+R29300:29301 SLF.Himpl <> H2:213 var
+R29349:29353 SLF.Hprop <> hstar def
+R29406:29410 SLF.Hprop <> hstar def
+prf 29707:29719 EntailmentRulesProofs himpl_frame_r
+binder 29730:29731 <> H1:216
+binder 29733:29734 <> H2:217
+binder 29736:29738 <> H2':218
+R29753:29758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29745:29749 SLF.Himpl <> :::x_'==>'_x not
+R29743:29744 SLF.Himpl <> H2:217 var
+R29750:29752 SLF.Himpl <> H2':218 var
+R29759:29759 SLF.Himpl <> :::x_'==>'_x not
+R29768:29774 SLF.Himpl <> :::x_'==>'_x not
+R29784:29784 SLF.Himpl <> :::x_'==>'_x not
+R29762:29765 SLF.Hprop <> :::x_'\*'_x not
+R29760:29761 SLF.Himpl <> H1:216 var
+R29766:29767 SLF.Himpl <> H2:217 var
+R29777:29780 SLF.Hprop <> :::x_'\*'_x not
+R29775:29776 SLF.Himpl <> H1:216 var
+R29781:29783 SLF.Himpl <> H2':218 var
+R29818:29827 SLF.Hprop <> hstar_comm defax
+R29818:29827 SLF.Hprop <> hstar_comm defax
+R29818:29827 SLF.Hprop <> hstar_comm defax
+R29846:29855 SLF.Hprop <> hstar_comm defax
+R29846:29855 SLF.Hprop <> hstar_comm defax
+R29846:29855 SLF.Hprop <> hstar_comm defax
+R29872:29884 SLF.Himpl EntailmentRulesProofs himpl_frame_l thm
+R29872:29884 SLF.Himpl EntailmentRulesProofs himpl_frame_l thm
+prf 30270:30283 EntailmentRulesProofs himpl_frame_lr
+binder 30294:30295 <> H1:219
+binder 30297:30299 <> H1':220
+binder 30301:30302 <> H2:221
+binder 30304:30306 <> H2':222
+R30321:30326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30313:30317 SLF.Himpl <> :::x_'==>'_x not
+R30311:30312 SLF.Himpl <> H1:219 var
+R30318:30320 SLF.Himpl <> H1':220 var
+R30337:30342 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30329:30333 SLF.Himpl <> :::x_'==>'_x not
+R30327:30328 SLF.Himpl <> H2:221 var
+R30334:30336 SLF.Himpl <> H2':222 var
+R30343:30343 SLF.Himpl <> :::x_'==>'_x not
+R30352:30358 SLF.Himpl <> :::x_'==>'_x not
+R30369:30369 SLF.Himpl <> :::x_'==>'_x not
+R30346:30349 SLF.Hprop <> :::x_'\*'_x not
+R30344:30345 SLF.Himpl <> H1:219 var
+R30350:30351 SLF.Himpl <> H2:221 var
+R30362:30365 SLF.Hprop <> :::x_'\*'_x not
+R30359:30361 SLF.Himpl <> H1':220 var
+R30366:30368 SLF.Himpl <> H2':222 var
+R30453:30457 SLF.Hprop <> hstar def
+R30541:30561 SLF.Himpl EntailmentRulesProofs <> mod

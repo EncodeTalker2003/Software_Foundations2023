@@ -400,7 +400,13 @@ Qed.
 
 Lemma hstar_hempty_l : forall H,
   \[] \* H = H.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. apply hprop_eq. split; intros.
+	{ destruct H0. destruct H0. destruct H0. destruct H1. destruct H2.
+		unfold hempty in H0. subst. rewrite Fmap.union_empty_l. auto. }
+	{ rewrite <- Fmap.union_empty_l. apply hstar_intro; try eauto.
+		apply hempty_intro. }
+Qed.
 
 (** [] *)
 
@@ -495,7 +501,12 @@ Qed.
 
 Lemma hstar_comm_assoc : forall H1 H2 H3,
   H1 \* H2 \* H3 = H2 \* H1 \* H3.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. rewrite <- hstar_assoc.
+	rewrite (hstar_comm H1 H2).
+	rewrite hstar_assoc.
+	reflexivity.
+Qed.
 
 (** [] *)
 
@@ -523,8 +534,16 @@ Proof using. (* FILL IN HERE *) Admitted.
 
 Lemma hstar_hpure_l : forall P H h,
   (\[P] \* H) h = (P /\ H h).
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using.
+	intros. apply propositional_extensionality. split.
+	{ intros. destruct H0. destruct H0. destruct H0. destruct H1. destruct H2.
+		destruct H0. subst. split. auto.
+		rewrite Fmap.union_empty_l. auto. }
+	{ intros [H1 H2]. exists (@Fmap.empty loc val) h.
+		splits; try eauto.
+		{ apply hpure_intro. auto. }
+		{ rewrite Fmap.union_empty_l. auto. } }
+Qed.  
 (** [] *)
 
 End HpropProofs.
@@ -660,7 +679,11 @@ Axiom functional_extensionality : forall A B (f g:A->B),
 Lemma predicate_extensionality_derived : forall A (P Q:A->Prop),
   (forall x, P x <-> Q x) ->
   P = Q.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros.
+	apply functional_extensionality. intros.
+	apply propositional_extensionality. apply H.
+Qed.
 
 (** [] *)
 

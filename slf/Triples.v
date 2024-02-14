@@ -691,7 +691,10 @@ Lemma triple_conseq_frame : forall H2 H1 Q1 t H Q,
 
     Prove the combined consequence-frame rule. *)
 
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. apply triple_conseq with (H' := H1 \* H2) (Q':= Q1 \*+ H2); eauto.
+	apply triple_frame. auto.
+Qed.
 
 (** [] *)
 
@@ -706,7 +709,11 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma triple_hpure' : forall t (P:Prop) Q,
   (P -> triple t \[] Q) ->
   triple t \[P] Q.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. intros s H1. apply hpure_inv_hempty in H1.
+	destruct H1. apply H in H0. unfold triple in H0.
+	apply H0 in H1. apply H1.
+Qed. 
 
 (** [] *)
 
@@ -832,8 +839,10 @@ Qed.
 Lemma triple_hexists : forall t (A:Type) (J:A->hprop) Q,
   (forall (x:A), triple t (J x) Q) ->
   triple t (hexists J) Q.
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using. 
+	intros. intros h H1.
+	destruct H1. apply H in H0. apply H0.
+Qed.
 (** [] *)
 
 (* ================================================================= *)
@@ -877,8 +886,11 @@ Module AlternativeExistentialRule.
 Lemma triple_hexists2 : forall A (Hof:A->hprop) (Qof:A->val->hprop) t,
   (forall x, triple t (Hof x) (Qof x)) ->
   triple t (\exists x, Hof x) (fun v => \exists x, Qof x v).
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using. 
+	intros. apply triple_hexists. intros.
+	apply triple_conseq with (H' := Hof x) (Q' := Qof x); auto.
+	xsimpl.
+Qed.
 (* [] *)
 
 (** **** Exercise: 2 stars, standard, especially useful (triple_hexists_of_triple_hexists2)
@@ -890,7 +902,9 @@ Proof using. (* FILL IN HERE *) Admitted.
 Lemma triple_hexists_of_triple_hexists2 : forall t (A:Type) (Hof:A->hprop) Q,
   (forall x, triple t (Hof x) Q) ->
   triple t (\exists x, Hof x) Q.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. intros s H1. destruct H1. apply H in H0. apply H0.
+Qed.   
 
 (* [] *)
 
