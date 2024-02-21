@@ -154,7 +154,13 @@ Definition hor (H1 H2 : hprop) : hprop :=
 
 Lemma hor_eq_hor' :
   hor = hor'.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	unfold hor, hor'. apply fun_ext_1. intros H1. apply fun_ext_1. intros H2.
+	apply pred_ext_1. intros h. split.
+	{ intros. destruct H. case_if; autos*. }
+	{ intros. destruct H. exists true. auto. exists false. auto. }
+Qed. 
+	
 
 (** [] *)
 
@@ -211,7 +217,11 @@ Proof using. intros. case_if*. Qed.
 
 Lemma hor_comm : forall H1 H2,
   hor H1 H2 = hor H2 H1.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	intros. unfold hor. apply pred_ext_1. intros h1. split.
+	{ intros. destruct H. case_if in H. exists* false. exists* true. }
+	{ intros. destruct H. case_if in H. exists* false. exists* true. }
+Qed.
 
 (** [] *)
 
@@ -233,7 +243,22 @@ Lemma MList_using_hor : forall L p,
          (\exists x q L', \[L = x::L']
                        \* (p ~~~>`{ head := x; tail := q})
                        \* (MList L' q)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. apply pred_ext_1. intros h. split.
+	{ intros. destruct L.
+		{ destruct H. subst. unfold hor. exists* true. applys himpl_hempty_hpure; autos*. }
+		{ unfold hor. exists false. rewrite MList_cons in H. destruct H. 
+			exists v x L. rewrite <- Fmap.union_empty_l. applys* hstar_intro.
+			applys* himpl_hempty_hpure. apply hempty_intro. } }
+	{ intros. unfold hor in H. destruct H. case_if in H.
+		{ destruct H. destruct x0. subst. rewrite MList_nil. applys* himpl_hempty_hpure. }
+		{ destruct H. destruct H. destruct H. destruct H. destruct H. destruct H. destruct H. 
+			destruct H0. destruct H0. destruct H0. destruct H0. 
+			destruct H2. destruct H1. destruct H3. subst. 
+			rewrite MList_cons. exists* x1. 
+			apply hempty_inv in H. subst. 
+			rewrite Fmap.union_empty_l. applys* hstar_intro. } }
+Qed. 
 
 (** [] *)
 
@@ -268,7 +293,12 @@ Definition hand (H1 H2 : hprop) : hprop :=
 
 Lemma hand_eq_hand' :
   hand = hand'.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using.
+	unfold hand, hand'. apply fun_ext_1. intros H1. apply fun_ext_1. intros H2.
+	apply pred_ext_1. intros h. split.
+	{ intros. split. apply (H true). apply (H false). }
+	{ intros. intros b. destruct H. case_if. apply* H. apply* H0. }
+Qed.
 
 (** [] *)
 
@@ -303,7 +333,14 @@ Proof using. introv M1 M2 Hh. intros b. case_if*. Qed.
 
 Lemma hand_comm : forall H1 H2,
   hand H1 H2 = hand H2 H1.
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. (* FILL IN HERE *) 
+	intros.
+	apply hprop_op_comm. intros.
+	hnf. intros.
+	unfold hand. intros b. case_if.
+	{ unfold hand in H. specializes H false. apply H. }
+	{ specializes H true. apply H. }
+Qed.
 
 (** [] *)
 
@@ -483,8 +520,11 @@ Qed.
 Lemma hwand_hpure_l : forall P H,
   P ->
   (\[P] \-* H) = H.
-Proof using. (* FILL IN HERE *) Admitted.
-
+Proof using. 
+	intros. unfold hwand. xsimpl.
+	{ intros. xchanges* H1.  }
+	{ xsimpl*. }
+Qed.
 (** [] *)
 
 (** Reciprocally, to prove that a heap satisfies [\[P] \-* H2], it suffices to
@@ -502,7 +542,10 @@ Proof using. introv M. applys himpl_hwand_r. xsimpl. applys M. Qed.
 
 Lemma himpl_hwand_hpure_lr : forall (P1 P2:Prop),
   \[P1 -> P2] ==> (\[P1] \-* \[P2]).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. applys* himpl_hwand_hpure_r. intros.
+	xsimpl*.
+Qed.
 
 (** [] *)
 
@@ -556,7 +599,9 @@ Qed.
 
 Lemma himpl_hwand_hstar_same_r : forall H1 H2,
   H1 ==> (H2 \-* (H2 \* H1)).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. applys himpl_hwand_r. xsimpl.
+Qed.
 
 (** [] *)
 
@@ -566,7 +611,15 @@ Proof using. (* FILL IN HERE *) Admitted.
 
 Lemma hwand_cancel_part : forall H1 H2 H3,
   H1 \* ((H1 \* H2) \-* H3) ==> (H2 \-* H3).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. applys himpl_hwand_r. 
+	rewrite <- hstar_assoc.
+	assert (forall H, (H1 \* H2) \* H = (H2 \* H1) \* H).
+	{ intros. rewrite hstar_assoc. rewrite hstar_comm_assoc. rewrite hstar_assoc. auto. }
+	specializes H (H1 \* H2 \-* H3).
+	rewrite <- H.
+	applys hwand_cancel.
+Qed.
 
 (** [] *)
 
@@ -687,7 +740,9 @@ Qed.
 
 Lemma himpl_qwand_hstar_same_r : forall H Q,
   H ==> Q \--* (Q \*+ H).
-Proof using. (* FILL IN HERE *) Admitted.
+Proof using. 
+	intros. rewrite qwand_equiv. xsimpl.
+Qed.
 
 (** [] *)
 
